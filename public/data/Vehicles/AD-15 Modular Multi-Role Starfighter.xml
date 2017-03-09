@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>AD15MOD</Key>
+  <Name>AD-15 Modular Multi-Role Starfighter</Name>
+  <Description>[H3]Koensayr AD-15 Modular Multi-Role Starfighter[h3]
+Please see page 62 of the Special Modifications Sourcebook for details.
+ </Description>
+  <Source Page="62">Special Modifications</Source>
+  <Type>Starfighter</Type>
+  <Categories>
+    <Category>Starship</Category>
+  </Categories>
+  <HP>8</HP>
+  <Price>25000</Price>
+  <Rarity>7</Rarity>
+  <BaseMods>
+    <Mod>
+      <Count>1</Count>
+      <MiscDesc>[B]Magnetic Module Rails[b]: Adding or removing an attachment takes 10 minutes and requires a successful [B]Average ([DI][DI]) Mechanics check[b].  Each [SU] reduces time by 1 minute, and each [TH] inflicts 1 system strain on vehicle.</MiscDesc>
+    </Mod>
+  </BaseMods>
+  <SensorRangeValue>srNone</SensorRangeValue>
+  <Crew>One pilot</Crew>
+  <EncumbranceCapacity>10</EncumbranceCapacity>
+  <Passengers>2</Passengers>
+  <Consumables>One week</Consumables>
+  <Silhouette>3</Silhouette>
+  <Speed>3</Speed>
+  <Armor>2</Armor>
+  <HullTrauma>5</HullTrauma>
+  <SystemStrain>8</SystemStrain>
+  <Starship>true</Starship>
+  <SinglePilot>true</SinglePilot>
+  <SensorRange>No Sensors</SensorRange>
+</Vehicle>

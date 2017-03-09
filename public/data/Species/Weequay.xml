@@ -1,0 +1,88 @@
+<?xml version="1.0"?>
+<Species>
+  <Key>WEEQUAY</Key>
+  <Name>Weequay</Name>
+  <Description>[H4]Weequay[h4]
+Weequays are a race of humanoids who come from the Outer Rim planet of Sriluur, near Hutt Space. Their home is a harsh desert planet, leading to the species' tanned skin tone and rough, sandy, wrinkled skin. Their eyes are dark and slightly recessed into their skull.
+[P][B]Physiology:[b]
+Weequays are humanoids with thick, leathery skin that range in color from tan to dark brown. Their faces are lipless, with a frill along each of their jowls.
+[P][B]Society:[b]
+Weequays have the ability to communicate with members of their own clan through smell by exuding complex pheromones. This pheromonal language cannot be understood by any other species, or even by Weequays of another clan. Only Jedi senses can even tell that two Weequay are communicating. Since each Weequay's pheromones is unique, Weequay have no need for a name within their clan. As a result, speech is only a secondary form of communication for Weequay, and they seldom speak a whole sentence, resulting in Humans mistakenly believing the species to be unintelligent.
+[P]Only Weequay who have to live among other clans, or among non-Weequay, take a personal name. Even then, some are simply referred to as "Weequay". In Weequay culture, individual identity is much less important than the clan. As long as the clan survives, a single Weequay is expendable. This results in a sometimes brutal culture.
+[P]Male Weequay often tie their hair into long braids. Traditionally, they will grow one "seclusion braid" for each Sriluurian year spent away from their homeworld as a tribute to their home. When they return, they shaved their braids. Weequays serving the Hutt clans are often very close to their homeworld, and will only have one or two braids. Female Weequay are usually bald, and do not follow this tradition.
+[P]Weequay religion is complex, with many deities. Among them are the moon-god Quay and the thunder god Am-Shak. Quay is their chief god: indeed, "Weequay" translates to "Follower of Quay". Zealous Weequays perform ritual sacrifices in Quay's honor, at times resorting to murder, earning their culture a violent reputation. Each of their cities is centered around a shrine of black, polished stone, known as a thal, where the Weequay make offerings of food and valuables. Their religious code prohibits building thal off Sriluur, so off-world devotees are obligated to substitute animal sacrifices (usually large animals like banthas).
+[P]The Weequays share their homeworld with Houk colonists, though not enthusiastically. The two societies sent to war on Sriluur in 10 BBY. The conflict ended after a decade, leaving many unemployed Weequay soldiers to find work as mercenaries and bounty hunters. This war also gave certain Weequay companies a good reputation throughout the galaxy as manufacturers of force pikes and other melee weapons.
+[P][B]Homeworld:[b]
+Sriluur is a planet in the Tharin sector of the Outer Rim. Homeworld to the sentient Weequay species, Sriluur holds a key position along the Sisar Run, one of the many important hyperlanes connecting Hutt Space with the rest of the Outer Rim. The planet is orbited by five moons, most notably Ruul, the only one of the five able to support life. It is an arid world covered in deserts, volcanoes and acidic seas. Despite this, the planet is almost entirely self-sufficient thanks to an unlikely but very productive agricultural sector. The planet has enormous reserves of copper, but this resource goes largely untapped by miners. Historically, the planet is part of Hutt Space, which means Hutt crime lords and representatives of the Black Sun criminal organization are a common sight on Sriluur.
+[P][B]Language:[b]
+Sriluurian is the official language of the Sriluur system. The most notable species to speak this language is the Weequay on Sriluur. 
+[P]It is formed by guttural mumbles and subdued whispers. It also uses hieroglyphs as a written form.
+[P]The language has some special characteristics that most languages in the galaxy lack: The Weequays can speak to one another and prevent outsiders from understanding them.
+[P]Weequays also use pheromones to communicate with each other. However, only the members of one's same tribe can understand the pheromones of another Weequay. Sriluurian is a language used to communicate with people from other tribes.
+[P]Most Weequays are fluent in both Sriluurian and Basic, although they are usually only literate in their own language.</Description>
+  <Source Page="22">Dangerous Covenants</Source>
+  <StartingChars>
+    <Brawn>3</Brawn>
+    <Agility>2</Agility>
+    <Intellect>1</Intellect>
+    <Cunning>3</Cunning>
+    <Willpower>2</Willpower>
+    <Presence>1</Presence>
+  </StartingChars>
+  <StartingAttrs>
+    <WoundThreshold>10</WoundThreshold>
+    <StrainThreshold>9</StrainThreshold>
+    <Experience>90</Experience>
+  </StartingAttrs>
+  <SkillModifiers />
+  <TalentModifiers />
+  <OptionChoices>
+    <OptionChoice>
+      <Key>WEEQUAYCH1</Key>
+      <Name>Skills</Name>
+      <Description />
+      <Options>
+        <Option>
+          <Key>WEEQUAYCH1OP1</Key>
+          <Name>One Rank in Resilience</Name>
+          <Description>Weequay may begin the game with one rank in Resilience.</Description>
+          <SkillModifiers>
+            <SkillModifier>
+              <Key>RESIL</Key>
+              <RankStart>1</RankStart>
+            </SkillModifier>
+          </SkillModifiers>
+          <TalentModifiers />
+        </Option>
+        <Option>
+          <Key>WEEQUAYCH1OP2</Key>
+          <Name>One Rank in Athletics</Name>
+          <Description>Weequay may begin the game with one rank in Athletics.</Description>
+          <SkillModifiers>
+            <SkillModifier>
+              <Key>ATHL</Key>
+              <RankStart>1</RankStart>
+              <RankAdd>0</RankAdd>
+              <RankLimit>0</RankLimit>
+              <isCareer>false</isCareer>
+            </SkillModifier>
+          </SkillModifiers>
+          <TalentModifiers />
+        </Option>
+      </Options>
+    </OptionChoice>
+    <OptionChoice>
+      <Key>WEEQUAYCH2</Key>
+      <Name>Pheromones</Name>
+      <Description />
+      <Options>
+        <Option>
+          <Key>WEEQUAYCH2OP1</Key>
+          <Name>Communicative Pheromones</Name>
+          <Description>Weequay can communicate non-verbally with other Weequays up to Short Range.</Description>
+        </Option>
+      </Options>
+    </OptionChoice>
+  </OptionChoices>
+  <WeaponModifiers />
+</Species>

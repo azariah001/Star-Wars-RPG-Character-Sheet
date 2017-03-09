@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Career>
+  <Key>SOLDIER</Key>
+  <Name>Soldier</Name>
+  <Description>
+    [H4]Soldier[h4]
+    Please see page 88 of the Age of Rebellion Core Rulebook for details.
+  </Description>
+  <Source Page="88">Age of Rebellion Core Rulebook</Source>
+  <CareerSkills>
+    <Key>ATHL</Key>
+    <Key>BRAWL</Key>
+    <Key>WARF</Key>
+    <Key>MELEE</Key>
+    <Key>MED</Key>
+    <Key>RANGLT</Key>
+    <Key>SURV</Key>
+    <Key>RANGHVY</Key>
+  </CareerSkills>
+  <Specializations>
+    <Key>COMMANDO</Key>
+    <Key>MEDIC</Key>
+    <Key>SHARPSHOOTER</Key>
+  </Specializations>
+</Career>

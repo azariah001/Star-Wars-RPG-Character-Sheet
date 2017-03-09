@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<Species xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>SULLUSTAN</Key>
+  <Name>Sullustan</Name>
+  <Description>[H4]Sullustan[h4]
+Sullustans are a species of Near-Humans from Sullust. As skilled pilots and navigators, Sullustans, also known as Bomewrights, are common sights for spacers and at busy spaceports.
+[P][B]Physiology:[b]
+A diminutive species of near-Humans, Sullustans range from 1 to 1.8 meters in height and bear round, tapered skulls. Sullustans are distinguishable for their almond-shaped black eyes, facial jowls called dewflaps and large, round ears.
+[P]Having evolved in the underground of their planet, their wide earlobes provide excellent hearing and sense of directional sound, and their large eyes provide exceptional low-light vision and excellent peripheral vision. Sullustans can see up to 20 meters in the dark without being sensitive to infra-red, meaning they can effectively read and see normally with no light at all. Perhaps due to their relative lack of exposure to natural light, Sullustans begin to suffer from corneal defects after 30 standard years. After significant deterioration, many chose to wear special visors to prevent further damage. Some Sullustans tattoo their heads as a form of individual expression.
+[P]Like humans, Sullustans have only a single heart and one stomach. It is very difficult to get a Sullustan drunk, and Sullustans who do get drunk do not suffer hangovers.
+[P]Sullustans are pink-skinned and generally hairless, although facial hair is known to occur in some cases in males. Cranial hair is rare for males, but females of the species often grow it; it is considered a symbol of individuality and is worn in a manner helping to express this.
+[P]Sullustans possess exceptional innate sense of direction and intuition since their civilization developed in underground tunnels; many are able to navigate a path after seeing a map only once. This ability extends to sublight and hyperspace navigation, as well as patrol work, so much so that Sullustans make excellent scouts, pilots and navigators.
+[P][B]Society:[b]
+Sullustans are outgoing and mercantile, friendly and pragmatic. As a species they are altogether lacking in xenophobia. Though fond of practical jokes and extremely shrewd in their business dealings, they are eager to explore and travel the galaxy. Inquisitive by nature, some have described Sullustans as reckless, especially for their preference to learn and discover whenever possible through personal experience.
+Sullustans organize themselves into familial units known as Warren-clans. Each clan consists of one polyandrous female, several husbands and their young. Unmated females, known as "Fems", are active members of their communities until they reach the status of "Ready" which marks their breeding years. At the outset of Ready, "Fems" choose their mates and found their own Warren-clans.
+[P]Few Sullustans leave their homeworld, but those that do often find employment as pilots or merchants. Inspired by legends like Mayjeln, Sullustan spacers put their skills as navigators to use and are prized crewers across the galaxy. Because of this, their flowing, staccato language of Sullustese is known to many smugglers. Sullustan names are often direct translations from Sullustese words and typically consist of a given name and surname of four letters each.
+[P][B]Homeworld:[b]
+Sullust is the primary planet of the Sullust system, located in the Outer Rim at the conjuncture of the Rimma Trade Route and the Silvestri Trace. It is the homeworld of the Sullustans.
+[P][B]Language:[b]
+Sullustese, or Sullustan, is the language spoken by the Sullustan species.</Description>
+  <Source Page="60">Age of Rebellion Core Rulebook</Source>
+  <StartingChars>
+    <Brawn>2</Brawn>
+    <Agility>3</Agility>
+    <Intellect>2</Intellect>
+    <Cunning>1</Cunning>
+    <Willpower>2</Willpower>
+    <Presence>2</Presence>
+  </StartingChars>
+  <StartingAttrs>
+    <WoundThreshold>10</WoundThreshold>
+    <StrainThreshold>10</StrainThreshold>
+    <Experience>100</Experience>
+  </StartingAttrs>
+  <SkillModifiers>
+    <SkillModifier>
+      <Key>ASTRO</Key>
+      <RankStart>1</RankStart>
+      <RankAdd>0</RankAdd>
+      <RankLimit>0</RankLimit>
+      <isCareer>false</isCareer>
+    </SkillModifier>
+  </SkillModifiers>
+  <TalentModifiers>
+    <TalentModifier>
+      <Key>SKILLJOCK</Key>
+      <RankStart>0</RankStart>
+      <RankAdd>1</RankAdd>
+      <RankLimit>0</RankLimit>
+    </TalentModifier>
+  </TalentModifiers>
+  <OptionChoices />
+  <WeaponModifiers />
+  <NoForceAbilities>false</NoForceAbilities>
+</Species>

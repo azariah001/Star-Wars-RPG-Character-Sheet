@@ -1,0 +1,74 @@
+<?xml version="1.0"?>
+<Species xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>QUARREN</Key>
+  <Name>Quarren</Name>
+  <Description>[H4]Quarren[h4]
+The Quarren are a humanoid race native to Calamari's deep oceans. They have helmet-shaped heads that are composed of a mass of tentacles set below close-set eyes. They are more accustomed to deep-sea living, and chose to live below the water. Their conservative and solitary nature has led them to be unwilling to trust new ideas or lofty concepts.
+[P]When they first came in contact with the shore-dwelling Mon Calamari, the Quarren were hesitant. They eventually began to cooperate with the Mon Cal, and together they developed a symbiotic relationship in which the Quarren provide the raw materials, and the Mon Cal provide the knowledge and expertise; this led to the construction of the huge floating cities that dominate Calamari's oceans. Because of their pragmatic nature, the Quarren did not want to travel and explore the stars, as the Mon Cal did, and this began to create friction between the two races. When the Mon Cal's dream of contact with other stars became the deadly war with the Empire, the Quarren chose to ignore it, leaving the battle to the Mon Calamari who brought it upon themselves.
+[P]However, the Quarren could not escape the Empire, and it is rumoured that a Quarren helped the Empire evade the Calamarian defences and overtake the planet. Unfortunately, the Quarren were enslaved along with the Mon Cal. When the Mon Cal resisted Imperial rule, the Empire began destroying the floating cities. This served to unite the two races temporarily, and together they were able to solidify their defences and drive off the Empire with nothing more than crude weapons. After that, there were a number of Quarren who left the planet, seeking a life among the stars as their neighbours the Mon Cal did.
+[P][B]Physiology:[b]
+Quarren are aquatic humanoids with squid-like heads, at least four tentacles on their faces, and leathery skin. Quarren tentacles are prehensile, and they are able to manipulate food with them. Quarren have small mouths, with two fang-like teeth jutting from their faces on either side, and a long, thin tongue sticking out in between. Quarren have two long protrusions that extend from either side of their faces. In these protrusions are several gill-like structures that are actually aural structures, used for hearing instead of ears. Quarren also have holes on either sides of their neck that are most likely used for breathing. Quarren have two sac-like organs that hang from the back of their heads as well. 
+[P]Most Quarren have orange skin, although some Quarren have gray-green skin - this trait, however, is extremely rare. Pink or purple-skinned Quarren exist, though presumably in small numbers. All Quarren also have two shimmering blue eyes. Being aquatic in nature, Quarren have to keep their skin moist in order to stay alive, although clawed Quarren seemed to need less moisture than other Quarren.
+[P]There are three different types of Quarren, although the only difference lay in their hands. Some Quarren have suction-tipped fingers, either with three or five fingers. Other Quarren have thick fingers that lack suction cups on the tips of their fingers, yet have sharp claws instead. Whether these three groups are actually distinct subspecies is unknown. 
+[P]Having evolved in the depths of Mon Calamari, Quarren can descend to depths of 300 meters without any breathing or pressure apparatus. However, when descending to 50 meters or deeper, they have to spend as much time decompressing as they spent under 50 meters of water to allow their bodies to readjust to the lower surface pressure.
+[P][B]Society:[b]
+Quarren are a very self-centered and proud species, almost to the point of being xenophobic, which coincides with their isolationist behavior. Quarren find Humans to be very crude beings and think their language (Galactic Basic) to be very cumbersome, and unsuitable for speech. The Quarren instead speak their native language more frequently, in contrast to the Mon Calamari who speak Basic far more often, in order to deal with off-worlders, which the Quarren seldom did.
+[P]In sharp contrast to the Mon Calamari, the Quarren are far more conservative and practical in their thinking. While the Mon Calamari look towards the future, the Quarren remember yesterdays. Also, while the Mon Calamari often travel throughout the galaxy, the Quarren are far more isolationist, staying, for the most part, in the depths of the oceans of their homeworld. However, some Quarren follow suit after the Mon Calamari, and make their living in the galaxy as business managers and accountants.
+[P]While the Mon Calamari manufacture starships in orbital shipyards, the Quarren diligently mine metal ore for their brethren from the deepest parts of the ocean. The Quarren also help build massive floating cities for the Mon Calamari. While most Mon Calamari live on the few scattered islands on Dac, or on the upper levels of their floating cities, the Quarren live in their own cities, deep beneath the waves, or in the lower levels of the cities, for the cities stretch far below the surface, and the Quarren love the dark far more than the Mon Calamari.
+[P][B]Homeworld:[b]
+Dac, as it is called in Mon Calamarian, Quarrenese, and Basic, also known as Mon Calamari and sometimes simply called Calamari or Mon Cala, is a planet in the Calamari system of the Calamari sector, located in the Outer Rim. It is home to a wealth of sentient species: the Mon Calamari, the Quarren, the Moappa, the Amphi-Hydrus, and the Whaladons. Mon Calamari is the name given to the planet by Human explorers from the Galactic Republic who first discovered and revealed the world to the rest of the galaxy. The native species refer to the planet as Dac. The planet is a shining bluish-white orb from space, due to its ocean-covered surface. It is home to 27.5 billion Mon Calamarians and Quarren, as well as surrounded by the impressive Mon Calamari Shipyards.
+[P][B]Language:[b]
+Quarren, also refererred to as Quarrenese, is the official language of the Quarren species.
+[P]Quarrens are mostly bilingual in both Quarrenese and Basic, although many of them also learn Mon Calamarian. Converesly, many Mon Calamari learn Mon Calamarian, Basic and Quarrenese. Quarrenese is also extended in planets with notable colonies of Quarrens.</Description>
+  <Sources>
+    <Source Page="23">Fly Casual</Source>
+    <Source Page="100">Strongholds of Resistance</Source>
+  </Sources>
+  <StartingChars>
+    <Brawn>2</Brawn>
+    <Agility>2</Agility>
+    <Intellect>1</Intellect>
+    <Cunning>2</Cunning>
+    <Willpower>3</Willpower>
+    <Presence>2</Presence>
+  </StartingChars>
+  <StartingAttrs>
+    <WoundThreshold>10</WoundThreshold>
+    <StrainThreshold>8</StrainThreshold>
+    <Experience>95</Experience>
+  </StartingAttrs>
+  <SkillModifiers>
+    <SkillModifier>
+      <Key>NEG</Key>
+      <RankStart>1</RankStart>
+      <RankAdd>0</RankAdd>
+      <RankLimit>2</RankLimit>
+      <isCareer>false</isCareer>
+    </SkillModifier>
+  </SkillModifiers>
+  <TalentModifiers />
+  <OptionChoices>
+    <OptionChoice>
+      <Key>QUARRENOC1</Key>
+      <Name>Environment</Name>
+      <Options>
+        <Option>
+          <Key>QUARRENOC1OP1</Key>
+          <Name>Amphibious</Name>
+          <Description>Can breathe underwater without penalty and never suffer movement penalties for traveling through water.</Description>
+        </Option>
+      </Options>
+    </OptionChoice>
+    <OptionChoice>
+      <Key>QUARRENOC2</Key>
+      <Name>Defense</Name>
+      <Options>
+        <Option>
+          <Key>QUARRENOC2OP1</Key>
+          <Name>Ink Spray</Name>
+          <Description>Can spray ink.  Once per encounter, as an out-of-turn incidental, may suffer 2 strain to add [SE] to enemy check within short range.  Add [SE][SE][SE] underwater.</Description>
+        </Option>
+      </Options>
+    </OptionChoice>
+  </OptionChoices>
+</Species>

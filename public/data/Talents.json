@@ -1,0 +1,6413 @@
+{
+  "Talents": [
+    {
+      "Key": "ADV",
+      "Name": "Adversary",
+      "Description": "Please see page 132 of the Edge of the Empire Core Rulebook, or page 142 of the Age of Rebellion Core Rulebook, for details.",
+      "Sources": {
+        "Source": [
+          {
+            "-Page": "132",
+            "#text": "Edge of the Empire Core Rulebook"
+          },
+          {
+            "-Page": "142",
+            "#text": "Age of Rebellion Core Rulebook"
+          }
+        ]
+      },
+      "Ranked": "true",
+      "ActivationValue": "taPassive"
+    },
+    {
+      "Key": "ANAT",
+      "Name": "Anatomy Lessons",
+      "Description": "Please see page 132 of the Edge of the Empire Core Rulebook, or page 142 of the Age of Rebellion Core Rulebook, for details.",
+      "Sources": {
+        "Source": [
+          {
+            "-Page": "132",
+            "#text": "Edge of the Empire Core Rulebook"
+          },
+          {
+            "-Page": "142",
+            "#text": "Age of Rebellion Core Rulebook"
+          }
+        ]
+      },
+      "Ranked": "false",
+      "ActivationValue": "taIncidental"
+    },
+    {
+      "Key": "ALLTERDRIV",
+      "Name": "All-Terrain Driver",
+      "Description": "Please see page 142 of the Age of Rebellion Core Rulebook for details.",
+      "Source": {
+        "-Page": "142",
+        "#text": "Age of Rebellion Core Rulebook"
+      },
+      "Ranked": "false",
+      "ActivationValue": "taPassive"
+    },
+    {
+      "Key": "ARM",
+      "Name": "Armor Master",
+      "Description": "Please see page 132 of the Edge of the Empire Core Rulebook, or page 142 of the Age of Rebellion Core Rulebook, for details.",
+      "Sources": {
+        "Source": [
+          {
+            "-Page": "132",
+            "#text": "Edge of the Empire Core Rulebook"
+          },
+          {
+            "-Page": "142",
+            "#text": "Age of Rebellion Core Rulebook"
+          }
+        ]
+      },
+      "Ranked": "false",
+      "ActivationValue": "taPassive",
+      "Attributes": {
+        "SoakValue": "1",
+        "Requirement": {
+          "WearingArmor": "true"
+        }
+      }
+    },
+    {
+      "Key": "ARMIMP",
+      "Name": "Armor Master (Improved)",
+      "Description": "Please see page 132 of the Edge of the Empire Core Rulebook, or page 143 of the Age of Rebellion Core Rulebook, for details.",
+      "Sources": {
+        "Source": [
+          {
+            "-Page": "132",
+            "#text": "Edge of the Empire Core Rulebook"
+          },
+          {
+            "-Page": "143",
+            "#text": "Age of Rebellion Core Rulebook"
+          }
+        ]
+      },
+      "Ranked": "false",
+      "ActivationValue": "taPassive",
+      "Attributes": {
+        "DefenseRanged": "1",
+        "DefenseMelee": "1",
+        "Requirement": {
+          "WearingArmor": "true",
+          "SoakAtLeast": "2"
+        }
+      }
+    },
+    {
+      "Key": "BACT",
+      "Name": "Bacta Specialist",
+      "Description": "Please see page 132 of the Edge of the Empire Core Rulebook, or page 143 of the Age of Rebellion Core Rulebook, for details.",
+      "Sources": {
+        "Source": [
+          {
+            "-Page": "132",
+            "#text": "Edge of the Empire Core Rulebook"
+          },
+          {
+            "-Page": "143",
+            "#text": "Age of Rebellion Core Rulebook"
+          }
+        ]
+      },
+      "Ranked": "true",
+      "ActivationValue": "taPassive"
+    },
+    {
+      "Key": "BADM",
+      "Name": "Bad Motivator",
+      "Description": "Please see page 132 of the Edge of the Empire Core Rulebook, or page 143 of the Age of Rebellion Core Rulebook, for details.",
+      "Sources": {
+        "Source": [
+          {
+            "-Page": "132",
+            "#text": "Edge of the Empire Core Rulebook"
+          },
+          {
+            "-Page": "143",
+            "#text": "Age of Rebellion Core Rulebook"
+          }
+        ]
+      },
+      "Ranked": "false",
+      "ActivationValue": "taAction"
+    },
+    {
+      "Key": "BAL",
+      "Name": "Balance",
+      "Description": "Please see page 132 of the Edge of the Empire Core Rulebook, or page 143 of the Age of Rebellion Core Rulebook, for details.",
+      "Sources": {
+        "Source": [
+          {
+            "-Page": "132",
+            "#text": "Edge of the Empire Core Rulebook"
+          },
+          {
+            "-Page": "143",
+            "#text": "Age of Rebellion Core Rulebook"
+          }
+        ]
+      },
+      "Ranked": "false",
+      "ActivationValue": "taManeuver",
+      "ForceTalent": "true"
+    },
+    {
+      "Key": "BAR",
+      "Name": "Barrage",
+      "Ranked": "true",
+      "Description": "Please see page 132 of the Edge of the Empire Core Rulebook for details.",
+      "Source": {
+        "-Page": "132",
+        "#text": "Edge of the Empire Core Rulebook"
+      },
+      "ActivationValue": "taPassive"
+    },
+    {
+      "Key": "BASICTRAIN",
+      "Name": "Basic Combat Training",
+      "Description": "Please see page 143 of the Age of Rebellion Core Rulebook for details.",
+      "Source": {
+        "-Page": "143",
+        "#text": "Age of Rebellion Core Rulebook"
+      },
+      "Ranked": "false",
+      "ActivationValue": "taPassive",
+      "JuryRigged": "false",
+      "ChooseCareerSkills": {
+        "SkillCount": "0",
+        "NewSkills": {
+          "Key": [
+            "BRAWL",
+            "RANGLT"
+          ]
+        }
+      }
+    },
+    {
+      "Key": "BLA",
+      "Name": "Black Market Contacts",
+      "Description": "Please see page 132 of the Edge of the Empire Core Rulebook for details.",
+      "Source": {
+        "-Page": "132",
+        "#text": "Edge of the Empire Core Rulebook"
+      },
+      "Ranked": "true",
+      "ActivationValue": "taIncidental"
+    },
+    {
+      "Key": "BLO",
+      "Name": "Blooded",
+      "Description": "Please see page 132 of the Edge of the Empire Core Rulebook, or page 143 of the Age of Rebellion Core Rulebook, for details.",
+      "Sources": {
+        "Source": [
+          {
+            "-Page": "132",
+            "#text": "Edge of the Empire Core Rulebook"
+          },
+          {
+            "-Page": "143",
+            "#text": "Age of Rebellion Core Rulebook"
+          }
+        ]
+      },
+      "Ranked": "true",
+      "ActivationValue": "taPassive"
+    },
+    {
+      "Key": "BOD",
+      "Name": "Body Guard",
+      "Ranked": "true",
+      "Description": "Please see page 132 of the Edge of the Empire Core Rulebook, page 143 of the Age of Rebellion Core Rulebook, or page 140 of the Force and Destiny Core Rulebook, for details.",
+      "Sources": {
+        "Source": [
+          {
+            "-Page": "132",
+            "#text": "Edge of the Empire Core Rulebook"
+          },
+          {
+            "-Page": "143",
+            "#text": "Age of Rebellion Core Rulebook"
+          },
+          {
+            "-Page": "140",
+            "#text": "Force and Destiny Core Rulebook"
+          }
+        ]
+      },
+      "ActivationValue": "taManeuver"
+    },
+    {
+      "Key": "BOUGHT",
+      "Name": "Bought Info",
+      "Description": "Please see page 143 of the Age of Rebellion Core Rulebook for details.",
+      "Source": {
+        "-Page": "143",
+        "#text": "Age of Rebellion Core Rulebook"
+      },
+      "Ranked": "false",
+      "ActivationValue": "taAction"
+    },
+    {
+      "Key": "BRA",
+      "Name": "Brace",
+      "Description": "Please see page 132 of the Edge of the Empire Core Rulebook, or page 143 of the Age of Rebellion Core Rulebook, for details.",
+      "Sources": {
+        "Source": [
+          {
+            "-Page": "132",
+            "#text": "Edge of the Empire Core Rulebook"
+          },
+          {
+            "-Page": "143",
+            "#text": "Age of Rebellion Core Rulebook"
+          }
+        ]
+      },
+      "Ranked": "true",
+      "ActivationValue": "taManeuver"
+    },
+    {
+      "Key": "BRI",
+      "Name": "Brilliant Evasion",
+      "Description": "Please see page 132 of the Edge of the Empire Core Rulebook, or page 144 of the Age of Rebellion Core Rulebook, for details.",
+      "Sources": {
+        "Source": [
+          {
+            "-Page": "132",
+            "#text": "Edge of the Empire Core Rulebook"
+          },
+          {
+            "-Page": "144",
+            "#text": "Age of Rebellion Core Rulebook"
+          }
+        ]
+      },
+      "Ranked": "false",
+      "ActivationValue": "taAction"
+    },
+    {
+      "Key": "BYP",
+      "Name": "Bypass Security",
+      "Description": "Please see page 133 of the Edge of the Empire Core Rulebook, or page 144 of the Age of Rebellion Core Rulebook, for details.",
+      "Sources": {
+        "Source": [
+          {
+            "-Page": "133",
+            "#text": "Edge of the Empire Core Rulebook"
+          },
+          {
+            "-Page": "144",
+            "#text": "Age of Rebellion Core Rulebook"
+          }
+        ]
+      },
+      "Ranked": "true",
+      "ActivationValue": "taPassive"
+    },
+    {
+      "Key": "CAREPLAN",
+      "Name": "Careful Planning",
+      "Description": "Please see page 144 of the Age of Rebellion Core Rulebook for details.",
+      "Source": {
+        "-Page": "144",
+        "#text": "Age of Rebellion Core Rulebook"
+      },
+      "Ranked": "false",
+      "ActivationValue": "taIncidental"
+    },
+    {
+      "Key": "CLEVERSOLN",
+      "Name": "Clever Solution",
+      "Description": "Please see page 144 of the Age of Rebellion Core Rulebook, or page 32 of the Fly Casual Sourcebook, for details.",
+      "Sources": {
+        "Source": [
+          {
+            "-Page": "144",
+            "#text": "Age of Rebellion Core Rulebook"
+          },
+          {
+            "-Page": "32",
+            "#text": "Fly Casual Sourcebook"
+          }
+        ]
+      },
+      "Ranked": "false",
+      "ActivationValue": "taIncidental"
+    },
+    {
+      "Key": "COD",
+      "Name": "Codebreaker",
+      "Description": "Please see page 133 of the Edge of the Empire Core Rulebook, page 144 of the Age of Rebellion Core Rulebook, or page 140 of the Force and Destiny Core Rulebook, for details.",
+      "Sources": {
+        "Source": [
+          {
+            "-Page": "133",
+            "#text": "Edge of the Empire Core Rulebook"
+          },
+          {
+            "-Page": "144",
+            "#text": "Age of Rebellion Core Rulebook"
+          },
+          {
+            "-Page": "140",
+            "#text": "Force and Destiny Core Rulebook"
+          }
+        ]
+      },
+      "Ranked": "true",
+      "ActivationValue": "taPassive"
+    },
+    {
+      "Key": "COM",
+      "Name": "Command",
+      "Ranked": "true",
+      "Description": "Please see page 133 of the Edge of the Empire Core Rulebook, page 144 of the Age of Rebellion Core Rulebook, or page 140 of the Force and Destiny Core Rulebook, for details.",
+      "Sources": {
+        "Source": [
+          {
+            "-Page": "133",
+            "#text": "Edge of the Empire Core Rulebook"
+          },
+          {
+            "-Page": "144",
+            "#text": "Age of Rebellion Core Rulebook"
+          },
+          {
+            "-Page": "140",
+            "#text": "Force and Destiny Core Rulebook"
+          }
+        ]
+      },
+      "ActivationValue": "taPassive",
+      "DieModifiers": {
+        "DieModifier": {
+          "SkillKey": "LEAD",
+          "BoostCount": "1"
+        }
+      }
+    },
+    {
+      "Key": "COMMPRES",
+      "Name": "Commanding Presence",
+      "Description": "Please see page 144 of the Age of Rebellion Core Rulebook, or page 140 of the Force and Destiny Core Rulebook, for details.",
+      "Sources": {
+        "Source": [
+          {
+            "-Page": "144",
+            "#text": "Age of Rebellion Core Rulebook"
+          },
+          {
+            "-Page": "140",
+            "#text": "Force and Destiny Core Rulebook"
+          }
+        ]
+      },
+      "Ranked": "true",
+      "ActivationValue": "taPassive",
+      "DieModifiers": {
+        "DieModifier": [
+          {
+            "SkillKey": "COOL",
+            "SetbackCount": "1"
+          },
+          {
+            "SkillKey": "LEAD",
+            "SetbackCount": "1"
+          }
+        ]
+      }
+    },
+    {
+      "Key": "CONF",
+      "Name": "Confidence",
+      "Description": "Please see page 133 of the Edge of the Empire Core Rulebook, page 144 of the Age of Rebellion Core Rulebook, or page 141 of the Force and Destiny Core Rulebook, for details.",
+      "Sources": {
+        "Source": [
+          {
+            "-Page": "133",
+            "#text": "Edge of the Empire Core Rulebook"
+          },
+          {
+            "-Page": "144",
+            "#text": "Age of Rebellion Core Rulebook"
+          },
+          {
+            "-Page": "141",
+            "#text": "Force and Destiny Core Rulebook"
+          }
+        ]
+      },
+      "Ranked": "true",
+      "ActivationValue": "taPassive"
+    },
+    {
+      "Key": "CONT",
+      "Name": "Contraption",
+      "Description": "Please see page 133 of the Edge of the Empire Core Rulebook, or page 144 of the Age of Rebellion Core Rulebook, for details.",
+      "Sources": {
+        "Source": [
+          {
+            "-Page": "133",
+            "#text": "Edge of the Empire Core Rulebook"
+          },
+          {
+            "-Page": "144",
+            "#text": "Age of Rebellion Core Rulebook"
+          }
+        ]
+      },
+      "Ranked": "false",
+      "ActivationValue": "taAction"
+    },
+    {
+      "Key": "CONV",
+      "Name": "Convincing Demeanor",
+      "Description": "Please see page 133 of the Edge of the Empire Core Rulebook, or page 145 of the Age of Rebellion Core Rulebook, for details.",
+      "Sources": {
+        "Source": [
+          {
+            "-Page": "133",
+            "#text": "Edge of the Empire Core Rulebook"
+          },
+          {
+            "-Page": "145",
+            "#text": "Age of Rebellion Core Rulebook"
+          }
+        ]
+      },
+      "Ranked": "true",
+      "ActivationValue": "taPassive",
+      "DieModifiers": {
+        "DieModifier": [
+          {
+            "SkillKey": "DECEP",
+            "SetbackCount": "1"
+          },
+          {
+            "SkillKey": "SKUL",
+            "SetbackCount": "1"
+          }
+        ]
+      }
+    },
+    {
+      "Key": "COORDASS",
+      "Name": "Coordinated Assault",
+      "Description": "Please see page 145 of the Age of Rebellion Core Rulebook for details.",
+      "Source": {
+        "-Page": "145",
+        "#text": "Age of Rebellion Core Rulebook"
+      },
+      "Ranked": "false",
+      "ActivationValue": "taManeuver"
+    },
+    {
+      "Key": "CREATKILL",
+      "Name": "Creative Killer",
+      "Description": "Please see page 145 of the Age of Rebellion Core Rulebook for details.",
+      "Source": {
+        "-Page": "145",
+        "#text": "Age of Rebellion Core Rulebook"
+      },
+      "Ranked": "false",
+      "ActivationValue": "taPassive"
+    },
+    {
+      "Key": "CRIPV",
+      "Name": "Crippling Blow",
+      "Description": "Please see page 133 of the Edge of the Empire Core Rulebook, page 145 of the Age of Rebellion Core Rulebook, or page 141 of the Force and Destiny Core Rulebook, for details.",
+      "Sources": {
+        "Source": [
+          {
+            "-Page": "133",
+            "#text": "Edge of the Empire Core Rulebook"
+          },
+          {
+            "-Page": "145",
+            "#text": "Age of Rebellion Core Rulebook"
+          },
+          {
+            "-Page": "141",
+            "#text": "Force and Destiny Core Rulebook"
+          }
+        ]
+      },
+      "Ranked": "false",
+      "ActivationValue": "taIncidental"
+    },
+    {
+      "Key": "DEAD",
+      "Name": "Dead to Rights",
+      "Description": "Please see page 134 of the Edge of the Empire Core Rulebook, or page 145 of the Age of Rebellion Core Rulebook, for details.",
+      "Sources": {
+        "Source": [
+          {
+            "-Page": "134",
+            "#text": "Edge of the Empire Core Rulebook"
+          },
+          {
+            "-Page": "145",
+            "#text": "Age of Rebellion Core Rulebook"
+          }
+        ]
+      },
+      "Ranked": "false",
+      "ActivationValue": "taIncidental"
+    },
+    {
+      "Key": "DEADIMP",
+      "Name": "Dead to Rights (Improved)",
+      "Description": "Please see page 134 of the Edge of the Empire Core Rulebook, or page 145 of the Age of Rebellion Core Rulebook, for details.",
+      "Sources": {
+        "Source": [
+          {
+            "-Page": "134",
+            "#text": "Edge of the Empire Core Rulebook"
+          },
+          {
+            "-Page": "145",
+            "#text": "Age of Rebellion Core Rulebook"
+          }
+        ]
+      },
+      "Ranked": "false",
+      "ActivationValue": "taIncidental"
+    },
+    {
+      "Key": "DEADACC",
+      "Name": "Deadly Accuracy",
+      "Description": "Please see page 134 of the Edge of the Empire Core Rulebook, or page 145 of the Age of Rebellion Core Rulebook, for details.",
+      "Sources": {
+        "Source": [
+          {
+            "-Page": "134",
+            "#text": "Edge of the Empire Core Rulebook"
+          },
+          {
+            "-Page": "145",
+            "#text": "Age of Rebellion Core Rulebook"
+          }
+        ]
+      },
+      "Ranked": "true",
+      "ActivationValue": "taPassive",
+      "SkillChoice": {
+        "TypeValue": "stCombat",
+        "SkillCount": "1",
+        "AddDamagePerSkillRank": "true",
+        "AddSkillsPerRank": "true"
+      }
+    },
+    {
+      "Key": "DEPSHOT",
+      "Name": "Debilitating Shot",
+      "Description": "Please see page 145 of the Age of Rebellion Core Rulebook for details.",
+      "Source": {
+        "-Page": "145",
+        "#text": "Age of Rebellion Core Rulebook"
+      },
+      "Ranked": "false",
+      "ActivationValue": "taIncidental"
+    },
+    {
+      "Key": "DEDI",
+      "Name": "Dedication",
+      "Description": "Please see page 134 of the Edge of the Empire Core Rulebook, page 145 of the Age of Rebellion Core Rulebook, or page 141 of the Force and Destiny Core Rulebook, for details.",
+      "Sources": {
+        "Source": [
+          {
+            "-Page": "134",
+            "#text": "Edge of the Empire Core Rulebook"
+          },
+          {
+            "-Page": "145",
+            "#text": "Age of Rebellion Core Rulebook"
+          },
+          {
+            "-Page": "141",
+            "#text": "Force and Destiny Core Rulebook"
+          }
+        ]
+      },
+      "Ranked": "true",
+      "ActivationValue": "taPassive",
+      "CharacteristicChoices": {
+        "CharacteristicChoice": {
+          "Bonus": "1"
+        }
+      }
+    },
+    {
+      "Key": "DEFDRI",
+      "Name": "Defensive Driving",
+      "Description": "Please see page 134 of the Edge of the Empire Core Rulebook, or page 145 of the Age of Rebellion Core Rulebook, for details.",
+      "Sources": {
+        "Source": [
+          {
+            "-Page": "134",
+            "#text": "Edge of the Empire Core Rulebook"
+          },
+          {
+            "-Page": "145",
+            "#text": "Age of Rebellion Core Rulebook"
+          }
+        ]
+      },
+      "Ranked": "true",
+      "ActivationValue": "taPassive",
+      "RosterMods": {
+        "PilotOnly": "true",
+        "DefAll": "1"
+      }
+    },
+    {
+      "Key": "DEFSLI",
+      "Name": "Defensive Slicing",
+      "Description": "Please see page 134 of the Edge of the Empire Core Rulebook, page 145 of the Age of Rebellion Core Rulebook, or page 141 of the Force and Destiny Core Rulebook, for details.",
+      "Sources": {
+        "Source": [
+          {
+            "-Page": "134",
+            "#text": "Edge of the Empire Core Rulebook"
+          },
+          {
+            "-Page": "145",
+            "#text": "Age of Rebellion Core Rulebook"
+          },
+          {
+            "-Page": "141",
+            "#text": "Force and Destiny Core Rulebook"
+          }
+        ]
+      },
+      "Ranked": "true",
+      "ActivationValue": "taPassive"
+    },
+    {
+      "Key": "DEFSLIIMP",
+      "Name": "Defensive Slicing (Improved)",
+      "Description": "Please see page 134 of the Edge of the Empire Core Rulebook, or page 145 of the Age of Rebellion Core Rulebook, for details.",
+      "Sources": {
+        "Source": [
+          {
+            "-Page": "134",
+            "#text": "Edge of the Empire Core Rulebook"
+          },
+          {
+            "-Page": "145",
+            "#text": "Age of Rebellion Core Rulebook"
+          }
+        ]
+      },
+      "Ranked": "false",
+      "ActivationValue": "taPassive"
+    },
+    {
+      "Key": "DEFSTA",
+      "Name": "Defensive Stance",
+      "Description": "Please see page 134 of the Edge of the Empire Core Rulebook, page 146 of the Age of Rebellion Core Rulebook, or page 141 of the Force and Destiny Core Rulebook, for details.",
+      "Sources": {
+        "Source": [
+          {
+            "-Page": "134",
+            "#text": "Edge of the Empire Core Rulebook"
+          },
+          {
+            "-Page": "146",
+            "#text": "Age of Rebellion Core Rulebook"
+          },
+          {
+            "-Page": "141",
+            "#text": "Force and Destiny Core Rulebook"
+          }
+        ]
+      },
+      "Ranked": "true",
+      "ActivationValue": "taManeuver"
+    },
+    {
+      "Key": "DISOR",
+      "Name": "Disorient",
+      "Description": "Please see page 135 of the Edge of the Empire Core Rulebook, or page 146 of the Age of Rebellion Core Rulebook, for details.",
+      "Sources": {
+        "Source": [
+          {
+            "-Page": "135",
+            "#text": "Edge of the Empire Core Rulebook"
+          },
+          {
+            "-Page": "146",
+            "#text": "Age of Rebellion Core Rulebook"
+          }
+        ]
+      },
+      "Ranked": "true",
+      "ActivationValue": "taPassive"
+    },
+    {
+      "Key": "DODGE",
+      "Name": "Dodge",
+      "Description": "Please see page 135 of the Edge of the Empire Core Rulebook, page 146 of the Age of Rebellion Core Rulebook, or page 142 of the Force and Destiny Core Rulebook, for details.",
+      "Sources": {
+        "Source": [
+          {
+            "-Page": "135",
+            "#text": "Edge of the Empire Core Rulebook"
+          },
+          {
+            "-Page": "146",
+            "#text": "Age of Rebellion Core Rulebook"
+          },
+          {
+            "-Page": "142",
+            "#text": "Force and Destiny Core Rulebook"
+          }
+        ]
+      },
+      "Ranked": "true",
+      "ActivationValue": "taIncidentalOOT"
+    },
+    {
+      "Key": "DURA",
+      "Name": "Durable",
+      "Description": "Please see page 135 of the Edge of the Empire Core Rulebook, page 146 of the Age of Rebellion Core Rulebook, or page 142 of the Force and Destiny Core Rulebook, for details.",
+      "Sources": {
+        "Source": [
+          {
+            "-Page": "135",
+            "#text": "Edge of the Empire Core Rulebook"
+          },
+          {
+            "-Page": "146",
+            "#text": "Age of Rebellion Core Rulebook"
+          },
+          {
+            "-Page": "142",
+            "#text": "Force and Destiny Core Rulebook"
+          }
+        ]
+      },
+      "Ranked": "true",
+      "ActivationValue": "taPassive"
+    },
+    {
+      "Key": "DYNFIRE",
+      "Name": "Dynamic Fire",
+      "Description": "Please see page 146 of the Age of Rebellion Core Rulebook for details.",
+      "Source": {
+        "-Page": "146",
+        "#text": "Age of Rebellion Core Rulebook"
+      },
+      "Ranked": "false",
+      "ActivationValue": "taIncidental"
+    },
+    {
+      "Key": "ENDUR",
+      "Name": "Enduring",
+      "Description": "Please see page 135 of the Edge of the Empire Core Rulebook, page 146 of the Age of Rebellion Core Rulebook, or page 100 of the Force and Destiny Core Rulebook, for details.",
+      "Sources": {
+        "Source": [
+          {
+            "-Page": "135",
+            "#text": "Edge of the Empire Core Rulebook"
+          },
+          {
+            "-Page": "146",
+            "#text": "Age of Rebellion Core Rulebook"
+          },
+          {
+            "-Page": "100",
+            "#text": "Force and Destiny Core Rulebook"
+          }
+        ]
+      },
+      "Ranked": "true",
+      "ActivationValue": "taPassive",
+      "Attributes": {
+        "SoakValue": "1"
+      }
+    },
+    {
+      "Key": "EXHPORT",
+      "Name": "Exhaust Port",
+      "Description": "Please see page 146 of the Age of Rebellion Core Rulebook, or page 142 of the Force and Destiny Core Rulebook, for details.",
+      "Sources": {
+        "Source": [
+          {
+            "-Page": "146",
+            "#text": "Age of Rebellion Core Rulebook"
+          },
+          {
+            "-Page": "142",
+            "#text": "Force and Destiny Core Rulebook"
+          }
+        ]
+      },
+      "Ranked": "false",
+      "ActivationValue": "taIncidental"
+    },
+    {
+      "Key": "EXTRACK",
+      "Name": "Expert Tracker",
+      "Description": "Please see page 135 of the Edge of the Empire Core Rulebook, page 146 of the Age of Rebellion Core Rulebook, or page 142 of the Force and Destiny Core Rulebook, for details.",
+      "Sources": {
+        "Source": [
+          {
+            "-Page": "135",
+            "#text": "Edge of the Empire Core Rulebook"
+          },
+          {
+            "-Page": "146",
+            "#text": "Age of Rebellion Core Rulebook"
+          },
+          {
+            "-Page": "142",
+            "#text": "Force and Destiny Core Rulebook"
+          }
+        ]
+      },
+      "Ranked": "true",
+      "ActivationValue": "taPassive"
+    },
+    {
+      "Key": "FAMSUNS",
+      "Name": "Familiar Suns",
+      "Description": "Please see page 135 of the Edge of the Empire Core Rulebook, or page 146 of the Age of Rebellion Core Rulebook, for details.",
+      "Sources": {
+        "Source": [
+          {
+            "-Page": "135",
+            "#text": "Edge of the Empire Core Rulebook"
+          },
+          {
+            "-Page": "146",
+            "#text": "Age of Rebellion Core Rulebook"
+          }
+        ]
+      },
+      "Ranked": "false",
+      "ActivationValue": "taManeuver"
+    },
+    {
+      "Key": "FERSTR",
+      "Name": "Feral Strength",
+      "Description": "Please see page 135 of the Edge of the Empire Core Rulebook, or page 146 of the Age of Rebellion Core Rulebook, for details.",
+      "Sources": {
+        "Source": [
+          {
+            "-Page": "135",
+            "#text": "Edge of the Empire Core Rulebook"
+          },
+          {
+            "-Page": "146",
+            "#text": "Age of Rebellion Core Rulebook"
+          }
+        ]
+      },
+      "Ranked": "true",
+      "ActivationValue": "taPassive",
+      "Damage": {
+        "Bonus": "1",
+        "Skills": {
+          "Key": [
+            "BRAWL",
+            "MELEE"
+          ]
+        }
+      }
+    },
+    {
+      "Key": "FLDCOMM",
+      "Name": "Field Commander",
+      "Description": "Please see page 135 of the Edge of the Empire Core Rulebook, page 146 of the Age of Rebellion Core Rulebook, or page 101 of the Force and Destiny Core Rulebook, for details.",
+      "Sources": {
+        "Source": [
+          {
+            "-Page": "135",
+            "#text": "Edge of the Empire Core Rulebook"
+          },
+          {
+            "-Page": "146",
+            "#text": "Age of Rebellion Core Rulebook"
+          },
+          {
+            "-Page": "101",
+            "#text": "Force and Destiny Core Rulebook"
+          }
+        ]
+      },
+      "Ranked": "false",
+      "ActivationValue": "taAction"
+    },
+    {
+      "Key": "FLDCOMMIMP",
+      "Name": "Field Commander (Improved)",
+      "Description": "Please see page 135 of the Edge of the Empire Core Rulebook, page 146 of the Age of Rebellion Core Rulebook, or page 143 of the Force and Destiny Core Rulebook, for details.",
+      "Sources": {
+        "Source": [
+          {
+            "-Page": "135",
+            "#text": "Edge of the Empire Core Rulebook"
+          },
+          {
+            "-Page": "146",
+            "#text": "Age of Rebellion Core Rulebook"
+          },
+          {
+            "-Page": "143",
+            "#text": "Force and Destiny Core Rulebook"
+          }
+        ]
+      },
+      "Ranked": "false",
+      "ActivationValue": "taPassive"
+    },
+    {
+      "Key": "FINETUN",
+      "Name": "Fine Tuning",
+      "Description": "Please see page 135 of the Edge of the Empire Core Rulebook, page 147 of the Age of Rebellion Core Rulebook, or page 143 of the Force and Destiny Core Rulebook, for details.",
+      "Sources": {
+        "Source": [
+          {
+            "-Page": "135",
+            "#text": "Edge of the Empire Core Rulebook"
+          },
+          {
+            "-Page": "147",
+            "#text": "Age of Rebellion Core Rulebook"
+          },
+          {
+            "-Page": "143",
+            "#text": "Force and Destiny Core Rulebook"
+          }
+        ]
+      },
+      "Ranked": "true",
+      "ActivationValue": "taPassive"
+    },
+    {
+      "Key": "FIRECON",
+      "Name": "Fire Control",
+      "Description": "Please see page 147 of the Age of Rebellion Core Rulebook for details.",
+      "Source": {
+        "-Page": "147",
+        "#text": "Age of Rebellion Core Rulebook"
+      },
+      "Ranked": "false",
+      "ActivationValue": "taAction"
+    },
+    {
+      "Key": "FORAG",
+      "Name": "Forager",
+      "Description": "Please see page 135 of the Edge of the Empire Core Rulebook, or page 143 of the Force and Destiny Core Rulebook, for details.",
+      "Sources": {
+        "Source": [
+          {
+            "-Page": "135",
+            "#text": "Edge of the Empire Core Rulebook"
+          },
+          {
+            "-Page": "143",
+            "#text": "Force and Destiny Core Rulebook"
+          }
+        ]
+      },
+      "Ranked": "false",
+      "ActivationValue": "taPassive"
+    },
+    {
+      "Key": "FORCEWILL",
+      "Name": "Force of Will",
+      "Description": "Please see page 147 of the Age of Rebellion Core Rulebook for details.",
+      "Source": {
+        "-Page": "147",
+        "#text": "Age of Rebellion Core Rulebook"
+      },
+      "Ranked": "false",
+      "ActivationValue": "taIncidental"
+    },
+    {
+      "Key": "FORCERAT",
+      "Name": "Force Rating",
+      "Description": "Please see page 135 of the Edge of the Empire Core Rulebook, page 147 of the Age of Rebellion Core Rulebook, or page 143 of the Force and Destiny Core Rulebook, for details.",
+      "Sources": {
+        "Source": [
+          {
+            "-Page": "135",
+            "#text": "Edge of the Empire Core Rulebook"
+          },
+          {
+            "-Page": "147",
+            "#text": "Age of Rebellion Core Rulebook"
+          },
+          {
+            "-Page": "143",
+            "#text": "Force and Destiny Core Rulebook"
+          }
+        ]
+      },
+      "Ranked": "true",
+      "ActivationValue": "taPassive",
+      "Attributes": {
+        "ForceRating": "1"
+      },
+      "ForceTalent": "true"
+    },
+    {
+      "Key": "FORMONME",
+      "Name": "Form On Me",
+      "Description": "Please see page 147 of the Age of Rebellion Core Rulebook for details.",
+      "Source": {
+        "-Page": "147",
+        "#text": "Age of Rebellion Core Rulebook"
+      },
+      "Ranked": "false",
+      "ActivationValue": "taPassive"
+    },
+    {
+      "Key": "FRENZ",
+      "Name": "Frenzied Attack",
+      "Description": "Please see page 135 of the Core Rulebook for details.",
+      "Source": {
+        "-Page": "135",
+        "#text": "Core Rulebook"
+      },
+      "Ranked": "true",
+      "ActivationValue": "taIncidental"
+    },
+    {
+      "Key": "FULLSTOP",
+      "Name": "Full Stop",
+      "Description": "Please see page 147 of the Age of Rebellion Core Rulebook for details.",
+      "Source": {
+        "-Page": "147",
+        "#text": "Age of Rebellion Core Rulebook"
+      },
+      "Ranked": "false",
+      "ActivationValue": "taManeuver"
+    },
+    {
+      "Key": "FULLTH",
+      "Name": "Full Throttle",
+      "Description": "Please see page 135 of the Edge of the Empire Core Rulebook, page 147 of the Age of Rebellion Core Rulebook, or page 143 of the Force and Destiny Core Rulebook, for details.",
+      "Sources": {
+        "Source": [
+          {
+            "-Page": "135",
+            "#text": "Edge of the Empire Core Rulebook"
+          },
+          {
+            "-Page": "147",
+            "#text": "Age of Rebellion Core Rulebook"
+          },
+          {
+            "-Page": "143",
+            "#text": "Force and Destiny Core Rulebook"
+          }
+        ]
+      },
+      "Ranked": "false",
+      "ActivationValue": "taAction"
+    },
+    {
+      "Key": "FULLTHIMP",
+      "Name": "Full Throttle (Improved)",
+      "Description": "Please see page 136 of the Edge of the Empire Core Rulebook, or page 148 of the Age of Rebellion Core Rulebook, for details.",
+      "Sources": {
+        "Source": [
+          {
+            "-Page": "136",
+            "#text": "Edge of the Empire Core Rulebook"
+          },
+          {
+            "-Page": "148",
+            "#text": "Age of Rebellion Core Rulebook"
+          }
+        ]
+      },
+      "Ranked": "false",
+      "ActivationValue": "taAction"
+    },
+    {
+      "Key": "FULLTHSUP",
+      "Name": "Full Throttle (Supreme)",
+      "Description": "Please see page 136 of the Edge of the Empire Core Rulebook, or page 148 of the Age of Rebellion Core Rulebook, for details.",
+      "Sources": {
+        "Source": [
+          {
+            "-Page": "136",
+            "#text": "Edge of the Empire Core Rulebook"
+          },
+          {
+            "-Page": "148",
+            "#text": "Age of Rebellion Core Rulebook"
+          }
+        ]
+      },
+      "Ranked": "false",
+      "ActivationValue": "taPassive"
+    },
+    {
+      "Key": "GALMAP",
+      "Name": "Galaxy Mapper",
+      "Description": "Please see page 136 of the Edge of the Empire Core Rulebook, page 148 of the Age of Rebellion Core Rulebook, or page 144 of the Force and Destiny Core Rulebook, for details.",
+      "Sources": {
+        "Source": [
+          {
+            "-Page": "136",
+            "#text": "Edge of the Empire Core Rulebook"
+          },
+          {
+            "-Page": "148",
+            "#text": "Age of Rebellion Core Rulebook"
+          },
+          {
+            "-Page": "144",
+            "#text": "Force and Destiny Core Rulebook"
+          }
+        ]
+      },
+      "Ranked": "true",
+      "ActivationValue": "taPassive",
+      "DieModifiers": {
+        "DieModifier": {
+          "SkillKey": "ASTRO",
+          "SetbackCount": "1"
+        }
+      }
+    },
+    {
+      "Key": "GEARHD",
+      "Name": "Gearhead",
+      "Description": "Please see page 136 of the Edge of the Empire Core Rulebook, or page 148 of the Age of Rebellion Core Rulebook, for details.",
+      "Sources": {
+        "Source": [
+          {
+            "-Page": "136",
+            "#text": "Edge of the Empire Core Rulebook"
+          },
+          {
+            "-Page": "148",
+            "#text": "Age of Rebellion Core Rulebook"
+          }
+        ]
+      },
+      "Ranked": "true",
+      "ActivationValue": "taPassive",
+      "DieModifiers": {
+        "DieModifier": {
+          "SkillKey": "MECH",
+          "SetbackCount": "1"
+        }
+      }
+    },
+    {
+      "Key": "GREASE",
+      "Name": "Greased Palms",
+      "Description": "Please see page 148 of the Age of Rebellion Core Rulebook for details.",
+      "Source": {
+        "-Page": "148",
+        "#text": "Age of Rebellion Core Rulebook"
+      },
+      "Ranked": "true",
+      "ActivationValue": "taManeuver"
+    },
+    {
+      "Key": "GRIT",
+      "Name": "Grit",
+      "Description": "Please see page 136 of the Edge of the Empire Core Rulebook, page 148 of the Age of Rebellion Core Rulebook, or page 144 of the Force and Destiny Core Rulebook, for details.",
+      "Sources": {
+        "Source": [
+          {
+            "-Page": "136",
+            "#text": "Edge of the Empire Core Rulebook"
+          },
+          {
+            "-Page": "148",
+            "#text": "Age of Rebellion Core Rulebook"
+          },
+          {
+            "-Page": "144",
+            "#text": "Force and Destiny Core Rulebook"
+          }
+        ]
+      },
+      "Ranked": "true",
+      "ActivationValue": "taPassive",
+      "Attributes": {
+        "StrainThreshold": "1"
+      }
+    },
+    {
+      "Key": "HARDHD",
+      "Name": "Hard Headed",
+      "Description": "Please see page 136 of the Edge of the Empire Core Rulebook, or page 148 of the Age of Rebellion Core Rulebook, for details.",
+      "Sources": {
+        "Source": [
+          {
+            "-Page": "136",
+            "#text": "Edge of the Empire Core Rulebook"
+          },
+          {
+            "-Page": "148",
+            "#text": "Age of Rebellion Core Rulebook"
+          }
+        ]
+      },
+      "Ranked": "true",
+      "ActivationValue": "taAction"
+    },
+    {
+      "Key": "HARDHDIMP",
+      "Name": "Hard Headed (Improved)",
+      "Description": "Please see page 136 of the Edge of the Empire Core Rulebook, or page 148 of the Age of Rebellion Core Rulebook, for details.",
+      "Sources": {
+        "Source": [
+          {
+            "-Page": "136",
+            "#text": "Edge of the Empire Core Rulebook"
+          },
+          {
+            "-Page": "148",
+            "#text": "Age of Rebellion Core Rulebook"
+          }
+        ]
+      },
+      "Ranked": "false",
+      "ActivationValue": "taAction"
+    },
+    {
+      "Key": "HEIGHT",
+      "Name": "Heightened Awareness",
+      "Description": "Please see page 136 of the Edge of the Empire Core Rulebook, page 148 of the Age of Rebellion Core Rulebook, or page 145 of the Force and Destiny Core Rulebook, for details.",
+      "Sources": {
+        "Source": [
+          {
+            "-Page": "136",
+            "#text": "Edge of the Empire Core Rulebook"
+          },
+          {
+            "-Page": "148",
+            "#text": "Age of Rebellion Core Rulebook"
+          },
+          {
+            "-Page": "145",
+            "#text": "Force and Destiny Core Rulebook"
+          }
+        ]
+      },
+      "Ranked": "false",
+      "ActivationValue": "taPassive"
+    },
+    {
+      "Key": "HERO",
+      "Name": "Heroic Fortitude",
+      "Description": "Please see page 137 of the Edge of the Empire Core Rulebook, page 148 of the Age of Rebellion Core Rulebook, or page 145 of the Force and Destiny Core Rulebook, for details.",
+      "Sources": {
+        "Source": [
+          {
+            "-Page": "137",
+            "#text": "Edge of the Empire Core Rulebook"
+          },
+          {
+            "-Page": "148",
+            "#text": "Age of Rebellion Core Rulebook"
+          },
+          {
+            "-Page": "145",
+            "#text": "Force and Destiny Core Rulebook"
+          }
+        ]
+      },
+      "Ranked": "false",
+      "ActivationValue": "taIncidental"
+    },
+    {
+      "Key": "HIDD",
+      "Name": "Hidden Storage",
+      "Description": "Please see page 137 of the Edge of the Empire Core Rulebook, or page 148 of the Age of Rebellion Core Rulebook, for details.",
+      "Sources": {
+        "Source": [
+          {
+            "-Page": "137",
+            "#text": "Edge of the Empire Core Rulebook"
+          },
+          {
+            "-Page": "148",
+            "#text": "Age of Rebellion Core Rulebook"
+          }
+        ]
+      },
+      "Ranked": "true",
+      "ActivationValue": "taPassive"
+    },
+    {
+      "Key": "HOLDTOG",
+      "Name": "Hold Together",
+      "Description": "Please see page 137 of the Edge of the Empire Core Rulebook, or page 149 of the Age of Rebellion Core Rulebook, for details.",
+      "Sources": {
+        "Source": [
+          {
+            "-Page": "137",
+            "#text": "Edge of the Empire Core Rulebook"
+          },
+          {
+            "-Page": "149",
+            "#text": "Age of Rebellion Core Rulebook"
+          }
+        ]
+      },
+      "Ranked": "false",
+      "ActivationValue": "taIncidental"
+    },
+    {
+      "Key": "HUNT",
+      "Name": "Hunter",
+      "Description": "Please see page 137 of the Edge of the Empire Core Rulebook, or page 145 of the Force and Destiny Core Rulebook, for details.",
+      "Sources": {
+        "Source": [
+          {
+            "-Page": "137",
+            "#text": "Edge of the Empire Core Rulebook"
+          },
+          {
+            "-Page": "145",
+            "#text": "Force and Destiny Core Rulebook"
+          }
+        ]
+      },
+      "Ranked": "true",
+      "ActivationValue": "taPassive"
+    },
+    {
+      "Key": "INCITE",
+      "Name": "Incite Rebellion",
+      "Description": "Please see page 149 of the Age of Rebellion Core Rulebook for details.",
+      "Source": {
+        "-Page": "149",
+        "#text": "Age of Rebellion Core Rulebook"
+      },
+      "Ranked": "false",
+      "ActivationValue": "taAction"
+    },
+    {
+      "Key": "INDIS",
+      "Name": "Indistinguishable",
+      "Description": "Please see page 137 of the Edge of the Empire Core Rulebook, page 149 of the Age of Rebellion Core Rulebook, or page 145 of the Force and Destiny Core Rulebook, for details.",
+      "Sources": {
+        "Source": [
+          {
+            "-Page": "137",
+            "#text": "Edge of the Empire Core Rulebook"
+          },
+          {
+            "-Page": "149",
+            "#text": "Age of Rebellion Core Rulebook"
+          },
+          {
+            "-Page": "145",
+            "#text": "Force and Destiny Core Rulebook"
+          }
+        ]
+      },
+      "Ranked": "true",
+      "ActivationValue": "taPassive"
+    },
+    {
+      "Key": "INSIGHT",
+      "Name": "Insight",
+      "Description": "Please see page 137 of the Edge of the Empire Core Rulebook, or page 149 of the Age of Rebellion Core Rulebook, for details.",
+      "Sources": {
+        "Source": [
+          {
+            "-Page": "137",
+            "#text": "Edge of the Empire Core Rulebook"
+          },
+          {
+            "-Page": "149",
+            "#text": "Age of Rebellion Core Rulebook"
+          }
+        ]
+      },
+      "Ranked": "false",
+      "ActivationValue": "taPassive",
+      "ForceTalent": "true",
+      "ChooseCareerSkills": {
+        "NewSkills": {
+          "Key": [
+            "DISC",
+            "PERC"
+          ]
+        }
+      }
+    },
+    {
+      "Key": "INSPRHET",
+      "Name": "Inspiring Rhetoric",
+      "Description": "Please see page 137 of the Edge of the Empire Core Rulebook, or page 149 of the Age of Rebellion Core Rulebook, for details.",
+      "Sources": {
+        "Source": [
+          {
+            "-Page": "137",
+            "#text": "Edge of the Empire Core Rulebook"
+          },
+          {
+            "-Page": "149",
+            "#text": "Age of Rebellion Core Rulebook"
+          }
+        ]
+      },
+      "Ranked": "false",
+      "ActivationValue": "taAction"
+    },
+    {
+      "Key": "INSPRHETIMP",
+      "Name": "Inspiring Rhetoric (Improved)",
+      "Description": "Please see page 137 of the Edge of the Empire Core Rulebook, or page 149 of the Age of Rebellion Core Rulebook, for details.",
+      "Sources": {
+        "Source": [
+          {
+            "-Page": "137",
+            "#text": "Edge of the Empire Core Rulebook"
+          },
+          {
+            "-Page": "149",
+            "#text": "Age of Rebellion Core Rulebook"
+          }
+        ]
+      },
+      "Ranked": "false",
+      "ActivationValue": "taPassive"
+    },
+    {
+      "Key": "INSPRHETSUP",
+      "Name": "Inspiring Rhetoric (Supreme)",
+      "Description": "Please see page 137 of the Edge of the Empire Core Rulebook, or page 149 of the Age of Rebellion Core Rulebook, for details.",
+      "Sources": {
+        "Source": [
+          {
+            "-Page": "137",
+            "#text": "Edge of the Empire Core Rulebook"
+          },
+          {
+            "-Page": "149",
+            "#text": "Age of Rebellion Core Rulebook"
+          }
+        ]
+      },
+      "Ranked": "false",
+      "ActivationValue": "taIncidental"
+    },
+    {
+      "Key": "INTENSFOC",
+      "Name": "Intense Focus",
+      "Description": "Please see page 137 of the Edge of the Empire Core Rulebook, or page 150 of the Age of Rebellion Core Rulebook, for details.",
+      "Sources": {
+        "Source": [
+          {
+            "-Page": "137",
+            "#text": "Edge of the Empire Core Rulebook"
+          },
+          {
+            "-Page": "150",
+            "#text": "Age of Rebellion Core Rulebook"
+          }
+        ]
+      },
+      "Ranked": "false",
+      "ActivationValue": "taManeuver"
+    },
+    {
+      "Key": "INTENSPRE",
+      "Name": "Intense Presence",
+      "Description": "Please see page 137 of the Edge of the Empire Core Rulebook, page 150 of the Age of Rebellion Core Rulebook, or page 145 of the Force and Destiny Core Rulebook, for details.",
+      "Sources": {
+        "Source": [
+          {
+            "-Page": "137",
+            "#text": "Edge of the Empire Core Rulebook"
+          },
+          {
+            "-Page": "150",
+            "#text": "Age of Rebellion Core Rulebook"
+          },
+          {
+            "-Page": "145",
+            "#text": "Force and Destiny Core Rulebook"
+          }
+        ]
+      },
+      "Ranked": "false",
+      "ActivationValue": "taIncidentalOOT"
+    },
+    {
+      "Key": "INTIM",
+      "Name": "Intimidating",
+      "Description": "Please see page 137 of the Edge of the Empire Core Rulebook, page 150 of the Age of Rebellion Core Rulebook, or page 145 of the Force and Destiny Core Rulebook, for details.",
+      "Sources": {
+        "Source": [
+          {
+            "-Page": "137",
+            "#text": "Edge of the Empire Core Rulebook"
+          },
+          {
+            "-Page": "150",
+            "#text": "Age of Rebellion Core Rulebook"
+          },
+          {
+            "-Page": "145",
+            "#text": "Force and Destiny Core Rulebook"
+          }
+        ]
+      },
+      "Ranked": "true",
+      "ActivationValue": "taIncidentalOOT"
+    },
+    {
+      "Key": "INVENT",
+      "Name": "Inventor",
+      "Description": "Please see page 137 of the Edge of the Empire Core Rulebook, page 150 of the Age of Rebellion Core Rulebook, or page 146 of the Force and Destiny Core Rulebook, for details.",
+      "Sources": {
+        "Source": [
+          {
+            "-Page": "137",
+            "#text": "Edge of the Empire Core Rulebook"
+          },
+          {
+            "-Page": "150",
+            "#text": "Age of Rebellion Core Rulebook"
+          },
+          {
+            "-Page": "146",
+            "#text": "Force and Destiny Core Rulebook"
+          }
+        ]
+      },
+      "Ranked": "true",
+      "ActivationValue": "taPassive"
+    },
+    {
+      "Key": "INVIG",
+      "Name": "Invigorate",
+      "Description": "Please see page 150 of the Age of Rebellion Core Rulebook for details.",
+      "Source": {
+        "-Page": "150",
+        "#text": "Age of Rebellion Core Rulebook"
+      },
+      "Ranked": "false",
+      "ActivationValue": "taIncidental",
+      "ForceTalent": "true"
+    },
+    {
+      "Key": "ITSNOTTHATBAD",
+      "Name": "It's Not that Bad",
+      "Description": "Please see page 150 of the Age of Rebellion Core Rulebook for details.",
+      "Source": {
+        "-Page": "150",
+        "#text": "Age of Rebellion Core Rulebook"
+      },
+      "Ranked": "false",
+      "ActivationValue": "taAction"
+    },
+    {
+      "Key": "JUMP",
+      "Name": "Jump Up",
+      "Description": "Please see page 138 of the Edge of the Empire Core Rulebook, page 150 of the Age of Rebellion Core Rulebook, or page 146 of the Force and Destiny Core Rulebook, for details.",
+      "Sources": {
+        "Source": [
+          {
+            "-Page": "138",
+            "#text": "Edge of the Empire Core Rulebook"
+          },
+          {
+            "-Page": "150",
+            "#text": "Age of Rebellion Core Rulebook"
+          },
+          {
+            "-Page": "146",
+            "#text": "Force and Destiny Core Rulebook"
+          }
+        ]
+      },
+      "Ranked": "false",
+      "ActivationValue": "taIncidental"
+    },
+    {
+      "Key": "JURY",
+      "Name": "Jury Rigged",
+      "Description": "Please see page 138 of the Edge of the Empire Core Rulebook, or page 150 of the Age of Rebellion Core Rulebook, for details.",
+      "Sources": {
+        "Source": [
+          {
+            "-Page": "138",
+            "#text": "Edge of the Empire Core Rulebook"
+          },
+          {
+            "-Page": "150",
+            "#text": "Age of Rebellion Core Rulebook"
+          }
+        ]
+      },
+      "JuryRigged": "true",
+      "Ranked": "true",
+      "ActivationValue": "taPassive"
+    },
+    {
+      "Key": "KILL",
+      "Name": "Kill With Kindness",
+      "Description": "Please see page 138 of the Edge of the Empire Core Rulebook, page 150 of the Age of Rebellion Core Rulebook, or page 146 of the Force and Destiny Core Rulebook, for details.",
+      "Sources": {
+        "Source": [
+          {
+            "-Page": "138",
+            "#text": "Edge of the Empire Core Rulebook"
+          },
+          {
+            "-Page": "150",
+            "#text": "Age of Rebellion Core Rulebook"
+          },
+          {
+            "-Page": "146",
+            "#text": "Force and Destiny Core Rulebook"
+          }
+        ]
+      },
+      "Ranked": "true",
+      "ActivationValue": "taPassive",
+      "DieModifiers": {
+        "DieModifier": [
+          {
+            "SkillKey": "CHARM",
+            "SetbackCount": "1"
+          },
+          {
+            "SkillKey": "LEAD",
+            "SetbackCount": "1"
+          }
+        ]
+      }
+    },
+    {
+      "Key": "KNOCK",
+      "Name": "Knockdown",
+      "Description": "Please see page 138 of the Edge of the Empire Core Rulebook, or page 150 of the Age of Rebellion Core Rulebook, for details.",
+      "Sources": {
+        "Source": [
+          {
+            "-Page": "138",
+            "#text": "Edge of the Empire Core Rulebook"
+          },
+          {
+            "-Page": "150",
+            "#text": "Age of Rebellion Core Rulebook"
+          }
+        ]
+      },
+      "Ranked": "false",
+      "ActivationValue": "taPassive"
+    },
+    {
+      "Key": "KNOWSOM",
+      "Name": "Know Somebody",
+      "Description": "Please see page 138 of the Edge of the Empire Core Rulebook, page 150 of the Age of Rebellion Core Rulebook, or page 146 of the Force and Destiny Core Rulebook, for details.",
+      "Sources": {
+        "Source": [
+          {
+            "-Page": "138",
+            "#text": "Edge of the Empire Core Rulebook"
+          },
+          {
+            "-Page": "150",
+            "#text": "Age of Rebellion Core Rulebook"
+          },
+          {
+            "-Page": "146",
+            "#text": "Force and Destiny Core Rulebook"
+          }
+        ]
+      },
+      "Ranked": "true",
+      "ActivationValue": "taIncidental"
+    },
+    {
+      "Key": "KNOWSPEC",
+      "Name": "Knowledge Specialization",
+      "Description": "Please see page 138 of the Edge of the Empire Core Rulebook, page 150 of the Age of Rebellion Core Rulebook, or page 146 of the Force and Destiny Core Rulebook, for details.",
+      "Sources": {
+        "Source": [
+          {
+            "-Page": "138",
+            "#text": "Edge of the Empire Core Rulebook"
+          },
+          {
+            "-Page": "150",
+            "#text": "Age of Rebellion Core Rulebook"
+          },
+          {
+            "-Page": "146",
+            "#text": "Force and Destiny Core Rulebook"
+          }
+        ]
+      },
+      "Ranked": "true",
+      "ActivationValue": "taPassive",
+      "SkillChoice": {
+        "TypeValue": "stKnowledge",
+        "SkillCount": "1"
+      }
+    },
+    {
+      "Key": "KNOWSCH",
+      "Name": "Known Schematic",
+      "Description": "Please see page 138 of the Edge of the Empire Core Rulebook, or page 151 of the Age of Rebellion Core Rulebook, for details.",
+      "Sources": {
+        "Source": [
+          {
+            "-Page": "138",
+            "#text": "Edge of the Empire Core Rulebook"
+          },
+          {
+            "-Page": "151",
+            "#text": "Age of Rebellion Core Rulebook"
+          }
+        ]
+      },
+      "Ranked": "false",
+      "ActivationValue": "taManeuver"
+    },
+    {
+      "Key": "LETSRIDE",
+      "Name": "Let's Ride",
+      "Description": "Please see page 138 of the Edge of the Empire Core Rulebook, or page 151 of the Age of Rebellion Core Rulebook, for details.",
+      "Sources": {
+        "Source": [
+          {
+            "-Page": "138",
+            "#text": "Edge of the Empire Core Rulebook"
+          },
+          {
+            "-Page": "151",
+            "#text": "Age of Rebellion Core Rulebook"
+          }
+        ]
+      },
+      "Ranked": "false",
+      "ActivationValue": "taIncidental"
+    },
+    {
+      "Key": "LETHALBL",
+      "Name": "Lethal Blows",
+      "Description": "Please see page 138 of the Edge of the Empire Core Rulebook, or page 151 of the Age of Rebellion Core Rulebook, for details.",
+      "Sources": {
+        "Source": [
+          {
+            "-Page": "138",
+            "#text": "Edge of the Empire Core Rulebook"
+          },
+          {
+            "-Page": "151",
+            "#text": "Age of Rebellion Core Rulebook"
+          }
+        ]
+      },
+      "Ranked": "true",
+      "ActivationValue": "taPassive"
+    },
+    {
+      "Key": "MASDOC",
+      "Name": "Master Doctor",
+      "Description": "Please see page 138 of the Edge of the Empire Core Rulebook, or page 151 of the Age of Rebellion Core Rulebook, for details.",
+      "Sources": {
+        "Source": [
+          {
+            "-Page": "138",
+            "#text": "Edge of the Empire Core Rulebook"
+          },
+          {
+            "-Page": "151",
+            "#text": "Age of Rebellion Core Rulebook"
+          }
+        ]
+      },
+      "Ranked": "false",
+      "ActivationValue": "taIncidental"
+    },
+    {
+      "Key": "MASDRIV",
+      "Name": "Master Driver",
+      "Description": "Please see page 151 of the Age of Rebellion Core Rulebook for details.",
+      "Source": {
+        "-Page": "151",
+        "#text": "Age of Rebellion Core Rulebook"
+      },
+      "Ranked": "false",
+      "ActivationValue": "taIncidental"
+    },
+    {
+      "Key": "MASGREN",
+      "Name": "Master Grenadier",
+      "Description": "Please see page 151 of the Age of Rebellion Core Rulebook, or page 32 of the Dangerous Covenants Sourcebook, for details.",
+      "Sources": {
+        "Source": [
+          {
+            "-Page": "151",
+            "#text": "Age of Rebellion Core Rulebook"
+          },
+          {
+            "-Page": "32",
+            "#text": "Dangerous Covenants Sourcebook"
+          }
+        ]
+      },
+      "Ranked": "false",
+      "ActivationValue": "taPassive"
+    },
+    {
+      "Key": "MASLEAD",
+      "Name": "Master Leader",
+      "Description": "Please see page 151 of the Age of Rebellion Core Rulebook for details.",
+      "Source": {
+        "-Page": "151",
+        "#text": "Age of Rebellion Core Rulebook"
+      },
+      "Ranked": "false",
+      "ActivationValue": "taIncidental"
+    },
+    {
+      "Key": "MASMERC",
+      "Name": "Master Merchant",
+      "Description": "Please see page 138 of the Edge of the Empire Core Rulebook, or page 151 of the Age of Rebellion Core Rulebook, for details.",
+      "Sources": {
+        "Source": [
+          {
+            "-Page": "138",
+            "#text": "Edge of the Empire Core Rulebook"
+          },
+          {
+            "-Page": "151",
+            "#text": "Age of Rebellion Core Rulebook"
+          }
+        ]
+      },
+      "Ranked": "false",
+      "ActivationValue": "taIncidental"
+    },
+    {
+      "Key": "MASSHAD",
+      "Name": "Master of Shadows",
+      "Description": "Please see page 138 of the Edge of the Empire Core Rulebook, page 151 of the Age of Rebellion Core Rulebook, or page 146 of the Force and Destiny Core Rulebook, for details.",
+      "Sources": {
+        "Source": [
+          {
+            "-Page": "138",
+            "#text": "Edge of the Empire Core Rulebook"
+          },
+          {
+            "-Page": "151",
+            "#text": "Age of Rebellion Core Rulebook"
+          },
+          {
+            "-Page": "146",
+            "#text": "Force and Destiny Core Rulebook"
+          }
+        ]
+      },
+      "Ranked": "false",
+      "ActivationValue": "taIncidental"
+    },
+    {
+      "Key": "MASPIL",
+      "Name": "Master Pilot",
+      "Description": "Please see page 138 of the Edge of the Empire Core Rulebook, or page 151 of the Age of Rebellion Core Rulebook, for details.",
+      "Sources": {
+        "Source": [
+          {
+            "-Page": "138",
+            "#text": "Edge of the Empire Core Rulebook"
+          },
+          {
+            "-Page": "151",
+            "#text": "Age of Rebellion Core Rulebook"
+          }
+        ]
+      },
+      "Ranked": "false",
+      "ActivationValue": "taIncidental"
+    },
+    {
+      "Key": "MASSLIC",
+      "Name": "Master Slicer",
+      "Description": "Please see page 139 of the Edge of the Empire Core Rulebook, or page 151 of the Age of Rebellion Core Rulebook, for details.",
+      "Sources": {
+        "Source": [
+          {
+            "-Page": "139",
+            "#text": "Edge of the Empire Core Rulebook"
+          },
+          {
+            "-Page": "151",
+            "#text": "Age of Rebellion Core Rulebook"
+          }
+        ]
+      },
+      "Ranked": "false",
+      "ActivationValue": "taIncidental"
+    },
+    {
+      "Key": "MASSTAR",
+      "Name": "Master Starhopper",
+      "Description": "Please see page 139 of the Edge of the Empire Core Rulebook, or page 151 of the Age of Rebellion Core Rulebook, for details.",
+      "Sources": {
+        "Source": [
+          {
+            "-Page": "139",
+            "#text": "Edge of the Empire Core Rulebook"
+          },
+          {
+            "-Page": "151",
+            "#text": "Age of Rebellion Core Rulebook"
+          }
+        ]
+      },
+      "Ranked": "false",
+      "ActivationValue": "taIncidental"
+    },
+    {
+      "Key": "MENTFOR",
+      "Name": "Mental Fortress",
+      "Description": "Please see page 139 of the Edge of the Empire Core Rulebook, page 151 of the Age of Rebellion Core Rulebook, or page 147 of the Force and Destiny Core Rulebook, for details.",
+      "Sources": {
+        "Source": [
+          {
+            "-Page": "139",
+            "#text": "Edge of the Empire Core Rulebook"
+          },
+          {
+            "-Page": "151",
+            "#text": "Age of Rebellion Core Rulebook"
+          },
+          {
+            "-Page": "147",
+            "#text": "Force and Destiny Core Rulebook"
+          }
+        ]
+      },
+      "Ranked": "false",
+      "ActivationValue": "taIncidental"
+    },
+    {
+      "Key": "NATBRAW",
+      "Name": "Natural Brawler",
+      "Description": "Please see page 139 of the Edge of the Empire Core Rulebook, or page 153 of the Age of Rebellion Core Rulebook, for details.",
+      "Sources": {
+        "Source": [
+          {
+            "-Page": "139",
+            "#text": "Edge of the Empire Core Rulebook"
+          },
+          {
+            "-Page": "153",
+            "#text": "Age of Rebellion Core Rulebook"
+          }
+        ]
+      },
+      "Ranked": "false",
+      "ActivationValue": "taIncidental"
+    },
+    {
+      "Key": "NATCHARM",
+      "Name": "Natural Charmer",
+      "Description": "Please see page 139 of the Edge of the Empire Core Rulebook, page 153 of the Age of Rebellion Core Rulebook, or page 147 of the Force and Destiny Core Rulebook, for details.",
+      "Sources": {
+        "Source": [
+          {
+            "-Page": "139",
+            "#text": "Edge of the Empire Core Rulebook"
+          },
+          {
+            "-Page": "153",
+            "#text": "Age of Rebellion Core Rulebook"
+          },
+          {
+            "-Page": "147",
+            "#text": "Force and Destiny Core Rulebook"
+          }
+        ]
+      },
+      "Ranked": "false",
+      "ActivationValue": "taIncidental"
+    },
+    {
+      "Key": "NATDOC",
+      "Name": "Natural Doctor",
+      "Description": "Please see page 139 of the Edge of the Empire Core Rulebook, page 153 of the Age of Rebellion Core Rulebook, or page 148 of the Force and Destiny Core Rulebook, for details.",
+      "Sources": {
+        "Source": [
+          {
+            "-Page": "139",
+            "#text": "Edge of the Empire Core Rulebook"
+          },
+          {
+            "-Page": "153",
+            "#text": "Age of Rebellion Core Rulebook"
+          },
+          {
+            "-Page": "148",
+            "#text": "Force and Destiny Core Rulebook"
+          }
+        ]
+      },
+      "Ranked": "false",
+      "ActivationValue": "taIncidental"
+    },
+    {
+      "Key": "NATDRIV",
+      "Name": "Natural Driver",
+      "Description": "Please see page 153 of the Age of Rebellion Core Rulebook for details.",
+      "Source": {
+        "-Page": "153",
+        "#text": "Age of Rebellion Core Rulebook"
+      },
+      "Ranked": "false",
+      "ActivationValue": "taIncidental"
+    },
+    {
+      "Key": "NATENF",
+      "Name": "Natural Enforcer",
+      "Description": "Please see page 139 of the Edge of the Empire Core Rulebook, or page 153 of the Age of Rebellion Core Rulebook, for details.",
+      "Sources": {
+        "Source": [
+          {
+            "-Page": "139",
+            "#text": "Edge of the Empire Core Rulebook"
+          },
+          {
+            "-Page": "153",
+            "#text": "Age of Rebellion Core Rulebook"
+          }
+        ]
+      },
+      "Ranked": "false",
+      "ActivationValue": "taIncidental"
+    },
+    {
+      "Key": "NATHUN",
+      "Name": "Natural Hunter",
+      "Description": "Please see page 139 of the Edge of the Empire Core Rulebook, page 153 of the Age of Rebellion Core Rulebook, or page 105 of the Force and Destiny Core Rulebook, for details.",
+      "Sources": {
+        "Source": [
+          {
+            "-Page": "139",
+            "#text": "Edge of the Empire Core Rulebook"
+          },
+          {
+            "-Page": "153",
+            "#text": "Age of Rebellion Core Rulebook"
+          },
+          {
+            "-Page": "105",
+            "#text": "Force and Destiny Core Rulebook"
+          }
+        ]
+      },
+      "Ranked": "false",
+      "ActivationValue": "taIncidental"
+    },
+    {
+      "Key": "NATLEAD",
+      "Name": "Natural Leader",
+      "Description": "Please see page 153 of the Age of Rebellion Core Rulebook, or page 148 of the Force and Destiny Core Rulebook, for details.",
+      "Sources": {
+        "Source": [
+          {
+            "-Page": "153",
+            "#text": "Age of Rebellion Core Rulebook"
+          },
+          {
+            "-Page": "148",
+            "#text": "Force and Destiny Core Rulebook"
+          }
+        ]
+      },
+      "Ranked": "false",
+      "ActivationValue": "taIncidental"
+    },
+    {
+      "Key": "NATMAR",
+      "Name": "Natural Marksman",
+      "Description": "Please see page 139 of the Edge of the Empire Core Rulebook, or page 153 of the Age of Rebellion Core Rulebook, for details.",
+      "Sources": {
+        "Source": [
+          {
+            "-Page": "139",
+            "#text": "Edge of the Empire Core Rulebook"
+          },
+          {
+            "-Page": "153",
+            "#text": "Age of Rebellion Core Rulebook"
+          }
+        ]
+      },
+      "Ranked": "false",
+      "ActivationValue": "taIncidental"
+    },
+    {
+      "Key": "NATNEG",
+      "Name": "Natural Negotiator",
+      "Description": "Please see page 139 of the Edge of the Empire Core Rulebook, page 153 of the Age of Rebellion Core Rulebook, or page 148 of the Force and Destiny Core Rulebook, for details.",
+      "Sources": {
+        "Source": [
+          {
+            "-Page": "139",
+            "#text": "Edge of the Empire Core Rulebook"
+          },
+          {
+            "-Page": "153",
+            "#text": "Age of Rebellion Core Rulebook"
+          },
+          {
+            "-Page": "148",
+            "#text": "Force and Destiny Core Rulebook"
+          }
+        ]
+      },
+      "Ranked": "false",
+      "ActivationValue": "taIncidental"
+    },
+    {
+      "Key": "NATOUT",
+      "Name": "Natural Outdoorsman",
+      "Description": "Please see page 139 of the Edge of the Empire Core Rulebook, page 153 of the Age of Rebellion Core Rulebook, or page 148 of the Force and Destiny Core Rulebook, for details.",
+      "Sources": {
+        "Source": [
+          {
+            "-Page": "139",
+            "#text": "Edge of the Empire Core Rulebook"
+          },
+          {
+            "-Page": "153",
+            "#text": "Age of Rebellion Core Rulebook"
+          },
+          {
+            "-Page": "148",
+            "#text": "Force and Destiny Core Rulebook"
+          }
+        ]
+      },
+      "Ranked": "false",
+      "ActivationValue": "taIncidental"
+    },
+    {
+      "Key": "NATPIL",
+      "Name": "Natural Pilot",
+      "Description": "Please see page 139 of the Edge of the Empire Core Rulebook, or page 153 of the Age of Rebellion Core Rulebook, for details.",
+      "Sources": {
+        "Source": [
+          {
+            "-Page": "139",
+            "#text": "Edge of the Empire Core Rulebook"
+          },
+          {
+            "-Page": "153",
+            "#text": "Age of Rebellion Core Rulebook"
+          }
+        ]
+      },
+      "Ranked": "false",
+      "ActivationValue": "taIncidental"
+    },
+    {
+      "Key": "NATPRO",
+      "Name": "Natural Programmer",
+      "Description": "Please see page 139 of the Edge of the Empire Core Rulebook, or page 153 of the Age of Rebellion Core Rulebook, for details.",
+      "Sources": {
+        "Source": [
+          {
+            "-Page": "139",
+            "#text": "Edge of the Empire Core Rulebook"
+          },
+          {
+            "-Page": "153",
+            "#text": "Age of Rebellion Core Rulebook"
+          }
+        ]
+      },
+      "Ranked": "false",
+      "ActivationValue": "taIncidental"
+    },
+    {
+      "Key": "NATROG",
+      "Name": "Natural Rogue",
+      "Description": "Please see page 139 of the Edge of the Empire Core Rulebook, or page 153 of the Age of Rebellion Core Rulebook, for details.",
+      "Sources": {
+        "Source": [
+          {
+            "-Page": "139",
+            "#text": "Edge of the Empire Core Rulebook"
+          },
+          {
+            "-Page": "153",
+            "#text": "Age of Rebellion Core Rulebook"
+          }
+        ]
+      },
+      "Ranked": "false",
+      "ActivationValue": "taIncidental"
+    },
+    {
+      "Key": "NATSCH",
+      "Name": "Natural Scholar",
+      "Description": "Please see page 139 of the Edge of the Empire Core Rulebook, or page 153 of the Age of Rebellion Core Rulebook, for details.",
+      "Sources": {
+        "Source": [
+          {
+            "-Page": "139",
+            "#text": "Edge of the Empire Core Rulebook"
+          },
+          {
+            "-Page": "153",
+            "#text": "Age of Rebellion Core Rulebook"
+          }
+        ]
+      },
+      "Ranked": "false",
+      "ActivationValue": "taIncidental"
+    },
+    {
+      "Key": "NATTIN",
+      "Name": "Natural Tinkerer",
+      "Description": "Please see page 139 of the Edge of the Empire Core Rulebook, page 153 of the Age of Rebellion Core Rulebook, or page 148 of the Force and Destiny Core Rulebook, for details.",
+      "Sources": {
+        "Source": [
+          {
+            "-Page": "139",
+            "#text": "Edge of the Empire Core Rulebook"
+          },
+          {
+            "-Page": "153",
+            "#text": "Age of Rebellion Core Rulebook"
+          },
+          {
+            "-Page": "148",
+            "#text": "Force and Destiny Core Rulebook"
+          }
+        ]
+      },
+      "Ranked": "false",
+      "ActivationValue": "taIncidental"
+    },
+    {
+      "Key": "NOBFOOL",
+      "Name": "Nobody's Fool",
+      "Description": "Please see page 139 of the Edge of the Empire Core Rulebook, page 153 of the Age of Rebellion Core Rulebook, or page 148 of the Force and Destiny Core Rulebook, for details.",
+      "Sources": {
+        "Source": [
+          {
+            "-Page": "139",
+            "#text": "Edge of the Empire Core Rulebook"
+          },
+          {
+            "-Page": "153",
+            "#text": "Age of Rebellion Core Rulebook"
+          },
+          {
+            "-Page": "148",
+            "#text": "Force and Destiny Core Rulebook"
+          }
+        ]
+      },
+      "Ranked": "true",
+      "ActivationValue": "taPassive"
+    },
+    {
+      "Key": "OUTDOOR",
+      "Name": "Outdoorsman",
+      "Description": "Please see page 141 of the Edge of the Empire Core Rulebook, page 154 of the Age of Rebellion Core Rulebook, or page 149 of the Force and Destiny Core Rulebook, for details.",
+      "Sources": {
+        "Source": [
+          {
+            "-Page": "141",
+            "#text": "Edge of the Empire Core Rulebook"
+          },
+          {
+            "-Page": "154",
+            "#text": "Age of Rebellion Core Rulebook"
+          },
+          {
+            "-Page": "149",
+            "#text": "Force and Destiny Core Rulebook"
+          }
+        ]
+      },
+      "Ranked": "true",
+      "ActivationValue": "taPassive"
+    },
+    {
+      "Key": "OVEREM",
+      "Name": "Overwhelm Emotions",
+      "Description": "Please see page 141 of the Edge of the Empire Core Rulebook for details.",
+      "Source": {
+        "-Page": "141",
+        "#text": "Edge of the Empire Core Rulebook"
+      },
+      "Ranked": "false",
+      "ActivationValue": "taPassive",
+      "ForceTalent": "true"
+    },
+    {
+      "Key": "OVERDEF",
+      "Name": "Overwhelm Defenses",
+      "Description": "Please see page 154 of the Age of Rebellion Core Rulebook for details.",
+      "Source": {
+        "-Page": "154",
+        "#text": "Age of Rebellion Core Rulebook"
+      },
+      "Ranked": "true",
+      "ActivationValue": "taIncidental"
+    },
+    {
+      "Key": "PHYSTRAIN",
+      "Name": "Physical Training",
+      "Description": "Please see page 154 of the Age of Rebellion Core Rulebook for details.",
+      "Source": {
+        "-Page": "154",
+        "#text": "Age of Rebellion Core Rulebook"
+      },
+      "Ranked": "true",
+      "ActivationValue": "taPassive",
+      "DieModifiers": {
+        "DieModifier": [
+          {
+            "SkillKey": "ATHL",
+            "BoostCount": "1"
+          },
+          {
+            "SkillKey": "RESIL",
+            "BoostCount": "1"
+          }
+        ]
+      }
+    },
+    {
+      "Key": "PLAUSDEN",
+      "Name": "Plausible Deniability",
+      "Description": "Please see page 141 of the Edge of the Empire Core Rulebook, page 154 of the Age of Rebellion Core Rulebook, or page 149 of the Force and Destiny Core Rulebook, for details.",
+      "Sources": {
+        "Source": [
+          {
+            "-Page": "141",
+            "#text": "Edge of the Empire Core Rulebook"
+          },
+          {
+            "-Page": "154",
+            "#text": "Age of Rebellion Core Rulebook"
+          },
+          {
+            "-Page": "149",
+            "#text": "Force and Destiny Core Rulebook"
+          }
+        ]
+      },
+      "Ranked": "true",
+      "ActivationValue": "taPassive",
+      "DieModifiers": {
+        "DieModifier": [
+          {
+            "SkillKey": "COERC",
+            "SetbackCount": "1"
+          },
+          {
+            "SkillKey": "DECEP",
+            "SetbackCount": "1"
+          }
+        ]
+      }
+    },
+    {
+      "Key": "POINTBL",
+      "Name": "Point Blank",
+      "Description": "Please see page 141 of the Edge of the Empire Core Rulebook, or page 154 of the Age of Rebellion Core Rulebook, for details.",
+      "Sources": {
+        "Source": [
+          {
+            "-Page": "141",
+            "#text": "Edge of the Empire Core Rulebook"
+          },
+          {
+            "-Page": "154",
+            "#text": "Age of Rebellion Core Rulebook"
+          }
+        ]
+      },
+      "Ranked": "true",
+      "ActivationValue": "taPassive"
+    },
+    {
+      "Key": "PWRBLST",
+      "Name": "Powerful Blast",
+      "Description": "Please see page 154 of the Age of Rebellion Core Rulebook for details.",
+      "Source": {
+        "-Page": "154",
+        "#text": "Age of Rebellion Core Rulebook"
+      },
+      "Ranked": "true",
+      "ActivationValue": "taPassive"
+    },
+    {
+      "Key": "PRECAIM",
+      "Name": "Precise Aim",
+      "Description": "Please see page 141 of the Edge of the Empire Core Rulebook for details.",
+      "Source": {
+        "-Page": "141",
+        "#text": "Edge of the Empire Core Rulebook"
+      },
+      "Ranked": "true",
+      "ActivationValue": "taManeuver"
+    },
+    {
+      "Key": "PRESPNT",
+      "Name": "Pressure Point",
+      "Description": "Please see page 141 of the Edge of the Empire Core Rulebook for details.",
+      "Source": {
+        "-Page": "141",
+        "#text": "Edge of the Empire Core Rulebook"
+      },
+      "Ranked": "false",
+      "ActivationValue": "taIncidental"
+    },
+    {
+      "Key": "QUICKDR",
+      "Name": "Quick Draw",
+      "Description": "Please see page 141 of the Edge of the Empire Core Rulebook, page 154 of the Age of Rebellion Core Rulebook, or page 149 of the Force and Destiny Core Rulebook, for details.",
+      "Sources": {
+        "Source": [
+          {
+            "-Page": "141",
+            "#text": "Edge of the Empire Core Rulebook"
+          },
+          {
+            "-Page": "154",
+            "#text": "Age of Rebellion Core Rulebook"
+          },
+          {
+            "-Page": "149",
+            "#text": "Force and Destiny Core Rulebook"
+          }
+        ]
+      },
+      "Ranked": "false",
+      "ActivationValue": "taIncidental"
+    },
+    {
+      "Key": "QUICKFIX",
+      "Name": "Quick Fix",
+      "Description": "Please see page 154 of the Age of Rebellion Core Rulebook for details.",
+      "Source": {
+        "-Page": "154",
+        "#text": "Age of Rebellion Core Rulebook"
+      },
+      "Ranked": "false",
+      "ActivationValue": "taIncidental"
+    },
+    {
+      "Key": "QUICKST",
+      "Name": "Quick Strike",
+      "Description": "Please see page 141 of the Edge of the Empire Core Rulebook, page 154 of the Age of Rebellion Core Rulebook, or page 150 of the Force and Destiny Core Rulebook, for details.",
+      "Sources": {
+        "Source": [
+          {
+            "-Page": "141",
+            "#text": "Edge of the Empire Core Rulebook"
+          },
+          {
+            "-Page": "154",
+            "#text": "Age of Rebellion Core Rulebook"
+          },
+          {
+            "-Page": "150",
+            "#text": "Force and Destiny Core Rulebook"
+          }
+        ]
+      },
+      "Ranked": "true",
+      "ActivationValue": "taPassive"
+    },
+    {
+      "Key": "RAPREA",
+      "Name": "Rapid Reaction",
+      "Description": "Please see page 141 of the Edge of the Empire Core Rulebook, page 154 of the Age of Rebellion Core Rulebook, or page 150 of the Force and Destiny Core Rulebook, for details.",
+      "Sources": {
+        "Source": [
+          {
+            "-Page": "141",
+            "#text": "Edge of the Empire Core Rulebook"
+          },
+          {
+            "-Page": "154",
+            "#text": "Age of Rebellion Core Rulebook"
+          },
+          {
+            "-Page": "150",
+            "#text": "Force and Destiny Core Rulebook"
+          }
+        ]
+      },
+      "Ranked": "true",
+      "ActivationValue": "taIncidentalOOT"
+    },
+    {
+      "Key": "RAPREC",
+      "Name": "Rapid Recovery",
+      "Description": "Please see page 141 of the Edge of the Empire Core Rulebook, page 154 of the Age of Rebellion Core Rulebook, or page 150 of the Force and Destiny Core Rulebook, for details.",
+      "Sources": {
+        "Source": [
+          {
+            "-Page": "141",
+            "#text": "Edge of the Empire Core Rulebook"
+          },
+          {
+            "-Page": "154",
+            "#text": "Age of Rebellion Core Rulebook"
+          },
+          {
+            "-Page": "150",
+            "#text": "Force and Destiny Core Rulebook"
+          }
+        ]
+      },
+      "Ranked": "true",
+      "ActivationValue": "taPassive"
+    },
+    {
+      "Key": "REDUNSYS",
+      "Name": "Redundant Systems",
+      "Description": "Please see page 141 of the Edge of the Empire Core Rulebook, or page 154 of the Age of Rebellion Core Rulebook, for details.",
+      "Sources": {
+        "Source": [
+          {
+            "-Page": "141",
+            "#text": "Edge of the Empire Core Rulebook"
+          },
+          {
+            "-Page": "154",
+            "#text": "Age of Rebellion Core Rulebook"
+          }
+        ]
+      },
+      "Ranked": "false",
+      "ActivationValue": "taAction"
+    },
+    {
+      "Key": "RESEARCH",
+      "Name": "Researcher",
+      "Description": "Please see page 141 of the Edge of the Empire Core Rulebook, page 154 of the Age of Rebellion Core Rulebook, or page 150 of the Force and Destiny Core Rulebook, for details.",
+      "Sources": {
+        "Source": [
+          {
+            "-Page": "141",
+            "#text": "Edge of the Empire Core Rulebook"
+          },
+          {
+            "-Page": "154",
+            "#text": "Age of Rebellion Core Rulebook"
+          },
+          {
+            "-Page": "150",
+            "#text": "Force and Destiny Core Rulebook"
+          }
+        ]
+      },
+      "Ranked": "true",
+      "ActivationValue": "taPassive",
+      "DieModifiers": {
+        "DieModifier": {
+          "SkillType": "Knowledge",
+          "SetbackCount": "1"
+        }
+      }
+    },
+    {
+      "Key": "RESOLVE",
+      "Name": "Resolve",
+      "Description": "Please see page 142 of the Edge of the Empire Core Rulebook, or page 155 of the Age of Rebellion Core Rulebook, for details.",
+      "Sources": {
+        "Source": [
+          {
+            "-Page": "142",
+            "#text": "Edge of the Empire Core Rulebook"
+          },
+          {
+            "-Page": "155",
+            "#text": "Age of Rebellion Core Rulebook"
+          }
+        ]
+      },
+      "Ranked": "true",
+      "ActivationValue": "taPassive"
+    },
+    {
+      "Key": "RESPSCHOL",
+      "Name": "Respected Scholar",
+      "Description": "Please see page 142 of the Edge of the Empire Core Rulebook, or page 155 of the Age of Rebellion Core Rulebook, for details.",
+      "Sources": {
+        "Source": [
+          {
+            "-Page": "142",
+            "#text": "Edge of the Empire Core Rulebook"
+          },
+          {
+            "-Page": "155",
+            "#text": "Age of Rebellion Core Rulebook"
+          }
+        ]
+      },
+      "Ranked": "true",
+      "ActivationValue": "taPassive"
+    },
+    {
+      "Key": "SCATH",
+      "Name": "Scathing Tirade",
+      "Description": "Please see page 142 of the Edge of the Empire Core Rulebook, or page 155 of the Age of Rebellion Core Rulebook, for details.",
+      "Sources": {
+        "Source": [
+          {
+            "-Page": "142",
+            "#text": "Edge of the Empire Core Rulebook"
+          },
+          {
+            "-Page": "155",
+            "#text": "Age of Rebellion Core Rulebook"
+          }
+        ]
+      },
+      "Ranked": "false",
+      "ActivationValue": "taAction"
+    },
+    {
+      "Key": "SCATHIMP",
+      "Name": "Scathing Tirade (Improved)",
+      "Description": "Please see page 142 of the Edge of the Empire Core Rulebook, or page 155 of the Age of Rebellion Core Rulebook, for details.",
+      "Sources": {
+        "Source": [
+          {
+            "-Page": "142",
+            "#text": "Edge of the Empire Core Rulebook"
+          },
+          {
+            "-Page": "155",
+            "#text": "Age of Rebellion Core Rulebook"
+          }
+        ]
+      },
+      "Ranked": "false",
+      "ActivationValue": "taPassive"
+    },
+    {
+      "Key": "SCATHSUP",
+      "Name": "Scathing Tirade (Supreme)",
+      "Description": "Please see page 142 of the Edge of the Empire Core Rulebook, or page 155 of the Age of Rebellion Core Rulebook, for details.",
+      "Sources": {
+        "Source": [
+          {
+            "-Page": "142",
+            "#text": "Edge of the Empire Core Rulebook"
+          },
+          {
+            "-Page": "155",
+            "#text": "Age of Rebellion Core Rulebook"
+          }
+        ]
+      },
+      "Ranked": "false",
+      "ActivationValue": "taIncidental"
+    },
+    {
+      "Key": "SECWIND",
+      "Name": "Second Wind",
+      "Description": "Please see page 142 of the Edge of the Empire Core Rulebook, page 155 of the Age of Rebellion Core Rulebook, or page 151 of the Force and Destiny Core Rulebook, for details.",
+      "Sources": {
+        "Source": [
+          {
+            "-Page": "142",
+            "#text": "Edge of the Empire Core Rulebook"
+          },
+          {
+            "-Page": "155",
+            "#text": "Age of Rebellion Core Rulebook"
+          },
+          {
+            "-Page": "151",
+            "#text": "Force and Destiny Core Rulebook"
+          }
+        ]
+      },
+      "Ranked": "true",
+      "ActivationValue": "taIncidental"
+    },
+    {
+      "Key": "SELDETON",
+      "Name": "Selective Detonation",
+      "Description": "Please see page 155 of the Age of Rebellion Core Rulebook for details.",
+      "Source": {
+        "-Page": "155",
+        "#text": "Age of Rebellion Core Rulebook"
+      },
+      "Ranked": "true",
+      "ActivationValue": "taIncidental"
+    },
+    {
+      "Key": "SENSDANG",
+      "Name": "Sense Danger",
+      "Description": "Please see page 142 of the Edge of the Empire Core Rulebook, page 155 of the Age of Rebellion Core Rulebook, or page 151 of the Force and Destiny Core Rulebook, for details.",
+      "Sources": {
+        "Source": [
+          {
+            "-Page": "142",
+            "#text": "Edge of the Empire Core Rulebook"
+          },
+          {
+            "-Page": "155",
+            "#text": "Age of Rebellion Core Rulebook"
+          },
+          {
+            "-Page": "151",
+            "#text": "Force and Destiny Core Rulebook"
+          }
+        ]
+      },
+      "Ranked": "false",
+      "ActivationValue": "taIncidental",
+      "ForceTalent": "true"
+    },
+    {
+      "Key": "SENSDEMO",
+      "Name": "Sense Emotions",
+      "Description": "Please see page 142 of the Edge of the Empire Core Rulebook, or page 151 of the Force and Destiny Core Rulebook, for details.",
+      "Sources": {
+        "Source": [
+          {
+            "-Page": "142",
+            "#text": "Edge of the Empire Core Rulebook"
+          },
+          {
+            "-Page": "151",
+            "#text": "Force and Destiny Core Rulebook"
+          }
+        ]
+      },
+      "Ranked": "false",
+      "ForceTalent": "true",
+      "ActivationValue": "taPassive",
+      "DieModifiers": {
+        "DieModifier": [
+          {
+            "SkillKey": "CHARM",
+            "BoostCount": "1"
+          },
+          {
+            "SkillKey": "COERC",
+            "BoostCount": "1"
+          },
+          {
+            "SkillKey": "DECEP",
+            "BoostCount": "1"
+          }
+        ]
+      }
+    },
+    {
+      "Key": "SHORTCUT",
+      "Name": "Short Cut",
+      "Description": "Please see page 142 of the Edge of the Empire Core Rulebook, or page 155 of the Age of Rebellion Core Rulebook, for details.",
+      "Sources": {
+        "Source": [
+          {
+            "-Page": "142",
+            "#text": "Edge of the Empire Core Rulebook"
+          },
+          {
+            "-Page": "155",
+            "#text": "Age of Rebellion Core Rulebook"
+          }
+        ]
+      },
+      "Ranked": "true",
+      "ActivationValue": "taPassive"
+    },
+    {
+      "Key": "SIDESTEP",
+      "Name": "Side Step",
+      "Description": "Please see page 142 of the Edge of the Empire Core Rulebook, page 156 of the Age of Rebellion Core Rulebook, or page 151 of the Force and Destiny Core Rulebook, for details.",
+      "Sources": {
+        "Source": [
+          {
+            "-Page": "142",
+            "#text": "Edge of the Empire Core Rulebook"
+          },
+          {
+            "-Page": "156",
+            "#text": "Age of Rebellion Core Rulebook"
+          },
+          {
+            "-Page": "151",
+            "#text": "Force and Destiny Core Rulebook"
+          }
+        ]
+      },
+      "Ranked": "true",
+      "ActivationValue": "taManeuver"
+    },
+    {
+      "Key": "SITAWARE",
+      "Name": "Situational Awareness",
+      "Description": "Please see page 156 of the Age of Rebellion Core Rulebook for details.",
+      "Source": {
+        "-Page": "156",
+        "#text": "Age of Rebellion Core Rulebook"
+      },
+      "Ranked": "false",
+      "ActivationValue": "taPassive"
+    },
+    {
+      "Key": "SIXSENSE",
+      "Name": "Sixth Sense",
+      "Description": "Please see page 142 of the Edge of the Empire Core Rulebook, page 156 of the Age of Rebellion Core Rulebook, or page 152 of the Force and Destiny Core Rulebook, for details.",
+      "Sources": {
+        "Source": [
+          {
+            "-Page": "142",
+            "#text": "Edge of the Empire Core Rulebook"
+          },
+          {
+            "-Page": "156",
+            "#text": "Age of Rebellion Core Rulebook"
+          },
+          {
+            "-Page": "152",
+            "#text": "Force and Destiny Core Rulebook"
+          }
+        ]
+      },
+      "Ranked": "false",
+      "ActivationValue": "taPassive",
+      "Attributes": {
+        "DefenseRanged": "1"
+      }
+    },
+    {
+      "Key": "SKILLJOCK",
+      "Name": "Skilled Jockey",
+      "Description": "Please see page 142 of the Edge of the Empire Core Rulebook, page 156 of the Age of Rebellion Core Rulebook, or page 152 of the Force and Destiny Core Rulebook, for details.",
+      "Sources": {
+        "Source": [
+          {
+            "-Page": "142",
+            "#text": "Edge of the Empire Core Rulebook"
+          },
+          {
+            "-Page": "156",
+            "#text": "Age of Rebellion Core Rulebook"
+          },
+          {
+            "-Page": "152",
+            "#text": "Force and Destiny Core Rulebook"
+          }
+        ]
+      },
+      "Ranked": "true",
+      "ActivationValue": "taPassive",
+      "DieModifiers": {
+        "DieModifier": [
+          {
+            "SkillKey": "PILOTPL",
+            "SetbackCount": "1"
+          },
+          {
+            "SkillKey": "PILOTSP",
+            "SetbackCount": "1"
+          }
+        ]
+      }
+    },
+    {
+      "Key": "SKILLSLIC",
+      "Name": "Skilled Slicer",
+      "Description": "Please see page 142 of the Edge of the Empire Core Rulebook, or page 156 of the Age of Rebellion Core Rulebook, for details.",
+      "Sources": {
+        "Source": [
+          {
+            "-Page": "142",
+            "#text": "Edge of the Empire Core Rulebook"
+          },
+          {
+            "-Page": "156",
+            "#text": "Age of Rebellion Core Rulebook"
+          }
+        ]
+      },
+      "Ranked": "false",
+      "ActivationValue": "taIncidental"
+    },
+    {
+      "Key": "SLEIGHTMIND",
+      "Name": "Sleight of Mind",
+      "Description": "Please see page 156 of the Age of Rebellion Core Rulebook, or page 152 of the Force and Destiny Core Rulebook, for details.",
+      "Sources": {
+        "Source": [
+          {
+            "-Page": "156",
+            "#text": "Age of Rebellion Core Rulebook"
+          },
+          {
+            "-Page": "152",
+            "#text": "Force and Destiny Core Rulebook"
+          }
+        ]
+      },
+      "Ranked": "true",
+      "ActivationValue": "taIncidental",
+      "ForceTalent": "true",
+      "DieModifiers": {
+        "DieModifier": {
+          "SkillKey": "STEAL",
+          "BoostCount": "1"
+        }
+      }
+    },
+    {
+      "Key": "SMOOTHTALK",
+      "Name": "Smooth Talker",
+      "Description": "Please see page 142 of the Edge of the Empire Core Rulebook, page 156 of the Age of Rebellion Core Rulebook, or page 152 of the Force and Destiny Core Rulebook, for details.",
+      "Sources": {
+        "Source": [
+          {
+            "-Page": "142",
+            "#text": "Edge of the Empire Core Rulebook"
+          },
+          {
+            "-Page": "156",
+            "#text": "Age of Rebellion Core Rulebook"
+          },
+          {
+            "-Page": "152",
+            "#text": "Force and Destiny Core Rulebook"
+          }
+        ]
+      },
+      "Ranked": "true",
+      "ActivationValue": "taIncidental",
+      "SkillChoice": {
+        "SkillCount": "1",
+        "SkillList": {
+          "Key": [
+            "CHARM",
+            "COERC",
+            "NEG",
+            "DECEP"
+          ]
+        }
+      }
+    },
+    {
+      "Key": "SNIPSHOT",
+      "Name": "Sniper Shot",
+      "Description": "Please see page 142 of the Edge of the Empire Core Rulebook, or page 156 of the Age of Rebellion Core Rulebook, for details.",
+      "Sources": {
+        "Source": [
+          {
+            "-Page": "142",
+            "#text": "Edge of the Empire Core Rulebook"
+          },
+          {
+            "-Page": "156",
+            "#text": "Age of Rebellion Core Rulebook"
+          }
+        ]
+      },
+      "Ranked": "true",
+      "ActivationValue": "taManeuver"
+    },
+    {
+      "Key": "SOFTSP",
+      "Name": "Soft Spot",
+      "Description": "Please see page 143 of the Edge of the Empire Core Rulebook, page 156 of the Age of Rebellion Core Rulebook, or page 152 of the Force and Destiny Core Rulebook, for details.",
+      "Sources": {
+        "Source": [
+          {
+            "-Page": "143",
+            "#text": "Edge of the Empire Core Rulebook"
+          },
+          {
+            "-Page": "156",
+            "#text": "Age of Rebellion Core Rulebook"
+          },
+          {
+            "-Page": "152",
+            "#text": "Force and Destiny Core Rulebook"
+          }
+        ]
+      },
+      "Ranked": "false",
+      "ActivationValue": "taIncidental"
+    },
+    {
+      "Key": "SOLREP",
+      "Name": "Solid Repairs",
+      "Description": "Please see page 143 of the Edge of the Empire Core Rulebook, page 156 of the Age of Rebellion Core Rulebook, or page 152 of the Force and Destiny Core Rulebook, for details.",
+      "Sources": {
+        "Source": [
+          {
+            "-Page": "143",
+            "#text": "Edge of the Empire Core Rulebook"
+          },
+          {
+            "-Page": "156",
+            "#text": "Age of Rebellion Core Rulebook"
+          },
+          {
+            "-Page": "152",
+            "#text": "Force and Destiny Core Rulebook"
+          }
+        ]
+      },
+      "Ranked": "true",
+      "ActivationValue": "taPassive"
+    },
+    {
+      "Key": "SOUNDINV",
+      "Name": "Sound Investments",
+      "Description": "Please see page 156 of the Age of Rebellion Core Rulebook for details.",
+      "Source": {
+        "-Page": "156",
+        "#text": "Age of Rebellion Core Rulebook"
+      },
+      "Ranked": "true",
+      "ActivationValue": "taPassive"
+    },
+    {
+      "Key": "SPARECL",
+      "Name": "Spare Clip",
+      "Description": "Please see page 143 of the Edge of the Empire Core Rulebook, or page 157 of the Age of Rebellion Core Rulebook, for details.",
+      "Sources": {
+        "Source": [
+          {
+            "-Page": "143",
+            "#text": "Edge of the Empire Core Rulebook"
+          },
+          {
+            "-Page": "157",
+            "#text": "Age of Rebellion Core Rulebook"
+          }
+        ]
+      },
+      "Ranked": "false",
+      "ActivationValue": "taPassive"
+    },
+    {
+      "Key": "SPKBIN",
+      "Name": "Speaks Binary",
+      "Description": "Please see page 143 of the Edge of the Empire Core Rulebook, page 157 of the Age of Rebellion Core Rulebook, or page 35 of the Special Modificaitons Sourcebook, for details.",
+      "Sources": {
+        "Source": [
+          {
+            "-Page": "143",
+            "#text": "Edge of the Empire Core Rulebook"
+          },
+          {
+            "-Page": "157",
+            "#text": "Age of Rebellion Core Rulebook"
+          },
+          {
+            "-Page": "35",
+            "#text": "Special Modifications"
+          }
+        ]
+      },
+      "Ranked": "true",
+      "ActivationValue": "taPassive"
+    },
+    {
+      "Key": "STALK",
+      "Name": "Stalker",
+      "Description": "Please see page 143 of the Edge of the Empire Core Rulebook, or page 157 of the Age of Rebellion Core Rulebook, for details.",
+      "Sources": {
+        "Source": [
+          {
+            "-Page": "143",
+            "#text": "Edge of the Empire Core Rulebook"
+          },
+          {
+            "-Page": "157",
+            "#text": "Age of Rebellion Core Rulebook"
+          }
+        ]
+      },
+      "Ranked": "true",
+      "ActivationValue": "taPassive",
+      "DieModifiers": {
+        "DieModifier": [
+          {
+            "SkillKey": "COORD",
+            "BoostCount": "1"
+          },
+          {
+            "SkillKey": "STEAL",
+            "BoostCount": "1"
+          }
+        ]
+      }
+    },
+    {
+      "Key": "STNERV",
+      "Name": "Steely Nerves",
+      "Description": "Please see page 143 of the Edge of the Empire Core Rulebook, page 157 of the Age of Rebellion Core Rulebook, or page 152 of the Force and Destiny Core Rulebook, for details.",
+      "Sources": {
+        "Source": [
+          {
+            "-Page": "143",
+            "#text": "Edge of the Empire Core Rulebook"
+          },
+          {
+            "-Page": "157",
+            "#text": "Age of Rebellion Core Rulebook"
+          },
+          {
+            "-Page": "152",
+            "#text": "Force and Destiny Core Rulebook"
+          }
+        ]
+      },
+      "Ranked": "false",
+      "ActivationValue": "taIncidental"
+    },
+    {
+      "Key": "STIMAP",
+      "Name": "Stim Application",
+      "Description": "Please see page 143 of the Edge of the Empire Core Rulebook, or page 157 of the Age of Rebellion Core Rulebook, for details.",
+      "Sources": {
+        "Source": [
+          {
+            "-Page": "143",
+            "#text": "Edge of the Empire Core Rulebook"
+          },
+          {
+            "-Page": "157",
+            "#text": "Age of Rebellion Core Rulebook"
+          }
+        ]
+      },
+      "Ranked": "false",
+      "ActivationValue": "taAction"
+    },
+    {
+      "Key": "STIMAPIMP",
+      "Name": "Stim Application (Improved)",
+      "Description": "Please see page 143 of the Edge of the Empire Core Rulebook, or page 157 of the Age of Rebellion Core Rulebook, for details.",
+      "Sources": {
+        "Source": [
+          {
+            "-Page": "143",
+            "#text": "Edge of the Empire Core Rulebook"
+          },
+          {
+            "-Page": "157",
+            "#text": "Age of Rebellion Core Rulebook"
+          }
+        ]
+      },
+      "Ranked": "false",
+      "ActivationValue": "taIncidental"
+    },
+    {
+      "Key": "STIMAPSUP",
+      "Name": "Stim Application (Supreme)",
+      "Description": "Please see page 143 of the Edge of the Empire Core Rulebook, or page 157 of the Age of Rebellion Core Rulebook, for details.",
+      "Sources": {
+        "Source": [
+          {
+            "-Page": "143",
+            "#text": "Edge of the Empire Core Rulebook"
+          },
+          {
+            "-Page": "157",
+            "#text": "Age of Rebellion Core Rulebook"
+          }
+        ]
+      },
+      "Ranked": "false",
+      "ActivationValue": "taPassive"
+    },
+    {
+      "Key": "STIMSPEC",
+      "Name": "Stimpack Specialization",
+      "Description": "Please see page 157 of the Age of Rebellion Core Rulebook, or page 152 of the Force and Destiny Core Rulebook, for details.",
+      "Sources": {
+        "Source": [
+          {
+            "-Page": "157",
+            "#text": "Age of Rebellion Core Rulebook"
+          },
+          {
+            "-Page": "152",
+            "#text": "Force and Destiny Core Rulebook"
+          }
+        ]
+      },
+      "Ranked": "true",
+      "ActivationValue": "taPassive"
+    },
+    {
+      "Key": "STRSMART",
+      "Name": "Street Smarts",
+      "Description": "Please see page 144 of the Edge of the Empire Core Rulebook, page 157 of the Age of Rebellion Core Rulebook, or page 152 of the Force and Destiny Core Rulebook, for details.",
+      "Sources": {
+        "Source": [
+          {
+            "-Page": "144",
+            "#text": "Edge of the Empire Core Rulebook"
+          },
+          {
+            "-Page": "157",
+            "#text": "Age of Rebellion Core Rulebook"
+          },
+          {
+            "-Page": "152",
+            "#text": "Force and Destiny Core Rulebook"
+          }
+        ]
+      },
+      "Ranked": "true",
+      "ActivationValue": "taPassive",
+      "DieModifiers": {
+        "DieModifier": [
+          {
+            "SkillKey": "SW",
+            "SetbackCount": "1"
+          },
+          {
+            "SkillKey": "UND",
+            "SetbackCount": "1"
+          }
+        ]
+      }
+    },
+    {
+      "Key": "STRGEN",
+      "Name": "Stroke of Genius",
+      "Description": "Please see page 144 of the Edge of the Empire Core Rulebook, or page 157 of the Age of Rebellion Core Rulebook, for details.",
+      "Sources": {
+        "Source": [
+          {
+            "-Page": "144",
+            "#text": "Edge of the Empire Core Rulebook"
+          },
+          {
+            "-Page": "157",
+            "#text": "Age of Rebellion Core Rulebook"
+          }
+        ]
+      },
+      "Ranked": "false",
+      "ActivationValue": "taIncidental"
+    },
+    {
+      "Key": "STRONG",
+      "Name": "Strong Arm",
+      "Description": "Please see page 144 of the Edge of the Empire Core Rulebook, or page 157 of the Age of Rebellion Core Rulebook, for details.",
+      "Sources": {
+        "Source": [
+          {
+            "-Page": "144",
+            "#text": "Edge of the Empire Core Rulebook"
+          },
+          {
+            "-Page": "157",
+            "#text": "Age of Rebellion Core Rulebook"
+          }
+        ]
+      },
+      "Ranked": "false",
+      "ActivationValue": "taPassive"
+    },
+    {
+      "Key": "STUNBL",
+      "Name": "Stunning Blow",
+      "Description": "Please see page 144 of the Edge of the Empire Core Rulebook, or page 157 of the Age of Rebellion Core Rulebook, for details.",
+      "Sources": {
+        "Source": [
+          {
+            "-Page": "144",
+            "#text": "Edge of the Empire Core Rulebook"
+          },
+          {
+            "-Page": "157",
+            "#text": "Age of Rebellion Core Rulebook"
+          }
+        ]
+      },
+      "Ranked": "false",
+      "ActivationValue": "taIncidental"
+    },
+    {
+      "Key": "STUNBLIMP",
+      "Name": "Stunning Blow (Improved)",
+      "Description": "Please see page 144 of the Edge of the Empire Core Rulebook, or page 157 of the Age of Rebellion Core Rulebook, for details.",
+      "Sources": {
+        "Source": [
+          {
+            "-Page": "144",
+            "#text": "Edge of the Empire Core Rulebook"
+          },
+          {
+            "-Page": "157",
+            "#text": "Age of Rebellion Core Rulebook"
+          }
+        ]
+      },
+      "Ranked": "false",
+      "ActivationValue": "taIncidental"
+    },
+    {
+      "Key": "SUPREF",
+      "Name": "Superior Reflexes",
+      "Description": "Please see page 144 of the Edge of the Empire Core Rulebook, or page 157 of the Age of Rebellion Core Rulebook, for details.",
+      "Sources": {
+        "Source": [
+          {
+            "-Page": "144",
+            "#text": "Edge of the Empire Core Rulebook"
+          },
+          {
+            "-Page": "157",
+            "#text": "Age of Rebellion Core Rulebook"
+          }
+        ]
+      },
+      "Ranked": "false",
+      "ActivationValue": "taPassive",
+      "Attributes": {
+        "DefenseMelee": "1"
+      }
+    },
+    {
+      "Key": "SURG",
+      "Name": "Surgeon",
+      "Description": "Please see page 144 of the Edge of the Empire Core Rulebook, page 158 of the Age of Rebellion Core Rulebook, or page 153 of the Force and Destiny Core Rulebook, for details.",
+      "Sources": {
+        "Source": [
+          {
+            "-Page": "144",
+            "#text": "Edge of the Empire Core Rulebook"
+          },
+          {
+            "-Page": "158",
+            "#text": "Age of Rebellion Core Rulebook"
+          },
+          {
+            "-Page": "153",
+            "#text": "Force and Destiny Core Rulebook"
+          }
+        ]
+      },
+      "Ranked": "true",
+      "ActivationValue": "taPassive"
+    },
+    {
+      "Key": "SWIFT",
+      "Name": "Swift",
+      "Description": "Please see page 144 of the Edge of the Empire Core Rulebook, page 158 of the Age of Rebellion Core Rulebook, or page 153 of the Force and Destiny Core Rulebook, for details.",
+      "Sources": {
+        "Source": [
+          {
+            "-Page": "144",
+            "#text": "Edge of the Empire Core Rulebook"
+          },
+          {
+            "-Page": "158",
+            "#text": "Age of Rebellion Core Rulebook"
+          },
+          {
+            "-Page": "153",
+            "#text": "Force and Destiny Core Rulebook"
+          }
+        ]
+      },
+      "Ranked": "false",
+      "ActivationValue": "taPassive"
+    },
+    {
+      "Key": "TACTTRAIN",
+      "Name": "Tactical Combat Training",
+      "Description": "Please see page 158 of the Age of Rebellion Core Rulebook for details.",
+      "Source": {
+        "-Page": "158",
+        "#text": "Age of Rebellion Core Rulebook"
+      },
+      "Ranked": "false",
+      "ActivationValue": "taPassive",
+      "ChooseCareerSkills": {
+        "SkillCount": "0",
+        "NewSkills": {
+          "Key": [
+            "MELEE",
+            "RANGHVY"
+          ]
+        }
+      }
+    },
+    {
+      "Key": "TARGBL",
+      "Name": "Targeted Blow",
+      "Description": "Please see page 144 of the Edge of the Empire Core Rulebook, or page 158 of the Age of Rebellion Core Rulebook, for details.",
+      "Sources": {
+        "Source": [
+          {
+            "-Page": "144",
+            "#text": "Edge of the Empire Core Rulebook"
+          },
+          {
+            "-Page": "158",
+            "#text": "Age of Rebellion Core Rulebook"
+          }
+        ]
+      },
+      "Ranked": "false",
+      "ActivationValue": "taIncidental"
+    },
+    {
+      "Key": "TECHAPT",
+      "Name": "Technical Aptitude",
+      "Description": "Please see page 145 of the Edge of the Empire Core Rulebook, page 158 of the Age of Rebellion Core Rulebook, for details.",
+      "Sources": {
+        "Source": [
+          {
+            "-Page": "145",
+            "#text": "Edge of the Empire Core Rulebook"
+          },
+          {
+            "-Page": "158",
+            "#text": "Age of Rebellion Core Rulebook"
+          }
+        ]
+      },
+      "Ranked": "true",
+      "ActivationValue": "taPassive"
+    },
+    {
+      "Key": "TIME2GO",
+      "Name": "Time to Go",
+      "Description": "Please see page 158 of the Age of Rebellion Core Rulebook for details.",
+      "Source": {
+        "-Page": "158",
+        "#text": "Age of Rebellion Core Rulebook"
+      },
+      "Ranked": "false",
+      "ActivationValue": "taManeuver"
+    },
+    {
+      "Key": "TIME2GOIMP",
+      "Name": "Time to Go (Improved)",
+      "Description": "Please see page 158 of the Age of Rebellion Core Rulebook for details.",
+      "Source": {
+        "-Page": "158",
+        "#text": "Age of Rebellion Core Rulebook"
+      },
+      "Ranked": "false",
+      "ActivationValue": "taManeuver"
+    },
+    {
+      "Key": "TINK",
+      "Name": "Tinkerer",
+      "Description": "Please see page 145 of the Edge of the Empire Core Rulebook, or page 158 of the Age of Rebellion Core Rulebook, for details.",
+      "Sources": {
+        "Source": [
+          {
+            "-Page": "145",
+            "#text": "Edge of the Empire Core Rulebook"
+          },
+          {
+            "-Page": "158",
+            "#text": "Age of Rebellion Core Rulebook"
+          }
+        ]
+      },
+      "Ranked": "true",
+      "ActivationValue": "taPassive",
+      "AddlHP": "1"
+    },
+    {
+      "Key": "TOUCH",
+      "Name": "Touch of Fate",
+      "Description": "Please see page 145 of the Edge of the Empire Core Rulebook, page 158 of the Age of Rebellion Core Rulebook, or page 153 of the Force and Destiny Core Rulebook, for details.",
+      "Sources": {
+        "Source": [
+          {
+            "-Page": "145",
+            "#text": "Edge of the Empire Core Rulebook"
+          },
+          {
+            "-Page": "158",
+            "#text": "Age of Rebellion Core Rulebook"
+          },
+          {
+            "-Page": "153",
+            "#text": "Force and Destiny Core Rulebook"
+          }
+        ]
+      },
+      "Ranked": "false",
+      "ActivationValue": "taIncidental",
+      "ForceTalent": "true"
+    },
+    {
+      "Key": "TOUGH",
+      "Name": "Toughened",
+      "Description": "Please see page 145 of the Edge of the Empire Core Rulebook, page 158 of the Age of Rebellion Core Rulebook, or page 153 of the Force and Destiny Core Rulebook, for details.",
+      "Sources": {
+        "Source": [
+          {
+            "-Page": "145",
+            "#text": "Edge of the Empire Core Rulebook"
+          },
+          {
+            "-Page": "158",
+            "#text": "Age of Rebellion Core Rulebook"
+          },
+          {
+            "-Page": "153",
+            "#text": "Force and Destiny Core Rulebook"
+          }
+        ]
+      },
+      "Ranked": "true",
+      "ActivationValue": "taPassive",
+      "Attributes": {
+        "WoundThreshold": "2"
+      }
+    },
+    {
+      "Key": "TRICK",
+      "Name": "Tricky Target",
+      "Description": "Please see page 145 of the Edge of the Empire Core Rulebook, page 158 of the Age of Rebellion Core Rulebook, or page 153 of the Force and Destiny Core Rulebook, for details.",
+      "Sources": {
+        "Source": [
+          {
+            "-Page": "145",
+            "#text": "Edge of the Empire Core Rulebook"
+          },
+          {
+            "-Page": "158",
+            "#text": "Age of Rebellion Core Rulebook"
+          },
+          {
+            "-Page": "153",
+            "#text": "Force and Destiny Core Rulebook"
+          }
+        ]
+      },
+      "Ranked": "false",
+      "ActivationValue": "taPassive"
+    },
+    {
+      "Key": "TRUEAIM",
+      "Name": "True Aim",
+      "Description": "Please see page 145 of the Edge of the Empire Core Rulebook, or page 158 of the Age of Rebellion Core Rulebook, for details.",
+      "Sources": {
+        "Source": [
+          {
+            "-Page": "145",
+            "#text": "Edge of the Empire Core Rulebook"
+          },
+          {
+            "-Page": "158",
+            "#text": "Age of Rebellion Core Rulebook"
+          }
+        ]
+      },
+      "Ranked": "true",
+      "ActivationValue": "taManeuver"
+    },
+    {
+      "Key": "UNCANREAC",
+      "Name": "Uncanny Reactions",
+      "Description": "Please see page 145 of the Edge of the Empire Core Rulebook, page 158 of the Age of Rebellion Core Rulebook, or page 153 of the Force and Destiny Core Rulebook, for details.",
+      "Sources": {
+        "Source": [
+          {
+            "-Page": "145",
+            "#text": "Edge of the Empire Core Rulebook"
+          },
+          {
+            "-Page": "158",
+            "#text": "Age of Rebellion Core Rulebook"
+          },
+          {
+            "-Page": "153",
+            "#text": "Force and Destiny Core Rulebook"
+          }
+        ]
+      },
+      "Ranked": "true",
+      "ActivationValue": "taPassive",
+      "ForceTalent": "true",
+      "DieModifiers": {
+        "DieModifier": {
+          "SkillKey": "VIGIL",
+          "BoostCount": "1"
+        }
+      }
+    },
+    {
+      "Key": "UNCANSENS",
+      "Name": "Uncanny Senses",
+      "Description": "Please see page 145 of the Edge of the Empire Core Rulebook, page 158 of the Age of Rebellion Core Rulebook, or page 153 of the Force and Destiny Core Rulebook, for details.",
+      "Sources": {
+        "Source": [
+          {
+            "-Page": "145",
+            "#text": "Edge of the Empire Core Rulebook"
+          },
+          {
+            "-Page": "158",
+            "#text": "Age of Rebellion Core Rulebook"
+          },
+          {
+            "-Page": "153",
+            "#text": "Force and Destiny Core Rulebook"
+          }
+        ]
+      },
+      "Ranked": "true",
+      "ActivationValue": "taPassive",
+      "ForceTalent": "true",
+      "DieModifiers": {
+        "DieModifier": {
+          "SkillKey": "PERC",
+          "BoostCount": "1"
+        }
+      }
+    },
+    {
+      "Key": "UNSTOP",
+      "Name": "Unstoppable",
+      "Description": "Please see page 159 of the Age of Rebellion Core Rulebook for details.",
+      "Source": {
+        "-Page": "159",
+        "#text": "Age of Rebellion Core Rulebook"
+      },
+      "Ranked": "false",
+      "ActivationValue": "taPassive"
+    },
+    {
+      "Key": "UTIL",
+      "Name": "Utility Belt",
+      "Description": "Please see page 145 of the Edge of the Empire Core Rulebook, or page 159 of the Age of Rebellion Core Rulebook, for details.",
+      "Sources": {
+        "Source": [
+          {
+            "-Page": "145",
+            "#text": "Edge of the Empire Core Rulebook"
+          },
+          {
+            "-Page": "159",
+            "#text": "Age of Rebellion Core Rulebook"
+          }
+        ]
+      },
+      "Ranked": "false",
+      "ActivationValue": "taIncidental"
+    },
+    {
+      "Key": "UTINNI",
+      "Name": "Utinni!",
+      "Description": "Please see page 145 of the Edge of the Empire Core Rulebook for details.",
+      "Source": {
+        "-Page": "145",
+        "#text": "Edge of the Empire Core Rulebook"
+      },
+      "Ranked": "true",
+      "ActivationValue": "taPassive"
+    },
+    {
+      "Key": "VEHTRAIN",
+      "Name": "Vehicle Combat Training",
+      "Description": "Please see page 159 of the Age of Rebellion Core Rulebook for details.",
+      "Source": {
+        "-Page": "159",
+        "#text": "Age of Rebellion Core Rulebook"
+      },
+      "Ranked": "false",
+      "ActivationValue": "taPassive",
+      "ChooseCareerSkills": {
+        "SkillCount": "0",
+        "NewSkills": {
+          "Key": [
+            "GUNN",
+            "PILOTPL"
+          ]
+        }
+      }
+    },
+    {
+      "Key": "WELLROUND",
+      "Name": "Well Rounded",
+      "Description": "Please see page 145 of the Edge of the Empire Core Rulebook, page 159 of the Age of Rebellion Core Rulebook, or page 153 of the Force and Destiny Core Rulebook, for details.",
+      "Sources": {
+        "Source": [
+          {
+            "-Page": "145",
+            "#text": "Edge of the Empire Core Rulebook"
+          },
+          {
+            "-Page": "159",
+            "#text": "Age of Rebellion Core Rulebook"
+          },
+          {
+            "-Page": "153",
+            "#text": "Force and Destiny Core Rulebook"
+          }
+        ]
+      },
+      "Ranked": "true",
+      "ActivationValue": "taPassive",
+      "ChooseCareerSkills": {
+        "SkillCount": "2"
+      }
+    },
+    {
+      "Key": "WELLTRAV",
+      "Name": "Well Travelled",
+      "Description": "Please see page 159 of the Age of Rebellion Core Rulebook for details.",
+      "Source": {
+        "-Page": "159",
+        "#text": "Age of Rebellion Core Rulebook"
+      },
+      "Ranked": "false",
+      "ActivationValue": "taPassive",
+      "ChooseCareerSkills": {
+        "SkillCount": "0",
+        "NewSkills": {
+          "Key": [
+            "CORE",
+            "OUT"
+          ]
+        }
+      }
+    },
+    {
+      "Key": "WHEEL",
+      "Name": "Wheel and Deal",
+      "Description": "Please see page 145 of the Edge of the Empire Core Rulebook, or page 159 of the Age of Rebellion Core Rulebook, for details.",
+      "Sources": {
+        "Source": [
+          {
+            "-Page": "145",
+            "#text": "Edge of the Empire Core Rulebook"
+          },
+          {
+            "-Page": "159",
+            "#text": "Age of Rebellion Core Rulebook"
+          }
+        ]
+      },
+      "Ranked": "true",
+      "ActivationValue": "taPassive"
+    },
+    {
+      "Key": "WORKLIKECHARM",
+      "Name": "Works Like A Charm",
+      "Description": "Please see page 159 of the Age of Rebellion Core Rulebook for details.",
+      "Source": {
+        "-Page": "159",
+        "#text": "Age of Rebellion Core Rulebook"
+      },
+      "AddlHP": "0",
+      "Ranked": "false",
+      "ActivationValue": "taIncidental"
+    },
+    {
+      "Key": "PIN",
+      "Name": "Pin",
+      "Description": "Please see page 30 of Enter the Unknown for details.",
+      "Source": {
+        "-Page": "30",
+        "#text": "Enter the Unknown"
+      },
+      "AddlHP": "0",
+      "Ranked": "false",
+      "ActivationValue": "taAction"
+    },
+    {
+      "Key": "MUSEUMWORTHY",
+      "Name": "Museum Worthy",
+      "Description": "Please see page 30 of Enter the Unknown for details.",
+      "Source": {
+        "-Page": "30",
+        "#text": "Enter the Unknown"
+      },
+      "AddlHP": "0",
+      "Ranked": "false",
+      "ActivationValue": "taAction"
+    },
+    {
+      "Key": "BRNGITDWN",
+      "Name": "Bring It Down",
+      "Description": "Please see page 30 of Enter the Unknown for details.",
+      "Source": {
+        "-Page": "30",
+        "#text": "Enter the Unknown"
+      },
+      "AddlHP": "0",
+      "Ranked": "false",
+      "ActivationValue": "taIncidental"
+    },
+    {
+      "Key": "HUNTERQUARRY",
+      "Name": "Hunter's Quarry",
+      "Description": "Please see page 30 of Enter the Unknown for details.",
+      "Source": {
+        "-Page": "30",
+        "#text": "Enter the Unknown"
+      },
+      "AddlHP": "0",
+      "Ranked": "false",
+      "ActivationValue": "taAction"
+    },
+    {
+      "Key": "HUNTQIMP",
+      "Name": "Hunter's Quarry (Improved)",
+      "Description": "Please see page 30 of Enter the Unknown for details.",
+      "Source": {
+        "-Page": "30",
+        "#text": "Enter the Unknown"
+      },
+      "AddlHP": "0",
+      "Ranked": "false",
+      "ActivationValue": "taPassive"
+    },
+    {
+      "Key": "BURLY",
+      "Name": "Burly",
+      "Description": "Please see page 32 of Dangerous Covenants for details.",
+      "Source": {
+        "-Page": "32",
+        "#text": "Dangerous Covenants"
+      },
+      "AddlHP": "0",
+      "Ranked": "true",
+      "ActivationValue": "taPassive",
+      "ItemChange": {
+        "ItemType": "Weapon",
+        "EncumChange": "-1",
+        "QualityChanges": {
+          "Quality": {
+            "Key": "CUMBERSOME",
+            "Count": "-1"
+          }
+        }
+      }
+    },
+    {
+      "Key": "FEARSOME",
+      "Name": "Fearsome",
+      "Description": "Please see page 142 of the Force and Destiny Core Rulebook, or page 32 of Dangerous Covenants, for details . ",
+      "Sources": {
+        "Source": {
+          "-Page": "142",
+          "#text": "Force and Destiny Core Rulebook"
+        }
+      },
+      "AddlHP": "0",
+      "Ranked": "true",
+      "ActivationValue": "taPassive"
+    },
+    {
+      "Key": "HEAVYHITTER",
+      "Name": "Heavy Hitter",
+      "Description": " Please see page 32 of Dangerous Covenants for details . ",
+      "Source": {
+        "-Page": "32",
+        "#text": "Dangerous Covenants"
+      },
+      "AddlHP": "0",
+      "Ranked": "false",
+      "ActivationValue": "taIncidental"
+    },
+    {
+      "Key": "HEROICRES",
+      "Name": "Heroic Resilience",
+      "Description": " Please see page 32 of Dangerous Covenants for details . ",
+      "Source": {
+        "-Page": "32",
+        "#text": "Dangerous Covenants"
+      },
+      "AddlHP": "0",
+      "Ranked": "false",
+      "ActivationValue": "taIncidental"
+    },
+    {
+      "Key": "IMPDET",
+      "Name": "Improvised Detonation",
+      "Description": " Please see page 32 of Dangerous Covenants for details . ",
+      "Source": {
+        "-Page": "32",
+        "#text": "Dangerous Covenants"
+      },
+      "AddlHP": "0",
+      "Ranked": "false",
+      "ActivationValue": "taAction"
+    },
+    {
+      "Key": "IMPDETIMP",
+      "Name": "Improvised Detonation (Improved)",
+      "Description": " Please see page 32 of Dangerous Covenants for details . ",
+      "Source": {
+        "-Page": "32",
+        "#text": "Dangerous Covenants"
+      },
+      "AddlHP": "0",
+      "Ranked": "false",
+      "ActivationValue": "taPassive"
+    },
+    {
+      "Key": "LOOM",
+      "Name": "Loom",
+      "Description": " Please see page 32 of Dangerous Covenants for details . ",
+      "Source": {
+        "-Page": "32",
+        "#text": "Dangerous Covenants"
+      },
+      "AddlHP": "0",
+      "Ranked": "false",
+      "ActivationValue": "taPassive"
+    },
+    {
+      "Key": "RAINDEATH",
+      "Name": "Rain of Death",
+      "Description": " Please see page 32 of Dangerous Covenants for details . ",
+      "Source": {
+        "-Page": "32",
+        "#text": "Dangerous Covenants"
+      },
+      "AddlHP": "0",
+      "Ranked": "false",
+      "ActivationValue": "taManeuver"
+    },
+    {
+      "Key": "STEADYNERVES",
+      "Name": "Steady Nerves",
+      "Description": " Please see page 33 of Dangerous Covenants for details . ",
+      "Source": {
+        "-Page": "33",
+        "#text": "Dangerous Covenants"
+      },
+      "AddlHP": "0",
+      "Ranked": "true",
+      "ActivationValue": "taPassive",
+      "DieModifiers": {
+        "DieModifier": [
+          {
+            "SkillKey": "COOL",
+            "SetbackCount": "1"
+          },
+          {
+            "SkillKey": "SKUL",
+            "SetbackCount": "1"
+          }
+        ]
+      }
+    },
+    {
+      "Key": "TALKTALK",
+      "Name": "Talk the Talk",
+      "Description": " Please see page 33 of Dangerous Covenants for details.",
+      "Source": {
+        "-Page": "33",
+        "#text": "Dangerous Covenants"
+      },
+      "AddlHP": "0",
+      "Ranked": "false",
+      "ActivationValue": "taIncidental"
+    },
+    {
+      "Key": "WALKWALK",
+      "Name": "Walk the Walk",
+      "Description": " Please see page 33 of Dangerous Covenants for details . ",
+      "Source": {
+        "-Page": "33",
+        "#text": "Dangerous Covenants"
+      },
+      "AddlHP": "0",
+      "Ranked": "false",
+      "ActivationValue": "taIncidental"
+    },
+    {
+      "Key": "IDEALIST",
+      "Name": "Idealist",
+      "Description": " Please see page 62 of the Jewel of Yavin adventure for details . ",
+      "Source": {
+        "-Page": "62",
+        "#text": "Jewel of Yavin"
+      },
+      "AddlHP": "0",
+      "Ranked": "true",
+      "ActivationValue": "taIncidental"
+    },
+    {
+      "Key": "AAO",
+      "Name": "Against All Odds",
+      "Description": " Please see page 138 of the Force and Destiny Core Rulebook for details . ",
+      "Source": {
+        "-Page": "138",
+        "#text": "Force and Destiny Core Rulebook"
+      },
+      "Ranked": "false",
+      "ActivationValue": "taAction",
+      "ForceTalent": "true"
+    },
+    {
+      "Key": "ANIMALBOND",
+      "Name": "Animal Bond",
+      "Description": " Please see page 138 of the Force and Destiny Core Rulebook for details . ",
+      "Source": {
+        "-Page": "138",
+        "#text": "Force and Destiny Core Rulebook"
+      },
+      "Ranked": "false",
+      "ActivationValue": "taPassive",
+      "ForceTalent": "true"
+    },
+    {
+      "Key": "ANIMALEMP",
+      "Name": "Animal Empathy",
+      "Description": " Please see page 139 of the Force and Destiny Core Rulebook for details . ",
+      "Source": {
+        "-Page": "139",
+        "#text": "Force and Destiny Core Rulebook"
+      },
+      "Ranked": "false",
+      "ActivationValue": "taPassive",
+      "ForceTalent": "true"
+    },
+    {
+      "Key": "ATARU",
+      "Name": "Ataru Technique",
+      "Description": " Please see page 139 of the Force and Destiny Core Rulebook for details . ",
+      "Source": {
+        "-Page": "139",
+        "#text": "Force and Destiny Core Rulebook"
+      },
+      "Ranked": "false",
+      "ActivationValue": "taPassive",
+      "ForceTalent": "true",
+      "SkillChars": {
+        "SkillChar": {
+          "SkillKey": "LTSABER",
+          "CharKey": "AG"
+        }
+      }
+    },
+    {
+      "Key": "BODIMP",
+      "Name": "Body Guard (Improved)",
+      "Description": " Please see page 140 of the Force and Destiny Core Rulebook for details . ",
+      "Source": {
+        "-Page": "140",
+        "#text": "Force and Destiny Core Rulebook"
+      },
+      "Ranked": "false",
+      "ActivationValue": "taIncidentalOOT",
+      "ForceTalent": "false"
+    },
+    {
+      "Key": "CALMAURA",
+      "Name": "Calming Aura",
+      "Description": " Please see page 140 of the Force and Destiny Core Rulebook for details . ",
+      "Source": {
+        "-Page": "140",
+        "#text": "Force and Destiny Core Rulebook"
+      },
+      "Ranked": "false",
+      "ActivationValue": "taPassive",
+      "ForceTalent": "true"
+    },
+    {
+      "Key": "CALMAURAIMP",
+      "Name": "Calming Aura (Improved)",
+      "Description": " Please see page 140 of the Force and Destiny Core Rulebook for details . ",
+      "Source": {
+        "-Page": "140",
+        "#text": "Force and Destiny Core Rulebook"
+      },
+      "Ranked": "false",
+      "ActivationValue": "taManeuver",
+      "ForceTalent": "true"
+    },
+    {
+      "Key": "CENTBEING",
+      "Name": "Center of Being",
+      "Description": " Please see page 140 of the Force and Destiny Core Rulebook for details . ",
+      "Source": {
+        "-Page": "140",
+        "#text": "Force and Destiny Core Rulebook"
+      },
+      "Ranked": "true",
+      "ActivationValue": "taManeuver",
+      "ForceTalent": "true"
+    },
+    {
+      "Key": "CENTBEINGIMP",
+      "Name": "Center of Being (Improved)",
+      "Description": " Please see page 140 of the Force and Destiny Core Rulebook for details . ",
+      "Source": {
+        "-Page": "140",
+        "#text": "Force and Destiny Core Rulebook"
+      },
+      "Ranked": "false",
+      "ActivationValue": "taPassive",
+      "ForceTalent": "true"
+    },
+    {
+      "Key": "CIRCLESHELTER",
+      "Name": "Circle of Shelter",
+      "Description": " Please see page 140 of the Force and Destiny Core Rulebook for details . ",
+      "Source": {
+        "-Page": "140",
+        "#text": "Force and Destiny Core Rulebook"
+      },
+      "Ranked": "false",
+      "ActivationValue": "taPassive",
+      "ForceTalent": "true"
+    },
+    {
+      "Key": "COMPTECH",
+      "Name": "Comprehend Technology",
+      "Description": " Please see page 141 of the Force and Destiny Core Rulebook for details . ",
+      "Source": {
+        "-Page": "141",
+        "#text": "Force and Destiny Core Rulebook"
+      },
+      "Ranked": "false",
+      "ActivationValue": "taAction",
+      "ForceTalent": "true"
+    },
+    {
+      "Key": "CONDITIONED",
+      "Name": "Conditioned",
+      "Description": " Please see page 141 of the Force and Destiny Core Rulebook for details . ",
+      "Source": {
+        "-Page": "141",
+        "#text": "Force and Destiny Core Rulebook"
+      },
+      "Ranked": "true",
+      "ActivationValue": "taPassive",
+      "DieModifiers": {
+        "DieModifier": [
+          {
+            "SkillKey": "ATHL",
+            "SetbackCount": "1"
+          },
+          {
+            "SkillKey": "COORD",
+            "SetbackCount": "1"
+          }
+        ]
+      }
+    },
+    {
+      "Key": "CONTPLAN",
+      "Name": "Contingency Plan",
+      "Description": " Please see page 33 of the Desperate Allies Sourcebook or page 141 of the Force and Destiny Core Rulebook, for details . ",
+      "Sources": {
+        "Source": {
+          "-Page": "33",
+          "#text": "Desperate Allies Sourcebook or page 141 of the Force and Destiny Core Rulebook"
+        }
+      },
+      "Ranked": "false",
+      "ActivationValue": "taIncidentalOOT"
+    },
+    {
+      "Key": "COUNTERST",
+      "Name": "Counterstrike",
+      "Description": " Please see page 141 of the Force and Destiny Core Rulebook for details . ",
+      "Source": {
+        "-Page": "141",
+        "#text": "Force and Destiny Core Rulebook"
+      },
+      "Ranked": "false",
+      "ActivationValue": "taPassive",
+      "ForceTalent": "true"
+    },
+    {
+      "Key": "DEFCIRCLE",
+      "Name": "Defensive Circle",
+      "Description": " Please see page 141 of the Force and Destiny Core Rulebook for details . ",
+      "Source": {
+        "-Page": "141",
+        "#text": "Force and Destiny Core Rulebook"
+      },
+      "Ranked": "false",
+      "ActivationValue": "taAction",
+      "ForceTalent": "true"
+    },
+    {
+      "Key": "DEFTRAIN",
+      "Name": "Defensive Training",
+      "Description": " Please see page 141 of the Force and Destiny Core Rulebook for details . ",
+      "Source": {
+        "-Page": "141",
+        "#text": "Force and Destiny Core Rulebook"
+      },
+      "Ranked": "true",
+      "ActivationValue": "taPassive",
+      "ForceTalent": "false",
+      "ItemChange": {
+        "ItemType": "Weapon",
+        "QualityChanges": {
+          "Quality": {
+            "Key": "DEFENSIVE",
+            "Count": "1"
+          }
+        },
+        "SkillKeys": {
+          "Key": [
+            "MELEE",
+            "LTSABER",
+            "BRAWL"
+          ]
+        },
+        "AddNewQualities": "true"
+      }
+    },
+    {
+      "Key": "DISRUPSTRIKE",
+      "Name": "Disruptive Strike",
+      "Description": " Please see page 142 of the Force and Destiny Core Rulebook for details . ",
+      "Source": {
+        "-Page": "142",
+        "#text": "Force and Destiny Core Rulebook"
+      },
+      "Ranked": "false",
+      "ActivationValue": "taAction",
+      "ForceTalent": "true"
+    },
+    {
+      "Key": "DJEMSODEFL",
+      "Name": "Djem So Deflection",
+      "Description": " Please see page 142 of the Force and Destiny Core Rulebook for details . ",
+      "Source": {
+        "-Page": "142",
+        "#text": "Force and Destiny Core Rulebook"
+      },
+      "Ranked": "false",
+      "ActivationValue": "taIncidentalOOT",
+      "ForceTalent": "true"
+    },
+    {
+      "Key": "DRAWCLOSER",
+      "Name": "Draw Closer",
+      "Description": " Please see page 142 of the Force and Destiny Core Rulebook for details . ",
+      "Source": {
+        "-Page": "142",
+        "#text": "Force and Destiny Core Rulebook"
+      },
+      "Ranked": "false",
+      "ActivationValue": "taAction",
+      "ForceTalent": "true"
+    },
+    {
+      "Key": "DUELTRAIN",
+      "Name": "Duelist's Training",
+      "Description": " Please see page 142 of the Force and Destiny Core Rulebook for details . ",
+      "Source": {
+        "-Page": "142",
+        "#text": "Force and Destiny Core Rulebook"
+      },
+      "Ranked": "false",
+      "ActivationValue": "taPassive",
+      "ForceTalent": "false"
+    },
+    {
+      "Key": "ENHLEAD",
+      "Name": "Enhanced Leader",
+      "Description": " Please see page 142 of the Force and Destiny Core Rulebook for details . ",
+      "Source": {
+        "-Page": "142",
+        "#text": "Force and Destiny Core Rulebook"
+      },
+      "Ranked": "false",
+      "ActivationValue": "taPassive",
+      "ForceTalent": "true",
+      "DieModifiers": {
+        "DieModifier": {
+          "SkillKey": "LEAD",
+          "ForceCount": "1"
+        }
+      }
+    },
+    {
+      "Key": "FALLAVAL",
+      "Name": "Falling Avalanche",
+      "Description": " Please see page 142 of the Force and Destiny Core Rulebook for details . ",
+      "Source": {
+        "-Page": "142",
+        "#text": "Force and Destiny Core Rulebook"
+      },
+      "Ranked": "false",
+      "ActivationValue": "taIncidental",
+      "ForceTalent": "true"
+    },
+    {
+      "Key": "FEINT",
+      "Name": "Feint",
+      "Description": " Please see page 142 of the Force and Destiny Core Rulebook for details . ",
+      "Source": {
+        "-Page": "142",
+        "#text": "Force and Destiny Core Rulebook"
+      },
+      "Ranked": "true",
+      "ActivationValue": "taPassive",
+      "ForceTalent": "false"
+    },
+    {
+      "Key": "FORCEASSAULT",
+      "Name": "Force Assault",
+      "Description": " Please see page 143 of the Force and Destiny Core Rulebook for details . ",
+      "Source": {
+        "-Page": "143",
+        "#text": "Force and Destiny Core Rulebook"
+      },
+      "Ranked": "false",
+      "ActivationValue": "taPassive",
+      "ForceTalent": "true"
+    },
+    {
+      "Key": "FORCEPROT",
+      "Name": "Force Protection",
+      "Description": " Please see page 143 of the Force and Destiny Core Rulebook for details . ",
+      "Source": {
+        "-Page": "143",
+        "#text": "Force and Destiny Core Rulebook"
+      },
+      "Ranked": "true",
+      "ActivationValue": "taManeuver",
+      "ForceTalent": "true"
+    },
+    {
+      "Key": "FOREWARN",
+      "Name": "Forewarning",
+      "Description": " Please see page 143 of the Force and Destiny Core Rulebook for details . ",
+      "Source": {
+        "-Page": "143",
+        "#text": "Force and Destiny Core Rulebook"
+      },
+      "Ranked": "true",
+      "ActivationValue": "taAction",
+      "ForceTalent": "true"
+    },
+    {
+      "Key": "HAWKSWOOP",
+      "Name": "Hawk Bat Swoop",
+      "Description": " Please see page 144 of the Force and Destiny Core Rulebook for details . ",
+      "Source": {
+        "-Page": "144",
+        "#text": "Force and Destiny Core Rulebook"
+      },
+      "Ranked": "true",
+      "ActivationValue": "taAction",
+      "ForceTalent": "true"
+    },
+    {
+      "Key": "HEALTRANCE",
+      "Name": "Healing Trance",
+      "Description": " Please see page 144 of the Force and Destiny Core Rulebook for details . ",
+      "Source": {
+        "-Page": "144",
+        "#text": "Force and Destiny Core Rulebook"
+      },
+      "Ranked": "true",
+      "ActivationValue": "taAction",
+      "ForceTalent": "true"
+    },
+    {
+      "Key": "HEALTRANCEIMP",
+      "Name": "Healing Trance (Improved)",
+      "Description": " Please see page 144 of the Force and Destiny Core Rulebook for details . ",
+      "Source": {
+        "-Page": "144",
+        "#text": "Force and Destiny Core Rulebook"
+      },
+      "Ranked": "false",
+      "ActivationValue": "taPassive",
+      "ForceTalent": "true"
+    },
+    {
+      "Key": "IMBUEITEM",
+      "Name": "Imbue Item",
+      "Description": " Please see page 145 of the Force and Destiny Core Rulebook for details . ",
+      "Source": {
+        "-Page": "145",
+        "#text": "Force and Destiny Core Rulebook"
+      },
+      "Ranked": "false",
+      "ActivationValue": "taManeuver",
+      "ForceTalent": "true"
+    },
+    {
+      "Key": "INTUITEVA",
+      "Name": "Intuitive Evasion",
+      "Description": " Please see page 145 of the Force and Destiny Core Rulebook for details . ",
+      "Source": {
+        "-Page": "145",
+        "#text": "Force and Destiny Core Rulebook"
+      },
+      "Ranked": "true",
+      "ActivationValue": "taManeuver",
+      "ForceTalent": "true"
+    },
+    {
+      "Key": "INTUITIMP",
+      "Name": "Intuitive Improvements",
+      "Description": " Please see page 145 of the Force and Destiny Core Rulebook for details . ",
+      "Source": {
+        "-Page": "145",
+        "#text": "Force and Destiny Core Rulebook"
+      },
+      "Ranked": "false",
+      "ActivationValue": "taPassive",
+      "ForceTalent": "true",
+      "HPPerItem": "2"
+    },
+    {
+      "Key": "INTUITSHOT",
+      "Name": "Intuitive Shot",
+      "Description": " Please see page 145 of the Force and Destiny Core Rulebook for details . ",
+      "Source": {
+        "-Page": "145",
+        "#text": "Force and Destiny Core Rulebook"
+      },
+      "Ranked": "false",
+      "ActivationValue": "taPassive",
+      "ForceTalent": "true",
+      "DieModifiers": {
+        "DieModifier": [
+          {
+            "SkillKey": "RANGHVY",
+            "ForceCount": "1"
+          },
+          {
+            "SkillKey": "RANGLT",
+            "ForceCount": "1"
+          }
+        ]
+      }
+    },
+    {
+      "Key": "INTUITSTRIKE",
+      "Name": "Intuitive Strike",
+      "Description": " Please see page 145 of the Force and Destiny Core Rulebook for details . ",
+      "Source": {
+        "-Page": "145",
+        "#text": "Force and Destiny Core Rulebook"
+      },
+      "Ranked": "false",
+      "ActivationValue": "taPassive",
+      "ForceTalent": "true"
+    },
+    {
+      "Key": "KEENEYED",
+      "Name": "Keen Eyed",
+      "Description": " Please see page 146 of the Force and Destiny Core Rulebook for details . ",
+      "Source": {
+        "-Page": "146",
+        "#text": "Force and Destiny Core Rulebook"
+      },
+      "Ranked": "true",
+      "ActivationValue": "taPassive",
+      "ForceTalent": "false",
+      "DieModifiers": {
+        "DieModifier": [
+          {
+            "SkillKey": "PERC",
+            "SetbackCount": "1"
+          },
+          {
+            "SkillKey": "VIGIL",
+            "SetbackCount": "1"
+          }
+        ]
+      }
+    },
+    {
+      "Key": "KNOWPOW",
+      "Name": "Knowledge is Power",
+      "Description": " Please see page 103 of the Force and Destiny Core Rulebook for details . ",
+      "Source": {
+        "-Page": "103",
+        "#text": "Force and Destiny Core Rulebook"
+      },
+      "Ranked": "false",
+      "ActivationValue": "taIncidental",
+      "ForceTalent": "true"
+    },
+    {
+      "Key": "KNOWHEAL",
+      "Name": "Knowledgeable Healing",
+      "Description": " Please see page 146 of the Force and Destiny Core Rulebook for details . ",
+      "Source": {
+        "-Page": "146",
+        "#text": "Force and Destiny Core Rulebook"
+      },
+      "Ranked": "false",
+      "ActivationValue": "taPassive",
+      "ForceTalent": "false"
+    },
+    {
+      "Key": "MAKFIN",
+      "Name": "Makashi Finish",
+      "Description": " Please see page 146 of the Force and Destiny Core Rulebook for details . ",
+      "Source": {
+        "-Page": "146",
+        "#text": "Force and Destiny Core Rulebook"
+      },
+      "Ranked": "false",
+      "ActivationValue": "taAction",
+      "ForceTalent": "true"
+    },
+    {
+      "Key": "MAKFLOUR",
+      "Name": "Makashi Flourish",
+      "Description": " Please see page 146 of the Force and Destiny Core Rulebook for details . ",
+      "Source": {
+        "-Page": "146",
+        "#text": "Force and Destiny Core Rulebook"
+      },
+      "Ranked": "false",
+      "ActivationValue": "taAction",
+      "ForceTalent": "true"
+    },
+    {
+      "Key": "MAKTECH",
+      "Name": "Makashi Technique",
+      "Description": " Please see page 146 of the Force and Destiny Core Rulebook for details . ",
+      "Source": {
+        "-Page": "146",
+        "#text": "Force and Destiny Core Rulebook"
+      },
+      "Ranked": "false",
+      "ActivationValue": "taPassive",
+      "ForceTalent": "true",
+      "SkillChars": {
+        "SkillChar": {
+          "SkillKey": "LTSABER",
+          "CharKey": "PR"
+        }
+      }
+    },
+    {
+      "Key": "MASTART",
+      "Name": "Master Artisan",
+      "Description": " Please see page 146 of the Force and Destiny Core Rulebook for details . ",
+      "Source": {
+        "-Page": "146",
+        "#text": "Force and Destiny Core Rulebook"
+      },
+      "Ranked": "false",
+      "ActivationValue": "taIncidental",
+      "ForceTalent": "false"
+    },
+    {
+      "Key": "MENTBOND",
+      "Name": "Mental Bond",
+      "Description": " Please see page 147 of the Force and Destiny Core Rulebook for details . ",
+      "Source": {
+        "-Page": "147",
+        "#text": "Force and Destiny Core Rulebook"
+      },
+      "Ranked": "false",
+      "ActivationValue": "taAction",
+      "ForceTalent": "true"
+    },
+    {
+      "Key": "MENTTOOLS",
+      "Name": "Mental Tools",
+      "Description": " Please see page 147 of the Force and Destiny Core Rulebook for details . ",
+      "Source": {
+        "-Page": "147",
+        "#text": "Force and Destiny Core Rulebook"
+      },
+      "Ranked": "false",
+      "ActivationValue": "taPassive",
+      "ForceTalent": "true"
+    },
+    {
+      "Key": "MULTOPP",
+      "Name": "Multiple Opponents",
+      "Description": " Please see page 147 of the Force and Destiny Core Rulebook for details . ",
+      "Source": {
+        "-Page": "147",
+        "#text": "Force and Destiny Core Rulebook"
+      },
+      "Ranked": "false",
+      "ActivationValue": "taPassive",
+      "ForceTalent": "false"
+    },
+    {
+      "Key": "NATBLADE",
+      "Name": "Natural Blademaster",
+      "Description": " Please see page 147 of the Force and Destiny Core Rulebook for details . ",
+      "Source": {
+        "-Page": "147",
+        "#text": "Force and Destiny Core Rulebook"
+      },
+      "Ranked": "false",
+      "ActivationValue": "taIncidental",
+      "ForceTalent": "false"
+    },
+    {
+      "Key": "NATMYSTIC",
+      "Name": "Natural Mystic",
+      "Description": " Please see page 148 of the Force and Destiny Core Rulebook for details . ",
+      "Source": {
+        "-Page": "148",
+        "#text": "Force and Destiny Core Rulebook"
+      },
+      "Ranked": "false",
+      "ActivationValue": "taIncidental",
+      "ForceTalent": "true"
+    },
+    {
+      "Key": "NIMTECH",
+      "Name": "Niman Technique",
+      "Description": " Please see page 148 of the Force and Destiny Core Rulebook for details . ",
+      "Source": {
+        "-Page": "148",
+        "#text": "Force and Destiny Core Rulebook"
+      },
+      "Ranked": "false",
+      "ActivationValue": "taPassive",
+      "ForceTalent": "true",
+      "SkillChars": {
+        "SkillChar": {
+          "SkillKey": "LTSABER",
+          "CharKey": "WIL"
+        }
+      }
+    },
+    {
+      "Key": "NOWYOUSEE",
+      "Name": "Now You See Me",
+      "Description": " Please see page 148 of the Force and Destiny Core Rulebook for details . ",
+      "Source": {
+        "-Page": "148",
+        "#text": "Force and Destiny Core Rulebook"
+      },
+      "Ranked": "false",
+      "ActivationValue": "taAction",
+      "ForceTalent": "true"
+    },
+    {
+      "Key": "ONEUNI",
+      "Name": "One With The Universe",
+      "Description": " Please see page 149 of the Force and Destiny Core Rulebook for details . ",
+      "Source": {
+        "-Page": "149",
+        "#text": "Force and Destiny Core Rulebook"
+      },
+      "Ranked": "false",
+      "ActivationValue": "taAction",
+      "ForceTalent": "true"
+    },
+    {
+      "Key": "PARRY",
+      "Name": "Parry",
+      "Description": " Please see page 149 of the Force and Destiny Core Rulebook for details . ",
+      "Source": {
+        "-Page": "149",
+        "#text": "Force and Destiny Core Rulebook"
+      },
+      "Ranked": "true",
+      "ActivationValue": "taIncidentalOOT",
+      "ForceTalent": "false"
+    },
+    {
+      "Key": "PARRYIMP",
+      "Name": "Parry (Improved)",
+      "Description": " Please see page 149 of the Force and Destiny Core Rulebook for details . ",
+      "Source": {
+        "-Page": "149",
+        "#text": "Force and Destiny Core Rulebook"
+      },
+      "Ranked": "false",
+      "ActivationValue": "taIncidentalOOT",
+      "ForceTalent": "false"
+    },
+    {
+      "Key": "PARRYSUP",
+      "Name": "Parry (Supreme)",
+      "Description": " Please see page 149 of the Force and Destiny Core Rulebook for details . ",
+      "Source": {
+        "-Page": "149",
+        "#text": "Force and Destiny Core Rulebook"
+      },
+      "Ranked": "false",
+      "ActivationValue": "taPassive",
+      "ForceTalent": "true"
+    },
+    {
+      "Key": "PHYSICIAN",
+      "Name": "Physician",
+      "Description": " Please see page 149 of the Force and Destiny Core Rulebook for details . ",
+      "Source": {
+        "-Page": "149",
+        "#text": "Force and Destiny Core Rulebook"
+      },
+      "Ranked": "true",
+      "ActivationValue": "taPassive",
+      "ForceTalent": "false"
+    },
+    {
+      "Key": "PREEMAVOID",
+      "Name": "Preemptive Avoidance",
+      "Description": " Please see page 149 of the Force and Destiny Core Rulebook for details . ",
+      "Source": {
+        "-Page": "149",
+        "#text": "Force and Destiny Core Rulebook"
+      },
+      "Ranked": "false",
+      "ActivationValue": "taIncidentalOOT",
+      "ForceTalent": "true"
+    },
+    {
+      "Key": "PREYWEAK",
+      "Name": "Prey on the Weak",
+      "Description": " Please see page 149 of the Force and Destiny Core Rulebook for details . ",
+      "Source": {
+        "-Page": "149",
+        "#text": "Force and Destiny Core Rulebook"
+      },
+      "Ranked": "true",
+      "ActivationValue": "taPassive",
+      "ForceTalent": "false"
+    },
+    {
+      "Key": "QUICKMOVE",
+      "Name": "Quick Movement",
+      "Description": " Please see page 150 of the Force and Destiny Core Rulebook for details . ",
+      "Source": {
+        "-Page": "150",
+        "#text": "Force and Destiny Core Rulebook"
+      },
+      "Ranked": "false",
+      "ActivationValue": "taIncidental",
+      "ForceTalent": "true"
+    },
+    {
+      "Key": "REFLECT",
+      "Name": "Reflect",
+      "Description": " Please see page 150 of the Force and Destiny Core Rulebook for details . ",
+      "Source": {
+        "-Page": "150",
+        "#text": "Force and Destiny Core Rulebook"
+      },
+      "Ranked": "true",
+      "ActivationValue": "taIncidentalOOT",
+      "ForceTalent": "true"
+    },
+    {
+      "Key": "REFLECTIMP",
+      "Name": "Reflect (Improved)",
+      "Description": " Please see page 150 of the Force and Destiny Core Rulebook for details . ",
+      "Source": {
+        "-Page": "150",
+        "#text": "Force and Destiny Core Rulebook"
+      },
+      "Ranked": "false",
+      "ActivationValue": "taIncidentalOOT",
+      "ForceTalent": "true"
+    },
+    {
+      "Key": "REFLECTSUP",
+      "Name": "Reflect (Supreme)",
+      "Description": " Please see page 150 of the Force and Destiny Core Rulebook for details . ",
+      "Source": {
+        "-Page": "150",
+        "#text": "Force and Destiny Core Rulebook"
+      },
+      "Ranked": "false",
+      "ActivationValue": "taPassive",
+      "ForceTalent": "true"
+    },
+    {
+      "Key": "RESDISARM",
+      "Name": "Resist Disarm",
+      "Description": " Please see page 151 of the Force and Destiny Core Rulebook for details . ",
+      "Source": {
+        "-Page": "151",
+        "#text": "Force and Destiny Core Rulebook"
+      },
+      "Ranked": "false",
+      "ActivationValue": "taIncidentalOOT",
+      "ForceTalent": "false"
+    },
+    {
+      "Key": "SABERSW",
+      "Name": "Saber Swarm",
+      "Description": " Please see page 151 of the Force and Destiny Core Rulebook for details . ",
+      "Source": {
+        "-Page": "151",
+        "#text": "Force and Destiny Core Rulebook"
+      },
+      "Ranked": "false",
+      "ActivationValue": "taManeuver",
+      "ForceTalent": "true"
+    },
+    {
+      "Key": "SABERTHROW",
+      "Name": "Saber Throw",
+      "Description": " Please see page 151 of the Force and Destiny Core Rulebook for details . ",
+      "Source": {
+        "-Page": "151",
+        "#text": "Force and Destiny Core Rulebook"
+      },
+      "Ranked": "false",
+      "ActivationValue": "taAction",
+      "ForceTalent": "true"
+    },
+    {
+      "Key": "SARSWEEP",
+      "Name": "Sarlacc Sweep",
+      "Description": " Please see page 151 of the Force and Destiny Core Rulebook for details . ",
+      "Source": {
+        "-Page": "151",
+        "#text": "Force and Destiny Core Rulebook"
+      },
+      "Ranked": "false",
+      "ActivationValue": "taAction",
+      "ForceTalent": "true"
+    },
+    {
+      "Key": "SENSEADV",
+      "Name": "Sense Advantage",
+      "Description": " Please see page 151 of the Force and Destiny Core Rulebook for details . ",
+      "Source": {
+        "-Page": "151",
+        "#text": "Force and Destiny Core Rulebook"
+      },
+      "Ranked": "false",
+      "ActivationValue": "taIncidentalOOT",
+      "ForceTalent": "true"
+    },
+    {
+      "Key": "SHAREPAIN",
+      "Name": "Share Pain",
+      "Description": " Please see page 151 of the Force and Destiny Core Rulebook for details . ",
+      "Source": {
+        "-Page": "151",
+        "#text": "Force and Destiny Core Rulebook"
+      },
+      "Ranked": "false",
+      "ActivationValue": "taIncidentalOOT",
+      "ForceTalent": "true"
+    },
+    {
+      "Key": "SHIENTECH",
+      "Name": "Shien Technique",
+      "Description": " Please see page 151 of the Force and Destiny Core Rulebook for details . ",
+      "Source": {
+        "-Page": "151",
+        "#text": "Force and Destiny Core Rulebook"
+      },
+      "Ranked": "false",
+      "ActivationValue": "taPassive",
+      "ForceTalent": "true",
+      "SkillChars": {
+        "SkillChar": {
+          "SkillKey": "LTSABER",
+          "CharKey": "CUN"
+        }
+      }
+    },
+    {
+      "Key": "SHROUD",
+      "Name": "Shroud",
+      "Description": " Please see page 151 of the Force and Destiny Core Rulebook for details . ",
+      "Source": {
+        "-Page": "151",
+        "#text": "Force and Destiny Core Rulebook"
+      },
+      "Ranked": "false",
+      "ActivationValue": "taIncidental",
+      "ForceTalent": "true"
+    },
+    {
+      "Key": "SLIPMIND",
+      "Name": "Slippery Minded",
+      "Description": " Please see page 152 of the Force and Destiny Core Rulebook for details . ",
+      "Source": {
+        "-Page": "152",
+        "#text": "Force and Destiny Core Rulebook"
+      },
+      "Ranked": "false",
+      "ActivationValue": "taAction",
+      "ForceTalent": "true"
+    },
+    {
+      "Key": "SORESUTECH",
+      "Name": "Soresu Technique",
+      "Description": " Please see page 152 of the Force and Destiny Core Rulebook for details . ",
+      "Source": {
+        "-Page": "152",
+        "#text": "Force and Destiny Core Rulebook"
+      },
+      "Ranked": "false",
+      "ActivationValue": "taPassive",
+      "ForceTalent": "true",
+      "SkillChars": {
+        "SkillChar": {
+          "SkillKey": "LTSABER",
+          "CharKey": "INT"
+        }
+      }
+    },
+    {
+      "Key": "STRATFORM",
+      "Name": "Strategic Form",
+      "Description": " Please see page 152 of the Force and Destiny Core Rulebook for details . ",
+      "Source": {
+        "-Page": "152",
+        "#text": "Force and Destiny Core Rulebook"
+      },
+      "Ranked": "false",
+      "ActivationValue": "taAction",
+      "ForceTalent": "true"
+    },
+    {
+      "Key": "SUMDJEM",
+      "Name": "Sum Djem",
+      "Description": " Please see page 152 of the Force and Destiny Core Rulebook for details . ",
+      "Source": {
+        "-Page": "152",
+        "#text": "Force and Destiny Core Rulebook"
+      },
+      "Ranked": "false",
+      "ActivationValue": "taPassive",
+      "ForceTalent": "true"
+    },
+    {
+      "Key": "TERRIFY",
+      "Name": "Terrify",
+      "Description": " Please see page 153 of the Force and Destiny Core Rulebook for details . ",
+      "Source": {
+        "-Page": "153",
+        "#text": "Force and Destiny Core Rulebook"
+      },
+      "Ranked": "false",
+      "ActivationValue": "taManeuver",
+      "ForceTalent": "true",
+      "Conflict": "1"
+    },
+    {
+      "Key": "TERRIFYIMP",
+      "Name": "Terrify (Improved)",
+      "Description": " Please see page 153 of the Force and Destiny Core Rulebook for details . ",
+      "Source": {
+        "-Page": "153",
+        "#text": "Force and Destiny Core Rulebook"
+      },
+      "Ranked": "false",
+      "ActivationValue": "taPassive",
+      "ForceTalent": "true"
+    },
+    {
+      "Key": "FORCEALLY",
+      "Name": "The Force Is My Ally",
+      "Description": " Please see page 153 of the Force and Destiny Core Rulebook for details . ",
+      "Source": {
+        "-Page": "153",
+        "#text": "Force and Destiny Core Rulebook"
+      },
+      "Ranked": "false",
+      "ActivationValue": "taIncidental",
+      "ForceTalent": "true"
+    },
+    {
+      "Key": "UNITYASSAULT",
+      "Name": "Unity Assault",
+      "Description": " Please see page 153 of the Force and Destiny Core Rulebook for details . ",
+      "Source": {
+        "-Page": "153",
+        "#text": "Force and Destiny Core Rulebook"
+      },
+      "Ranked": "false",
+      "ActivationValue": "taManeuver",
+      "ForceTalent": "true"
+    },
+    {
+      "Key": "VALFACT",
+      "Name": "Valuable Facts",
+      "Description": "Please see page 34 of the Desperate Allies Sourcebook, and page 153 of the Force and Destiny Core Rulebook for details.",
+      "Sources": {
+        "Source": [
+          {
+            "-Page": "34",
+            "#text": "Desperate Allies Sourcebook"
+          },
+          {
+            "-Page": "153",
+            "#text": "Force and Destiny Core Rulebook"
+          }
+        ]
+      },
+      "Ranked": "false",
+      "ActivationValue": "taAction",
+      "ForceTalent": "false"
+    },
+    {
+      "Key": "BADCOP",
+      "Name": "Bad Cop",
+      "Description": "Please see page 32 of the Far Horizons Sourcebook for details.",
+      "Source": {
+        "-Page": "32",
+        "#text": "Far Horizons"
+      },
+      "AddlHP": "0",
+      "Ranked": "true",
+      "ActivationValue": "taPassive",
+      "JuryRigged": "false"
+    },
+    {
+      "Key": "BIGGESTFAN",
+      "Name": "Biggest Fan",
+      "Description": "Please see page 32 of the Far Horizons Sourcebook for details.",
+      "Source": {
+        "-Page": "32",
+        "#text": "Far Horizons"
+      },
+      "AddlHP": "0",
+      "Ranked": "false",
+      "ActivationValue": "taAction",
+      "JuryRigged": "false"
+    },
+    {
+      "Key": "CONGENIAL",
+      "Name": "Congenial",
+      "Description": " Please se page 32 of the Far Horizons Sourcebook, or page 32 of the Fly Casual Sourcebook, for details . ",
+      "Sources": {
+        "Source": [
+          {
+            "-Page": "32",
+            "#text": "Far Horizons Sourcebook"
+          },
+          {
+            "-Page": "32",
+            "#text": "Fly Casual Sourcebook"
+          }
+        ]
+      },
+      "AddlHP": "0",
+      "Ranked": "true",
+      "ActivationValue": "taIncidental"
+    },
+    {
+      "Key": "COORDODGE",
+      "Name": "Coordination Dodge",
+      "Description": "Please see page 32 of the Far Horizons Sourcebook for details.",
+
+      "Source": {
+        "-Page": "32",
+        "#text": "Far Horizons"
+      },
+      "AddlHP": "0",
+      "Ranked": "false",
+      "ActivationValue": "taIncidental"
+    },
+    {
+      "Key": "DISBEH",
+      "Name": "Distracting Behavior",
+      "Description": "Please see page 32 of the Far Horizons Sourcebook for details.",
+
+      "Source": {
+        "-Page": "32",
+        "#text": "Far Horizons"
+      },
+      "AddlHP": "0",
+      "Ranked": "true",
+      "ActivationValue": "taManeuver",
+      "JuryRigged": "false"
+    },
+    {
+      "Key": "DISBEHIMP",
+      "Name": "Distracting Behavior (Improved)",
+      "Description": "Please see page 33 of the Far Horizons Sourcebook for details.",
+
+      "Source": {
+        "-Page": "33",
+        "#text": "Far Horizons"
+      },
+      "AddlHP": "0",
+      "Ranked": "false",
+      "ActivationValue": "taPassive",
+      "JuryRigged": "false"
+    },
+    {
+      "Key": "DECEPTAUNT",
+      "Name": "Deceptive Taunt",
+      "Description": "Please see page 32 of the Far Horizons Sourcebook for details.",
+      "Source": {
+        "-Page": "32",
+        "#text": "Far Horizons"
+      },
+      "AddlHP": "0",
+      "Ranked": "false",
+      "ActivationValue": "taAction",
+      "JuryRigged": "false"
+    },
+    {
+      "Key": "GOODCOP",
+      "Name": "Good Cop",
+      "Description": "Please see page 33 of the Far Horizons Sourcebook for details.",
+
+      "Source": {
+        "-Page": "33",
+        "#text": "Far Horizons"
+      },
+      "AddlHP": "0",
+      "Ranked": "true",
+      "ActivationValue": "taPassive",
+      "JuryRigged": "false"
+    },
+    {
+      "Key": "NATATHL",
+      "Name": "Natural Athlete",
+      "Description": "Please see page 33 of the Far Horizons Sourcebook for details.",
+
+      "Source": {
+        "-Page": "33",
+        "#text": "Far Horizons"
+      },
+      "AddlHP": "0",
+      "Ranked": "false",
+      "ActivationValue": "taIncidental",
+      "JuryRigged": "false"
+    },
+    {
+      "Key": "NATMERCH",
+      "Name": "Natural Merchant",
+      "Description": "Please see page 33 of the Far Horizons Sourcebook for details.",
+
+      "Source": {
+        "-Page": "33",
+        "#text": "Far Horizons"
+      },
+      "AddlHP": "0",
+      "Ranked": "false",
+      "ActivationValue": "taIncidental",
+      "JuryRigged": "false"
+    },
+    {
+      "Key": "THROWCRED",
+      "Name": "Throwing Credits",
+      "Description": "Please see page 33 of the Far Horizons Sourcebook for details.",
+
+      "Source": {
+        "-Page": "33",
+        "#text": "Far Horizons"
+      },
+      "AddlHP": "0",
+      "Ranked": "false",
+      "ActivationValue": "taIncidental",
+      "JuryRigged": "false"
+    },
+    {
+      "Key": "UNRELSKEP",
+      "Name": "Unrelenting Skeptic",
+      "Description": "Please see page 33 of the Far Horizons Sourcebook for details.",
+
+      "Source": {
+        "-Page": "33",
+        "#text": "Far Horizons Sourcebook"
+      },
+      "Sources": {
+        "Source": "Far Horizons"
+      },
+      "AddlHP": "0",
+      "Ranked": "false",
+      "ActivationValue": "taPassive",
+      "JuryRigged": "false"
+    },
+    {
+      "Key": "UNRELSKEPIMP",
+      "Name": "Unrelenting Skeptic (Improved)",
+      "Description": "Please see page 33 of the Far Horizons Sourcebook for details.",
+
+      "Source": {
+        "-Page": "33",
+        "#text": "Far Horizons"
+      },
+      "AddlHP": "0",
+      "Ranked": "false",
+      "ActivationValue": "taIncidental",
+      "JuryRigged": "false"
+    },
+    {
+      "Key": "BEASTWRANG",
+      "Name": "Beast Wrangler",
+      "Description": "Please see page 32 of the Stay on Target Sourcebook for details.",
+      "Source": {
+        "-Page": "32",
+        "#text": "Stay on Target"
+      },
+      "AddlHP": "0",
+      "Ranked": "true",
+      "ActivationValue": "taPassive",
+      "JuryRigged": "false"
+    },
+    {
+      "Key": "BOLSTARMOR",
+      "Name": "Bolstered Armor",
+      "Description": "Please see page 32 of the Stay on Target Sourcebook for details.",
+      "Source": {
+        "-Page": "32",
+        "#text": "Stay on Target"
+      },
+      "AddlHP": "0",
+      "Ranked": "true",
+      "ActivationValue": "taPassive",
+      "Rigger": {
+        "BaseMods": {
+          "Mod": {
+            "Key": "ARMORADD",
+            "Count": "1"
+          }
+        }
+      }
+    },
+    {
+      "Key": "CORSEND",
+      "Name": "Corellian Sendoff",
+      "Description": "Please see page 32 of the Stay on Target Sourcebook for details.",
+      "Source": {
+        "-Page": "32",
+        "#text": "Stay on Target"
+      },
+      "AddlHP": "0",
+      "Ranked": "false",
+      "ActivationValue": "taAction"
+    },
+    {
+      "Key": "CORSENDIMP",
+      "Name": "Corellian Sendoff (Improved)",
+      "Description": "Please see page 32 of the Stay on Target Sourcebook for details.",
+      "Source": {
+        "-Page": "32",
+        "#text": "Stay on Target"
+      },
+      "AddlHP": "0",
+      "Ranked": "false",
+      "ActivationValue": "taPassive"
+    },
+    {
+      "Key": "CUSTCOOL",
+      "Name": "Customized Cooling Unit",
+      "Description": "Please see page 32 of the Stay on Target Sourcebook for details.",
+      "Source": {
+        "-Page": "32",
+        "#text": "Stay on Target"
+      },
+      "AddlHP": "0",
+      "Ranked": "true",
+      "ActivationValue": "taPassive",
+      "Rigger": {
+        "BaseMods": {
+          "Mod": {
+            "Key": "SSTRAINADD",
+            "Count": "2"
+          }
+        }
+      }
+    },
+    {
+      "Key": "EXHANDLER",
+      "Name": "Expert Handler",
+      "Description": "Please see page 32 of the Stay on Target Sourcebook for details.",
+      "Source": {
+        "-Page": "32",
+        "#text": "Stay on Target"
+      },
+      "AddlHP": "0",
+      "Ranked": "true",
+      "ActivationValue": "taPassive"
+    },
+    {
+      "Key": "FANCPAINT",
+      "Name": "Fancy Paint Job",
+      "Description": " Please see page 32 of the Stay on Target Sourcebook, or page 34 of the Special Modifications Sourcebook, for details . ",
+      "Sources": {
+        "Source": [
+          {
+            "-Page": "32",
+            "#text": "Stay on Target"
+          },
+          {
+            "-Page": "34",
+            "#text": "Special Modifications"
+          }
+        ]
+      },
+      "AddlHP": "0",
+      "Ranked": "false",
+      "ActivationValue": "taPassive"
+    },
+    {
+      "Key": "FORTVAC",
+      "Name": "Fortified Vacuum Seal",
+      "Description": "Please see page 32 of the Stay on Target Sourcebook for details.",
+      "Source": {
+        "-Page": "32",
+        "#text": "Stay on Target"
+      },
+      "AddlHP": "0",
+      "Ranked": "true",
+      "ActivationValue": "taPassive",
+      "Rigger": {
+        "BaseMods": {
+          "Mod": {
+            "Key": "HULLADD",
+            "Count": "1"
+          }
+        }
+      }
+    },
+    {
+      "Key": "HIGHGTRAIN",
+      "Name": "High-G Training",
+      "Description": "Please see page 32 of the Stay on Target Sourcebook for details.",
+      "Source": {
+        "-Page": "32",
+        "#text": "Stay on Target"
+      },
+      "AddlHP": "0",
+      "Ranked": "true",
+      "ActivationValue": "taIncidental"
+    },
+    {
+      "Key": "KOITURN",
+      "Name": "Koiogran Turn",
+      "Description": "Please see page 32 of the Stay on Target Sourcebook for details.",
+      "Source": {
+        "-Page": "32",
+        "#text": "Stay on Target"
+      },
+      "AddlHP": "0",
+      "Ranked": "false",
+      "ActivationValue": "taManeuver"
+    },
+    {
+      "Key": "LARGEPROJ",
+      "Name": "Larger Project",
+      "Description": " Please see page 32 of the Stay on Target Sourcebook, or page 34 of the Special Modifications Sourcebook, for details . ",
+      "Sources": {
+        "Source": [
+          {
+            "-Page": "32",
+            "#text": "Stay on Target"
+          },
+          {
+            "-Page": "34",
+            "#text": "Special Modifications"
+          }
+        ]
+      },
+      "AddlHP": "0",
+      "Ranked": "true",
+      "ActivationValue": "taPassive",
+      "Rigger": {
+        "SilhouetteAdd": "1"
+      }
+    },
+    {
+      "Key": "NOTTODAY",
+      "Name": "Not Today",
+      "Description": "Please see page 33 of the Stay on Target Sourcebook for details.",
+      "Source": {
+        "-Page": "33",
+        "#text": "Stay on Target"
+      },
+      "AddlHP": "0",
+      "Ranked": "false",
+      "ActivationValue": "taIncidental"
+    },
+    {
+      "Key": "OVERAMMO",
+      "Name": "Overstocked Ammo",
+      "Description": "Please see page 33 of the Stay on Target Sourcebook for details.",
+      "Source": {
+        "-Page": "33",
+        "#text": "Stay on Target"
+      },
+      "Ranked": "true",
+      "ActivationValue": "taPassive",
+      "Rigger": {
+        "ChooseWeapon": "true",
+        "WeaponMods": {
+          "Mod": {
+            "Key": "LIMITEDAMMO",
+            "Count": "1"
+          }
+        }
+      }
+    },
+    {
+      "Key": "REINFRAME",
+      "Name": "Reinforced Frame",
+      "Description": "Please see page 33 of the Stay on Target Sourcebook for details.",
+      "Source": {
+        "-Page": "33",
+        "#text": "Stay on Target"
+      },
+      "Ranked": "false",
+      "ActivationValue": "taPassive",
+      "Rigger": {
+        "BaseMods": {
+          "Mod": {
+            "Key": "MASSIVESET",
+            "Count": "1"
+          }
+        }
+      }
+    },
+    {
+      "Key": "SHOWBOAT",
+      "Name": "Showboat",
+      "Description": "Please see page 33 of the Stay on Target Sourcebook for details.",
+      "Source": {
+        "-Page": "33",
+        "#text": "Stay on Target"
+      },
+      "Ranked": "false",
+      "ActivationValue": "taIncidental"
+    },
+    {
+      "Key": "SIGVEH",
+      "Name": "Signature Vehicle",
+      "Description": " Please see page 33 of the Stay on Target Sourcebook, or page 35 of the Special Modificaitons Sourcebook, for details . ",
+      "Sources": {
+        "Source": [
+          {
+            "-Page": "33",
+            "#text": "Stay on Target"
+          },
+          {
+            "-Page": "35",
+            "#text": "Special Modifications"
+          }
+        ]
+      },
+      "Ranked": "false",
+      "ActivationValue": "taPassive",
+      "Rigger": {
+        "ChooseVehicle": "true",
+        "SilhouetteBase": "3",
+        "BaseMods": {
+          "Mod": {
+            "MiscDesc": "Upgrade the ability of all Mechanics checks made to work on this vehicle once.",
+            "Count": "1"
+          }
+        }
+      }
+    },
+    {
+      "Key": "SOOTHTONE",
+      "Name": "Soothing Tone",
+      "Description": "Please see page 33 of the Stay on Target Sourcebook for details.",
+      "Source": {
+        "-Page": "33",
+        "#text": "Stay on Target"
+      },
+      "Ranked": "false",
+      "ActivationValue": "taAction"
+    },
+    {
+      "Key": "SPUR",
+      "Name": "Spur",
+      "Description": "Please see page 33 of the Stay on Target Sourcebook for details.",
+      "Source": {
+        "-Page": "33",
+        "#text": "Stay on Target"
+      },
+      "Ranked": "false",
+      "ActivationValue": "taAction"
+    },
+    {
+      "Key": "SPURIMP",
+      "Name": "Spur (Improved)",
+      "Description": "Please see page 33 of the Stay on Target Sourcebook for details.",
+      "Source": {
+        "-Page": "33",
+        "#text": "Stay on Target"
+      },
+      "Ranked": "false",
+      "ActivationValue": "taManeuver"
+    },
+    {
+      "Key": "SPURSUP",
+      "Name": "Spur (Supreme)",
+      "Description": "Please see page 33 of the Stay on Target Sourcebook for details.",
+      "Source": {
+        "-Page": "33",
+        "#text": "Stay on Target"
+      },
+      "Ranked": "false",
+      "ActivationValue": "taPassive"
+    },
+    {
+      "Key": "TUNEDTHRUST",
+      "Name": "Tuned Maneuvering Thrusters",
+      "Description": "Please see page 33 of the Stay on Target Sourcebook for details.",
+      "Source": {
+        "-Page": "33",
+        "#text": "Stay on Target"
+      },
+      "Ranked": "true",
+      "ActivationValue": "taPassive",
+      "Rigger": {
+        "BaseMods": {
+          "Mod": {
+            "Key": "HANDLINGADD",
+            "Count": "1"
+          }
+        }
+      }
+    },
+    {
+      "Key": "CALLEM",
+      "Name": "Call 'Em",
+      "Description": " Please see page 32 of the Fly Casual Sourcebook for details . ",
+      "Source": {
+        "-Page": "32",
+        "#text": "Fly Casual"
+      },
+      "Ranked": "false",
+      "ActivationValue": "taPassive"
+    },
+    {
+      "Key": "DISARMSMILE",
+      "Name": "Disarming Smile",
+      "Description": " Please see page 32 of the Fly Casual Sourcebook for details . ",
+      "Source": {
+        "-Page": "32",
+        "#text": "Fly Casual"
+      },
+      "Ranked": "true",
+      "ActivationValue": "taAction"
+    },
+    {
+      "Key": "DONTSHOOT",
+      "Name": "Don't Shoot!",
+      "Description": "Please see page 32 of the Fly Casual Sourcebook for details.",
+      "Source": {
+        "-Page": "32",
+        "#text": "Fly Casual"
+      },
+      "Ranked": "false",
+      "ActivationValue": "taAction"
+    },
+    {
+      "Key": "DOUBLEORNOTHING",
+      "Name": "Double or Nothing",
+      "Description": "Please see page 32 of the Fly Casual Sourcebook for details.",
+      "Source": {
+        "-Page": "32",
+        "#text": "Fly Casual"
+      },
+      "Ranked": "false",
+      "ActivationValue": "taPassive"
+    },
+    {
+      "Key": "DOUBLEORNOTHINGIMP",
+      "Name": "Double or Nothing (Improved)",
+      "Description": "Please see page 32 of the Fly Casual Sourcebook for details.",
+      "Source": {
+        "-Page": "32",
+        "#text": "Fly Casual"
+      },
+      "Ranked": "false",
+      "ActivationValue": "taPassive"
+    },
+    {
+      "Key": "DOUBLEORNOTHINGSUP",
+      "Name": "Double or Nothing (Supreme)",
+      "Description": "Please see page 32 of the Fly Casual Sourcebook for details.",
+      "Source": {
+        "-Page": "32",
+        "#text": "Fly Casual"
+      },
+      "Ranked": "false",
+      "ActivationValue": "taPassive"
+    },
+    {
+      "Key": "FORTFAVORBOLD",
+      "Name": "Fortune Favors the Bold",
+      "Description": "Please see page 32 of the Fly Casual Sourcebook for details.",
+      "Source": {
+        "-Page": "32",
+        "#text": "Fly Casual"
+      },
+      "Ranked": "false",
+      "ActivationValue": "taIncidental"
+    },
+    {
+      "Key": "GUNSBLAZING",
+      "Name": "Guns Blazing",
+      "Description": "Please see page 33 of the Fly Casual Sourcebook for details.",
+      "Source": {
+        "-Page": "33",
+        "#text": "Fly Casual"
+      },
+      "Ranked": "false",
+      "ActivationValue": "taIncidental"
+    },
+    {
+      "Key": "JUSTKID",
+      "Name": "Just Kidding!",
+      "Description": "Please see page 33 of the Fly Casual Sourcebook for details.",
+      "Source": {
+        "-Page": "33",
+        "#text": "Fly Casual"
+      },
+      "Ranked": "false",
+      "ActivationValue": "taIncidental"
+    },
+    {
+      "Key": "QUICKDRIMP",
+      "Name": "Quickdraw (Improved)",
+      "Description": "Please see page 33 of the Fly Casual Sourcebook for details.",
+      "Source": {
+        "-Page": "33",
+        "#text": "Fly Casual"
+      },
+      "Ranked": "false",
+      "ActivationValue": "taPassive"
+    },
+    {
+      "Key": "SECCHANCE",
+      "Name": "Second Chances",
+      "Description": "Please see  page 33 of the Stay on Target Sourcebook, or page 33 of the Fly Casual Sourcebook, for details.",
+      "Sources": {
+        "Source": [
+          {
+            "-Page": "33",
+            "#text": "Stay on Target Sourcebook"
+          },
+          {
+            "-Page": "33",
+            "#text": "Fly Casual Sourcebook"
+          }
+        ]
+      },
+      "Ranked": "true",
+      "ActivationValue": "taIncidental"
+    },
+    {
+      "Key": "SORRYMESS",
+      "Name": "Sorry About the Mess",
+      "Description": "Please see page 33 of the Fly Casual Sourcebook for details.",
+      "Source": {
+        "-Page": "33",
+        "#text": "Fly Casual"
+      },
+      "Ranked": "false",
+      "ActivationValue": "taPassive"
+    },
+    {
+      "Key": "SPITFIRE",
+      "Name": "Spitfire",
+      "Description": "Please see page 33 of the Fly Casual Sourcebook for details.",
+      "Source": {
+        "-Page": "33",
+        "#text": "Fly Casual"
+      },
+      "Ranked": "false",
+      "ActivationValue": "taPassive"
+    },
+    {
+      "Key": "UPANTE",
+      "Name": "Up the Ante",
+      "Description": "Please see page 33 of the Fly Casual Sourcebook for details.",
+      "Source": {
+        "-Page": "33",
+        "#text": "Fly Casual"
+      },
+      "Ranked": "true",
+      "ActivationValue": "taPassive"
+    },
+    {
+      "Key": "WORKLIKECHARM",
+      "Name": "Works Like a Charm",
+      "Description": "Please see page 33 of the Fly Casual Sourcebook for details.",
+      "Source": {
+        "-Page": "33",
+        "#text": "Fly Casual"
+      },
+      "Ranked": "false",
+      "ActivationValue": "taIncidental"
+    },
+    {
+      "Key": "BADPRESS",
+      "Name": "Bad Press",
+      "Description": "Please see page 32 of the Desperate Allies Sourcebook for details.",
+      "Source": {
+        "-Page": "32",
+        "#text": "Desperate Allies"
+      },
+      "Ranked": "false",
+      "ActivationValue": "taAction"
+    },
+    {
+      "Key": "BLACKMAIL",
+      "Name": "Blackmail",
+      "Description": "Please see page 32 of the Desperate Allies Sourcebook for details.",
+      "Source": {
+        "-Page": "32",
+        "#text": "Desperate Allies"
+      },
+      "Ranked": "false",
+      "ActivationValue": "taIncidentalOOT"
+    },
+    {
+      "Key": "CUTQUEST",
+      "Name": "Cutting Question",
+      "Description": "Please see page 33 of the Desperate Allies Sourcebook for details.",
+      "Source": {
+        "-Page": "33",
+        "#text": "Desperate Allies"
+      },
+      "Ranked": "false",
+      "ActivationValue": "taIncidental"
+    },
+    {
+      "Key": "DISCREDIT",
+      "Name": "Discredit",
+      "Description": "Please see page 33 of the Desperate Allies Sourcebook for details.",
+      "Source": {
+        "-Page": "33",
+        "#text": "Desperate Allies"
+      },
+      "Ranked": "false",
+      "ActivationValue": "taAction"
+    },
+    {
+      "Key": "ENCCOMM",
+      "Name": "Encoded Communique",
+      "Description": "Please see page 33 of the Desperate Allies Sourcebook for details.",
+      "Source": {
+        "-Page": "33",
+        "#text": "Desperate Allies"
+      },
+      "Ranked": "false",
+      "ActivationValue": "taPassive"
+    },
+    {
+      "Key": "ENCWORD",
+      "Name": "Encouraging Words",
+      "Description": "Please see page 33 of the Desperate Allies Sourcebook for details.",
+      "Source": {
+        "-Page": "33",
+        "#text": "Desperate Allies"
+      },
+      "Ranked": "false",
+      "ActivationValue": "taIncidentalOOT"
+    },
+    {
+      "Key": "INKNOW",
+      "Name": "In The Know",
+      "Description": "Please see page 33 of the Desperate Allies Sourcebook for details.",
+      "Source": {
+        "-Page": "33",
+        "#text": "Desperate Allies"
+      },
+      "Ranked": "true",
+      "ActivationValue": "taPassive"
+    },
+    {
+      "Key": "INKNOWIMP",
+      "Name": "In The Know (Improved)",
+      "Description": "Please see page 33 of the Desperate Allies Sourcebook for details.",
+      "Source": {
+        "-Page": "33",
+        "#text": "Desperate Allies"
+      },
+      "Ranked": "false",
+      "ActivationValue": "taAction"
+    },
+    {
+      "Key": "INFORM",
+      "Name": "Informant",
+      "Description": "Please see page 33 of the Desperate Allies Sourcebook for details.",
+      "Source": {
+        "-Page": "33",
+        "#text": "Desperate Allies"
+      },
+      "Ranked": "false",
+      "ActivationValue": "taIncidental"
+    },
+    {
+      "Key": "INTERJECT",
+      "Name": "Interjection",
+      "Description": "Please see page 34 of the Desperate Allies Sourcebook for details.",
+      "Source": {
+        "-Page": "34",
+        "#text": "Desperate Allies"
+      },
+      "Ranked": "false",
+      "ActivationValue": "taIncidentalOOT"
+    },
+    {
+      "Key": "KNOWALL",
+      "Name": "Know-It-All",
+      "Description": "Please see page 34 of the Desperate Allies Sourcebook for details.",
+      "Source": {
+        "-Page": "34",
+        "#text": "Desperate Allies"
+      },
+      "Ranked": "false",
+      "ActivationValue": "taIncidental"
+    },
+    {
+      "Key": "PLAUSDENIMP",
+      "Name": "Plausible Deniability (Improved)",
+      "Description": "Please see page 34 of the Desperate Allies Sourcebook for details.",
+      "Source": {
+        "-Page": "34",
+        "#text": "Desperate Allies"
+      },
+      "Ranked": "false",
+      "ActivationValue": "taAction"
+    },
+    {
+      "Key": "POSSPIN",
+      "Name": "Positive Spin",
+      "Description": "Please see page 34 of the Desperate Allies Sourcebook for details.",
+      "Source": {
+        "-Page": "34",
+        "#text": "Desperate Allies"
+      },
+      "Ranked": "true",
+      "ActivationValue": "taPassive"
+    },
+    {
+      "Key": "POSSPINIMP",
+      "Name": "Positive Spin (Improved)",
+      "Description": "Please see page 34 of the Desperate Allies Sourcebook for details.",
+      "Source": {
+        "-Page": "34",
+        "#text": "Desperate Allies"
+      },
+      "Ranked": "false",
+      "ActivationValue": "taAction"
+    },
+    {
+      "Key": "RESEARCHIMP",
+      "Name": "Researcher (Improved)",
+      "Description": "Please see page 34 of the Desperate Allies Sourcebook for details.",
+      "Source": {
+        "-Page": "34",
+        "#text": "Desperate Allies"
+      },
+      "Ranked": "false",
+      "ActivationValue": "taPassive"
+    },
+    {
+      "Key": "SUPPEVI",
+      "Name": "Supporting Evidence",
+      "Description": "Please see page 34 of the Desperate Allies Sourcebook for details.",
+      "Source": {
+        "-Page": "34",
+        "#text": "Desperate Allies"
+      },
+      "Ranked": "true",
+      "ActivationValue": "taPassive"
+    },
+    {
+      "Key": "THORASS",
+      "Name": "Thorough Assessment",
+      "Description": "Please see page 34 of the Desperate Allies Sourcebook for details.",
+      "Source": {
+        "-Page": "34",
+        "#text": "Desperate Allies"
+      },
+      "Ranked": "false",
+      "ActivationValue": "taAction"
+    },
+    {
+      "Key": "TWISTWORD",
+      "Name": "Twisted Words",
+      "Description": "Please see page 34 of the Desperate Allies Sourcebook for details.",
+      "Source": {
+        "-Page": "34",
+        "#text": "Desperate Allies"
+      },
+      "Ranked": "false",
+      "ActivationValue": "taIncidentalOOT"
+    },
+    {
+      "Key": "DRIVEBACK",
+      "Name": "Drive Back",
+      "Description": "Please see page 419 of the Force and Destiny Core Rulebook for details.",
+      "Source": {
+        "-Page": "419",
+        "#text": "Force and Destiny Core Rulebook"
+      },
+      "Ranked": "false",
+      "ActivationValue": "taPassive"
+    },
+    {
+      "Key": "ARMSUP",
+      "Name": "Armor Master (Supreme)",
+      "Description": "Please see page 30 of the Keeping the Peace sourcebook for details.",
+      "Source": {
+        "-Page": "30",
+        "#text": "Keeping the Peace"
+      },
+      "Ranked": "false",
+      "ActivationValue": "taIncidentalOOT"
+    },
+    {
+      "Key": "BALEGAZE",
+      "Name": "Baleful Gaze",
+      "Description": "Please see page 30 of the Keeping the Peace sourcebook for details.",
+      "Source": {
+        "-Page": "30",
+        "#text": "Keeping the Peace"
+      },
+      "Ranked": "false",
+      "ActivationValue": "taIncidentalOOT",
+      "ForceTalent": "true",
+      "Conflict": "1"
+    },
+    {
+      "Key": "BLINDSPOT",
+      "Name": "Blind Spot",
+      "Description": "Please see page 30 of the Keeping the Peace sourcebook for details.",
+      "Source": {
+        "-Page": "30",
+        "#text": "Keeping the Peace"
+      },
+      "Ranked": "false",
+      "ActivationValue": "taPassive"
+    },
+    {
+      "Key": "GRAPPLE",
+      "Name": "Grapple",
+      "Description": "Please see page 30 of the Keeping the Peace sourcebook for details.",
+      "Source": {
+        "-Page": "30",
+        "#text": "Keeping the Peace"
+      },
+      "Ranked": "false",
+      "ActivationValue": "taManeuver"
+    },
+    {
+      "Key": "NOESC",
+      "Name": "No Escape",
+      "Description": "Please see page 30 of the Keeping the Peace sourcebook for details.",
+      "Source": {
+        "-Page": "30",
+        "#text": "Keeping the Peace"
+      },
+      "Ranked": "false",
+      "ActivationValue": "taPassive",
+      "ForceTalent": "true"
+    },
+    {
+      "Key": "OVERBAL",
+      "Name": "Overbalance",
+      "Description": "Please see page 31 of the Keeping the Peace sourcebook for details.",
+      "Source": {
+        "-Page": "31",
+        "#text": "Keeping the Peace"
+      },
+      "Ranked": "false",
+      "ActivationValue": "taPassive"
+    },
+    {
+      "Key": "PRECSTR",
+      "Name": "Precision Strike",
+      "Description": "Please see page 31 of the Keeping the Peace sourcebook for details.",
+      "Source": {
+        "-Page": "31",
+        "#text": "Keeping the Peace"
+      },
+      "Ranked": "false",
+      "ActivationValue": "taIncidentalOOT"
+    },
+    {
+      "Key": "PRIMEPOS",
+      "Name": "Prime Positions",
+      "Description": "Please see page 31 of the Keeping the Peace sourcebook for details.",
+      "Source": {
+        "-Page": "31",
+        "#text": "Keeping the Peace"
+      },
+      "Ranked": "true",
+      "ActivationValue": "taPassive"
+    },
+    {
+      "Key": "PRESSHOT",
+      "Name": "Prescient Shot",
+      "Description": "Please see page 31 of the Keeping the Peace sourcebook for details.",
+      "Source": {
+        "-Page": "31",
+        "#text": "Keeping the Peace"
+      },
+      "Ranked": "false",
+      "ActivationValue": "taPassive",
+      "ForceTalent": "true"
+    },
+    {
+      "Key": "PROPAIM",
+      "Name": "Prophetic Aim",
+      "Description": "Please see page 31 of the Keeping the Peace sourcebook for details.",
+      "Source": {
+        "-Page": "31",
+        "#text": "Keeping the Peace"
+      },
+      "Ranked": "false",
+      "ActivationValue": "taPassive",
+      "ForceTalent": "true"
+    },
+    {
+      "Key": "REINITEM",
+      "Name": "Reinforce Item",
+      "Description": "Please see page 31 of the Keeping the Peace sourcebook for details.",
+      "Source": {
+        "-Page": "31",
+        "#text": "Keeping the Peace"
+      },
+      "Ranked": "false",
+      "ActivationValue": "taManeuver",
+      "ForceTalent": "true"
+    },
+    {
+      "Key": "SUPPRFIRE",
+      "Name": "Suppressing Fire",
+      "Description": "Please see page 31 of the Keeping the Peace sourcebook for details.",
+      "Source": {
+        "-Page": "31",
+        "#text": "Keeping the Peace"
+      },
+      "Ranked": "true",
+      "ActivationValue": "taPassive"
+    },
+    {
+      "Key": "CALMCOMM",
+      "Name": "Calm Commander",
+      "Description": "See page 33 of the Lead by Example Sourcebook for details.",
+      "Source": {
+        "-Page": "33",
+        "#text": "Lead by Example"
+      },
+      "Ranked": "false",
+      "ActivationValue": "taPassive"
+    },
+    {
+      "Key": "CLEVCOMM",
+      "Name": "Clever Commander",
+      "Description": "See page 33 of the Lead by Example Sourcebook for details.",
+      "Source": {
+        "-Page": "33",
+        "#text": "Lead by Example"
+      },
+      "Ranked": "false",
+      "ActivationValue": "taPassive"
+    },
+    {
+      "Key": "COMMPRESIMP",
+      "Name": "Commanding Presence (Improved)",
+      "Description": "See page 33 of the Lead by Example Sourcebook for details.",
+      "Source": {
+        "-Page": "33",
+        "#text": "Lead by Example"
+      },
+      "Ranked": "false",
+      "ActivationValue": "taAction"
+    },
+    {
+      "Key": "CONFIMP",
+      "Name": "Confidence (Improved)",
+      "Description": "See page 33 of the Lead by Example Sourcebook for details.",
+      "Source": {
+        "-Page": "33",
+        "#text": "Lead by Example"
+      },
+      "Ranked": "false",
+      "ActivationValue": "taPassive"
+    },
+    {
+      "Key": "MASINST",
+      "Name": "Master Instructor",
+      "Description": "See page 33 of the Lead by Example Sourcebook for details.",
+      "Source": {
+        "-Page": "33",
+        "#text": "Lead by Example"
+      },
+      "Ranked": "false",
+      "ActivationValue": "taIncidentalOOT"
+    },
+    {
+      "Key": "MASSTRAT",
+      "Name": "Master Strategist",
+      "Description": "See page 33 of the Lead by Example Sourcebook for details.",
+      "Source": {
+        "-Page": "33",
+        "#text": "Lead by Example"
+      },
+      "Ranked": "false",
+      "ActivationValue": "taIncidentalOOT"
+    },
+    {
+      "Key": "NATINST",
+      "Name": "Natural Instructor",
+      "Description": "See page 33 of the Lead by Example Sourcebook for details.",
+      "Source": {
+        "-Page": "33",
+        "#text": "Lead by Example"
+      },
+      "Ranked": "false",
+      "ActivationValue": "taIncidental"
+    },
+    {
+      "Key": "READANY",
+      "Name": "Ready for Anything",
+      "Description": "See page 34 of the Lead by Example Sourcebook for details.",
+      "Source": {
+        "-Page": "34",
+        "#text": "Lead by Example"
+      },
+      "Ranked": "true",
+      "ActivationValue": "taPassive"
+    },
+    {
+      "Key": "READANYIMP",
+      "Name": "Ready for Anything (Improved)",
+      "Description": "See page 34 of the Lead by Example Sourcebook for details.",
+      "Source": {
+        "-Page": "34",
+        "#text": "Keeping the Peace"
+      },
+      "Ranked": "false",
+      "ActivationValue": "taPassive"
+    },
+    {
+      "Key": "THATHOWDONE",
+      "Name": "That's How It's Done",
+      "Description": "See page 34 of the Lead by Example Sourcebook for details.",
+      "Source": {
+        "-Page": "34",
+        "#text": "Lead by Example"
+      },
+      "Ranked": "true",
+      "ActivationValue": "taIncidental"
+    },
+    {
+      "Key": "WELLREAD",
+      "Name": "Well Read",
+      "Description": "See page 34 of the Lead by Example Sourcebook for details.",
+      "Source": {
+        "-Page": "34",
+        "#text": "Lead by Example"
+      },
+      "Ranked": "false",
+      "ActivationValue": "taPassive",
+      "ChooseCareerSkills": {
+        "SkillCount": "3",
+        "ChooseByType": "true",
+        "TypeValue": "stKnowledge"
+      }
+    },
+    {
+      "Key": "CUSTLOAD",
+      "Name": "Custom Loadout",
+      "Description": "See page 34 of the Special Modifications Sourcebook for details.",
+      "Source": {
+        "-Page": "34",
+        "#text": "Special Modifications"
+      },
+      "Ranked": "false",
+      "ActivationValue": "taPassive",
+      "Rigger": {
+        "BaseMods": {
+          "Mod": {
+            "Key": "HPADD",
+            "Count": "2"
+          }
+        }
+      }
+    },
+    {
+      "Key": "CYBERNETICIST",
+      "Name": "Cyberneticist",
+      "Description": "See page 34 of the Special Modifications Sourcebook for details.",
+      "Source": {
+        "-Page": "34",
+        "#text": "Special Modifications"
+      },
+      "Ranked": "true",
+      "ActivationValue": "taPassive"
+    },
+    {
+      "Key": "DEFTMAKER",
+      "Name": "Deft Maker",
+      "Description": "See page 34 of the Special Modifications Sourcebook for details.",
+      "Source": {
+        "-Page": "34",
+        "#text": "Special Modifications"
+      },
+      "Ranked": "true",
+      "ActivationValue": "taPassive"
+    },
+    {
+      "Key": "ENGREDUN",
+      "Name": "Engineered Redundancies",
+      "Description": "See page 34 of the Special Modifications Sourcebook for details.",
+      "Source": {
+        "-Page": "34",
+        "#text": "Special Modifications"
+      },
+      "Ranked": "false",
+      "ActivationValue": "taPassive"
+    },
+    {
+      "Key": "EYEDET",
+      "Name": "Eye for Detail",
+      "Description": "See page 34 of the Special Modifications Sourcebook for details.",
+      "Source": {
+        "-Page": "34",
+        "#text": "Special Modifications"
+      },
+      "Ranked": "true",
+      "ActivationValue": "taIncidental"
+    },
+    {
+      "Key": "ENERGTRANS",
+      "Name": "Energy Transfer",
+      "Description": "See page 34 of the Special Modifications Sourcebook for details.",
+      "Source": {
+        "-Page": "34",
+        "#text": "Special Modifications"
+      },
+      "Ranked": "false",
+      "ActivationValue": "taManeuver"
+    },
+    {
+      "Key": "MACHMEND",
+      "Name": "Machine Mender",
+      "Description": "See page 34 of the Special Modifications Sourcebook for details.",
+      "Source": {
+        "-Page": "34",
+        "#text": "Special Modifications"
+      },
+      "Ranked": "true",
+      "ActivationValue": "taPassive"
+    },
+    {
+      "Key": "MOREMACH",
+      "Name": "More Machine Than Man",
+      "Description": "See page 34 of the Special Modifications Sourcebook for details.",
+      "Source": {
+        "-Page": "34",
+        "#text": "Special Modifications"
+      },
+      "Ranked": "true",
+      "ActivationValue": "taPassive",
+      "AddlCyber": "1"
+    },
+    {
+      "Key": "OVERCHARGE",
+      "Name": "Overcharge",
+      "Description": "See page 35 of the Special Modifications Sourcebook for details.",
+      "Source": {
+        "-Page": "35",
+        "#text": "Special Modifications"
+      },
+      "Ranked": "false",
+      "ActivationValue": "taAction"
+    },
+    {
+      "Key": "OVERCHARGEIMP",
+      "Name": "Improved Overcharge",
+      "Description": "See page 35 of the Special Modifications Sourcebook for details.",
+      "Source": {
+        "-Page": "35",
+        "#text": "Special Modifications"
+      },
+      "Ranked": "false",
+      "ActivationValue": "taPassive"
+    },
+    {
+      "Key": "OVERCHARGESUP",
+      "Name": "Supreme Overcharge",
+      "Description": "See page 35 of the Special Modifications Sourcebook for details.",
+      "Source": {
+        "-Page": "35",
+        "#text": "Special Modifications"
+      },
+      "Ranked": "false",
+      "ActivationValue": "taPassive"
+    },
+    {
+      "Key": "REROUTEPROC",
+      "Name": "Reroute Processors",
+      "Description": "See page 35 of the Special Modifications Sourcebook for details.",
+      "Source": {
+        "-Page": "35",
+        "#text": "Special Modifications"
+      },
+      "Ranked": "false",
+      "ActivationValue": "taAction"
+    },
+    {
+      "Key": "RESOURCEREFIT",
+      "Name": "Resourceful Refit",
+      "Description": "See page 35 of the Special Modifications Sourcebook for details.",
+      "Source": {
+        "-Page": "35",
+        "#text": "Special Modifications"
+      },
+      "Ranked": "false",
+      "ActivationValue": "taAction"
+    },
+    {
+      "Key": "SPKBINIMP",
+      "Name": "Improved Speaks Binary",
+      "Description": "See page 35 of the Special Modifications Sourcebook for details.",
+      "Source": {
+        "-Page": "35",
+        "#text": "Special Modifications"
+      },
+      "Ranked": "false",
+      "ActivationValue": "taPassive"
+    },
+    {
+      "Key": "SPKBINSUP",
+      "Name": "Supreme Speaks Binary",
+      "Description": "See page 35 of the Special Modifications Sourcebook for details.",
+      "Source": {
+        "-Page": "35",
+        "#text": "Special Modifications"
+      },
+      "Ranked": "false",
+      "ActivationValue": "taPassive"
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+<?xml version="1.0"?>
+<Species xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>XEXTO</Key>
+  <Name>Xexto</Name>
+  <Description>[H4]Xexto[h4]
+Please see page 24 of the Stay on Target Sourcebook for details.
+</Description>
+  <Source Page="24">Stay on Target</Source>
+  <Sources />
+  <StartingChars>
+    <Brawn>1</Brawn>
+    <Agility>3</Agility>
+    <Intellect>2</Intellect>
+    <Cunning>2</Cunning>
+    <Willpower>1</Willpower>
+    <Presence>2</Presence>
+    <Requirement>
+      <WearingArmor>false</WearingArmor>
+      <Career>false</Career>
+      <Specialization>false</Specialization>
+      <NonCareer>false</NonCareer>
+      <SoakAtLeast>0</SoakAtLeast>
+    </Requirement>
+  </StartingChars>
+  <StartingAttrs>
+    <WoundThreshold>9</WoundThreshold>
+    <StrainThreshold>9</StrainThreshold>
+    <DefenseRanged>0</DefenseRanged>
+    <DefenseMelee>0</DefenseMelee>
+    <SoakValue>0</SoakValue>
+    <Experience>85</Experience>
+    <ForceRating>0</ForceRating>
+    <Requirement>
+      <WearingArmor>false</WearingArmor>
+      <Career>false</Career>
+      <Specialization>false</Specialization>
+      <NonCareer>false</NonCareer>
+      <SoakAtLeast>0</SoakAtLeast>
+    </Requirement>
+  </StartingAttrs>
+  <SkillModifiers />
+  <TalentModifiers>
+    <TalentModifier>
+      <Key>CONF</Key>
+      <SubSpeciesKey />
+      <RankStart>0</RankStart>
+      <RankAdd>1</RankAdd>
+      <RankLimit>0</RankLimit>
+      <Requirement>
+        <WearingArmor>false</WearingArmor>
+        <Career>false</Career>
+        <Specialization>false</Specialization>
+        <NonCareer>false</NonCareer>
+        <SoakAtLeast>0</SoakAtLeast>
+      </Requirement>
+    </TalentModifier>
+  </TalentModifiers>
+  <OptionChoices>
+    <OptionChoice>
+      <Key>XEXTOCH1</Key>
+      <Name>Limbs</Name>
+      <Description />
+      <Source />
+      <Sources />
+      <Custom>Base</Custom>
+      <Options>
+        <Option>
+          <Key>XEXTOCH1OP1</Key>
+          <Name>Additional Limbs</Name>
+          <Description>Xexto have four arms and gain an additional free maneuver per turn.  They still may not perform more than two maneuvers per turn, however.</Description>
+        </Option>
+      </Options>
+    </OptionChoice>
+  </OptionChoices>
+  <NoForceAbilities>false</NoForceAbilities>
+</Species>

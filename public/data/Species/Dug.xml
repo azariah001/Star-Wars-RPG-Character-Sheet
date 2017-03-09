@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Species>
+  <Key>DUG</Key>
+  <Name>Dug</Name>
+  <Description>
+    [H4]Dug[h4]
+    Dugs are an aggressive mammalian species native to the planet Malastare that used
+    their upper limbs for locomotion and their lower limbs for grappling.
+    [P][B]Physiology:[b]
+    The Dugs have leathery skin which is smooth and some of it hangs loosely around their tall necks only to
+    inflate during the mating season calls. They also possess fin-like ears, a pronounced snout and small
+    beady eyes. They can easily walk on their hind legs, their forelegs, or all fours. They used their four
+    hands to help them move through the trees of their homeworld of Malastare. Much of their language
+    is punctuated with knuckle rapping and foot stomping. They are also slender, powerfully built beings
+    with a somewhat humanoid build and a unique method of walking that hailed from the high gravity
+    world Malastare. Their primary means of locomotion were their strong arms, and their lower limbs
+    and feet were used for grappling and other fine motor manipulation. They hardly ever walked on their
+    lower limbs. Although most Dugs may walk on all four limbs, others liked to use their strong arms as
+    legs and their feet as hands like they would normally do.
+    [P][B]Society:[b]
+    Dug society is insular and they turn into self-congratulatory braggarts. Well-known for being a disreputable
+    lot and could often be found in dingy cantinas or dark alleys with all four arms into something illegal.
+    However with a casual glance at their culture on Malastare you could be forgiven for thinking such stories
+    were mere rumours. The arboreal Dugs lived in primitive villages in the trees called "tree thorps" and were
+    seemingly in touch with nature, though their culture was actually filled with violence.
+    [P]Due to their oppression under their Gran rulers who colonized Malastare many Dugs often felt the need
+    to throw around their strength in bids to establish dominance. As a result they were known for their
+    ill-tempered demeanour and many were known to be bullying thugs.
+    [P]On their homeworld of Malastare the vast majority of Dugs were little more than laborers toiling for
+    the enrichment of the Gran. With the species excluded from much of the power and money on Malastare many
+    Dugs turned to podracing as their only means to achieve fame and fortune. In all other areas the Dugs
+    were exploited and disenfranchised. Some even obtained transport off their homeworld to seek means of
+    making their fortunes in less Gran dominated regions of the galaxy.
+    [P]When it comes to mating season Dug mating is very reminiscent of some reptiles which may indicate
+    their ancestry. The loose folds of skin around the males neck will inflate during the mating season
+    showing a display of color. An interested female may pester or disturb a male in a few different ways
+    until his balloon-neck deflates with a screech. After this the two are considered mated. Mates remain
+    loyal to each other even though they may bully each other through their time together.
+    [P]Because of their experiences with the Gran the Dugs are xenophobic. If they are seen off-planet they
+    are often seen in groups of their own kind. Most Dugs in the galaxy are reportedly criminals or
+    risk-takers which lead many Dugs into podracing and gambling.
+    [P][B]Homeworld:[b]
+    [P]The planet of Malastare is located within the Malastare System, Dustig Sector in the south of the galaxy.
+    It's sister planet is Lacca and the two planets are the only planets within the Dustig Sector. The sector
+    is surrounded largely by unpopulated sectors except for the Quess Sector. The system of Malastare is
+    located within the south-west of the Dustig Sector.
+    [P]Malastare is a large planet full of a variety of different types of terrain allowing for a large diversity
+    of life to be sustained on the homeworld.
+    [P][B]Language:[b]
+    Dug was the native language of the Dug species from the planet Malastare.
+    [P]As Dugs are a subservient species to the Grans, Dug language is not as widely used as Dugs would 
+    like to be since the Gran language is usually preferred.
+    [P]Although many Dugs are forced to learn Gran, most of them decide not to learn Basic, hoping to 
+    force others to learn Dug language, thus acknowledging their society.
+  </Description>
+  <Source Page="22">Special Modifications</Source>
+  <StartingChars>
+    <Brawn>2</Brawn>
+    <Agility>3</Agility>
+    <Intellect>2</Intellect>
+    <Cunning>2</Cunning>
+    <Willpower>2</Willpower>
+    <Presence>1</Presence>
+  </StartingChars>
+  <StartingAttrs>
+    <WoundThreshold>9</WoundThreshold>
+    <StrainThreshold>8</StrainThreshold>
+    <Experience>90</Experience>
+  </StartingAttrs>
+  <SkillModifiers>
+    <SkillModifier>
+      <Key>BRAWL</Key>
+      <RankStart>1</RankStart>
+      <RankLimit>2</RankLimit>
+    </SkillModifier>
+  </SkillModifiers>
+  <TalentModifiers>
+    <TalentModifier>
+      <Key>DEFDRI</Key>
+      <RankAdd>1</RankAdd>
+    </TalentModifier>
+  </TalentModifiers>
+  <OptionChoices>
+  </OptionChoices>
+</Species>

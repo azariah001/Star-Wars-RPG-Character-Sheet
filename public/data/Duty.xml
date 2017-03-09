@@ -1,0 +1,201 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Duties>
+  <Duty>
+    <Key>COMBATVICTORY</Key>
+    <Name>Combat Victory</Name>
+    <Description>
+      [H4]Combat Victory[h4]
+      Please see page 47 of the Age of Rebellion Core Rulebook for details.
+    </Description>
+    <Source Page="47">Age of Rebellion Core Rulebook</Source>
+  </Duty>
+  <Duty>
+    <Key>COUNTERINTELLIGENCE</Key>
+    <Name>Counter Intelligence</Name>
+    <Description>
+      [H4]Counter Intelligence[h4]
+      Please see page 47 of the Age of Rebellion Core Rulebook for details.
+    </Description>
+    <Source Page="47">Age of Rebellion Core Rulebook</Source>
+  </Duty>
+  <Duty>
+    <Key>INTELLIGENCE</Key>
+    <Name>Intelligence</Name>
+    <Description>
+      [H4]Intelligence[h4]
+      Please see page 47 of the Age of Rebellion Core Rulebook for details.
+    </Description>
+    <Source Page="47">Age of Rebellion Core Rulebook</Source>
+  </Duty>
+  <Duty>
+    <Key>INTERNALSECURITY</Key>
+    <Name>Internal Security</Name>
+    <Description>
+      [H4]Internal Security[h4]
+      Please see page 47 of the Age of Rebellion Core Rulebook for details.
+    </Description>
+    <Source Page="47">Age of Rebellion Core Rulebook</Source>
+  </Duty>
+  <Duty>
+    <Key>PERSONNEL</Key>
+    <Name>Personnel</Name>
+    <Description>
+      [H4]Personnel[h4]
+      Please see page 47 of the Age of Rebellion Core Rulebook for details.
+    </Description>
+    <Source Page="47">Age of Rebellion Core Rulebook</Source>
+  </Duty>
+  <Duty>
+    <Key>POLITICALSUPPORT</Key>
+    <Name>Political Support</Name>
+    <Description>
+      [H4]Political Support[h4]
+      Please see page 47 of the Age of Rebellion Core Rulebook for details.
+    </Description>
+    <Source Page="47">Age of Rebellion Core Rulebook</Source>
+  </Duty>
+  <Duty>
+    <Key>RECRUITING</Key>
+    <Name>Recruiting</Name>
+    <Description>
+      [H4]Recruiting[h4]
+      Please see page 47 of the Age of Rebellion Core Rulebook for details.
+    </Description>
+    <Source Page="47">Age of Rebellion Core Rulebook</Source>
+  </Duty>
+  <Duty>
+    <Key>RESOURCEACQUISITION</Key>
+    <Name>Resource Acquisition</Name>
+    <Description>
+      [H4]Resource Acquisition[h4]
+      Please see page 47 of the Age of Rebellion Core Rulebook for details.
+    </Description>
+    <Source Page="47">Age of Rebellion Core Rulebook</Source>
+  </Duty>
+  <Duty>
+    <Key>SABOTAGE</Key>
+    <Name>Sabotage</Name>
+    <Description>
+      [H4]Sabotage[h4]
+      Please see page 47 of the Age of Rebellion Core Rulebook for details.
+    </Description>
+    <Source Page="47">Age of Rebellion Core Rulebook</Source>
+  </Duty>
+  <Duty>
+    <Key>SPACESUPERIORITY</Key>
+    <Name>Space Superiority</Name>
+    <Description>
+      [H4]Space Superiority[h4]
+      Please see page 47 of the Age of Rebellion Core Rulebook for details.
+    </Description>
+    <Source Page="47">Age of Rebellion Core Rulebook</Source>
+  </Duty>
+  <Duty>
+    <Key>TECHPROCUREMENT</Key>
+    <Name>Tech Procurement</Name>
+    <Description>
+      [H4]Tech Procurement[h4]
+      Please see page 47 of the Age of Rebellion Core Rulebook for details.
+    </Description>
+    <Source Page="47">Age of Rebellion Core Rulebook</Source>
+  </Duty>
+  <Duty>
+    <Key>SUPPORT</Key>
+    <Name>Support</Name>
+    <Description>
+      [H4]Support[h4]
+      Please see page 47 of the Age of Rebellion Core Rulebook for details.
+    </Description>
+    <Source Page="47">Age of Rebellion Core Rulebook</Source>
+  </Duty>
+  <Duty>
+    <Key>AIRSUP</Key>
+    <Name>Air Superiority</Name>
+    <Description>
+      [H4]Air Superiority[h4]
+      Please see page 19 of the Stay on Target Sourcebook for details.
+    </Description>
+    <Source Page="19">Stay on Target</Source>
+  </Duty>
+  <Duty>
+    <Key>GROUNDSUP</Key>
+    <Name>Ground Superiority</Name>
+    <Description>
+      [H4]Ground Superiority[h4]
+      Please see page 19 of the Stay on Target Sourcebook for details.
+    </Description>
+    <Source Page="19">Stay on Target</Source>
+  </Duty>
+  <Duty>
+    <Key>PLACHUNT</Key>
+    <Name>Placard Hunter</Name>
+    <Description>
+      [H4]Placard Hunter[h4]
+      Please see page 19 of the Stay on Target Sourcebook for details.
+    </Description>
+    <Source Page="19">Stay on Target</Source>
+  </Duty>
+  <Duty>
+    <Key>TECHSUPERIORITY</Key>
+    <Name>Tech Superiority</Name>
+    <Description>
+      [H4]Tech Superiority[h4]
+      Please see page 19 of the Stay on Target Sourcebook for details.
+    </Description>
+    <Source Page="19">Stay on Target</Source>
+  </Duty>
+  <Duty>
+    <Key>COMMFAC</Key>
+    <Name>Communication Facilitation</Name>
+    <Description>
+      [H4]Communication Facilitation[h4]
+      Please see page 17 of the Desperate Allies Sourcebook for details.
+    </Description>
+    <Source Page="17">Desperate Allies</Source>
+  </Duty>
+  <Duty>
+    <Key>OPPLAN</Key>
+    <Name>Operation Planning</Name>
+    <Description>
+      [H4]Operation Planning[h4]
+      Please see page 17 of the Desperate Allies Sourcebook for details.
+    </Description>
+    <Source Page="17">Desperate Allies</Source>
+  </Duty>
+  <Duty>
+    <Key>REBELBASE</Key>
+    <Name>Rebel Base</Name>
+    <Description>
+      [H4]Rebel Base[h4]
+      Please see page 87 of the Desperate Allies Sourcebook for details.
+    </Description>
+    <Source Page="87">Desperate Allies</Source>
+  </Duty>
+  <Duty>
+    <Key>CAMAR</Key>
+    <Name>Camaraderie</Name>
+    <Description>
+      [H4]Camaraderie[h4]
+      See page 17 of the Lead by Example Sourcebook for details.
+    </Description>
+    <Source Page="17">Lead by Example</Source>
+  </Duty>
+  <Duty>
+    <Key>ENEMYDEMOR</Key>
+    <Name>Enemy Demoralization</Name>
+    <Description>
+      [H4]Enemy Demoralization[h4]
+      See page 17 of the Lead by Example Sourcebook for details.
+    </Description>
+    <Source Page="17">Lead by Example</Source>
+  </Duty>
+  <Duty>
+    <Key>LOSSPREV</Key>
+    <Name>Loss Prevention</Name>
+    <Description>
+      [H4]Loss Prevention[h4]
+      See page 17 of the Lead by Example Sourcebook for details.
+    </Description>
+    <Source Page="17">Lead by Example</Source>
+  </Duty>
+</Duties>

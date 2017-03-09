@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Species>
+  <Key>MUSTAFARIAN</Key>
+  <Name>Mustafarian</Name>
+  <Description>
+    [H4]Mustafarian[h4]
+    Please see page 24 of the Special Modifications Sourcebook for details.
+  </Description>
+  <Source Page="24">Special Modifications</Source>
+  <StartingChars>
+    <Brawn>2</Brawn>
+    <Agility>2</Agility>
+    <Intellect>2</Intellect>
+    <Cunning>2</Cunning>
+    <Willpower>2</Willpower>
+    <Presence>1</Presence>
+  </StartingChars>
+  <StartingAttrs>
+    <WoundThreshold>10</WoundThreshold>
+    <StrainThreshold>10</StrainThreshold>
+    <Experience>100</Experience>
+  </StartingAttrs>
+  <SkillModifiers>
+    <SkillModifier>
+      <Key>BRAWL</Key>
+      <RankStart>1</RankStart>
+      <RankLimit>2</RankLimit>
+    </SkillModifier>
+  </SkillModifiers>
+  <SubSpeciesList>
+    <SubSpecies>
+      <Key>MUSTAFARIANSUB1</Key>
+      <Name>Northern Mustafarian</Name>
+      <Description>Please see page 26 of the Special Modifications Sourcebook for details.</Description>
+      <TalentModifiers>
+        <TalentModifier>
+          <Key>EYEDET</Key>
+          <RankAdd>1</RankAdd>
+        </TalentModifier>
+      </TalentModifiers>
+      <OptionChoices>
+        <OptionChoice>
+          <Key>NMUSTAOC1</Key>
+          <Name>Environmental</Name>
+          <Options>
+            <Option>
+              <Key>NMUSTAOC1OP1</Key>
+              <Name>Arid/Hot Environments</Name>
+              <Description>
+                Northern Mustafarians may remove [SETBACK][SETBACK] to resist arid or hot environmental conditions.
+              </Description>
+            </Option>
+          </Options>
+        </OptionChoice>
+      </OptionChoices>
+    </SubSpecies>
+    <SubSpecies>
+      <Key>MUSTAFARIANSUB2</Key>
+      <Name>Southern Mustafarian</Name>
+      <Description>Please see page 26 of the Special Modifications Sourcebook for details.</Description>
+      <TalentModifiers>
+        <TalentModifier>
+          <Key>ENDUR</Key>
+          <RankAdd>1</RankAdd>
+        </TalentModifier>
+      </TalentModifiers>
+      <OptionChoices>
+        <OptionChoice>
+          <Key>SMUSTAOC1</Key>
+          <Name>Environmental</Name>
+          <Options>
+            <Option>
+              <Key>SMUSTAOC1OP1</Key>
+              <Name>Arid/Hot Environments</Name>
+              <Description>
+                Southern Mustafarians may remove [SETBACK][SETBACK] to resist arid or hot environmental conditions.
+              </Description>
+            </Option>
+          </Options>
+        </OptionChoice>
+      </OptionChoices>
+    </SubSpecies>
+  </SubSpeciesList>
+</Species>

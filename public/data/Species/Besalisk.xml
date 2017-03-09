@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<Species xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>BESALISK</Key>
+  <Name>Besalisk</Name>
+  <Description>[H4]Besalisk[h4]
+Besalisks are a race of multi-armed sentient humanoids from the cold ocean world of Ojom.
+[P][B]Physiology:[b]
+Male Besalisks' heads sport prominent crests and four arms hang at their sides; females of the species can have as many as eight arms, but like Humans have a primary hand and a limited range of functionality with the others. The addition of the extra appendages require a hearty metabolism, and these bulky beings are able to store food and water for many days, and if the need arises, they could survive for long periods without either. Scruffy sensory whiskers line the area below their noses, just above the robust wattle most adult Besalisks possessed.
+[P][B]Society:[b]
+Because of Ojom's harsh environment, large cities were never developed on the world; instead small communes of about a thousand families claime territories around the world and are each led by an elected leader. The communes have a strict policy of keeping the size of their groupings equal to avoid conflict. When too many families grow in one area, the leader will ask certain families to break away and start a new community on another glacier.
+
+[P]While not involved in galactic politics and because they do not produce any of their own technology, the Besalisks established large orbital space stations where offworlders could come to do business. Trading and making deals, any violence on these stations was committed by offworlders as Besalisks avoid confrontation.
+[P][B]Homeworld:[b]
+Ojom is a frozen ocean planet located within the Deep Core and the homeworld of the Besalisk. Largely inhospitable, several space stations hang in orbit so as to accommodate other species less acclimated to the cold.
+[P][B]Language:[b]
+Besalisk, or Ojom, is the language used by the Besalisk species on their native world Ojom. Spoken Besalisk includes barks, growls and grunts as their main features. There is a written form of Besalisk, that used a simple phonological transcription of their phonemes. Words on written form tend to be short. Besalisks learn to speak but not write Basic from a young age.</Description>
+  <Source Page="20">Special Modifications</Source>
+  <StartingChars>
+    <Brawn>3</Brawn>
+    <Agility>1</Agility>
+    <Intellect>2</Intellect>
+    <Cunning>1</Cunning>
+    <Willpower>2</Willpower>
+    <Presence>2</Presence>
+  </StartingChars>
+  <StartingAttrs>
+    <WoundThreshold>12</WoundThreshold>
+    <StrainThreshold>7</StrainThreshold>
+    <Experience>85</Experience>
+  </StartingAttrs>
+  <SkillModifiers>
+    <SkillModifier>
+      <Key>RESIL</Key>
+      <RankStart>1</RankStart>
+      <RankAdd>0</RankAdd>
+      <RankLimit>0</RankLimit>
+      <isCareer>false</isCareer>
+    </SkillModifier>
+  </SkillModifiers>     
+  <TalentModifiers />
+  <OptionChoices>
+    <OptionChoice>
+      <Key>BESALISKCH1</Key>
+      <Name>Combat</Name>
+      <Options>
+        <Option>
+          <Key>BESALISKCH2OP1</Key>
+          <Name>Additional Limbs</Name>
+          <Description>Besalisks have four arms and gain an additional free maneuver per turn.  They still may not perform more than two maneuvers per turn, however.</Description>
+        </Option>
+      </Options>
+    </OptionChoice>
+  </OptionChoices>
+  <WeaponModifiers />
+  <NoForceAbilities>false</NoForceAbilities>
+</Species>

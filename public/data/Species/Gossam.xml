@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Species>
+  <Key>GOSSAM</Key>
+  <Name>Gossam</Name>
+  <Description>
+    [H4]Gossam[h4]
+Please see page 22 of the Desperate Allies Sourcebook for details.
+  </Description>
+  <Source Page="22">Desperate Allies</Source>
+  <StartingChars>
+    <Brawn>1</Brawn>
+    <Agility>2</Agility>
+    <Intellect>2</Intellect>
+    <Cunning>3</Cunning>
+    <Willpower>2</Willpower>
+    <Presence>2</Presence>
+  </StartingChars>
+  <StartingAttrs>
+    <WoundThreshold>9</WoundThreshold>
+    <StrainThreshold>11</StrainThreshold>
+    <Experience>100</Experience>
+  </StartingAttrs>
+  <SkillModifiers>
+    <SkillModifier>
+      <Key>DECEP</Key>
+      <RankStart>1</RankStart>
+      <RankLimit>2</RankLimit>
+    </SkillModifier>
+  </SkillModifiers>
+  <WeaponModifiers>
+  </WeaponModifiers>
+  <OptionChoices>
+    <OptionChoice>
+      <Key>GOSSAMOC1</Key>
+      <Name>Size</Name>
+      <Options>
+        <Option>
+          <Key>GOSSAMOC1OP1</Key>
+          <Name>Small</Name>
+          <Description>
+            Gossam are smaller than average and count as silhouette 0.
+          </Description>
+        </Option>
+      </Options>
+    </OptionChoice>
+  </OptionChoices>
+</Species>

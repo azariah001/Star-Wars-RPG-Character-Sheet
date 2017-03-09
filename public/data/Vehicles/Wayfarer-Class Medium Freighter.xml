@@ -1,0 +1,52 @@
+<Vehicle>
+  <Key>WAYFARER</Key>
+  <Name>Wayfarer-Class Medium Freighter</Name>
+  <Description>
+    [H3]Wayfarer-Class Medium Freighter[h3]
+    Please see page 263 of the Edge of the Empire Core Rulebook for details.
+  </Description>
+  <Source Page="263">Edge of the Empire Core Rulebook</Source>
+  <HyperdrivePrimary>2</HyperdrivePrimary>
+  <HyperdriveBackup>14</HyperdriveBackup>
+  <NaviComputer>true</NaviComputer>
+  <SensorRangeValue>srShort</SensorRangeValue>
+  <Crew>One Captain, One Pilot, One Co-Pilot, One Engineer, One Cargo Master, Six Crew</Crew>
+  <EncumbranceCapacity>850</EncumbranceCapacity>
+  <Passengers>6</Passengers>
+  <Consumables>Three Months</Consumables>
+  <Silhouette>5</Silhouette>
+  <Speed>3</Speed>
+  <Handling>-2</Handling>
+  <DefFore>1</DefFore>
+  <DefAft>2</DefAft>
+  <DefPort>1</DefPort>
+  <DefStarboard>1</DefStarboard>
+  <Armor>4</Armor>
+  <HullTrauma>32</HullTrauma>
+  <SystemStrain>20</SystemStrain>
+  <HP>5</HP>
+  <Price>120000</Price>
+  <Rarity>5</Rarity>
+  <Categories>
+    <Category>Starship</Category>
+    <Category>Non-Fighter Starship</Category>
+  </Categories>
+  <Type>Freighter</Type>
+  <Starship>true</Starship>
+  <VehicleWeapons>
+    <VehicleWeapon>
+      <Key>LASERQUAD</Key>
+      <Location>Dorsal</Location>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Aft>false</Aft>
+        <Port>false</Port>
+        <Starboard>false</Starboard>
+        <Dorsal>true</Dorsal>
+        <Ventral>false</Ventral>
+      </FiringArcs>
+      <Qualities>
+      </Qualities>
+    </VehicleWeapon>
+  </VehicleWeapons>
+</Vehicle>

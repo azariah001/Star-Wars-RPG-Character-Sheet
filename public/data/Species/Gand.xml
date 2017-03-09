@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Species>
+  <Key>GAND</Key>
+  <Name>Gand</Name>
+  <Description>
+    [H4]Gands[h4]
+    Please see page 47 of the Edge of the Empire Core Rulebook for details.
+
+  </Description>
+  <Source Page="47">Edge of the Empire Core Rulebook</Source>
+  <StartingChars>
+    <Brawn>2</Brawn>
+    <Agility>2</Agility>
+    <Intellect>2</Intellect>
+    <Cunning>2</Cunning>
+    <Willpower>3</Willpower>
+    <Presence>1</Presence>
+  </StartingChars>
+  <StartingAttrs>
+    <WoundThreshold>10</WoundThreshold>
+    <StrainThreshold>10</StrainThreshold>
+    <Experience>100</Experience>
+  </StartingAttrs>
+  <SkillModifiers>
+    <SkillModifier>
+      <Key>DISC</Key>
+      <RankStart>1</RankStart>
+      <RankLimit>2</RankLimit>
+    </SkillModifier>
+  </SkillModifiers>
+  <OptionChoices>
+    <OptionChoice>
+      <Key>GANDAB</Key>
+      <Name>Breathing</Name>
+      <Options>
+        <Option>
+          <Key>GANDABLUNG</Key>
+          <Name>Has Lungs</Name>
+          <Description>Requires ammonia respirator</Description>
+          <StartingAttributes>
+            <Experience>10</Experience>
+          </StartingAttributes>
+        </Option>
+        <Option>
+          <Key>GANDABNOLUNG</Key>
+          <Name>Lungless</Name>
+          <Description>Immune to suffocation</Description>
+        </Option>
+      </Options>
+    </OptionChoice>
+  </OptionChoices>
+</Species>

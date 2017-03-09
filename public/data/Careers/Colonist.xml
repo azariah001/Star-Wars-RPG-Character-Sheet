@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Career>
+  <Key>COLO</Key>
+  <Name>Colonist</Name>
+  <Description>
+    [H4]Colonist[h4]
+    Please see page 62 of the Edge of the Empire Core Rulebook for details.
+  </Description>
+  <Source Page="62">Edge of the Empire Core Rulebook</Source>
+  <CareerSkills>
+    <Key>CHARM</Key>
+    <Key>DECEP</Key>
+    <Key>CORE</Key>
+    <Key>EDU</Key>
+    <Key>LORE</Key>
+    <Key>LEAD</Key>
+    <Key>NEG</Key>
+    <Key>SW</Key>
+  </CareerSkills>
+  <Specializations>
+    <Key>DOCTOR</Key>
+    <Key>POLITICO</Key>
+    <Key>SCHOLAR</Key>
+    <Key>ENTREPRENEUR</Key>
+    <Key>MARSHAL</Key>
+    <Key>PERFORMER</Key>
+  </Specializations>
+</Career>

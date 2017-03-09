@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Career>
+  <Key>HIREDGUN</Key>
+  <Name>Hired Gun</Name>
+  <Description>
+    [H4]Hired Gun[h4]
+    Please see page 74 of the Edge of the Empire Core Rulebook for details.
+  </Description>
+  <Source Page="74">Edge of the Empire Core Rulebook</Source>
+  <CareerSkills>
+    <Key>ATHL</Key>
+    <Key>BRAWL</Key>
+    <Key>DISC</Key>
+    <Key>MELEE</Key>
+    <Key>PILOTPL</Key>
+    <Key>RANGLT</Key>
+    <Key>RESIL</Key>
+    <Key>VIGIL</Key>
+  </CareerSkills>
+  <Specializations>
+    <Key>BODYGUARD</Key>
+    <Key>MARAUDER</Key>
+    <Key>MERCENARY</Key>
+    <Key>ENFORCER</Key>
+    <Key>DEMOLITIONIST</Key>
+    <Key>HEAVY</Key>
+  </Specializations>
+</Career>

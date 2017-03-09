@@ -1,0 +1,70 @@
+<?xml version="1.0"?>
+<Species>
+  <Key>ZABRAK</Key>
+  <Name>Zabrak</Name>
+  <Description>[H4]Zabrak[h4]
+The Zabrak, also known as Iridonians when referring to the Zabrak who came from Iridonia, are a carnivorous Near-Human species native to Iridonia, a planet located in the Mid Rim known for its inhospitable terrain and fierce predatory life. They are a species known for having a fierce sense of self-determination and an equally dominant need for independence.
+[P][B]Physiology:[b]
+Zabrak are Near-Human, but have a number of significant physical characteristics that set them apart from baseline Humanity. The most striking of these are a series of vestigial horns that crowned the heads of both males and females. These horns grow at puberty in varying patterns and signify that the time of their rite of passage is drawing near. 
+[P]The horns are one trait shared by the many Zabrak subspecies, which are divided by a number of physical characteristics that differ from subspecies to subspecies. These can include different skin tones (which included peachy white, pure white, yellow, red, tan, brown and black), horn patterns, hair growth (though it should be noted that most Zabraks, unlike Humans, cannnot grow eyelashes or facial hair) and eye color (which have certain pigmentations that Humans lack, such as purple, yellow, red, and orange).
+[P]Another of the traits that made Zabrak instantly recognizable are their facial tattoos, which are made up of thin lines received during their rite of passage. These can symbolize many things, including but not limited to family lineage, place of birth, or even a design that reflects their individual personalities.
+[P]Internally, Zabraks possess a second heart. They also have great resistance to physical pain.
+[P]Zabraks are capable of breeding with Humans, and a hybrid sub-species evolved on Dathomir called the Dathomirians, formed from the mating of Nightbrother Zabraks and Nightsister Humans.
+[P][B]Society:[b]
+Zabrak are often seen by most other species as being single-minded, an observation that is not terribly incorrect. This single-minded determination comes from the fact that they are a race with a strong sense of self-assuredness, confident that they are able to accomplish any task that they set out to do. However, this does not lead a Zabrak to develop a sense of prideful superiority towards others, though there is often the occasional competition between colonies. This is not seen as a negative, however, for the Zabraks believe that the various experiences of the different colonies only served to add values to the race's overall value to the galaxy.
+[P]Zabrak are proud, strong, and confident beings. They believe that nothing is truly impossible, and strive to prove skeptics wrong at every turn. Some Zabraks carry themselves with an air of superiority, frequently discussing the achievements of their people with pride that can border on arrogance. As warriors or adventurers, Zabrak tend to be dedicated, intense, and extremely focused.
+[P]Zabrak from Iridonia are considered to be more war-like than Zabrak from their colony worlds, most likely due to the rugged terrain that makes up their home world. As such, they developed a highly physical style of martial arts, which is a requirement for young Zabrak to learn. It is not uncommon for Zabrak from Iridonia to be among the best hand-to-hand fighters and weaponsmiths in the galaxy. Zabrak from colony worlds also share that drive for excellence, but encourage their children to express it in other ways. It was thus not surprising to see that the Zabrak meet with success in many fields, ranging from medicine to entertainment.
+[P]Zabrak will commonly take their names from animals native to Iridonia, with many Zabrak families named after the Bukk. Many Zabrak males are named after the Blok, Lok, and Zur. Many Zabrak females are known to take their names from the Triz.
+[P][B]Homeworld:[b]
+Iridonia is the homeworld of the Zabrak species. Due to the harsh living conditions, the Zabrak are a hardy species. They took to flight and then space travel as soon as they could develop the technology, and by the time the Duros encountered them, they had already colonized five systems. Notable Iridonians included Darth Maul, Bao-Dur, Drell Kahmf, Sirak and Maris Brood.
+[P][B]Language:[b]
+Zabraki, or Zabrak language is the native language of the Zabrak species from Iridonia. Most Zabrak are fluent in both Zabrak language and Basic, being literate in both languages.
+[P]The word Kaz, as in the name Kaz Lo, means "clever" or "innovative". The word "Ouc" as in the name "Oucoa" pronounced "Oak-oa" means "Brave" or "Fearless one".</Description>
+  <Source Page="62">Force and Destiny Core Rulebook</Source>
+  <StartingChars>
+    <Brawn>2</Brawn>
+    <Agility>2</Agility>
+    <Intellect>2</Intellect>
+    <Cunning>2</Cunning>
+    <Willpower>3</Willpower>
+    <Presence>1</Presence>
+  </StartingChars>
+  <StartingAttrs>
+    <WoundThreshold>10</WoundThreshold>
+    <StrainThreshold>10</StrainThreshold>
+    <Experience>100</Experience>
+  </StartingAttrs>
+  <SkillModifiers>
+    <SkillModifier>
+      <Key>SURV</Key>
+      <RankStart>1</RankStart>
+    </SkillModifier>
+  </SkillModifiers>
+  <TalentModifiers>
+  </TalentModifiers>
+  <OptionChoices>
+    <OptionChoice>
+      <Key>ZABRAKOC1</Key>
+      <Name>Fear</Name>
+      <Description />
+      <Options>
+        <Option>
+          <Key>ZABRAKOC1OP1</Key>
+          <Name>Fearsome Countenance</Name>
+          <Description>
+            A Zabrak
+            adds automatic [ADVANTAGE] to all Coercion checks he makes.
+          </Description>
+          <DieModifiers>
+            <DieModifier>
+              <SkillKey>COERC</SkillKey>
+              <AdvantageCount>1</AdvantageCount>
+            </DieModifier>
+          </DieModifiers>
+          <TalentModifiers />
+        </Option>
+      </Options>
+    </OptionChoice>
+  </OptionChoices>
+  <WeaponModifiers />
+</Species>

@@ -1,0 +1,68 @@
+<Vehicle>
+  <Key>T47ALLIANCE</Key>
+  <Name>Alliance T-47 Airspeeder</Name>
+  <Description>
+      [H3]Alliance T-47 Airspeeder[h3]
+      Please see page 249 of the Age of Rebellion Core Rulebook for details.
+    </Description>
+  <Source Page="249">Age of Rebellion Core Rulebook</Source>
+  <Sources>
+    <Source>Age of Rebellion Core Rulebook</Source>
+  </Sources>
+  <MaxAltitude>175 meters</MaxAltitude>
+  <SensorRangeValue>srClose</SensorRangeValue>
+  <Crew>One Pilot, One Co-Pilot/Rear Gunner</Crew>
+  <EncumbranceCapacity>6</EncumbranceCapacity>
+  <Passengers>0</Passengers>
+  <Silhouette>2</Silhouette>
+  <Speed>4</Speed>
+  <Handling>0</Handling>
+  <DefFore>0</DefFore>
+  <DefAft>0</DefAft>
+  <DefPort>0</DefPort>
+  <DefStarboard>0</DefStarboard>
+  <Armor>1</Armor>
+  <HullTrauma>4</HullTrauma>
+  <SystemStrain>6</SystemStrain>
+  <HP>2</HP>
+  <Price>18000</Price>
+  <Rarity>3</Rarity>
+  <Categories>
+    <Category>Air Vehicle</Category>
+  </Categories>
+  <Type>Airspeeder</Type>
+  <VehicleWeapons>
+    <VehicleWeapon>
+      <Key>BLASTCANHVY</Key>
+      <Location>Forward</Location>
+      <Turret>false</Turret>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Aft>false</Aft>
+        <Port>false</Port>
+        <Starboard>false</Starboard>
+        <Dorsal>false</Dorsal>
+        <Ventral>false</Ventral>
+      </FiringArcs>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>1</Count>
+        </Quality>
+      </Qualities>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <Key>ELECHARPOON</Key>
+      <Location>Aft</Location>
+      <Turret>true</Turret>
+      <FiringArcs>
+        <Fore>false</Fore>
+        <Aft>true</Aft>
+        <Port>false</Port>
+        <Starboard>false</Starboard>
+        <Dorsal>false</Dorsal>
+        <Ventral>false</Ventral>
+      </FiringArcs>
+    </VehicleWeapon>
+  </VehicleWeapons>
+</Vehicle>

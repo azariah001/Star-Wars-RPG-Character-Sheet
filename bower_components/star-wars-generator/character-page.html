@@ -1,0 +1,564 @@
+<link rel="import" href="../polymer/polymer.html">
+<link rel='import' href='../iron-ajax/iron-ajax.html'>
+<link rel='import' href='../star-wars-generator/character-characteristics.html'>
+<link rel='import' href='../star-wars-generator/character-attribute.html'>
+<link rel='import' href='../star-wars-generator/character-defense.html'>
+<link rel='import' href='../star-wars-generator/character-skills.html'>
+<link rel='import' href='../star-wars-generator/character-specializations.html'>
+
+<dom-module id="character-page">
+
+  <template>
+
+    <style>
+      /* local styles go here */
+      :host {
+        display          : block;
+        padding-top      : 30px;
+        padding-bottom   : 30px;
+        max-width        : 100%;
+        width            : 120vh;
+        margin-left      : auto;
+        margin-right     : auto;
+        background-color : #ECF1F5
+      }
+
+      :host > .character {
+        width : 100%
+      }
+
+      :host > .character > table {
+        width : 100%
+      }
+
+      :host > .heading {
+        width         : 100%;
+        text-align    : center;
+        margin-bottom : 20px;
+        margin-top    : 20px
+      }
+
+      :host > section.characteristics {
+        display         : flex;
+        flex-direction  : row;
+        justify-content : space-around
+      }
+
+      :host > section.attributes {
+        display        : flex;
+        flex-direction : row
+      }
+
+      :host > section.attributes > .combat-stats {
+        width    : 40%;
+        position : relative
+      }
+
+      :host > section.attributes > .combat-stats > character-attribute {
+        position : absolute;
+        top      : 0;
+        width    : 40%;
+        z-index  : 5
+      }
+
+      :host > section.attributes > .combat-stats > character-attribute.left {
+        left : 5%
+      }
+
+      :host > section.attributes > .combat-stats > character-attribute.right {
+        right : 5%
+      }
+
+      :host > section.attributes > .combat-stats > .current {
+        position     : absolute;
+        top          : 50px;
+        left         : 8%;
+        right        : 8%;
+        bottom       : 10px;
+        z-index      : 1;
+        border-color : black;
+        border-style : solid;
+        border-width : 29px 29px 29px 29px;
+        border-image : url("/images/border.png") 29 29 29 29 fill repeat stretch
+      }
+
+      :host > section.attributes > .counters {
+        width          : 14%;
+        display        : flex;
+        flex-direction : column
+      }
+
+      :host > section.attributes > .counters > character-attribute {
+        width         : 100%;
+        margin-bottom : 20px
+      }
+
+      :host > section.attributes > .counters > character-attribute > .sub-classifications {
+        width          : 100%;
+        display        : flex;
+        flex-direction : row
+      }
+
+      :host > section.attributes > .counters > character-attribute > .sub-classifications > character-attribute {
+        width        : 50%;
+        border       : none;
+        border-image : none
+      }
+
+      :host > section.skills {
+        display: flex;
+        flex-flow: row;
+      }
+
+      :host > section.skills > div.column {
+        width: 50%;
+        padding: 10px;
+      }
+
+      :host > section.skills > div.column > character-skills:nth-of-type(even) {
+        background-color: #a99a87;
+      }
+
+      :host > section.skills > div.column p {
+        margin: 0;
+      }
+
+      :host > section.skills > div.column > .heading {
+        width: 100%;
+        display: flex;
+        flex-flow: row;
+        background-color: #781114;
+        color: #ffffff;
+        height: 26px;
+      }
+
+      :host > section.skills > div.column > .heading:nth-of-type(2n),
+      :host > section.skills > div.column > .heading:nth-of-type(3n) {
+        margin-top: 26px;
+      }
+
+      :host > section.skills > div.column > .heading > .skill {
+        width: 40%;
+        text-align: center;
+        padding: 5px;
+      }
+      :host > section.skills > div.column > .heading > .career {
+        width: 15%;
+        text-align: center;
+        padding: 5px;
+      }
+      :host > section.skills > div.column > .heading > .careerRank {
+        width: 15%;
+        text-align: center;
+        padding: 5px;
+      }
+      :host > section.skills > div.column > .heading > .dicePool {
+        width: 30%;
+        text-align: center;
+        padding: 5px;
+      }
+    </style>
+
+    <iron-ajax id="zeroki" url="http://localhost:3000/characters/zeroki.json" last-response="{{Character}}" auto></iron-ajax>
+
+
+    <section class="character">
+
+      <table>
+        <tr>
+          <th>
+            Character Name:
+          </th>
+          <td>
+            [[Character.Description.CharName]]
+          </td>
+          <th>
+            Player Name:
+          </th>
+          <td>
+            [[Character.Description.PlayerName]]
+          </td>
+        </tr>
+        <tr>
+          <th>
+            Species:
+          </th>
+          <td>
+            [[Character.Species.SpeciesKey]]
+          </td>
+          <th>
+            Career:
+          </th>
+          <td>
+            [[Character.Career.CareerKey]]
+          </td>
+        </tr>
+        <tr>
+          <th>
+            Specialisations:
+          </th>
+          <td>
+            [[Character.Career.StartingSpecKey]]
+          </td>
+          <th>
+
+          </th>
+          <td>
+
+          </td>
+        </tr>
+      </table>
+
+    </section>
+
+    <div class="heading">Characteristics</div>
+
+    <section class="characteristics">
+
+      <character-characteristics
+          power-species-ranks=" [[Character.Characteristics.CharCharacteristic.0.Rank.SpeciesRanks]] "
+          power-purchased-ranks=" [[Character.Characteristics.CharCharacteristic.0.Rank.PurchasedRanks]] "
+          power-name="[[Character.Characteristics.CharCharacteristic.0.Name]]"
+          power-total-ranks="{{characteristicBrawn}}"></character-characteristics>
+
+      <character-characteristics
+          power-species-ranks=" [[Character.Characteristics.CharCharacteristic.1.Rank.SpeciesRanks]] "
+          power-purchased-ranks=" [[Character.Characteristics.CharCharacteristic.1.Rank.PurchasedRanks]] "
+          power-name="[[Character.Characteristics.CharCharacteristic.1.Name]]"
+          power-total-ranks="{{characteristicAgility}}"></character-characteristics>
+
+      <character-characteristics
+          power-species-ranks=" [[Character.Characteristics.CharCharacteristic.2.Rank.SpeciesRanks]] "
+          power-purchased-ranks=" [[Character.Characteristics.CharCharacteristic.2.Rank.PurchasedRanks]] "
+          power-name="[[Character.Characteristics.CharCharacteristic.2.Name]]"
+          power-total-ranks="{{characteristicIntellect}}"></character-characteristics>
+
+      <character-characteristics
+          power-species-ranks=" [[Character.Characteristics.CharCharacteristic.3.Rank.SpeciesRanks]] "
+          power-purchased-ranks=" [[Character.Characteristics.CharCharacteristic.3.Rank.PurchasedRanks]] "
+          power-name="[[Character.Characteristics.CharCharacteristic.3.Name]]"
+          power-total-ranks="{{characteristicCunning}}"></character-characteristics>
+
+      <character-characteristics
+          power-species-ranks=" [[Character.Characteristics.CharCharacteristic.4.Rank.SpeciesRanks]] "
+          power-purchased-ranks=" [[Character.Characteristics.CharCharacteristic.4.Rank.PurchasedRanks]] "
+          power-name="[[Character.Characteristics.CharCharacteristic.4.Name]]"
+          power-total-ranks="{{characteristicWillpower}}"></character-characteristics>
+
+      <character-characteristics
+          power-species-ranks=" [[Character.Characteristics.CharCharacteristic.5.Rank.SpeciesRanks]] "
+          power-purchased-ranks=" [[Character.Characteristics.CharCharacteristic.5.Rank.PurchasedRanks]] "
+          power-name="[[Character.Characteristics.CharCharacteristic.5.Name]]"
+          power-total-ranks="{{characteristicPresence}}"></character-characteristics>
+
+    </section>
+
+    <div class="heading">Attributes</div>
+
+    <section class="attributes">
+
+      <div class="combat-stats">
+        <character-attribute class="left" attribute-name="Wound"
+                             attribute-starting-ranks=" [[Character.Attributes.WoundThreshold.StartingRanks]]"
+                             attribute-species-ranks=" [[Character.Attributes.WoundThreshold.SpeciesRanks]] "
+                             attribute-talent-ranks=" [[Character.Attributes.WoundThreshold.TalentRanks]] "
+                             attribute-purchased-ranks=" [[Character.Attributes.WoundThreshold.PurchasedRanks]] "></character-attribute>
+
+        <character-attribute class="right" attribute-name="Strain"
+                             attribute-starting-ranks=" [[Character.Attributes.StrainThreshold.StartingRanks]] "
+                             attribute-species-ranks=" [[Character.Attributes.StrainThreshold.SpeciesRanks]] "
+                             attribute-talent-ranks=" [[Character.Attributes.StrainThreshold.TalentRanks]] "
+                             attribute-purchased-ranks=" [[Character.Attributes.StrainThreshold.PurchasedRanks]] "></character-attribute>
+
+        <div class="current">
+
+        </div>
+
+      </div>
+
+      <div class="counters">
+
+        <character-attribute class="right" attribute-name="Soak"
+                             attribute-starting-ranks=" [[Character.Attributes.SoakValue.StartingRanks]] "
+                             attribute-species-ranks=" [[Character.Attributes.SoakValue.SpeciesRanks]] "
+                             attribute-talent-ranks=" [[Character.Attributes.SoakValue.TalentRanks]] "
+                             attribute-purchased-ranks=" [[Character.Attributes.SoakValue.PurchasedRanks]] "></character-attribute>
+
+        <character-defense defense-ranged-starting-ranks=" [[Character.Attributes.DefenseRanged.StartingRanks]] "
+                           defense-ranged-species-ranks=" [[Character.Attributes.DefenseRanged.SpeciesRanks]] "
+                           defense-ranged-talent-ranks=" [[Character.Attributes.DefenseRanged.TalentRanks]] "
+                           defense-ranged-purchased-ranks=" [[Character.Attributes.DefenseRanged.PurchasedRanks]] "
+                           defense-melee-starting-ranks=" [[Character.Attributes.DefenseMelee.StartingRanks]] "
+                           defense-melee-species-ranks=" [[Character.Attributes.DefenseMelee.SpeciesRanks]] "
+                           defense-melee-talent-ranks=" [[Character.Attributes.DefenseMelee.TalentRanks]] "
+                           defense-melee-purchased-ranks=" [[Character.Attributes.DefenseMelee.PurchasedRanks]] "></character-defense>
+
+      </div>
+
+    </section>
+
+    <div class="heading">Skills</div>
+
+    <section class="skills">
+
+      <div class="column">
+
+        <div class="heading">
+          <div class="skill">
+            <p>GENERAL SKILLS</p>
+          </div>
+          <div class="career">
+            <p>CAREER</p>
+          </div>
+          <div class="careerRank">
+            <p>RANK</p>
+          </div>
+          <div class="dicePool">
+            <p>DICE POOL</p>
+          </div>
+        </div>
+
+        <character-skills skill-key="ASTRO" skill-data="[[Character.Skills.CharSkill]]"
+                          career-skill="" career-rank="" species-rank=""
+                          skill-rank="[[characteristicIntellect]]" remove-setback=""></character-skills>
+
+        <character-skills skill-key="ATHL"skill-data="[[Character.Skills.CharSkill]]"
+                          career-skill="" career-rank="" species-rank=""
+                          skill-rank="[[characteristicBrawn]]" remove-setback=""></character-skills>
+
+        <character-skills skill-key="CHARM" skill-data="[[Character.Skills.CharSkill]]"
+                          career-skill="" career-rank="" species-rank=""
+                          skill-rank="[[characteristicPresence]]" remove-setback=""></character-skills>
+
+        <character-skills skill-key="COERC" skill-data="[[Character.Skills.CharSkill]]"
+                          career-skill="" career-rank="" species-rank=""
+                          skill-rank="[[characteristicWillpower]]" remove-setback=""></character-skills>
+
+        <character-skills skill-key="COMP" skill-data="[[Character.Skills.CharSkill]]"
+                          career-skill="" career-rank="" species-rank=""
+                          skill-rank="[[characteristicIntellect]]" remove-setback=""></character-skills>
+
+        <character-skills skill-key="COOL" skill-data="[[Character.Skills.CharSkill]]"
+                          career-skill="" career-rank="" species-rank=""
+                          skill-rank="[[characteristicPresence]]" remove-setback=""></character-skills>
+
+        <character-skills skill-key="COORD" skill-data="[[Character.Skills.CharSkill]]"
+                          career-skill="" career-rank="" species-rank=""
+                          skill-rank="[[characteristicAgility]]" remove-setback=""></character-skills>
+
+        <character-skills skill-key="DECEP" skill-data="[[Character.Skills.CharSkill]]"
+                          career-skill="" career-rank="" species-rank=""
+                          skill-rank="[[characteristicCunning]]" remove-setback=""></character-skills>
+
+        <character-skills skill-key="DISC" skill-data="[[Character.Skills.CharSkill]]"
+                          career-skill="" career-rank="" species-rank=""
+                          skill-rank="[[characteristicWillpower]]" remove-setback=""></character-skills>
+
+        <character-skills skill-key="LEAD" skill-data="[[Character.Skills.CharSkill]]"
+                          career-skill="" career-rank="" species-rank=""
+                          skill-rank="[[characteristicPresence]]" remove-setback=""></character-skills>
+
+        <character-skills skill-key="MECH" skill-data="[[Character.Skills.CharSkill]]"
+                          career-skill="" career-rank="" species-rank=""
+                          skill-rank="[[characteristicIntellect]]" remove-setback=""></character-skills>
+
+        <character-skills skill-key="MED" skill-data="[[Character.Skills.CharSkill]]"
+                          career-skill="" career-rank="" species-rank=""
+                          skill-rank="[[characteristicIntellect]]" remove-setback=""></character-skills>
+
+        <character-skills skill-key="NEG" skill-data="[[Character.Skills.CharSkill]]"
+                          career-skill="" career-rank="" species-rank=""
+                          skill-rank="[[characteristicPresence]]" remove-setback=""></character-skills>
+
+        <character-skills skill-key="PERC" skill-data="[[Character.Skills.CharSkill]]"
+                          career-skill="" career-rank="" species-rank=""
+                          skill-rank="[[characteristicCunning]]" remove-setback=""></character-skills>
+
+        <character-skills skill-key="PILOTPL" skill-data="[[Character.Skills.CharSkill]]"
+                          career-skill="" career-rank="" species-rank=""
+                          skill-rank="[[characteristicAgility]]" remove-setback=""></character-skills>
+
+        <character-skills skill-key="PILOTSP" skill-data="[[Character.Skills.CharSkill]]"
+                          career-skill="" career-rank="" species-rank=""
+                          skill-rank="[[characteristicAgility]]" remove-setback=""></character-skills>
+
+        <character-skills skill-key="RESIL" skill-data="[[Character.Skills.CharSkill]]"
+                          career-skill="" career-rank="" species-rank=""
+                          skill-rank="[[characteristicBrawn]]" remove-setback=""></character-skills>
+
+        <character-skills skill-key="SKUL" skill-data="[[Character.Skills.CharSkill]]"
+                          career-skill="" career-rank="" species-rank=""
+                          skill-rank="[[characteristicCunning]]" remove-setback=""></character-skills>
+
+        <character-skills skill-key="STEAL" skill-data="[[Character.Skills.CharSkill]]"
+                          career-skill="" career-rank="" species-rank=""
+                          skill-rank="[[characteristicAgility]]" remove-setback=""></character-skills>
+
+        <character-skills skill-key="SW" skill-data="[[Character.Skills.CharSkill]]"
+                          career-skill="" career-rank="" species-rank=""
+                          skill-rank="[[characteristicCunning]]" remove-setback=""></character-skills>
+
+      </div>
+
+      <div class="column">
+
+        <div class="heading">
+          <div class="skill">
+            <p>GENERAL SKILLS (Cont)</p>
+          </div>
+          <div class="career">
+            <p>CAREER</p>
+          </div>
+          <div class="careerRank">
+            <p>RANK</p>
+          </div>
+          <div class="dicePool">
+            <p>DICE POOL</p>
+          </div>
+        </div>
+
+        <character-skills skill-key="SURV" skill-data="[[Character.Skills.CharSkill]]"
+                          career-skill="" career-rank="" species-rank=""
+                          skill-rank="[[characteristicCunning]]" remove-setback=""></character-skills>
+
+        <character-skills skill-key="VIGIL" skill-data="[[Character.Skills.CharSkill]]"
+                          career-skill="" career-rank="" species-rank=""
+                          skill-rank="[[characteristicWillpower]]" remove-setback=""></character-skills>
+
+
+
+        <div class="heading">
+          <div class="skill">
+            <p>COMBAT SKILLS</p>
+          </div>
+          <div class="career">
+            <p>CAREER</p>
+          </div>
+          <div class="careerRank">
+            <p>RANK</p>
+          </div>
+          <div class="dicePool">
+            <p>DICE POOL</p>
+          </div>
+        </div>
+
+        <character-skills skill-key="BRAWL" skill-data="[[Character.Skills.CharSkill]]"
+                          career-skill="" career-rank="" species-rank=""
+                          skill-rank="[[characteristicBrawn]]" remove-setback=""></character-skills>
+
+        <character-skills skill-key="GUNN" skill-data="[[Character.Skills.CharSkill]]"
+                          career-skill="" career-rank="" species-rank=""
+                          skill-rank="[[characteristicAgility]]" remove-setback=""></character-skills>
+
+        <character-skills skill-key="LTSABER" skill-data="[[Character.Skills.CharSkill]]"
+                          career-skill="" career-rank="" species-rank=""
+                          skill-rank="[[characteristicBrawn]]" remove-setback=""></character-skills>
+
+        <character-skills skill-key="MELEE" skill-data="[[Character.Skills.CharSkill]]"
+                          career-skill="" career-rank="" species-rank=""
+                          skill-rank="[[characteristicBrawn]]" remove-setback=""></character-skills>
+
+        <character-skills skill-key="RANGHVY" skill-data="[[Character.Skills.CharSkill]]"
+                          career-skill="" career-rank="" species-rank=""
+                          skill-rank="[[characteristicAgility]]" remove-setback=""></character-skills>
+
+        <character-skills skill-key="RANGLT" skill-data="[[Character.Skills.CharSkill]]"
+                          career-skill="" career-rank="" species-rank=""
+                          skill-rank="[[characteristicAgility]]" remove-setback=""></character-skills>
+
+
+        <div class="heading">
+          <div class="skill">
+            <p>KNOWLEDGE SKILLS</p>
+          </div>
+          <div class="career">
+            <p>CAREER</p>
+          </div>
+          <div class="careerRank">
+            <p>RANK</p>
+          </div>
+          <div class="dicePool">
+            <p>DICE POOL</p>
+          </div>
+        </div>
+
+        <character-skills skill-key="CORE" skill-data="[[Character.Skills.CharSkill]]"
+                          career-skill="" career-rank="" species-rank=""
+                          skill-rank="[[characteristicIntellect]]" remove-setback=""></character-skills>
+
+        <character-skills skill-key="EDU" skill-data="[[Character.Skills.CharSkill]]"
+                          career-skill="" career-rank="" species-rank=""
+                          skill-rank="[[characteristicIntellect]]" remove-setback=""></character-skills>
+
+        <character-skills skill-key="LORE" skill-data="[[Character.Skills.CharSkill]]"
+                          career-skill="" career-rank="" species-rank=""
+                          skill-rank="[[characteristicIntellect]]" remove-setback=""></character-skills>
+
+        <character-skills skill-key="OUT" skill-data="[[Character.Skills.CharSkill]]"
+                          career-skill="" career-rank="" species-rank=""
+                          skill-rank="[[characteristicIntellect]]" remove-setback=""></character-skills>
+
+        <character-skills skill-key="UND" skill-data="[[Character.Skills.CharSkill]]"
+                          career-skill="" career-rank="" species-rank=""
+                          skill-rank="[[characteristicIntellect]]" remove-setback=""></character-skills>
+
+        <character-skills skill-key="WARF" skill-data="[[Character.Skills.CharSkill]]"
+                          career-skill="" career-rank="" species-rank=""
+                          skill-rank="[[characteristicIntellect]]" remove-setback=""></character-skills>
+
+        <character-skills skill-key="XEN" skill-data="[[Character.Skills.CharSkill]]"
+                          career-skill="" career-rank="" species-rank=""
+                          skill-rank="[[characteristicIntellect]]" remove-setback=""></character-skills>
+
+      </div>
+
+    </section>
+
+    <div class="heading">[[Character.Specializations.CharSpecialization.Name]] Talent Tree</div>
+
+    <character-specializations char-specialization="[[Character.Specializations.CharSpecialization]]"></character-specializations>
+
+  </template>
+
+  <script>
+
+    Polymer({
+      /* this is the element's prototype */
+      is: 'character-page',
+      properties: {
+        /**
+         *
+         * @attribute Character
+         * @type number
+         * @default 0
+         */
+        Character: {
+          type: Object,
+          //reflectToAttribute: true,
+          value: {}
+        }
+
+      },
+
+      setCareerData: function() {
+        console.log('test');
+      }
+
+    });
+
+    function getIndex(array, key) {
+      if (array) {
+
+        for (let i = 0; i<array.length; i++) {
+          if (!array[i].Key.localeCompare(key)) {
+            return array[i];
+          }
+        }
+
+      }
+      return false;
+    }
+
+  </script>
+
+</dom-module>

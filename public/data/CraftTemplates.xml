@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CraftTemplates>
+  <!-- Armor Templates -->
+  <CraftTemplate>
+    <TempType>ctArmor</TempType>
+    <MaterialCost>25</MaterialCost>
+    <MaterialRarity>0</MaterialRarity>
+    <TimeHours>6</TimeHours>
+    <CheckRequired>[B]Average ([DI][DI]) Mechanics[b] or [B]Survival check[b]</CheckRequired>
+    <ArmorProfile>
+      <Name>Reinforced Clothing</Name>
+      <Description>
+        [H3]Reinforced Clothing[h3]
+        This is a crafted item.
+      </Description>
+      <Categories>
+        <Category>Half Body</Category>
+      </Categories>
+      <Price>25</Price>
+      <Rarity>0</Rarity>
+      <Restricted>false</Restricted>
+      <Encumbrance>1</Encumbrance>
+      <HP>0</HP>
+      <BaseMods />
+      <WeaponModifiers />
+      <Defense>0</Defense>
+      <Soak>1</Soak>
+    </ArmorProfile>
+  </CraftTemplate>
+  <CraftTemplate>
+    <TempType>ctArmor</TempType>
+    <TimeHours>12</TimeHours>
+    <CheckRequired>[B]Average ([DI][DI]) Mechanics[b] or [B]Survival check[b]</CheckRequired>
+    <ArmorProfile>
+      <Name>Light Armor</Name>
+      <Description>
+        [H3]Light Armor[h3]
+        This is a crafted item.
+      </Description>
+      <Categories>
+        <Category>Half Body</Category>
+      </Categories>
+      <Encumbrance>2</Encumbrance>
+      <HP>0</HP>
+      <Price>250</Price>
+      <Rarity>0</Rarity>
+      <Restricted>false</Restricted>
+      <BaseMods />
+      <WeaponModifiers />
+      <Defense>0</Defense>
+      <Soak>2</Soak>
+    </ArmorProfile>
+  </CraftTemplate>
+  <CraftTemplate>
+    <TempType>ctArmor</TempType>
+    <TimeHours>16</TimeHours>
+    <CheckRequired>[B]Average ([DI][DI]) Mechanics check[b]</CheckRequired>
+    <ArmorProfile>
+      <Name>Customizable Armor</Name>
+      <Description>
+        [H3]Customizable Armor[h3]
+        This is a crafted item.
+      </Description>
+      <Categories>
+        <Category>Full Body</Category>
+      </Categories>
+      <Encumbrance>4</Encumbrance>
+      <HP>4</HP>
+      <Price>500</Price>
+      <Rarity>4</Rarity>
+      <Restricted>false</Restricted>
+      <Defense>0</Defense>
+      <Soak>1</Soak>
+    </ArmorProfile>
+  </CraftTemplate>
+  <CraftTemplate>
+    <TempType>ctArmor</TempType>
+    <TimeHours>24</TimeHours>
+    <CheckRequired>[B]Average ([DI][DI]) Mechanics check[b]</CheckRequired>
+    <ArmorProfile>
+      <Name>Deflective Armor</Name>
+      <Description>
+        [H3]Deflective Armor[h3]
+        This is a crafted item.
+      </Description>
+      <Categories>
+        <Category>Half Body</Category>
+        <Category>Resistant</Category>
+      </Categories>
+      <Encumbrance>2</Encumbrance>
+      <HP>1</HP>
+      <Price>500</Price>
+      <Rarity>5</Rarity>
+      <Restricted>false</Restricted>
+      <Defense>1</Defense>
+      <Soak>1</Soak>
+    </ArmorProfile>
+  </CraftTemplate>
+  <CraftTemplate>
+    <TempType>ctArmor</TempType>
+    <TimeHours>48</TimeHours>
+    <CheckRequired>[B]Hard ([DI][DI][DI]) Mechanics check[b]</CheckRequired>
+    <ArmorProfile>
+      <Name>Combat Armor</Name>
+      <Description>
+        [H3]Combat Armor[h3]
+        This is a crafted item.
+      </Description>
+      <Categories>
+        <Category>Full Body</Category>
+        <Category>Heavy</Category>
+      </Categories>
+      <Encumbrance>4</Encumbrance>
+      <HP>3</HP>
+      <Price>1250</Price>
+      <Rarity>4</Rarity>
+      <Restricted>false</Restricted>
+      <Defense>0</Defense>
+      <Soak>2</Soak>
+    </ArmorProfile>
+  </CraftTemplate>
+  <CraftTemplate>
+    <TempType>ctArmor</TempType>
+    <TimeHours>72</TimeHours>
+    <CheckRequired>[B]Daunting ([DI][DI][DI][DI]) Mechanics check[b]</CheckRequired>
+    <ArmorProfile>
+      <Name>Segmented Armor</Name>
+      <Description>
+        [H3]Segmented Armor[h3]
+        This is a crafted item.
+      </Description>
+      <Categories>
+        <Category>Full Body</Category>
+        <Category>Hard Full Body</Category>
+        <Category>Hard</Category>
+        <Category>Heavy</Category>
+        <Category>Resistant</Category>
+      </Categories>
+      <Encumbrance>6</Encumbrance>
+      <HP>4</HP>
+      <Price>2500</Price>
+      <Rarity>6</Rarity>
+      <Restricted>true</Restricted>
+      <BaseMods />
+      <WeaponModifiers />
+      <Defense>1</Defense>
+      <Soak>2</Soak>
+    </ArmorProfile>
+  </CraftTemplate>
+  <CraftTemplate>
+    <TempType>ctArmor</TempType>
+    <TimeHours>120</TimeHours>
+    <CheckRequired>[B]Formidable ([DI][DI][DI][DI][DI]) Mechanics check[b]</CheckRequired>
+    <ArmorProfile>
+      <Name>Augmentaive Armor (Template)</Name>
+      <Description>
+        [H3]Augmentaive Armor[h3]
+        This is a crafted item.
+      </Description>
+      <Categories>
+        <Category>Full Body</Category>
+        <Category>Hard Full Body</Category>
+        <Category>Hard</Category>
+        <Category>Heavy</Category>
+        <Category>Resistant</Category>
+      </Categories>
+      <Encumbrance>6</Encumbrance>
+      <HP>6</HP>
+      <Price>4500</Price>
+      <Rarity>8</Rarity>
+      <Restricted>true</Restricted>
+      <BaseMods />
+      <WeaponModifiers />
+      <Defense>2</Defense>
+      <Soak>2</Soak>
+    </ArmorProfile>
+  </CraftTemplate>
+</CraftTemplates>

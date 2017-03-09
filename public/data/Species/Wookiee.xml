@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Species>
+  <Key>WOOK</Key>
+  <Name>Wookiee</Name>
+  <Description>
+    [H4]Wookies[h4]
+    Please see page 52 of the Edge of the Empire Core Rulebook for details.
+
+  </Description>
+  <Source Page="52">Edge of the Empire Core Rulebook</Source>
+  <StartingChars>
+    <Brawn>3</Brawn>
+    <Agility>2</Agility>
+    <Intellect>2</Intellect>
+    <Cunning>2</Cunning>
+    <Willpower>1</Willpower>
+    <Presence>2</Presence>
+  </StartingChars>
+  <StartingAttrs>
+    <WoundThreshold>14</WoundThreshold>
+    <StrainThreshold>8</StrainThreshold>
+    <Experience>90</Experience>
+  </StartingAttrs>
+  <SkillModifiers>
+    <SkillModifier>
+      <Key>BRAWL</Key>
+      <RankStart>1</RankStart>
+      <RankLimit>2</RankLimit>
+    </SkillModifier>
+  </SkillModifiers>
+  <OptionChoices>
+    <OptionChoice>
+      <Key>WOOKAB</Key>
+      <Name>Rage</Name>
+      <Options>
+        <Option>
+          <Key>WOOKABRAGE</Key>
+          <Name>Rages when Wounded</Name>
+          <Description>When a Wookiee has suffered any wounds, he deals +1 damage to Brawl and Melee attacks.  When a Wookiee is Critically Injured, he instead deals +2 damage to Brawl and Melee attacks.</Description>
+        </Option>
+      </Options>
+    </OptionChoice>
+  </OptionChoices>
+</Species>

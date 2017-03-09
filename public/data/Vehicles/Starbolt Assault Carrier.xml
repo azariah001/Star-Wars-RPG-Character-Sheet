@@ -1,0 +1,124 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>STARBOLT</Key>
+  <Name>Starbolt Assault Carrier</Name>
+  <Description>
+    [H3]Starbolt Assault Carrier[h3]
+    Please see page 70 of the Dangerous Covenants Sourcebook for details.
+  </Description>
+  <Source Page="70">Dangerous Covenants</Source>
+  <Type>Frigate</Type>
+  <Categories>
+    <Category>Capital Ship</Category>
+    <Category>Starship</Category>
+  </Categories>
+  <Encumbrance>0</Encumbrance>
+  <HP>2</HP>
+  <Price>10000000</Price>
+  <Rarity>8</Rarity>
+  <Restricted>true</Restricted>
+  <MaxAltitude />
+  <HyperdrivePrimary>2</HyperdrivePrimary>
+  <HyperdriveBackup>10</HyperdriveBackup>
+  <StarFighters>24 starfighters, 6 assault speeders, four troop speeders, two command speeders, and two shuttles</StarFighters>
+  <NaviComputer>true</NaviComputer>
+  <SensorRangeValue>srLong</SensorRangeValue>
+  <Crew> 800 crew and troop support</Crew>
+  <EncumbranceCapacity>4000</EncumbranceCapacity>
+  <Passengers>250</Passengers>
+  <Consumables>Two years</Consumables>
+  <Silhouette>6</Silhouette>
+  <Speed>3</Speed>
+  <Handling>-1</Handling>
+  <DefFore>2</DefFore>
+  <DefAft>2</DefAft>
+  <DefPort>2</DefPort>
+  <DefStarboard>2</DefStarboard>
+  <Armor>6</Armor>
+  <HullTrauma>75</HullTrauma>
+  <SystemStrain>60</SystemStrain>
+  <Starship>true</Starship>
+  <Massive>0</Massive>
+  <SinglePilot>false</SinglePilot>
+  <VehicleWeapons>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>false</Fore>
+        <Aft>false</Aft>
+        <Port>false</Port>
+        <Starboard>false</Starboard>
+        <Dorsal>true</Dorsal>
+        <Ventral>false</Ventral>
+      </FiringArcs>
+      <Turret>true</Turret>
+      <Location>Dorsal</Location>
+      <Retractable>false</Retractable>
+      <Qualities />
+      <Key>TURBOHVY</Key>
+      <Count>2</Count>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>false</Fore>
+        <Aft>false</Aft>
+        <Port>false</Port>
+        <Starboard>false</Starboard>
+        <Dorsal>false</Dorsal>
+        <Ventral>true</Ventral>
+      </FiringArcs>
+      <Turret>true</Turret>
+      <Location>Ventral</Location>
+      <Retractable>false</Retractable>
+      <Qualities />
+      <Key>IONHVY</Key>
+      <Count>2</Count>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Aft>false</Aft>
+        <Port>false</Port>
+        <Starboard>false</Starboard>
+        <Dorsal>false</Dorsal>
+        <Ventral>false</Ventral>
+      </FiringArcs>
+      <Turret>false</Turret>
+      <Location>Forward</Location>
+      <Retractable>false</Retractable>
+      <Qualities>
+        <Quality>
+          <Key>LIMITEDAMMO</Key>
+          <Count>1</Count>
+          <Index>0</Index>
+          <MiscDesc />
+          <DefZone />
+        </Quality>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>1</Count>
+          <Index>0</Index>
+          <MiscDesc />
+          <DefZone />
+        </Quality>
+      </Qualities>
+      <Key>PTL</Key>
+      <Count>1</Count>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Aft>false</Aft>
+        <Port>false</Port>
+        <Starboard>false</Starboard>
+        <Dorsal>false</Dorsal>
+        <Ventral>false</Ventral>
+      </FiringArcs>
+      <Turret>false</Turret>
+      <Location>Forward</Location>
+      <Retractable>false</Retractable>
+      <Qualities />
+      <Key>TRACTHVY</Key>
+      <Count>1</Count>
+    </VehicleWeapon>
+  </VehicleWeapons>
+</Vehicle>

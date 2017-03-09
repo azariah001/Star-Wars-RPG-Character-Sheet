@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Species>
+  <Key>ALEENA</Key>
+  <Name>Aleena</Name>
+  <Description>
+    [H4]Aleena[h4]
+    Please see page 98 of the Nexus of Power Sourcebook for details.
+  </Description>
+  <Source Page="98">Nexus of Power</Source>
+  <StartingChars>
+    <Brawn>1</Brawn>
+    <Agility>3</Agility>
+    <Intellect>2</Intellect>
+    <Cunning>2</Cunning>
+    <Willpower>2</Willpower>
+    <Presence>2</Presence>
+  </StartingChars>
+  <StartingAttrs>
+    <WoundThreshold>8</WoundThreshold>
+    <StrainThreshold>10</StrainThreshold>
+    <Experience>95</Experience>
+  </StartingAttrs>
+  <SkillModifiers>
+    <SkillModifier>
+      <Key>COORD</Key>
+      <RankStart>1</RankStart>
+      <RankLimit>2</RankLimit>
+    </SkillModifier>
+  </SkillModifiers>
+  <TalentModifiers>
+    <TalentModifier>
+      <Key>DURA</Key>
+      <RankAdd>1</RankAdd>
+    </TalentModifier>
+  </TalentModifiers>
+  <OptionChoices>
+    <OptionChoice>
+      <Key>ALEENAAB1</Key>
+      <Name>Size</Name>
+      <Options>
+        <Option>
+          <Key>ALEENAAB1OP1</Key>
+          <Name>Silhouette</Name>
+          <Description>Aleena are smaller than average and count as silhouette 0.</Description>
+        </Option>
+      </Options>
+    </OptionChoice>
+  </OptionChoices>
+</Species>

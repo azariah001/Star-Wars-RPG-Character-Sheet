@@ -1,0 +1,80 @@
+<?xml version="1.0"?>
+<Species>
+  <Key>NEIM</Key>
+  <Name>Neimoidian</Name>
+  <Description>[H4]Neimoidian[h4]
+
+Neimoidians are a species of humanoids that are distant genetic relatives of Duros. They are native to the planet of Neimoidia and also live on colony worlds in the same sector like Cato Neimoidia, Deko Neimoidia, and Koru Neimoidia. They have a reputation for greed and cowardice. Neimoidians place tremendous value on wealth and material possessions, and will go to great lengths to gain money and power; however, they are very easily intimidated, and hated combat. They are famous for running the Trade Federation, a massive corporate entity.
+    [P][B]Physiology:[b]
+Since the Neimoidians are distant genetic relatives of the Duros, they retain many similarities to them, including basic form, noseless faces, and green-blue skin (though Neimoidians tended to be grayer). Their eyes also have pupils that split horizontally, and they are distinguished by small lumps on their foreheads and down-turned mouths. Their sense of smell comes from glands under their eyes. These genetic differences are attributed to the distinct features of their homeworld, Neimoidia, including its gravity, which is heavier than Duro. Additionally, the planet's star is dimmer, and the planet itself is humid and widely shrouded by fog and mist.
+[P]Neimoidian skin often takes on a mottled look if the being is too self-indulgent or often prone to great stress. A Neimoidian's lung pods will expand and contract convulsively under great stress, leading to an old saying characterizing Neimoidians as the only sentient species with an entire organ devoted to worrying. Nauseated Neimoidians' skin turns pink. The Neimoidians have five fingers and two clawlike toes.
+Neimoidians are born in a larval state called a "grub" form. Although hive-mothers have cloacas, the grubs are born live and not from eggs.
+
+[P]Many Duros take great offense at being compared to their Neimoidians cousins.  The classic example of what not to say details an employer for a shipping company who was curious as to why a Neimoidian was applying for a pilot's position when it was, in actuality, a Duros. The reason for the offense is obvious: Neimoidians tend to be cowardly, greedy, and fearful of death, while Duros are an adventurous, gregarious, and peaceful race.
+
+[P]It is well-known that Neimoidians are notorious disease carriers. According to a joke made by Ebenn Q3 Baobab, onetime doctor for a Neimoidian fleet, "the principal export of the Neimoidian home planet is Brainworm Rot Type C". Baobab further explained in his Galactic Phrase Book &amp; Travel Guide that both the Great Pandemic of Deersheba and the Intestinal Revenge of Bars Barka (which emaciated scores of Ubese colonists) originated with the Neimoidians. At several times in the past, Neimoidia had been quarantined and forbidden to travelers.
+
+[P]Upon death, Neimoidian bodies will desiccate rapidly if not immediately buried or burned. The corpse's face will elongate, and the brain sac will shrivel into a series of tiny pods behind the head. It is this terrifying image of death, coupled with the Geonosian physique, that inspired the appearance of the Trade Federation's B1 battle droids.
+    [P][B]Society:[b]
+Neimoidians spend their formative years as puny grubs in the communal hives of Neimoidia, until the age of seven standard years. They are knowingly neglected by being given limited amounts of food. In this way, the weaker individuals are weeded while the most acquisitive ones can hoard more food than they can eat by themselves. The Neimoidian education ensures the survival of the greediest. Because of that, the Neimoidians will retain ill memories of their homeworld and try to avoid it as much as possible. In fact, Neimoidia's most able individuals typically leave the planet at a young age, often joining the Trade Federation and its trading starships. Meanwhile, the weakest and least capable of the species are sequestered on Neimoidia and the purse-worlds, where they tend to vast insect hives, fungus farms, and beetle hatcheries.
+[P]As adults, Neimoidians have a reputation of being skilled in matters of business and are well known for their leadership of the Trade Federation. Unfortunately, Neimoidians are stereotyped by other species as greedy, fearful of death, lazy, corrupt and even child neglecters.This is evident by the use of droids for almost everything. It is often said that one of the most difficult concepts for a Neimoidian to understand is loyalty.
+
+[P]Members of other species often perceive the Neimoidians as villainous. In fact, the notions of morality and ethics that motivate other societies are completely absent from the Neimoidian culture. From infancy, they are reared to believe that anything they can appropriate is theirs by right, regardless of the means used.
+
+[P]Their species is noted for being highly fearful to fight their own battles yet are deceitful to the point that they do not trust living soldiers. Such traits mean that they are often criticized for their cowardly nature and are one of the reasons why they make use of a mechanized army consisting of droids. This species is noted for being highly paranoid and in fact one of the most difficult concepts that they have understanding in Basic was the term loyalty. In addition, the discussion of an individual's feelings is considered an anaethema amongst Neimoidians.
+    [P][B]Homeworld:[b]
+Neimoidia, also called Pure Neimoidia to avoid confusion with the Neimoidian purse worlds, is a planet in the Colonies region that the Duros from Duro colonized sometime around 25,000 BBY, bringing it into the Galactic Republic.
+    [P][B]Language:[b]
+Pak Pak, also known as Neimoidian, is the main language spoken/conveyed by the Neimoidians. Pak Pak is both a verbal and nonverbal way of Neimoidian communication.</Description>
+  <Source Page="20">Desperate Allies</Source>
+  <StartingChars>
+    <Brawn>1</Brawn>
+    <Agility>2</Agility>
+    <Intellect>3</Intellect>
+    <Cunning>3</Cunning>
+    <Willpower>1</Willpower>
+    <Presence>2</Presence>
+  </StartingChars>
+  <StartingAttrs>
+    <WoundThreshold>11</WoundThreshold>
+    <StrainThreshold>9</StrainThreshold>
+    <Experience>90</Experience>
+  </StartingAttrs>
+  <SkillModifiers />
+  <TalentModifiers>
+  </TalentModifiers>
+  <OptionChoices>
+    <OptionChoice>
+      <Key>NEIMCH1</Key>
+      <Name>Skills</Name>
+      <Description />
+      <Options>
+        <Option>
+          <Key>NEIMCH1OP1</Key>
+          <Name>Negotiation</Name>
+          <Description>
+            Neimoidians may begin the game with one free rank in Negotiation.
+          </Description>
+          <SkillModifiers>
+            <SkillModifier>
+              <Key>NEG</Key>
+              <RankStart>1</RankStart>
+            </SkillModifier>
+          </SkillModifiers>
+        </Option>
+        <Option>
+          <Key>NEIMCH1OP2</Key>
+          <Name>Deception</Name>
+          <Description>Neimoidians may begin the game with one free rank in Deception.
+          </Description>
+          <SkillModifiers>
+            <SkillModifier>
+              <Key>DECEP</Key>
+              <RankStart>1</RankStart>
+            </SkillModifier>
+          </SkillModifiers>
+        </Option>
+      </Options>
+    </OptionChoice>
+  </OptionChoices>
+</Species>

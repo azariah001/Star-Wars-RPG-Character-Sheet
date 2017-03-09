@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<Species xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>CHAGRIAN</Key>
+  <Name>Chagrian</Name>
+  <Description>[H4]Chagrian[h4]
+See page 19 of the Lead by Example Sourcebook for details.</Description>
+  <Source Page="19">Lead by Example</Source>
+  <StartingChars>
+    <Brawn>2</Brawn>
+    <Agility>1</Agility>
+    <Intellect>2</Intellect>
+    <Cunning>2</Cunning>
+    <Willpower>3</Willpower>
+    <Presence>2</Presence>
+  </StartingChars>
+  <StartingAttrs>
+    <WoundThreshold>11</WoundThreshold>
+    <StrainThreshold>10</StrainThreshold>
+    <Experience>90</Experience>
+  </StartingAttrs>
+  <SkillModifiers>
+    <SkillModifier>
+      <Key>RESIL</Key>
+      <RankStart>1</RankStart>
+      <RankAdd>0</RankAdd>
+      <RankLimit>2</RankLimit>
+      <isCareer>false</isCareer>
+      <SkillType />
+    </SkillModifier>
+  </SkillModifiers>
+  <TalentModifiers>
+    <TalentModifier>
+      <Key>KNOWSPEC</Key>
+      <RankStart>0</RankStart>
+      <RankAdd>1</RankAdd>
+      <RankLimit>0</RankLimit>
+    </TalentModifier>
+  </TalentModifiers>
+  <OptionChoices>
+    <OptionChoice>
+      <Key>CHAGRIANCH1</Key>
+      <Name>Environment</Name>
+      <Options>
+        <Option>
+          <Key>CHAGRIANCH1OP1</Key>
+          <Name>Amphibious</Name>
+          <Description>Chagrians can breathe underwater without penalty and never suffer movement penalties for traveling through water.</Description>
+        </Option>
+      </Options>
+    </OptionChoice>
+  </OptionChoices>
+</Species>

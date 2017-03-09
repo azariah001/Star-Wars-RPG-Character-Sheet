@@ -1,0 +1,297 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>MC30C</Key>
+  <Name>MC30C Frigate</Name>
+  <Description>[H3]MC30C Frigate[h3]
+Please see page 118 of the Strongholds of Resistance Sourcebook for details.</Description>
+  <Source Page="118">Strongholds of Resistance</Source>
+  <Sources />
+  <Type>Frigate</Type>
+  <Categories>
+    <Category>Capital Ship</Category>
+    <Category>Starship</Category>
+    <Category>Non-Fighter Starship</Category>
+  </Categories>
+  <Encumbrance>0</Encumbrance>
+  <HP>3</HP>
+  <Price>9500000</Price>
+  <Rarity>6</Rarity>
+  <Restricted>true</Restricted>
+  <BaseMods />
+  <WeaponModifiers />
+  <MaxAltitude />
+  <HyperdrivePrimary>1</HyperdrivePrimary>
+  <HyperdriveBackup>15</HyperdriveBackup>
+  <StarFighters />
+  <NaviComputer>true</NaviComputer>
+  <SensorRangeValue>srLong</SensorRangeValue>
+  <Crew>820 officers and enlisted crew</Crew>
+  <EncumbranceCapacity>3500</EncumbranceCapacity>
+  <Passengers>95</Passengers>
+  <Consumables>Two years</Consumables>
+  <Silhouette>6</Silhouette>
+  <Speed>4</Speed>
+  <Handling>0</Handling>
+  <DefFore>3</DefFore>
+  <DefAft>2</DefAft>
+  <DefPort>2</DefPort>
+  <DefStarboard>2</DefStarboard>
+  <Armor>5</Armor>
+  <HullTrauma>74</HullTrauma>
+  <SystemStrain>42</SystemStrain>
+  <Starship>true</Starship>
+  <Massive>0</Massive>
+  <SinglePilot>false</SinglePilot>
+  <VehicleWeapons>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Aft>false</Aft>
+        <Port>false</Port>
+        <Starboard>false</Starboard>
+        <Dorsal>false</Dorsal>
+        <Ventral>false</Ventral>
+      </FiringArcs>
+      <Turret>false</Turret>
+      <Location>Forward</Location>
+      <Retractable>false</Retractable>
+      <Qualities />
+      <Key>PROTTORPHVY</Key>
+      <Count>2</Count>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Aft>true</Aft>
+        <Port>true</Port>
+        <Starboard>false</Starboard>
+        <Dorsal>false</Dorsal>
+        <Ventral>false</Ventral>
+      </FiringArcs>
+      <Turret>true</Turret>
+      <Location>Port</Location>
+      <Retractable>false</Retractable>
+      <Qualities />
+      <Key>TURBOMED</Key>
+      <Count>8</Count>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Aft>true</Aft>
+        <Port>false</Port>
+        <Starboard>true</Starboard>
+        <Dorsal>false</Dorsal>
+        <Ventral>false</Ventral>
+      </FiringArcs>
+      <Turret>true</Turret>
+      <Location>Starboard</Location>
+      <Retractable>false</Retractable>
+      <Qualities />
+      <Key>TURBOMED</Key>
+      <Count>8</Count>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>false</Fore>
+        <Aft>false</Aft>
+        <Port>false</Port>
+        <Starboard>true</Starboard>
+        <Dorsal>false</Dorsal>
+        <Ventral>false</Ventral>
+      </FiringArcs>
+      <Turret>false</Turret>
+      <Location>Starboard</Location>
+      <Retractable>false</Retractable>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>1</Count>
+          <Index>0</Index>
+          <MiscDesc />
+          <DefZoneValue>None</DefZoneValue>
+          <QualReplace>false</QualReplace>
+          <SkillIsCareer>false</SkillIsCareer>
+          <SkillIsRanked>false</SkillIsRanked>
+          <VehicleWeaponUpgrades />
+          <SelectedVehicleWeaponIndex>-1</SelectedVehicleWeaponIndex>
+          <DieModifiers />
+          <InnateSkills />
+          <ActiveQualityKey />
+          <Failed>false</Failed>
+          <DefZone />
+        </Quality>
+      </Qualities>
+      <Key>LASERMED</Key>
+      <Count>5</Count>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>false</Fore>
+        <Aft>false</Aft>
+        <Port>true</Port>
+        <Starboard>false</Starboard>
+        <Dorsal>false</Dorsal>
+        <Ventral>false</Ventral>
+      </FiringArcs>
+      <Turret>false</Turret>
+      <Location>Port</Location>
+      <Retractable>false</Retractable>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>1</Count>
+          <Index>0</Index>
+          <MiscDesc />
+          <DefZoneValue>None</DefZoneValue>
+          <QualReplace>false</QualReplace>
+          <SkillIsCareer>false</SkillIsCareer>
+          <SkillIsRanked>false</SkillIsRanked>
+          <VehicleWeaponUpgrades />
+          <SelectedVehicleWeaponIndex>-1</SelectedVehicleWeaponIndex>
+          <DieModifiers />
+          <InnateSkills />
+          <ActiveQualityKey />
+          <Failed>false</Failed>
+          <DefZone />
+        </Quality>
+      </Qualities>
+      <Key>LASERMED</Key>
+      <Count>5</Count>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Aft>false</Aft>
+        <Port>false</Port>
+        <Starboard>false</Starboard>
+        <Dorsal>false</Dorsal>
+        <Ventral>false</Ventral>
+      </FiringArcs>
+      <Turret>false</Turret>
+      <Location>Forward</Location>
+      <Retractable>false</Retractable>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>1</Count>
+          <Index>0</Index>
+          <MiscDesc />
+          <DefZoneValue>None</DefZoneValue>
+          <QualReplace>false</QualReplace>
+          <SkillIsCareer>false</SkillIsCareer>
+          <SkillIsRanked>false</SkillIsRanked>
+          <VehicleWeaponUpgrades />
+          <SelectedVehicleWeaponIndex>-1</SelectedVehicleWeaponIndex>
+          <DieModifiers />
+          <InnateSkills />
+          <ActiveQualityKey />
+          <Failed>false</Failed>
+          <DefZone />
+        </Quality>
+      </Qualities>
+      <Key>LASERMED</Key>
+      <Count>3</Count>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>false</Fore>
+        <Aft>true</Aft>
+        <Port>false</Port>
+        <Starboard>false</Starboard>
+        <Dorsal>false</Dorsal>
+        <Ventral>false</Ventral>
+      </FiringArcs>
+      <Turret>false</Turret>
+      <Location>Aft</Location>
+      <Retractable>false</Retractable>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>1</Count>
+          <Index>0</Index>
+          <MiscDesc />
+          <DefZoneValue>None</DefZoneValue>
+          <QualReplace>false</QualReplace>
+          <SkillIsCareer>false</SkillIsCareer>
+          <SkillIsRanked>false</SkillIsRanked>
+          <VehicleWeaponUpgrades />
+          <SelectedVehicleWeaponIndex>-1</SelectedVehicleWeaponIndex>
+          <DieModifiers />
+          <InnateSkills />
+          <ActiveQualityKey />
+          <Failed>false</Failed>
+          <DefZone />
+        </Quality>
+      </Qualities>
+      <Key>LASERMED</Key>
+      <Count>3</Count>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>false</Fore>
+        <Aft>false</Aft>
+        <Port>false</Port>
+        <Starboard>true</Starboard>
+        <Dorsal>false</Dorsal>
+        <Ventral>false</Ventral>
+      </FiringArcs>
+      <Turret>false</Turret>
+      <Location>Starboard</Location>
+      <Retractable>false</Retractable>
+      <Qualities />
+      <Key>CLUSTERBOMB</Key>
+      <Count>2</Count>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>false</Fore>
+        <Aft>false</Aft>
+        <Port>true</Port>
+        <Starboard>false</Starboard>
+        <Dorsal>false</Dorsal>
+        <Ventral>false</Ventral>
+      </FiringArcs>
+      <Turret>false</Turret>
+      <Location>Port</Location>
+      <Retractable>false</Retractable>
+      <Qualities />
+      <Key>CLUSTERBOMB</Key>
+      <Count>2</Count>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Aft>false</Aft>
+        <Port>false</Port>
+        <Starboard>false</Starboard>
+        <Dorsal>false</Dorsal>
+        <Ventral>false</Ventral>
+      </FiringArcs>
+      <Turret>false</Turret>
+      <Location>Forward</Location>
+      <Retractable>false</Retractable>
+      <Qualities />
+      <Key>CLUSTERBOMB</Key>
+      <Count>1</Count>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>false</Fore>
+        <Aft>true</Aft>
+        <Port>false</Port>
+        <Starboard>false</Starboard>
+        <Dorsal>false</Dorsal>
+        <Ventral>false</Ventral>
+      </FiringArcs>
+      <Turret>false</Turret>
+      <Location>Aft</Location>
+      <Retractable>false</Retractable>
+      <Qualities />
+      <Key>CLUSTERBOMB</Key>
+      <Count>1</Count>
+    </VehicleWeapon>
+  </VehicleWeapons>
+  <BuiltInAttachments />
+  <SensorRange>Long</SensorRange>
+</Vehicle>

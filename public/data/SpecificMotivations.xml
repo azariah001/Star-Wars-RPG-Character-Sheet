@@ -1,0 +1,2015 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SpecificMotivations>
+  <SpecificMotivation>
+    <Key>AMBFRIEND</Key>
+    <Name>Friendship</Name>
+    <Description>
+      [H4]Friendship[h4]
+      Please see page 95 of the Edge of the Empire Core Rulebook for details.
+    </Description>
+    <Source Page="95">Edge of the Empire Core Rulebook</Source>
+    <Motivation>Ambition</Motivation>
+  </SpecificMotivation>
+  <SpecificMotivation>
+    <Key>AMBLOVE</Key>
+    <Name>Love</Name>
+    <Description>
+      [H4]Love[h4]
+      Please see page 95 of the Edge of the Empire Core Rulebook for details.
+    </Description>
+    <Source Page="95">Edge of the Empire Core Rulebook</Source>
+    <Motivation>Ambition</Motivation>
+  </SpecificMotivation>
+  <SpecificMotivation>
+    <Key>AMBFREE</Key>
+    <Name>Freedom</Name>
+    <Description>
+      [H4]Freedom[h4]
+      Please see page 95 of the Edge of the Empire Core Rulebook for details.
+    </Description>
+    <Source Page="95">Edge of the Empire Core Rulebook</Source>
+    <Motivation>Ambition</Motivation>
+  </SpecificMotivation>
+  <SpecificMotivation>
+    <Key>AMBFAME</Key>
+    <Name>Fame</Name>
+    <Description>
+      [H4]Fame[h4]
+      Please see page 95 of the Edge of the Empire Core Rulebook for details.
+    </Description>
+    <Source Page="95">Edge of the Empire Core Rulebook</Source>
+    <Motivation>Ambition</Motivation>
+  </SpecificMotivation>
+  <SpecificMotivation>
+    <Key>AMBGREED</Key>
+    <Name>Greed</Name>
+    <Description>
+      [H4]Greed[h4]
+      Please see page 95 of the Edge of the Empire Core Rulebook for details.
+    </Description>
+    <Source Page="95">Edge of the Empire Core Rulebook</Source>
+    <Motivation>Ambition</Motivation>
+  </SpecificMotivation>
+  <SpecificMotivation>
+    <Key>AMBSTATUS</Key>
+    <Name>Status</Name>
+    <Description>
+      [H4]Status[h4]
+      Please see page 95 of the Edge of the Empire Core Rulebook for details.
+    </Description>
+    <Source Page="95">Edge of the Empire Core Rulebook</Source>
+    <Motivation>Ambition</Motivation>
+  </SpecificMotivation>
+  <SpecificMotivation>
+    <Key>AMBEXPER</Key>
+    <Name>Expertise</Name>
+    <Description>
+      [H4]Expertise[h4]
+      Please see page 95 of the Edge of the Empire Core Rulebook, and page 106 of the Force and Destiny Core Rulebook, for details.
+    </Description>
+    <Sources>
+      <Source Page="95">Edge of the Empire Core Rulebook</Source>
+      <Source Page="106">Force and Destiny Core Rulebook</Source>
+    </Sources>
+    <Motivation>Ambition</Motivation>
+  </SpecificMotivation>
+  <SpecificMotivation>
+    <Key>AMBWAND</Key>
+    <Name>Wanderlust/Novelty</Name>
+    <Description>
+      [H4]Wanderlust/Novelty[h4]
+      Please see page 95 of the Edge of the Empire Core Rulebook for details.
+    </Description>
+    <Source Page="95">Edge of the Empire Core Rulebook</Source>
+    <Motivation>Ambition</Motivation>
+  </SpecificMotivation>
+  <SpecificMotivation>
+    <Key>AMBPOWER</Key>
+    <Name>Power</Name>
+    <Description>
+      [H4]Power[h4]
+      Please see page 95 of the Edge of the Empire Core Rulebook, or page 106 of the Force and Destiny Core Rulebook, for details.
+    </Description>
+    <Sources>
+      <Source Page="95">Edge of the Empire Core Rulebook</Source>
+      <Source Page="106">Force and Destiny Core Rulebook</Source>
+    </Sources>
+    <Motivation>Ambition</Motivation>
+  </SpecificMotivation>
+  <SpecificMotivation>
+    <Key>AMBRELIGION</Key>
+    <Name>Religion/Spirituality</Name>
+    <Description>
+      [H4]Religion/Spirituality[h4]
+      Please see page 95 of the Edge of the Empire Core Rulebook for details.
+    </Description>
+    <Source Page="95">Edge of the Empire Core Rulebook</Source>
+    <Motivation>Ambition</Motivation>
+  </SpecificMotivation>
+  <SpecificMotivation>
+    <Key>AMBREVENGE</Key>
+    <Name>Revenge</Name>
+    <Description>
+      [H4]Revenge[h4]
+      Please see page 106 of the Force and Destiny Core Rulebook for details.
+    </Description>
+    <Source Page="106">Force and Destiny Core Rulebook</Source>
+    <Motivation>Ambition</Motivation>
+  </SpecificMotivation>
+  <SpecificMotivation>
+    <Key>AMBWEALTH</Key>
+    <Name>Wealth</Name>
+    <Description>
+      [H4]Wealth[h4]
+      Please see page 106 of the Force and Destiny Core Rulebook for details.
+    </Description>
+    <Source Page="106">Force and Destiny Core Rulebook</Source>
+    <Motivation>Ambition</Motivation>
+  </SpecificMotivation>
+  <SpecificMotivation>
+    <Key>AMBJEDI</Key>
+    <Name>Become a Jedi</Name>
+    <Description>
+      [H4]Become a Jedi[h4]
+      Please see page 106 of the Force and Destiny Core Rulebook for details.
+    </Description>
+    <Source Page="106">Force and Destiny Core Rulebook</Source>
+    <Motivation>Ambition</Motivation>
+  </SpecificMotivation>
+  <SpecificMotivation>
+    <Key>AMBSURVIVAL</Key>
+    <Name>Survival</Name>
+    <Description>
+      [H4]Survival[h4]
+      Please see page 106 of the Force and Destiny Core Rulebook for details.
+    </Description>
+    <Source Page="106">Force and Destiny Core Rulebook</Source>
+    <Motivation>Ambition</Motivation>
+  </SpecificMotivation>
+  <SpecificMotivation>
+    <Key>AMBGLORY</Key>
+    <Name>Glory</Name>
+    <Description>
+      [H4]Glory[h4]
+      Please see page 106 of the Force and Destiny Core Rulebook for details.
+    </Description>
+    <Source Page="106">Force and Destiny Core Rulebook</Source>
+    <Motivation>Ambition</Motivation>
+  </SpecificMotivation>
+  <SpecificMotivation>
+    <Key>AMBSITH</Key>
+    <Name>Destroy the Sith</Name>
+    <Description>
+      [H4]Destroy the Sith[h4]
+      Please see page 106 of the Force and Destiny Core Rulebook for details.
+    </Description>
+    <Source Page="106">Force and Destiny Core Rulebook</Source>
+    <Motivation>Ambition</Motivation>
+  </SpecificMotivation>
+  <SpecificMotivation>
+    <Key>AMBENLIGHT</Key>
+    <Name>Enlightenment</Name>
+    <Description>
+      [H4]Enlightenment[h4]
+      Please see page 106 of the Force and Destiny Core Rulebook for details.
+    </Description>
+    <Source Page="106">Force and Destiny Core Rulebook</Source>
+    <Motivation>Ambition</Motivation>
+  </SpecificMotivation>
+  <SpecificMotivation>
+    <Key>AMBDISC</Key>
+    <Name>Discovery</Name>
+    <Description>
+      [H4]Discovery[h4]
+      Please see page 106 of the Force and Destiny Core Rulebook for details.
+    </Description>
+    <Source Page="106">Force and Destiny Core Rulebook</Source>
+    <Motivation>Ambition</Motivation>
+  </SpecificMotivation>
+  <SpecificMotivation>
+    <Key>CAURELIGION</Key>
+    <Name>Religion/Spirituality</Name>
+    <Description>
+      [H4]Religion/Spirituality[h4]
+      Please see page 95 of the Edge of the Empire Core Rulebook for details.
+    </Description>
+    <Source Page="95">Edge of the Empire Core Rulebook</Source>
+    <Motivation>Cause</Motivation>
+  </SpecificMotivation>
+  <SpecificMotivation>
+    <Key>CAUWEAK</Key>
+    <Name>The Weak/Charity</Name>
+    <Description>
+      [H4]The Weak/Charity[h4]
+      Please see page 95 of the Edge of the Empire Core Rulebook for details.
+    </Description>
+    <Source Page="95">Edge of the Empire Core Rulebook</Source>
+    <Motivation>Cause</Motivation>
+  </SpecificMotivation>
+  <SpecificMotivation>
+    <Key>CAUNONHUM</Key>
+    <Name>Non-Human Rights</Name>
+    <Description>
+      [H4]Non-Human Rights[h4]
+      Please see page 95 of the Edge of the Empire Core Rulebook for details.
+    </Description>
+    <Source Page="95">Edge of the Empire Core Rulebook</Source>
+    <Motivation>Cause</Motivation>
+  </SpecificMotivation>
+  <SpecificMotivation>
+    <Key>CAUPOLITICS</Key>
+    <Name>Local Politics</Name>
+    <Description>
+      [H4]Local Politics[h4]
+      Please see page 95 of the Edge of the Empire Core Rulebook for details.
+    </Description>
+    <Source Page="95">Edge of the Empire Core Rulebook</Source>
+    <Motivation>Cause</Motivation>
+  </SpecificMotivation>
+  <SpecificMotivation>
+    <Key>CAUOVER</Key>
+    <Name>Overthrow the Empire</Name>
+    <Description>
+      [H4]Overthrow the Empire[h4]
+      Please see page 95 of the Edge of the Empire Core Rulebook for details.
+    </Description>
+    <Source Page="95">Edge of the Empire Core Rulebook</Source>
+    <Motivation>Cause</Motivation>
+  </SpecificMotivation>
+  <SpecificMotivation>
+    <Key>CAUCRIME</Key>
+    <Name>Crime</Name>
+    <Description>
+      [H4]Crime[h4]
+      Please see page 95 of the Edge of the Empire Core Rulebook for details.
+    </Description>
+    <Source Page="95">Edge of the Empire Core Rulebook</Source>
+    <Motivation>Cause</Motivation>
+  </SpecificMotivation>
+  <SpecificMotivation>
+    <Key>CAUEMANC</Key>
+    <Name>Emancipation</Name>
+    <Description>
+      [H4]Emancipation[h4]
+      Please see page 95 of the Edge of the Empire Core Rulebook for details.
+    </Description>
+    <Source Page="95">Edge of the Empire Core Rulebook</Source>
+    <Motivation>Cause</Motivation>
+  </SpecificMotivation>
+  <SpecificMotivation>
+    <Key>CAUDROID</Key>
+    <Name>Droid Rights</Name>
+    <Description>
+      [H4]Droid Rights[h4]
+      Please see page 95 of the Edge of the Empire Core Rulebook for details.
+    </Description>
+    <Source Page="95">Edge of the Empire Core Rulebook</Source>
+    <Motivation>Cause</Motivation>
+  </SpecificMotivation>
+  <SpecificMotivation>
+    <Key>CAUCAPITAL</Key>
+    <Name>Capitalism</Name>
+    <Description>
+      [H4]Capitalism[h4]
+      Please see page 95 of the Edge of the Empire Core Rulebook for details.
+    </Description>
+    <Source Page="95">Edge of the Empire Core Rulebook</Source>
+    <Motivation>Cause</Motivation>
+  </SpecificMotivation>
+  <SpecificMotivation>
+    <Key>CAUEMPIRE</Key>
+    <Name>Support the Empire</Name>
+    <Description>
+      [H4]Support the Empire[h4]
+      Please see page 95 of the Edge of the Empire Core Rulebook for details.
+    </Description>
+    <Source Page="95">Edge of the Empire Core Rulebook</Source>
+    <Motivation>Cause</Motivation>
+  </SpecificMotivation>
+  <SpecificMotivation>
+    <Key>CAUFREEDOM</Key>
+    <Name>Freedom</Name>
+    <Description>
+      [H4]Freedom[h4]
+      Please see page 106 of the Force and Destiny Core Rulebook for details.
+    </Description>
+    <Source Page="106">Force and Destiny Core Rulebook</Source>
+    <Motivation>Cause</Motivation>
+  </SpecificMotivation>
+  <SpecificMotivation>
+    <Key>CAURESTJEDI</Key>
+    <Name>Restore the Jedi</Name>
+    <Description>
+      [H4]Restore the Jedi[h4]
+      Please see page 106 of the Force and Destiny Core Rulebook for details.
+    </Description>
+    <Source Page="106">Force and Destiny Core Rulebook</Source>
+    <Motivation>Cause</Motivation>
+  </SpecificMotivation>
+  <SpecificMotivation>
+    <Key>CAUPEACE</Key>
+    <Name>Galactic Peace</Name>
+    <Description>
+      [H4]Galactic Peace[h4]
+      Please see page 106 of the Force and Destiny Core Rulebook for details.
+    </Description>
+    <Source Page="106">Force and Destiny Core Rulebook</Source>
+    <Motivation>Cause</Motivation>
+  </SpecificMotivation>
+  <SpecificMotivation>
+    <Key>CAUJUSTICE</Key>
+    <Name>Justice</Name>
+    <Description>
+      [H4]Justice[h4]
+      Please see page 106 of the Force and Destiny Core Rulebook for details.
+    </Description>
+    <Source Page="106">Force and Destiny Core Rulebook</Source>
+    <Motivation>Cause</Motivation>
+  </SpecificMotivation>
+  <SpecificMotivation>
+    <Key>CAUSTOPREB</Key>
+    <Name>Stop the Rebellion</Name>
+    <Description>
+      [H4]Stop the Rebellion[h4]
+      Please see page 106 of the Force and Destiny Core Rulebook for details.
+    </Description>
+    <Source Page="106">Force and Destiny Core Rulebook</Source>
+    <Motivation>Cause</Motivation>
+  </SpecificMotivation>
+  <SpecificMotivation>
+    <Key>CAUEQUAL</Key>
+    <Name>Equality</Name>
+    <Description>
+      [H4]Equality[h4]
+      Please see page 106 of the Force and Destiny Core Rulebook for details.
+    </Description>
+    <Source Page="106">Force and Destiny Core Rulebook</Source>
+    <Motivation>Cause</Motivation>
+  </SpecificMotivation>
+  <SpecificMotivation>
+    <Key>CAUHELPLESS</Key>
+    <Name>Help the Helpless</Name>
+    <Description>
+      [H4]Help the Helpless[h4]
+      Please see page 106 of the Force and Destiny Core Rulebook for details.
+    </Description>
+    <Source Page="106">Force and Destiny Core Rulebook</Source>
+    <Motivation>Cause</Motivation>
+  </SpecificMotivation>
+  <SpecificMotivation>
+    <Key>CAUFREEENT</Key>
+    <Name>Free Enterprise</Name>
+    <Description>
+      [H4]Free Enterprise[h4]
+      Please see page 106 of the Force and Destiny Core Rulebook for details.
+    </Description>
+    <Source Page="106">Force and Destiny Core Rulebook</Source>
+    <Motivation>Cause</Motivation>
+  </SpecificMotivation>
+  <SpecificMotivation>
+    <Key>CAUOVEREMP</Key>
+    <Name>Overthrow the Empire</Name>
+    <Description>
+      [H4]Overthrow the Empire[h4]
+      Please see page 106 of the Force and Destiny Core Rulebook for details.
+    </Description>
+    <Source Page="106">Force and Destiny Core Rulebook</Source>
+    <Motivation>Cause</Motivation>
+  </SpecificMotivation>
+  <SpecificMotivation>
+    <Key>CAUKNOW</Key>
+    <Name>Knowledge</Name>
+    <Description>
+      [H4]Knowledge[h4]
+      Please see page 106 of the Force and Destiny Core Rulebook for details.
+    </Description>
+    <Source Page="106">Force and Destiny Core Rulebook</Source>
+    <Motivation>Cause</Motivation>
+  </SpecificMotivation>
+  <SpecificMotivation>
+    <Key>RELORIGIN</Key>
+    <Name>Place of Origin</Name>
+    <Description>
+      [H4]Place of Origin[h4]
+      Please see page 96 of the Edge of the Empire Core Rulebook for details.
+    </Description>
+    <Source Page="96">Edge of the Empire Core Rulebook</Source>
+    <Motivation>Relationship</Motivation>
+  </SpecificMotivation>
+  <SpecificMotivation>
+    <Key>RELPET</Key>
+    <Name>Pet</Name>
+    <Description>
+      [H4]Pet[h4]
+      Please see page 96 of the Edge of the Empire Core Rulebook for details.
+    </Description>
+    <Source Page="96">Edge of the Empire Core Rulebook</Source>
+    <Motivation>Relationship</Motivation>
+  </SpecificMotivation>
+  <SpecificMotivation>
+    <Key>RELFRIEND</Key>
+    <Name>Childhood Friend</Name>
+    <Description>
+      [H4]Childhood Friend[h4]
+      Please see page 96 of the Edge of the Empire Core Rulebook for details.
+    </Description>
+    <Source Page="96">Edge of the Empire Core Rulebook</Source>
+    <Motivation>Relationship</Motivation>
+  </SpecificMotivation>
+  <SpecificMotivation>
+    <Key>RELCOMRADES</Key>
+    <Name>Comrades</Name>
+    <Description>
+      [H4]Comrades[h4]
+      Please see page 96 of the Edge of the Empire Core Rulebook for details.
+    </Description>
+    <Source Page="96">Edge of the Empire Core Rulebook</Source>
+    <Motivation>Relationship</Motivation>
+  </SpecificMotivation>
+  <SpecificMotivation>
+    <Key>RELSIB</Key>
+    <Name>Sibling/Siblings</Name>
+    <Description>
+      [H4]Sibling/Siblings[h4]
+      Please see page 96 of the Edge of the Empire Core Rulebook for details.
+    </Description>
+    <Source Page="96">Edge of the Empire Core Rulebook</Source>
+    <Motivation>Relationship</Motivation>
+  </SpecificMotivation>
+  <SpecificMotivation>
+    <Key>RELMENTOR</Key>
+    <Name>Mentor</Name>
+    <Description>
+      [H4]Mentor[h4]
+      Please see page 96 of the Edge of the Empire Core Rulebook for details.
+    </Description>
+    <Source Page="96">Edge of the Empire Core Rulebook</Source>
+    <Motivation>Relationship</Motivation>
+  </SpecificMotivation>
+  <SpecificMotivation>
+    <Key>RELPARENTS</Key>
+    <Name>Parents</Name>
+    <Description>
+      [H4]Parents[h4]
+      Please see page 96 of the Edge of the Empire Core Rulebook for details.
+    </Description>
+    <Source Page="96">Edge of the Empire Core Rulebook</Source>
+    <Motivation>Relationship</Motivation>
+  </SpecificMotivation>
+  <SpecificMotivation>
+    <Key>RELFAMILY</Key>
+    <Name>Extended Family/Clan</Name>
+    <Description>
+      [H4]Extended Family/Clan[h4]
+      Please see page 96 of the Edge of the Empire Core Rulebook for details.
+    </Description>
+    <Source Page="96">Edge of the Empire Core Rulebook</Source>
+    <Motivation>Relationship</Motivation>
+  </SpecificMotivation>
+  <SpecificMotivation>
+    <Key>RELDROID</Key>
+    <Name>Droid Companion</Name>
+    <Description>
+      [H4]Droid Companion[h4]
+      Please see page 96 of the Edge of the Empire Core Rulebook for details.
+    </Description>
+    <Source Page="96">Edge of the Empire Core Rulebook</Source>
+    <Motivation>Relationship</Motivation>
+  </SpecificMotivation>
+  <SpecificMotivation>
+    <Key>RELNEMESIS</Key>
+    <Name>Former Nemesis</Name>
+    <Description>
+      [H4]Former Nemesis[h4]
+      Please see page 96 of the Edge of the Empire Core Rulebook for details.
+    </Description>
+    <Source Page="96">Edge of the Empire Core Rulebook</Source>
+    <Motivation>Relationship</Motivation>
+  </SpecificMotivation>
+  <SpecificMotivation>
+    <Key>BELREPUBLIC</Key>
+    <Name>The Republic</Name>
+    <Description>
+      [H4]The Republic[h4]
+      Please see page 105 of the Age of Rebellion Core Rulebook for details.
+    </Description>
+    <Source Page="105">Age of Rebellion Core Rulebook</Source>
+    <Motivation>Belief</Motivation>
+  </SpecificMotivation>
+  <SpecificMotivation>
+    <Key>BELHONOR</Key>
+    <Name>Honor</Name>
+    <Description>
+      [H4]Honor[h4]
+      Please see page 105 of the Age of Rebellion Core Rulebook for details.
+    </Description>
+    <Source Page="105">Age of Rebellion Core Rulebook</Source>
+    <Motivation>Belief</Motivation>
+  </SpecificMotivation>
+  <SpecificMotivation>
+    <Key>BELFREEENT</Key>
+    <Name>Free Enterprise</Name>
+    <Description>
+      [H4]Free Enterprise[h4]
+      Please see page 68 of the Age of Rebellion Beta Rulebook for details.
+    </Description>
+    <Source Page="68">Age of Rebellion Beta Rulebook</Source>
+    <Motivation>Belief</Motivation>
+  </SpecificMotivation>
+  <SpecificMotivation>
+    <Key>BELTHEJEDI</Key>
+    <Name>The Jedi</Name>
+    <Description>
+      [H4]The Jedi[h4]
+      Please see page 105 of the Age of Rebellion Core Rulebook for details.
+    </Description>
+    <Source Page="105">Age of Rebellion Core Rulebook</Source>
+    <Motivation>Belief</Motivation>
+  </SpecificMotivation>
+  <SpecificMotivation>
+    <Key>BELJUSTICE</Key>
+    <Name>Justice</Name>
+    <Description>
+      [H4]Justice[h4]
+      Please see page 105 of the Age of Rebellion Core Rulebook for details.
+    </Description>
+    <Source Page="105">Age of Rebellion Core Rulebook</Source>
+    <Motivation>Belief</Motivation>
+  </SpecificMotivation>
+  <SpecificMotivation>
+    <Key>BELSPRIGHTS</Key>
+    <Name>Species Rights</Name>
+    <Description>
+      [H4]Species Rights[h4]
+      Please see page 105 of the Age of Rebellion Core Rulebook for details.
+    </Description>
+    <Source Page="105">Age of Rebellion Core Rulebook</Source>
+    <Motivation>Belief</Motivation>
+  </SpecificMotivation>
+  <SpecificMotivation>
+    <Key>BELPEACE</Key>
+    <Name>Peace</Name>
+    <Description>
+      [H4]Peace[h4]
+      Please see page 105 of the Age of Rebellion Core Rulebook for details.
+    </Description>
+    <Source Page="105">Age of Rebellion Core Rulebook</Source>
+    <Motivation>Belief</Motivation>
+  </SpecificMotivation>
+  <SpecificMotivation>
+    <Key>BELRELPHIL</Key>
+    <Name>Religion/Philosophy</Name>
+    <Description>
+      [H4]Religion/Philosophy[h4]
+      Please see page 105 of the Age of Rebellion Core Rulebook for details.
+    </Description>
+    <Source Page="105">Age of Rebellion Core Rulebook</Source>
+    <Motivation>Belief</Motivation>
+  </SpecificMotivation>
+  <SpecificMotivation>
+    <Key>BELLIBERTY</Key>
+    <Name>Liberty</Name>
+    <Description>
+      [H4]Liberty[h4]
+      Please see page 68 of the Age of Rebellion Beta Rulebook for details.
+    </Description>
+    <Source Page="68">Age of Rebellion Beta Rulebook</Source>
+    <Motivation>Belief</Motivation>
+  </SpecificMotivation>
+  <SpecificMotivation>
+    <Key>BELFREE</Key>
+    <Name>Freedom</Name>
+    <Description>
+      [H4]Freedom[h4]
+      Please see page 105 of the Age of Rebellion Core Rulebook for details.
+    </Description>
+    <Source Page="105">Age of Rebellion Core Rulebook</Source>
+    <Motivation>Belief</Motivation>
+  </SpecificMotivation>
+  <SpecificMotivation>
+    <Key>BELORDER</Key>
+    <Name>Order</Name>
+    <Description>
+      [H4]Order[h4]
+      Please see page 68 of the Age of Rebellion Beta Rulebook for details.
+    </Description>
+    <Source Page="68">Age of Rebellion Beta Rulebook</Source>
+    <Motivation>Belief</Motivation>
+  </SpecificMotivation>
+  <SpecificMotivation>
+    <Key>BELPROGRESS</Key>
+    <Name>Progress</Name>
+    <Description>
+      [H4]Progress[h4]
+      Please see page 105 of the Age of Rebellion Core Rulebook for details.
+    </Description>
+    <Source Page="105">Age of Rebellion Core Rulebook</Source>
+    <Motivation>Belief</Motivation>
+  </SpecificMotivation>
+  <SpecificMotivation>
+    <Key>BELFORCE</Key>
+    <Name>The Force</Name>
+    <Description>
+      [H4]The Force[h4]
+      Please see page 68 of the Age of Rebellion Beta Rulebook for details.
+    </Description>
+    <Source Page="68">Age of Rebellion Beta Rulebook</Source>
+    <Motivation>Belief</Motivation>
+  </SpecificMotivation>
+  <SpecificMotivation>
+    <Key>BELCRIME</Key>
+    <Name>Crime</Name>
+    <Description>
+      [H4]Crime[h4]
+      Please see page 105 of the Age of Rebellion Core Rulebook for details.
+    </Description>
+    <Source Page="105">Age of Rebellion Core Rulebook</Source>
+    <Motivation>Belief</Motivation>
+  </SpecificMotivation>
+  <SpecificMotivation>
+    <Key>CONPOLITICAL</Key>
+    <Name>Political</Name>
+    <Description>
+      [H4]Political[h4]
+      Please see page 106 of the Age of Rebellion Core Rulebook for details.
+    </Description>
+    <Source Page="106">Age of Rebellion Core Rulebook</Source>
+    <Motivation>Connections</Motivation>
+  </SpecificMotivation>
+  <SpecificMotivation>
+    <Key>CONFAMILY</Key>
+    <Name>Family</Name>
+    <Description>
+      [H4]Family[h4]
+      Please see page 106 of the Age of Rebellion Core Rulebook for details.
+    </Description>
+    <Source Page="106">Age of Rebellion Core Rulebook</Source>
+    <Motivation>Connections</Motivation>
+  </SpecificMotivation>
+  <SpecificMotivation>
+    <Key>CONMILITARY</Key>
+    <Name>Military</Name>
+    <Description>
+      [H4]Military[h4]
+      Please see page 106 of the Age of Rebellion Core Rulebook for details.
+    </Description>
+    <Source Page="106">Age of Rebellion Core Rulebook</Source>
+    <Motivation>Connections</Motivation>
+  </SpecificMotivation>
+  <SpecificMotivation>
+    <Key>CONINTEL</Key>
+    <Name>Intelligence</Name>
+    <Description>
+      [H4]Intelligence[h4]
+      Please see page 106 of the Age of Rebellion Core Rulebook for details.
+    </Description>
+    <Source Page="106">Age of Rebellion Core Rulebook</Source>
+    <Motivation>Connections</Motivation>
+  </SpecificMotivation>
+  <SpecificMotivation>
+    <Key>CONFRIENDS</Key>
+    <Name>Friends</Name>
+    <Description>
+      [H4]Friends[h4]
+      Please see page 106 of the Age of Rebellion Core Rulebook for details.
+    </Description>
+    <Source Page="106">Age of Rebellion Core Rulebook</Source>
+    <Motivation>Connections</Motivation>
+  </SpecificMotivation>
+  <SpecificMotivation>
+    <Key>CONUNDERWORLD</Key>
+    <Name>The Underworld</Name>
+    <Description>
+      [H4]The Underworld[h4]
+      Please see page 106 of the Age of Rebellion Core Rulebook for details.
+    </Description>
+    <Source Page="106">Age of Rebellion Core Rulebook</Source>
+    <Motivation>Connections</Motivation>
+  </SpecificMotivation>
+  <SpecificMotivation>
+    <Key>CONECON</Key>
+    <Name>Economic</Name>
+    <Description>
+      [H4]Economic[h4]
+      Please see page 106 of the Age of Rebellion Core Rulebook for details.
+    </Description>
+    <Motivation>Connections</Motivation>
+    <Source Page="106">Age of Rebellion Core Rulebook</Source>
+  </SpecificMotivation>
+  <SpecificMotivation>
+    <Key>CONRIVAL</Key>
+    <Name>Rival</Name>
+    <Description>
+      [H4]Rival[h4]
+      Please see page 69 of the Age of Rebellion Beta Rulebook for details.
+    </Description>
+    <Source Page="69">Age of Rebellion Beta Rulebook</Source>
+    <Motivation>Connections</Motivation>
+  </SpecificMotivation>
+  <SpecificMotivation>
+    <Key>CONNOONE</Key>
+    <Name>No One</Name>
+    <Description>
+      [H4]No One[h4]
+      Please see page 106 of the Age of Rebellion Core Rulebook for details.
+    </Description>
+    <Source Page="106">Age of Rebellion Core Rulebook</Source>
+    <Motivation>Connections</Motivation>
+  </SpecificMotivation>
+  <SpecificMotivation>
+    <Key>CONRESCUE</Key>
+    <Name>Rescuer</Name>
+    <Description>
+      [H4]Rescuer[h4]
+      Please see page 69 of the Age of Rebellion Beta Rulebook for details.
+    </Description>
+    <Source Page="69">Age of Rebellion Beta Rulebook</Source>
+    <Motivation>Connections</Motivation>
+  </SpecificMotivation>
+  <SpecificMotivation>
+    <Key>CONEMPIRE</Key>
+    <Name>The Empire</Name>
+    <Description>
+      [H4]The Empire[h4]
+      Please see page 106 of the Age of Rebellion Core Rulebook for details.
+    </Description>
+    <Source Page="106">Age of Rebellion Core Rulebook</Source>
+    <Motivation>Connections</Motivation>
+  </SpecificMotivation>
+  <SpecificMotivation>
+    <Key>CONLOVE</Key>
+    <Name>Love Interest</Name>
+    <Description>
+      [H4]Love Interest[h4]
+      Please see page 106 of the Age of Rebellion Core Rulebook for details.
+    </Description>
+    <Source Page="106">Age of Rebellion Core Rulebook</Source>
+    <Motivation>Connections</Motivation>
+  </SpecificMotivation>
+  <SpecificMotivation>
+    <Key>QUEREDEM</Key>
+    <Name>Redemption</Name>
+    <Description>
+      [H4]Redemption[h4]
+      Please see page 106 of the Age of Rebellion Core Rulebook for details.
+    </Description>
+    <Source Page="106">Age of Rebellion Core Rulebook</Source>
+    <Motivation>Quest</Motivation>
+  </SpecificMotivation>
+  <SpecificMotivation>
+    <Key>QUEGLORY</Key>
+    <Name>Glory</Name>
+    <Description>
+      [H4]Glory[h4]
+      Please see page 106 of the Age of Rebellion Core Rulebook for details.
+    </Description>
+    <Source Page="106">Age of Rebellion Core Rulebook</Source>
+    <Motivation>Quest</Motivation>
+  </SpecificMotivation>
+  <SpecificMotivation>
+    <Key>QUEVENG</Key>
+    <Name>Vengeance</Name>
+    <Description>
+      [H4]Vengeance[h4]
+      Please see page 106 of the Age of Rebellion Core Rulebook for details.
+    </Description>
+    <Source Page="106">Age of Rebellion Core Rulebook</Source>
+    <Motivation>Quest</Motivation>
+  </SpecificMotivation>
+  <SpecificMotivation>
+    <Key>QUEINFLU</Key>
+    <Name>Influence</Name>
+    <Description>
+      [H4]Influence[h4]
+      Please see page 106 of the Age of Rebellion Core Rulebook for details.
+    </Description>
+    <Motivation>Quest</Motivation>
+    <Source Page="106">Age of Rebellion Core Rulebook</Source>
+  </SpecificMotivation>
+  <SpecificMotivation>
+    <Key>QUERESCUE</Key>
+    <Name>Rescue</Name>
+    <Description>
+      [H4]Rescue[h4]
+      Please see page 106 of the Age of Rebellion Core Rulebook for details.
+    </Description>
+    <Source Page="106">Age of Rebellion Core Rulebook</Source>
+    <Motivation>Quest</Motivation>
+  </SpecificMotivation>
+  <SpecificMotivation>
+    <Key>QUEJEDI</Key>
+    <Name>The Jedi</Name>
+    <Description>
+      [H4]The Jedi[h4]
+      Please see page 106 of the Age of Rebellion Core Rulebook for details.
+    </Description>
+    <Source Page="106">Age of Rebellion Core Rulebook</Source>
+    <Motivation>Quest</Motivation>
+  </SpecificMotivation>
+  <SpecificMotivation>
+    <Key>QUEFREEDOM</Key>
+    <Name>Freedom</Name>
+    <Description>
+      [H4]Freedom[h4]
+      Please see page 106 of the Age of Rebellion Core Rulebook for details.
+    </Description>
+    <Source Page="106">Age of Rebellion Core Rulebook</Source>
+    <Motivation>Quest</Motivation>
+  </SpecificMotivation>
+  <SpecificMotivation>
+    <Key>QUETREAS</Key>
+    <Name>Lost Treasure</Name>
+    <Description>
+      [H4]Lost Treasure[h4]
+      Please see page 69 of the Age of Rebellion Beta Rulebook for details.
+    </Description>
+    <Source Page="69">Age of Rebellion Beta Rulebook</Source>
+    <Motivation>Quest</Motivation>
+  </SpecificMotivation>
+  <SpecificMotivation>
+    <Key>QUETHRILL</Key>
+    <Name>Thrill</Name>
+    <Description>
+      [H4]Thrill[h4]
+      Please see page 106 of the Age of Rebellion Core Rulebook for details.
+    </Description>
+    <Source Page="106">Age of Rebellion Core Rulebook</Source>
+    <Motivation>Quest</Motivation>
+  </SpecificMotivation>
+  <SpecificMotivation>
+    <Key>QUEPURPOSE</Key>
+    <Name>Purpose</Name>
+    <Description>
+      [H4]Purpose[h4]
+      Please see page 69 of the Age of Rebellion Beta Rulebook for details.
+    </Description>
+    <Source Page="69">Age of Rebellion Beta Rulebook</Source>
+    <Motivation>Quest</Motivation>
+  </SpecificMotivation>
+  <SpecificMotivation>
+    <Key>QUERICHES</Key>
+    <Name>Riches</Name>
+    <Description>
+      [H4]Riches[h4]
+      Please see page 106 of the Age of Rebellion Core Rulebook for details.
+    </Description>
+    <Source Page="106">Age of Rebellion Core Rulebook</Source>
+    <Motivation>Quest</Motivation>
+  </SpecificMotivation>
+  <SpecificMotivation>
+    <Key>QUESITH</Key>
+    <Name>The Sith</Name>
+    <Description>
+      [H4]The Sith[h4]
+      Please see page 106 of the Age of Rebellion Core Rulebook for details.
+    </Description>
+    <Source Page="106">Age of Rebellion Core Rulebook</Source>
+    <Motivation>Quest</Motivation>
+  </SpecificMotivation>
+  <SpecificMotivation>
+    <Key>DISCOVERYSM1</Key>
+    <Name>Self</Name>
+    <Description>
+      [H4]Self[h4]
+      Please see page 32 of the Enter the Unknown Sourcebook for details.
+    </Description>
+    <Source Page="32">Enter the Unknown</Source>
+    <Motivation>Discovery</Motivation>
+  </SpecificMotivation>
+  <SpecificMotivation>
+    <Key>DISCOVERYSM2</Key>
+    <Name>Civilization</Name>
+    <Description>
+      [H4]Civilization[h4]
+      Please see page 32 of the Enter the Unknown Sourcebook for details.
+    </Description>
+    <Source Page="32">Enter the Unknown</Source>
+    <Motivation>Discovery</Motivation>
+  </SpecificMotivation>
+  <SpecificMotivation>
+    <Key>DISCOVERYSM3</Key>
+    <Name>Planets</Name>
+    <Description>
+      [H4]Planets[h4]
+      Please see page 32 of the Enter the Unknown Sourcebook for details.
+    </Description>
+    <Source Page="32">Enter the Unknown</Source>
+    <Motivation>Discovery</Motivation>
+  </SpecificMotivation>
+  <SpecificMotivation>
+    <Key>DISCOVERYSM4</Key>
+    <Name>Treasures</Name>
+    <Description>
+      [H4]Treasures[h4]
+      Please see page 32 of the Enter the Unknown Sourcebook for details.
+    </Description>
+    <Source Page="32">Enter the Unknown</Source>
+    <Motivation>Discovery</Motivation>
+  </SpecificMotivation>
+  <SpecificMotivation>
+    <Key>DISCOVERYSM5</Key>
+    <Name>Secrets</Name>
+    <Description>
+      [H4]Secrets[h4]
+      Please see page 32 of the Enter the Unknown Sourcebook for details.
+    </Description>
+    <Source Page="32">Enter the Unknown</Source>
+    <Motivation>Discovery</Motivation>
+  </SpecificMotivation>
+  <SpecificMotivation>
+    <Key>DISCOVERYSM6</Key>
+    <Name>Knowledge</Name>
+    <Description>
+      [H4]Knowledge[h4]
+      Please see page 32 of the Enter the Unknown Sourcebook for details.
+    </Description>
+    <Source Page="32">Enter the Unknown</Source>
+    <Motivation>Discovery</Motivation>
+  </SpecificMotivation>
+  <SpecificMotivation>
+    <Key>DISCOVERYSM7</Key>
+    <Name>Resources</Name>
+    <Description>
+      [H4]Resources[h4]
+      Please see page 32 of the Enter the Unknown Sourcebook for details.
+    </Description>
+    <Source Page="32">Enter the Unknown</Source>
+    <Motivation>Discovery</Motivation>
+  </SpecificMotivation>
+  <SpecificMotivation>
+    <Key>DISCOVERYSM8</Key>
+    <Name>Technology</Name>
+    <Description>
+      [H4]Technology[h4]
+      Please see page 32 of the Enter the Unknown Sourcebook for details.
+    </Description>
+    <Source Page="32">Enter the Unknown</Source>
+    <Motivation>Discovery</Motivation>
+  </SpecificMotivation>
+  <SpecificMotivation>
+    <Key>DISCOVERYSM9</Key>
+    <Name>The Lost</Name>
+    <Description>
+      [H4]The Lost[h4]
+      Please see page 32 of the Enter the Unknown Sourcebook for details.
+    </Description>
+    <Source Page="32">Enter the Unknown</Source>
+    <Motivation>Discovery</Motivation>
+  </SpecificMotivation>
+  <SpecificMotivation>
+    <Key>DISCOVERYSM10</Key>
+    <Name>"Anywhere But Here!"</Name>
+    <Description>
+      [H4]"Anywhere But Here!"[h4]
+      Please see page 32 of the Enter the Unknown Sourcebook for details.
+    </Description>
+    <Source Page="32">Enter the Unknown</Source>
+    <Motivation>Discovery</Motivation>
+  </SpecificMotivation>
+  <SpecificMotivation>
+    <Key>CONFLICT1</Key>
+    <Name>Mayhem</Name>
+    <Description>
+      [H4]Mayhem[h4]
+      Please see page 34 of the Dangerous Covenants Sourcebook or page 34 of the Stay on Target Sourcebook for details.
+    </Description>
+    <Sources>
+      <Source Page="34">Dangerous Covenants Sourcebook or page 34 of the Stay on Target Sourcebook</Source>
+    </Sources>
+    <Motivation>Conflict</Motivation>
+  </SpecificMotivation>
+  <SpecificMotivation>
+    <Key>CONFLICT2</Key>
+    <Name>Violent Conquest</Name>
+    <Description>
+      [H4]Violent Conquest[h4]
+      Please see page 34 of the Dangerous Covenants Sourcebook or page 34 of the Stay on Target Sourcebook for details.
+    </Description>
+    <Sources>
+      <Source Page="34">Dangerous Covenants Sourcebook or page 34 of the Stay on Target Sourcebook</Source>
+    </Sources>
+    <Motivation>Conflict</Motivation>
+  </SpecificMotivation>
+  <SpecificMotivation>
+    <Key>CONFLICT3</Key>
+    <Name>Squadmates</Name>
+    <Description>
+      [H4]Squadmates[h4]
+      Please see page 34 of the Dangerous Covenants Sourcebook for details.
+    </Description>
+    <Source Page="34">Dangerous Covenants</Source>
+    <Motivation>Conflict</Motivation>
+  </SpecificMotivation>
+  <SpecificMotivation>
+    <Key>CONFLICT4</Key>
+    <Name>Blood Money</Name>
+    <Description>
+      [H4]Blood Money[h4]
+      Please see page 34 of the Dangerous Covenants Sourcebook for details.
+    </Description>
+    <Source Page="34">Dangerous Covenants</Source>
+    <Motivation>Conflict</Motivation>
+  </SpecificMotivation>
+  <SpecificMotivation>
+    <Key>CONFLICT5</Key>
+    <Name>Honor in Battle</Name>
+    <Description>
+      [H4]Honor in Battle[h4]
+      Please see page 34 of the Dangerous Covenants Sourcebook or page 34 of the Stay on Target Sourcebook for details.
+    </Description>
+    <Sources>
+      <Source Page="34">Dangerous Covenants Sourcebook or page 34 of the Stay on Target Sourcebook</Source>
+    </Sources>
+    <Motivation>Conflict</Motivation>
+  </SpecificMotivation>
+  <SpecificMotivation>
+    <Key>CONFLICT6</Key>
+    <Name>Best in the Field</Name>
+    <Description>
+      [H4]Best in the Field[h4]
+      Please see page 34 of the Dangerous Covenants Sourcebook for details.
+    </Description>
+    <Source Page="34">Dangerous Covenants</Source>
+    <Motivation>Conflict</Motivation>
+  </SpecificMotivation>
+  <SpecificMotivation>
+    <Key>CONFLICT7</Key>
+    <Name>Revenge</Name>
+    <Description>
+      [H4]Revenge[h4]
+      Please see page 34 of the Dangerous Covenants Sourcebook or page 34 of the Stay on Target Sourcebook for details.
+    </Description>
+    <Sources>
+      <Source Page="34">Dangerous Covenants Sourcebook or page 34 of the Stay on Target Sourcebook</Source>
+    </Sources>
+    <Motivation>Conflict</Motivation>
+  </SpecificMotivation>
+  <SpecificMotivation>
+    <Key>CONFLICT8</Key>
+    <Name>Out of the Game</Name>
+    <Description>
+      [H4]Out of the Game[h4]
+      Please see page 34 of the Dangerous Covenants Sourcebook for details.
+    </Description>
+    <Source Page="34">Dangerous Covenants</Source>
+    <Motivation>Conflict</Motivation>
+  </SpecificMotivation>
+  <SpecificMotivation>
+    <Key>CONFLICT9</Key>
+    <Name>Adrenaline Junky</Name>
+    <Description>
+      [H4]TAdrenaline Junky[h4]
+      Please see page 34 of the Dangerous Covenants Sourcebook or page 34 of the Stay on Target Sourcebook for details.
+    </Description>
+    <Sources>
+      <Source Page="34">Dangerous Covenants Sourcebook or page 34 of the Stay on Target Sourcebook</Source>
+    </Sources>
+    <Motivation>Conflict</Motivation>
+  </SpecificMotivation>
+  <SpecificMotivation>
+    <Key>CONFLICT10</Key>
+    <Name>Life Debt</Name>
+    <Description>
+      [H4]Life Debt[h4]
+      Please see page 34 of the Dangerous Covenants Sourcebook or page 34 of the Stay on Target Sourcebook for details.
+    </Description>
+    <Sources>
+      <Source Page="34">Dangerous Covenants Sourcebook or page 34 of the Stay on Target Sourcebook</Source>
+    </Sources>
+    <Motivation>Conflict</Motivation>
+  </SpecificMotivation>
+  <SpecificMotivation>
+    <Key>CONFLICT11</Key>
+    <Name>Squadron</Name>
+    <Description>
+      [H4]Squadron[h4]
+      Please see page 34 of the Stay on Target Sourcebook for details.
+    </Description>
+    <Source Page="34">Stay on Target</Source>
+    <Motivation>Conflict</Motivation>
+  </SpecificMotivation>
+  <SpecificMotivation>
+    <Key>CONFLICT12</Key>
+    <Name>Professional</Name>
+    <Description>
+      [H4]Professional[h4]
+      Please see page 34 of the Stay on Target Sourcebook for details.
+    </Description>
+    <Source Page="34">Stay on Target</Source>
+    <Motivation>Conflict</Motivation>
+  </SpecificMotivation>
+  <SpecificMotivation>
+    <Key>CONFLICT13</Key>
+    <Name>Best of the Best</Name>
+    <Description>
+      [H4]Best of the Best[h4]
+      Please see page 34 of the Stay on Target Sourcebook for details.
+    </Description>
+    <Source Page="34">Stay on Target</Source>
+    <Motivation>Conflict</Motivation>
+  </SpecificMotivation>
+  <SpecificMotivation>
+    <Key>CONFLICT14</Key>
+    <Name>Retirement</Name>
+    <Description>
+      [H4]Retirement[h4]
+      Please see page 34 of the Stay on Target Sourcebook for details.
+    </Description>
+    <Source Page="34">Stay on Target</Source>
+    <Motivation>Conflict</Motivation>
+  </SpecificMotivation>
+  <SpecificMotivation>
+    <Key>CREATIONSM1</Key>
+    <Name>Society</Name>
+    <Description>
+      [H4]Society[h4]
+      Please see page 34 of the Far Horizons Sourcebook for details.</Description>
+    <Source Page="34">Far Horizons</Source>
+    <Motivation>Creations</Motivation>
+  </SpecificMotivation>
+  <SpecificMotivation>
+    <Key>CREATIONSM2</Key>
+    <Name>Homestead</Name>
+    <Description>
+      [H4]Homestead[h4]
+      Please see page 34 of the Far Horizons Sourcebook for details.</Description>
+    <Source Page="34">Far Horizons</Source>
+    <Motivation>Creations</Motivation>
+  </SpecificMotivation>
+  <SpecificMotivation>
+    <Key>CREATIONSM3</Key>
+    <Name>Legacy</Name>
+    <Description>
+      [H4]Legacy[h4]
+      Please see page 34 of the Far Horizons Sourcebook for details.</Description>
+    <Source Page="34">Far Horizons</Source>
+    <Motivation>Creations</Motivation>
+  </SpecificMotivation>
+  <SpecificMotivation>
+    <Key>CREATIONSM4</Key>
+    <Name>Family</Name>
+    <Description>
+      [H4]Family[h4]
+      Please see page 34 of the Far Horizons Sourcebook for details.</Description>
+    <Source Page="34">Far Horizons</Source>
+    <Motivation>Creations</Motivation>
+  </SpecificMotivation>
+  <SpecificMotivation>
+    <Key>CREATIONSM5</Key>
+    <Name>Art</Name>
+    <Description>
+      [H4]Art[h4]
+      Please see page 34 of the Far Horizons Sourcebook for details.</Description>
+    <Source Page="34">Far Horizons</Source>
+    <Motivation>Creations</Motivation>
+  </SpecificMotivation>
+  <SpecificMotivation>
+    <Key>CREATIONSM6</Key>
+    <Name>Cure</Name>
+    <Description>
+      [H4]Cure[h4]
+      Please see page 34 of the Far Horizons Sourcebook for details.</Description>
+    <Source Page="34">Far Horizons</Source>
+    <Motivation>Creations</Motivation>
+  </SpecificMotivation>
+  <SpecificMotivation>
+    <Key>CREATIONSM7</Key>
+    <Name>Understanding</Name>
+    <Description>
+      [H4]Understanding[h4]
+      Please see page 34 of the Far Horizons Sourcebook for details.</Description>
+    <Source Page="34">Far Horizons</Source>
+    <Motivation>Creations</Motivation>
+  </SpecificMotivation>
+  <SpecificMotivation>
+    <Key>CREATIONSM8</Key>
+    <Name>Business</Name>
+    <Description>
+      [H4]Business[h4]
+      Please see page 34 of the Far Horizons Sourcebook for details.</Description>
+    <Source Page="34">Far Horizons</Source>
+    <Motivation>Creations</Motivation>
+  </SpecificMotivation>
+  <SpecificMotivation>
+    <Key>FAINAT</Key>
+    <Name>Natural World</Name>
+    <Description>
+      [H4]Natural World[h4]
+      Please see page 107 of the Force and Destiny Core Rulebook for details.
+    </Description>
+    <Source Page="107">Force and Destiny Core Rulebook</Source>
+    <Motivation>Faith</Motivation>
+  </SpecificMotivation>
+  <SpecificMotivation>
+    <Key>FAIGOODPEOP</Key>
+    <Name>Goodness of People</Name>
+    <Description>
+      [H4]Goodness of People[h4]
+      Please see page 107 of the Force and Destiny Core Rulebook for details.
+    </Description>
+    <Source Page="107">Force and Destiny Core Rulebook</Source>
+    <Motivation>Faith</Motivation>
+  </SpecificMotivation>
+  <SpecificMotivation>
+    <Key>FAIFRIENDFAM</Key>
+    <Name>Friends and Family</Name>
+    <Description>
+      [H4]Friends and Family[h4]
+      Please see page 107 of the Force and Destiny Core Rulebook for details.
+    </Description>
+    <Source Page="107">Force and Destiny Core Rulebook</Source>
+    <Motivation>Faith</Motivation>
+  </SpecificMotivation>
+  <SpecificMotivation>
+    <Key>FAICOSMICFOR</Key>
+    <Name>The Cosmic Force</Name>
+    <Description>
+      [H4]The Cosmic Force[h4]
+      Please see page 107 of the Force and Destiny Core Rulebook for details.
+    </Description>
+    <Source Page="107">Force and Destiny Core Rulebook</Source>
+    <Motivation>Faith</Motivation>
+  </SpecificMotivation>
+  <SpecificMotivation>
+    <Key>FAISCIENCE</Key>
+    <Name>Science and Reason</Name>
+    <Description>
+      [H4]Science and Reason[h4]
+      Please see page 107 of the Force and Destiny Core Rulebook for details.
+    </Description>
+    <Source Page="107">Force and Destiny Core Rulebook</Source>
+    <Motivation>Faith</Motivation>
+  </SpecificMotivation>
+  <SpecificMotivation>
+    <Key>FAIJEDICODE</Key>
+    <Name>The Jedi Code</Name>
+    <Description>
+      [H4]The Jedi Code[h4]
+      Please see page 107 of the Force and Destiny Core Rulebook for details.
+    </Description>
+    <Source Page="107">Force and Destiny Core Rulebook</Source>
+    <Motivation>Faith</Motivation>
+  </SpecificMotivation>
+  <SpecificMotivation>
+    <Key>FAIIMPRULE</Key>
+    <Name>Imperial Rule</Name>
+    <Description>
+      [H4]Imperial Rule[h4]
+      Please see page 107 of the Force and Destiny Core Rulebook for details.
+    </Description>
+    <Source Page="107">Force and Destiny Core Rulebook</Source>
+    <Motivation>Faith</Motivation>
+  </SpecificMotivation>
+  <SpecificMotivation>
+    <Key>FAIREBELLION</Key>
+    <Name>The Rebellion</Name>
+    <Description>
+      [H4]The Rebellion[h4]
+      Please see page 107 of the Force and Destiny Core Rulebook for details.
+    </Description>
+    <Source Page="107">Force and Destiny Core Rulebook</Source>
+    <Motivation>Faith</Motivation>
+  </SpecificMotivation>
+  <SpecificMotivation>
+    <Key>FAIRELCODE</Key>
+    <Name>Religious Code</Name>
+    <Description>
+      [H4]Religious Code[h4]
+      Please see page 107 of the Force and Destiny Core Rulebook for details.
+    </Description>
+    <Source Page="107">Force and Destiny Core Rulebook</Source>
+    <Motivation>Faith</Motivation>
+  </SpecificMotivation>
+  <SpecificMotivation>
+    <Key>FAINOTHING</Key>
+    <Name>Nothing</Name>
+    <Description>
+      [H4]Nothing[h4]
+      Please see page 107 of the Force and Destiny Core Rulebook for details.
+    </Description>
+    <Source Page="107">Force and Destiny Core Rulebook</Source>
+    <Motivation>Faith</Motivation>
+  </SpecificMotivation>
+  <SpecificMotivation>
+    <Key>REWARDSM1</Key>
+    <Name>Credits</Name>
+    <Description>
+      [H4]Credits[h4]
+      Please see page 35 of the Fly Casual Sourcebook for details.
+    </Description>
+    <Source Page="35">Fly Casual</Source>
+    <Motivation>Reward</Motivation>
+  </SpecificMotivation>
+  <SpecificMotivation>
+    <Key>REWARDSM2</Key>
+    <Name>Power</Name>
+    <Description>
+      [H4]Power[h4]
+      Please see page 35 of the Fly Casual Sourcebook for details.
+    </Description>
+    <Source Page="35">Fly Casual</Source>
+    <Motivation>Reward</Motivation>
+  </SpecificMotivation>
+  <SpecificMotivation>
+    <Key>REWARDSM3</Key>
+    <Name>Victory</Name>
+    <Description>
+      [H4]Victory[h4]
+      Please see page 35 of the Fly Casual Sourcebook for details.
+    </Description>
+    <Source Page="35">Fly Casual</Source>
+    <Motivation>Reward</Motivation>
+  </SpecificMotivation>
+  <SpecificMotivation>
+    <Key>REWARDSM4</Key>
+    <Name>Beating the Odds</Name>
+    <Description>
+      [H4]Beating the Odds[h4]
+      Please see page 35 of the Fly Casual Sourcebook for details.
+    </Description>
+    <Source Page="35">Fly Casual</Source>
+    <Motivation>Reward</Motivation>
+  </SpecificMotivation>
+  <SpecificMotivation>
+    <Key>REWARDSM5</Key>
+    <Name>Fame</Name>
+    <Description>
+      [H4]Fame[h4]
+      Please see page 35 of the Fly Casual Sourcebook for details.
+    </Description>
+    <Source Page="35">Fly Casual</Source>
+    <Motivation>Reward</Motivation>
+  </SpecificMotivation>
+  <SpecificMotivation>
+    <Key>REWARDSM6</Key>
+    <Name>Esteem</Name>
+    <Description>
+      [H4]Esteem[h4]
+      Please see page 35 of the Fly Casual Sourcebook for details.
+    </Description>
+    <Source Page="35">Fly Casual</Source>
+    <Motivation>Reward</Motivation>
+  </SpecificMotivation>
+  <SpecificMotivation>
+    <Key>REWARDSM7</Key>
+    <Name>Experience</Name>
+    <Description>
+      [H4]Experience[h4]
+      Please see page 35 of the Fly Casual Sourcebook for details.
+    </Description>
+    <Source Page="35">Fly Casual</Source>
+    <Motivation>Reward</Motivation>
+  </SpecificMotivation>
+  <SpecificMotivation>
+    <Key>REWARDSM8</Key>
+    <Name>Moral</Name>
+    <Description>
+      [H4]Moral[h4]
+      Please see page 35 of the Fly Casual Sourcebook for details.
+    </Description>
+    <Source Page="35">Fly Casual</Source>
+    <Motivation>Reward</Motivation>
+  </SpecificMotivation>
+  <SpecificMotivation>
+    <Key>REWARDSM9</Key>
+    <Name>Excitement</Name>
+    <Description>
+      [H4]Excitement[h4]
+      Please see page 35 of the Fly Casual Sourcebook for details.
+    </Description>
+    <Source Page="35">Fly Casual</Source>
+    <Motivation>Reward</Motivation>
+  </SpecificMotivation>
+  <SpecificMotivation>
+    <Key>REWARDSM10</Key>
+    <Name>Independence</Name>
+    <Description>
+      [H4]Independence[h4]
+      Please see page 35 of the Fly Casual Sourcebook for details.
+    </Description>
+    <Source Page="35">Fly Casual</Source>
+    <Motivation>Reward</Motivation>
+  </SpecificMotivation>
+  <SpecificMotivation>
+    <Key>CREEDSM1</Key>
+    <Name>Power Corrupts</Name>
+    <Description>
+      [H4]Power Corrupts[h4]
+      Please see page 36 of the Desperate Allies Sourcebook for details.
+    </Description>
+    <Source Page="36">Desperate Allies</Source>
+    <Motivation>Creed</Motivation>
+  </SpecificMotivation>
+  <SpecificMotivation>
+    <Key>CREEDSM2</Key>
+    <Name>Strive for Excellence</Name>
+    <Description>
+      [H4]Strive for Excellence[h4]
+      Please see page 36 of the Desperate Allies Sourcebook for details.
+    </Description>
+    <Source Page="36">Desperate Allies</Source>
+    <Motivation>Creed</Motivation>
+  </SpecificMotivation>
+  <SpecificMotivation>
+    <Key>CREEDSM3</Key>
+    <Name>The Body Needs a Head</Name>
+    <Description>
+      [H4]The Body Needs a Head[h4]
+      Please see page 36 of the Desperate Allies Sourcebook for details.
+    </Description>
+    <Source Page="36">Desperate Allies</Source>
+    <Motivation>Creed</Motivation>
+  </SpecificMotivation>
+  <SpecificMotivation>
+    <Key>CREEDSM4</Key>
+    <Name>Order from Chaos</Name>
+    <Description>
+      [H4]Order from Chaos[h4]
+      Please see page 36 of the Desperate Allies Sourcebook for details.
+    </Description>
+    <Source Page="36">Desperate Allies</Source>
+    <Motivation>Creed</Motivation>
+  </SpecificMotivation>
+  <SpecificMotivation>
+    <Key>CREEDSM5</Key>
+    <Name>Never Alone</Name>
+    <Description>
+      [H4]Never Alone[h4]
+      Please see page 36 of the Desperate Allies Sourcebook for details.
+    </Description>
+    <Source Page="36">Desperate Allies</Source>
+    <Motivation>Creed</Motivation>
+  </SpecificMotivation>
+  <SpecificMotivation>
+    <Key>CREEDSM6</Key>
+    <Name>Return the Favor</Name>
+    <Description>
+      [H4]Return the Favor[h4]
+      Please see page 36 of the Desperate Allies Sourcebook for details.
+    </Description>
+    <Source Page="36">Desperate Allies</Source>
+    <Motivation>Creed</Motivation>
+  </SpecificMotivation>
+  <SpecificMotivation>
+    <Key>CREEDSM7</Key>
+    <Name>Be Unique</Name>
+    <Description>
+      [H4]Be Unique[h4]
+      Please see page 36 of the Desperate Allies Sourcebook for details.
+    </Description>
+    <Source Page="36">Desperate Allies</Source>
+    <Motivation>Creed</Motivation>
+  </SpecificMotivation>
+  <SpecificMotivation>
+    <Key>CREEDSM8</Key>
+    <Name>People Are Counting on Me</Name>
+    <Description>
+      [H4]People Are Counting on Me[h4]
+      Please see page 36 of the Desperate Allies Sourcebook for details.
+    </Description>
+    <Source Page="36">Desperate Allies</Source>
+    <Motivation>Creed</Motivation>
+  </SpecificMotivation>
+  <SpecificMotivation>
+    <Key>CREEDSM9</Key>
+    <Name>Balance Must Be Restored</Name>
+    <Description>
+      [H4]Balance Must Be Restored[h4]
+      Please see page 36 of the Desperate Allies Sourcebook for details.
+    </Description>
+    <Source Page="36">Desperate Allies</Source>
+    <Motivation>Creed</Motivation>
+  </SpecificMotivation>
+  <SpecificMotivation>
+    <Key>CREEDSM10</Key>
+    <Name>Living Memory</Name>
+    <Description>
+      [H4]Living Memory[h4]
+      Please see page 36 of the Desperate Allies Sourcebook for details.
+    </Description>
+    <Source Page="36">Desperate Allies</Source>
+    <Motivation>Creed</Motivation>
+  </SpecificMotivation>
+  <!-- Keeping the Peace -->
+  <SpecificMotivation>
+    <Key>OATHJUSTICE</Key>
+    <Name>Justice</Name>
+    <Description>
+      [H4]Justice[h4]
+      Please see page 33 of the Keeping the Peace sourcebook for details.
+    </Description>
+    <Source Page="33">Keeping the Peace</Source>
+    <Motivation>Oath</Motivation>
+  </SpecificMotivation>
+  <SpecificMotivation>
+    <Key>OATHLEGACY</Key>
+    <Name>Artistic Legacy</Name>
+    <Description>
+      [H4]Artistic Legacy[h4]
+      Please see page 33 of the Keeping the Peace sourcebook for details.
+    </Description>
+    <Source Page="33">Keeping the Peace</Source>
+    <Motivation>Oath</Motivation>
+  </SpecificMotivation>
+  <SpecificMotivation>
+    <Key>OATHLIFE</Key>
+    <Name>Life Itself</Name>
+    <Description>
+      [H4]Life Itself[h4]
+      Please see page 33 of the Keeping the Peace sourcebook for details.
+    </Description>
+    <Source Page="33">Keeping the Peace</Source>
+    <Motivation>Oath</Motivation>
+  </SpecificMotivation>
+  <SpecificMotivation>
+    <Key>OATHREPUB</Key>
+    <Name>The Republic</Name>
+    <Description>
+      [H4]The Republic[h4]
+      Please see page 33 of the Keeping the Peace sourcebook for details.
+    </Description>
+    <Source Page="33">Keeping the Peace</Source>
+    <Motivation>Oath</Motivation>
+  </SpecificMotivation>
+  <SpecificMotivation>
+    <Key>OATHBALANCE</Key>
+    <Name>Balance of the Force</Name>
+    <Description>
+      [H4]Balance of the Force[h4]
+      Please see page 33 of the Keeping the Peace sourcebook for details.
+    </Description>
+    <Source Page="33">Keeping the Peace</Source>
+    <Motivation>Oath</Motivation>
+  </SpecificMotivation>
+  <SpecificMotivation>
+    <Key>OATHLOVE</Key>
+    <Name>Love</Name>
+    <Description>
+      [H4]Love[h4]
+      Please see page 33 of the Keeping the Peace sourcebook for details.
+    </Description>
+    <Source Page="33">Keeping the Peace</Source>
+    <Motivation>Oath</Motivation>
+  </SpecificMotivation>
+  <SpecificMotivation>
+    <Key>OATHHOME</Key>
+    <Name>Homeland</Name>
+    <Description>
+      [H4]Homeland[h4]
+      Please see page 33 of the Keeping the Peace sourcebook for details.
+    </Description>
+    <Source Page="33">Keeping the Peace</Source>
+    <Motivation>Oath</Motivation>
+  </SpecificMotivation>
+  <SpecificMotivation>
+    <Key>OATHDEPART</Key>
+    <Name>Departed</Name>
+    <Description>
+      [H4]Departed[h4]
+      Please see page 33 of the Keeping the Peace sourcebook for details.
+    </Description>
+    <Source Page="33">Keeping the Peace</Source>
+    <Motivation>Oath</Motivation>
+  </SpecificMotivation>
+  <SpecificMotivation>
+    <Key>OATHSPECIES</Key>
+    <Name>Species</Name>
+    <Description>
+      [H4]Species[h4]
+      Please see page 33 of the Keeping the Peace sourcebook for details.
+    </Description>
+    <Source Page="33">Keeping the Peace</Source>
+    <Motivation>Oath</Motivation>
+  </SpecificMotivation>
+  <SpecificMotivation>
+    <Key>OATHWARD</Key>
+    <Name>Ward</Name>
+    <Description>
+      [H4]Ward[h4]
+      Please see page 33 of the Keeping the Peace sourcebook for details.
+    </Description>
+    <Source Page="33">Keeping the Peace</Source>
+    <Motivation>Oath</Motivation>
+  </SpecificMotivation>
+  <!-- Lead by Example -->
+  <SpecificMotivation>
+    <Key>DRIVEGUILT</Key>
+    <Name>Guilt</Name>
+    <Description>
+      [H4]Guilt[h4]
+      Please see page 37 of the Lead by Example Sourcebook for details.
+    </Description>
+    <Source Page="37">Lead by Example</Source>
+    <Motivation>Drive</Motivation>
+  </SpecificMotivation>
+  <SpecificMotivation>
+    <Key>DRIVEMISSION</Key>
+    <Name>The Mission</Name>
+    <Description>
+      [H4]The Mission[h4]
+      Please see page 37 of the Lead by Example Sourcebook for details.
+    </Description>
+    <Source Page="37">Lead by Example</Source>
+    <Motivation>Drive</Motivation>
+  </SpecificMotivation>
+  <SpecificMotivation>
+    <Key>DRIVEALLCOSTS</Key>
+    <Name>At All Costs</Name>
+    <Description>
+      [H4]At All Costs[h4]
+      Please see page 37 of the Lead by Example Sourcebook for details.
+    </Description>
+    <Source Page="37">Lead by Example</Source>
+    <Motivation>Drive</Motivation>
+  </SpecificMotivation>
+  <SpecificMotivation>
+    <Key>DROVECOMMAND</Key>
+    <Name>Command</Name>
+    <Description>
+      [H4]The Republic[h4]
+      Please see page 37 of the Lead by Example Sourcebook for details.
+    </Description>
+    <Source Page="37">Lead by Example</Source>
+    <Motivation>Drive</Motivation>
+  </SpecificMotivation>
+  <SpecificMotivation>
+    <Key>DRIVESUBORD</Key>
+    <Name>Subordinates</Name>
+    <Description>
+      [H4]Subordinates[h4]
+      Please see page 37 of the Lead by Example Sourcebook for details.
+    </Description>
+    <Source Page="37">Lead by Example</Source>
+    <Motivation>Drive</Motivation>
+  </SpecificMotivation>
+  <SpecificMotivation>
+    <Key>DRIVEREDEMP</Key>
+    <Name>Redemption</Name>
+    <Description>
+      [H4]Redemption[h4]
+      Please see page 37 of the Lead by Example Sourcebook for details.
+    </Description>
+    <Source Page="37">Lead by Example</Source>
+    <Motivation>Drive</Motivation>
+  </SpecificMotivation>
+  <SpecificMotivation>
+    <Key>DRIVEGAME</Key>
+    <Name>The Game</Name>
+    <Description>
+      [H4]The Game[h4]
+      Please see page 37 of the Lead by Example Sourcebook for details.
+    </Description>
+    <Source Page="37">Lead by Example</Source>
+    <Motivation>Drive</Motivation>
+  </SpecificMotivation>
+  <SpecificMotivation>
+    <Key>DRIVEEGO</Key>
+    <Name>Ego</Name>
+    <Description>
+      [H4]Ego[h4]
+      Please see page 37 of the Lead by Example Sourcebook for details.
+    </Description>
+    <Source Page="37">Lead by Example</Source>
+    <Motivation>Drive</Motivation>
+  </SpecificMotivation>
+  <SpecificMotivation>
+    <Key>DRIVERETIRE</Key>
+    <Name>Retirement</Name>
+    <Description>
+      [H4]Retirement[h4]
+      Please see page 37 of the Lead by Example Sourcebook for details.
+    </Description>
+    <Source Page="37">Lead by Example</Source>
+    <Motivation>Drive</Motivation>
+  </SpecificMotivation>
+  <SpecificMotivation>
+    <Key>DRIVESPIRIT</Key>
+    <Name>Spirit</Name>
+    <Description>
+      [H4]Spirit[h4]
+      Please see page 37 of the Lead by Example Sourcebook for details.
+    </Description>
+    <Source Page="37">Lead by Example</Source>
+    <Motivation>Drive</Motivation>
+  </SpecificMotivation>
+  <SpecificMotivation>
+    <Key>LOCALEENENAM</Key>
+    <Name>Enamored of the Kindalo</Name>
+    <Description>
+      [H4]Enamored of the Kindalo[h4]
+      Please see page 115 of the Nexus of Power Sourcebook for details.
+    </Description>
+    <Source Page="115">Nexus of Power</Source>
+    <Motivation>Location: Aleen</Motivation>
+  </SpecificMotivation>
+  <SpecificMotivation>
+    <Key>LOCALEENFOLL</Key>
+    <Name>Follower of Orphne</Name>
+    <Description>
+      [H4]Follower of Orphne[h4]
+      Please see page 115 of the Nexus of Power Sourcebook for details.
+    </Description>
+    <Source Page="115">Nexus of Power</Source>
+    <Motivation>Location: Aleen</Motivation>
+  </SpecificMotivation>
+  <SpecificMotivation>
+    <Key>LOCAURAISO</Key>
+    <Name>Isolationist</Name>
+    <Description>
+      [H4]Isolationist[h4]
+      Please see page 115 of the Nexus of Power Sourcebook for details.
+    </Description>
+    <Source Page="115">Nexus of Power</Source>
+    <Motivation>Location: Auratera</Motivation>
+  </SpecificMotivation>
+  <SpecificMotivation>
+    <Key>LOCAURASTUD</Key>
+    <Name>Study of the Past</Name>
+    <Description>
+      [H4]Study of the Past[h4]
+      Please see page 115 of the Nexus of Power Sourcebook for details.
+    </Description>
+    <Source Page="115">Nexus of Power</Source>
+    <Motivation>Location: Auratera</Motivation>
+  </SpecificMotivation>
+  <SpecificMotivation>
+    <Key>LOCBARDPRES</Key>
+    <Name>Preservationist</Name>
+    <Description>
+      [H4]Preservationist[h4]
+      Please see page 115 of the Nexus of Power Sourcebook for details.
+    </Description>
+    <Source Page="115">Nexus of Power</Source>
+    <Motivation>Location: Bardotta</Motivation>
+  </SpecificMotivation>
+  <SpecificMotivation>
+    <Key>LOCBARDMEND</Key>
+    <Name>Mendicant</Name>
+    <Description>
+      [H4]Mendicant[h4]
+      Please see page 115 of the Nexus of Power Sourcebook for details.
+    </Description>
+    <Source Page="115">Nexus of Power</Source>
+    <Motivation>Location: Bardotta</Motivation>
+  </SpecificMotivation>
+  <SpecificMotivation>
+    <Key>LOCBARDFRANG</Key>
+    <Name>Frangawl Sympathizer</Name>
+    <Description>
+      [H4]Frangawl Sympathizer[h4]
+      Please see page 115 of the Nexus of Power Sourcebook for details.
+    </Description>
+    <Source Page="115">Nexus of Power</Source>
+    <Motivation>Location: Bardotta</Motivation>
+  </SpecificMotivation>
+  <SpecificMotivation>
+    <Key>LOCDEVMAT</Key>
+    <Name>Matriarch</Name>
+    <Description>
+      [H4]Matriarch[h4]
+      Please see page 115 of the Nexus of Power Sourcebook for details.
+    </Description>
+    <Source Page="115">Nexus of Power</Source>
+    <Motivation>Location: Devaron</Motivation>
+  </SpecificMotivation>
+  <SpecificMotivation>
+    <Key>LOCIKTOVIS</Key>
+    <Name>Visions of the Future</Name>
+    <Description>
+      [H4]Visions of the Future[h4]
+      Please see page 115 of the Nexus of Power Sourcebook for details.
+    </Description>
+    <Source Page="115">Nexus of Power</Source>
+    <Motivation>Location: Iktotch</Motivation>
+  </SpecificMotivation>
+  <SpecificMotivation>
+    <Key>LOCIKTOEXILE</Key>
+    <Name>Exile</Name>
+    <Description>
+      [H4]Exile[h4]
+      Please see page 115 of the Nexus of Power Sourcebook for details.
+    </Description>
+    <Source Page="115">Nexus of Power</Source>
+    <Motivation>Location: Iktotch</Motivation>
+  </SpecificMotivation>
+  <SpecificMotivation>
+    <Key>LOCIKTOCOLLAB</Key>
+    <Name>Collaborator</Name>
+    <Description>
+      [H4]Collaborator[h4]
+      Please see page 115 of the Nexus of Power Sourcebook for details.
+    </Description>
+    <Source Page="115">Nexus of Power</Source>
+    <Motivation>Location: Iktotch</Motivation>
+  </SpecificMotivation>
+  <SpecificMotivation>
+    <Key>LOCLOTHUPPOV</Key>
+    <Name>Up from Poverty</Name>
+    <Description>
+      [H4]Up from Poverty[h4]
+      Please see page 115 of the Nexus of Power Sourcebook for details.
+    </Description>
+    <Source Page="115">Nexus of Power</Source>
+    <Motivation>Location: Lothal</Motivation>
+  </SpecificMotivation>
+  <SpecificMotivation>
+    <Key>LOCLOTHREV</Key>
+    <Name>Revolutionary</Name>
+    <Description>
+      [H4]Revolutionary[h4]
+      Please see page 115 of the Nexus of Power Sourcebook for details.
+    </Description>
+    <Source Page="115">Nexus of Power</Source>
+    <Motivation>Location: Lothal</Motivation>
+  </SpecificMotivation>
+  <SpecificMotivation>
+    <Key>LOCLOTHWARPROF</Key>
+    <Name>War Profiteer</Name>
+    <Description>
+      [H4]War Profiteer[h4]
+      Please see page 115 of the Nexus of Power Sourcebook for details.
+    </Description>
+    <Source Page="115">Nexus of Power</Source>
+    <Motivation>Location: Lothal</Motivation>
+  </SpecificMotivation>
+  <SpecificMotivation>
+    <Key>LOCNABOOENVOY</Key>
+    <Name>Envoy</Name>
+    <Description>
+      [H4]Envoy[h4]
+      Please see page 115 of the Nexus of Power Sourcebook for details.
+    </Description>
+    <Source Page="115">Nexus of Power</Source>
+    <Motivation>Location: Naboo</Motivation>
+  </SpecificMotivation>
+  <SpecificMotivation>
+    <Key>LOCNABOOPOET</Key>
+    <Name>Poet</Name>
+    <Description>
+      [H4]Poet[h4]
+      Please see page 115 of the Nexus of Power Sourcebook for details.
+    </Description>
+    <Source Page="115">Nexus of Power</Source>
+    <Motivation>Location: Naboo</Motivation>
+  </SpecificMotivation>
+  <SpecificMotivation>
+    <Key>LOCNABOOGUNG</Key>
+    <Name>Gungan Rights</Name>
+    <Description>
+      [H4]Gungan Rights[h4]
+      Please see page 115 of the Nexus of Power Sourcebook for details.
+    </Description>
+    <Source Page="115">Nexus of Power</Source>
+    <Motivation>Location: Naboo</Motivation>
+  </SpecificMotivation>
+  <SpecificMotivation>
+    <Key>LOCOSSUSARCH</Key>
+    <Name>Archaeologist</Name>
+    <Description>
+      [H4]Archaeologist[h4]
+      Please see page 115 of the Nexus of Power Sourcebook for details.
+    </Description>
+    <Source Page="115">Nexus of Power</Source>
+    <Motivation>Location: Ossus</Motivation>
+  </SpecificMotivation>
+  <SpecificMotivation>
+    <Key>LOCOSSUSPLUND</Key>
+    <Name>Plunderer</Name>
+    <Description>
+      [H4]Plunderer[h4]
+      Please see page 115 of the Nexus of Power Sourcebook for details.
+    </Description>
+    <Source Page="115">Nexus of Power</Source>
+    <Motivation>Location: Ossus</Motivation>
+  </SpecificMotivation>
+  <SpecificMotivation>
+    <Key>LOCWEIKFORREV</Key>
+    <Name>Force-Reverent</Name>
+    <Description>
+      [H4]Force-Reverent[h4]
+      Please see page 115 of the Nexus of Power Sourcebook for details.
+    </Description>
+    <Source Page="115">Nexus of Power</Source>
+    <Motivation>Location: Weik</Motivation>
+  </SpecificMotivation>
+  <SpecificMotivation>
+    <Key>LOCWEIKCAST</Key>
+    <Name>Caste Member</Name>
+    <Description>
+      [H4]Caste Member[h4]
+      Please see page 115 of the Nexus of Power Sourcebook for details.
+    </Description>
+    <Source Page="115">Nexus of Power</Source>
+    <Motivation>Location: Weik</Motivation>
+  </SpecificMotivation>
+  <SpecificMotivation>
+    <Key>LOCWEIKWIDE</Key>
+    <Name>Wide-Eyed Wanderer</Name>
+    <Description>
+      [H4]Wide-Eyed Wanderer[h4]
+      Please see page 115 of the Nexus of Power Sourcebook for details.
+    </Description>
+    <Source Page="115">Nexus of Power</Source>
+    <Motivation>Location: Weik</Motivation>
+  </SpecificMotivation>
+  <SpecificMotivation>
+    <Key>INNOVFAB</Key>
+    <Name>Fabrication</Name>
+    <Description>
+      [H4]Fabrication[h4]
+      Please see page 37 of the Special Modifications Sourcebook for details.
+    </Description>
+    <Source Page="37">Special Modifications</Source>
+    <Motivation>Innovation</Motivation>
+  </SpecificMotivation>
+  <SpecificMotivation>
+    <Key>INNOVINV</Key>
+    <Name>Invention</Name>
+    <Description>
+      [H4]Invention[h4]
+      Please see page 37 of the Special Modifications Sourcebook for details.
+    </Description>
+    <Source Page="37">Special Modifications</Source>
+    <Motivation>Innovation</Motivation>
+  </SpecificMotivation>
+  <SpecificMotivation>
+    <Key>INNOVMOD</Key>
+    <Name>Modification</Name>
+    <Description>
+      [H4]Modification[h4]
+      Please see page 37 of the Special Modifications Sourcebook for details.
+    </Description>
+    <Source Page="37">Special Modifications</Source>
+    <Motivation>Innovation</Motivation>
+  </SpecificMotivation>
+  <SpecificMotivation>
+    <Key>INNOVIMP</Key>
+    <Name>Personal Improvement</Name>
+    <Description>
+      [H4]Personal Improvement[h4]
+      Please see page 37 of the Special Modifications Sourcebook for details.
+    </Description>
+    <Source Page="37">Special Modifications</Source>
+    <Motivation>Innovation</Motivation>
+  </SpecificMotivation>
+  <SpecificMotivation>
+    <Key>INNOVWASTE</Key>
+    <Name>Waste Not, Want Not</Name>
+    <Description>
+      [H4]Waste Not, Want Not[h4]
+      Please see page 37 of the Special Modifications Sourcebook for details.
+    </Description>
+    <Source Page="37">Special Modifications</Source>
+    <Motivation>Innovation</Motivation>
+  </SpecificMotivation>
+  <SpecificMotivation>
+    <Key>INNOVTECHFASC</Key>
+    <Name>Technological Fascination</Name>
+    <Description>
+      [H4]Technological Fascination[h4]
+      Please see page 37 of the Special Modifications Sourcebook for details.
+    </Description>
+    <Source Page="37">Special Modifications</Source>
+    <Motivation>Innovation</Motivation>
+  </SpecificMotivation>
+  <SpecificMotivation>
+    <Key>INNOVTECHBUS</Key>
+    <Name>Technical Business Interests</Name>
+    <Description>
+      [H4]Technical Business Interests[h4]
+      Please see page 37 of the Special Modifications Sourcebook for details.
+    </Description>
+    <Source Page="37">Special Modifications</Source>
+    <Motivation>Innovation</Motivation>
+  </SpecificMotivation>
+  <SpecificMotivation>
+    <Key>INNOVTECHHIST</Key>
+    <Name>Technological Historian</Name>
+    <Description>
+      [H4]Technological Historian[h4]
+      Please see page 37 of the Special Modifications Sourcebook for details.
+    </Description>
+    <Source Page="37">Special Modifications</Source>
+    <Motivation>Innovation</Motivation>
+  </SpecificMotivation>
+  <SpecificMotivation>
+    <Key>INNOVTECHNECESS</Key>
+    <Name>Technological Necessity</Name>
+    <Description>
+      [H4]Technological Necessity[h4]
+      Please see page 37 of the Special Modifications Sourcebook for details.
+    </Description>
+    <Source Page="37">Special Modifications</Source>
+    <Motivation>Innovation</Motivation>
+  </SpecificMotivation>
+  <SpecificMotivation>
+    <Key>INNOVTECHRIVAL</Key>
+    <Name>Technical Rival</Name>
+    <Description>
+      [H4]Technical Rival[h4]
+      Please see page 37 of the Special Modifications Sourcebook for details.
+    </Description>
+    <Source Page="37">Special Modifications</Source>
+    <Motivation>Innovation</Motivation>
+  </SpecificMotivation>
+</SpecificMotivations>

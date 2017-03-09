@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<Career xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>SEEKER</Key>
+  <Name>Seeker</Name>
+  <Description>[H4]Seeker[h4]
+Please see page 84 of the Force and Destiny Core Rulebook for details.</Description>
+  <Source Page="84">Force and Destiny Core Rulebook</Source>
+  <CareerSkills>
+    <Key>PILOTPL</Key>
+    <Key>PILOTSP</Key>
+    <Key>RANGHVY</Key>
+    <Key>SURV</Key>
+    <Key>VIGIL</Key>
+    <Key>XEN</Key>
+  </CareerSkills>
+  <Specializations>
+    <Key>ATARU</Key>
+    <Key>HUNTER</Key>
+    <Key>PATH</Key>
+  </Specializations>
+  <Attributes>
+    <WoundThreshold>0</WoundThreshold>
+    <StrainThreshold>0</StrainThreshold>
+    <DefenseRanged>0</DefenseRanged>
+    <DefenseMelee>0</DefenseMelee>
+    <SoakValue>0</SoakValue>
+    <Experience>0</Experience>
+    <ForceRating>1</ForceRating>
+    <Requirement>
+      <WearingArmor>false</WearingArmor>
+      <Career>false</Career>
+      <Specialization>false</Specialization>
+      <NonCareer>false</NonCareer>
+      <SoakAtLeast>0</SoakAtLeast>
+    </Requirement>
+  </Attributes>
+  <FreeRanks>3</FreeRanks>
+</Career>

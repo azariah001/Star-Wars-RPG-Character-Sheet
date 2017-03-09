@@ -1,0 +1,74 @@
+<Vehicle>
+  <Key>CLOAKSHAPE</Key>
+  <Name>Cloakshape Fighter</Name>
+  <Description>
+      [H3]Cloakshape Fighter[h3]
+      Please see page 254 of the Edge of the Empire Core Rulebook for details.
+    </Description>
+  <Source Page="254">Edge of the Empire Core Rulebook</Source>
+  <SensorRangeValue>srClose</SensorRangeValue>
+  <Crew>One Pilot</Crew>
+  <EncumbranceCapacity>12</EncumbranceCapacity>
+  <Passengers>0</Passengers>
+  <Silhouette>3</Silhouette>
+  <Speed>4</Speed>
+  <Handling>0</Handling>
+  <DefFore>0</DefFore>
+  <DefAft>0</DefAft>
+  <DefPort>0</DefPort>
+  <DefStarboard>0</DefStarboard>
+  <Armor>3</Armor>
+  <HullTrauma>10</HullTrauma>
+  <SystemStrain>8</SystemStrain>
+  <HP>3</HP>
+  <Price>38000</Price>
+  <Rarity>4</Rarity>
+  <Categories>
+    <Category>Starship</Category>
+  </Categories>
+  <Type>Starfighter</Type>
+  <Starship>true</Starship>
+  <SinglePilot>true</SinglePilot>
+  <VehicleWeapons>
+    <VehicleWeapon>
+      <Key>LASERLT</Key>
+      <Location>Forward</Location>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Aft>false</Aft>
+        <Port>false</Port>
+        <Starboard>false</Starboard>
+        <Dorsal>false</Dorsal>
+        <Ventral>false</Ventral>
+      </FiringArcs>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>1</Count>
+        </Quality>
+      </Qualities>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <Key>CML</Key>
+      <Location>Forward</Location>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Aft>false</Aft>
+        <Port>false</Port>
+        <Starboard>false</Starboard>
+        <Dorsal>false</Dorsal>
+        <Ventral>false</Ventral>
+      </FiringArcs>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>1</Count>
+        </Quality>
+        <Quality>
+          <Key>LIMITEDAMMO</Key>
+          <Count>6</Count>
+        </Quality>
+      </Qualities>
+    </VehicleWeapon>
+  </VehicleWeapons>
+</Vehicle>

@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>A11BURR</Key>
+  <Name>A-11 Model III "Burrower"</Name>
+  <Description>
+    [H3]A-11 Model III "Burrower"[h3]
+    Please see page 106 of the Suns of Fortune Sourcebook for details.
+</Description>
+  <Source Page="106">Suns of Fortune</Source>
+  <Type>Tunneling Vehicle</Type>
+  <Categories>
+    <Category>Land Vehicle</Category>
+    <Category>Wheeled Vehicle</Category>
+  </Categories>
+  <Encumbrance>0</Encumbrance>
+  <HP>2</HP>
+  <Price>45000</Price>
+  <Rarity>7</Rarity>
+  <MaxAltitude />
+  <HyperdrivePrimary>0</HyperdrivePrimary>
+  <HyperdriveBackup>0</HyperdriveBackup>
+  <StarFighters />
+  <NaviComputer>false</NaviComputer>
+  <SensorRangeValue>srClose</SensorRangeValue>
+  <Crew>One pilot, one co-pilot/engineer</Crew>
+  <EncumbranceCapacity>25</EncumbranceCapacity>
+  <Passengers>3</Passengers>
+  <Consumables />
+  <Silhouette>3</Silhouette>
+  <Speed>1</Speed>
+  <Handling>-3</Handling>
+  <DefFore>0</DefFore>
+  <DefAft>0</DefAft>
+  <DefPort>0</DefPort>
+  <DefStarboard>0</DefStarboard>
+  <Armor>1</Armor>
+  <HullTrauma>18</HullTrauma>
+  <SystemStrain>12</SystemStrain>
+  <Starship>false</Starship>
+  <Massive>0</Massive>
+  <VehicleWeapons>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Aft>false</Aft>
+        <Port>false</Port>
+        <Starboard>false</Starboard>
+        <Dorsal>false</Dorsal>
+        <Ventral>false</Ventral>
+      </FiringArcs>
+      <Turret>false</Turret>
+      <Location>Forward</Location>
+      <Retractable>false</Retractable>
+      <Qualities />
+      <Key>BEAMDRILHVY</Key>
+      <Count>1</Count>
+    </VehicleWeapon>
+  </VehicleWeapons>
+</Vehicle>

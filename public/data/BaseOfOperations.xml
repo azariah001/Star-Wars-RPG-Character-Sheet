@@ -1,0 +1,309 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BaseOfOperations>
+  <BaseOfOperation>
+    <Key>HOMESTEAD</Key>
+    <Name>Homestead</Name>
+    <Description>
+      [H4]Homestead[h4]
+      Please see page 82 of the Far Horizons Sourcebook for details.
+    </Description>
+    <Source Page="82">Far Horizons</Source>
+    <Cost>
+      <Credits>50000</Credits>
+      <Obligation>5</Obligation>
+    </Cost>
+    <NPCPerMember>true</NPCPerMember>
+    <Foci>
+      <Key>BASEFARM</Key>
+      <Key>BASERANCH</Key>
+      <Key>BASEMINE</Key>
+      <Key>BASESTATION</Key>
+    </Foci>
+    <AvailableUpgrades>
+      <Key>HOMECORE</Key>
+      <Key>HOMESEC</Key>
+      <Key>HOMENPC</Key>
+      <Key>HOMEINF</Key>
+      <Key>HOMEMECHGAR</Key>
+      <Key>HOMELANDBAY</Key>
+    </AvailableUpgrades>
+  </BaseOfOperation>
+  <BaseOfOperation>
+    <Key>BUSINESS</Key>
+    <Name>Business</Name>
+    <Description>
+      [H4]Business[h4]
+      Please see page 82 of the Far Horizons Sourcebook for details.
+    </Description>
+    <Source Page="82">Far Horizons</Source>
+    <Cost>
+      <Credits>50000</Credits>
+      <Obligation>5</Obligation>
+    </Cost>
+    <NPCPerMember>true</NPCPerMember>
+    <Foci>
+      <Key>BASEENT</Key>
+      <Key>BASERETAIL</Key>
+      <Key>BASESERVICE</Key>
+      <Key>BASESTATION</Key>
+    </Foci>
+    <AvailableUpgrades>
+      <Key>BUSCORE</Key>
+      <Key>BUSSEC</Key>
+      <Key>BUSORDERS</Key>
+      <Key>BUSWHOLE</Key>
+      <Key>BUSLIC</Key>
+    </AvailableUpgrades>
+  </BaseOfOperation>
+  <BaseOfOperation>
+    <Key>REBELBASE</Key>
+    <Name>Rebel Base</Name>
+    <Description>
+      [H4]Rebel Base[h4]
+      Please see page 86 of the Desperate Allies Sourcebook for details.
+    </Description>
+    <Source Page="86">Desperate Allies</Source>
+    <Cost>
+      <Credits>0</Credits>
+      <Obligation>0</Obligation>
+    </Cost>
+    <NPCPerMember>false</NPCPerMember>
+    <Foci>
+      <Key>BASESAFE</Key>
+      <Key>BASETRAIN</Key>
+      <Key>BASERESEARCH</Key>
+      <Key>BASEMEET</Key>
+      <Key>BASEWEAP</Key>
+    </Foci>
+    <AvailableUpgrades>
+      <Key>REBELCORE</Key>
+      <Key>REBELSEC</Key>
+      <Key>REBELNPC</Key>
+      <Key>REBELMED</Key>
+      <Key>REBELHANG</Key>
+      <Key>REBELARM</Key>
+      <Key>REBELTRAIN</Key>
+      <Key>REBELLAB</Key>
+      <Key>REBELCOMMAND</Key>
+      <Key>REBELRES</Key>
+    </AvailableUpgrades>
+    <NPCs>
+      <Adversary>
+        <Name>NPC Caretaker</Name>
+        <Key>c7624c72-1d17-44ee-a992-b485de6e11de</Key>
+        <Category>Base NPC</Category>
+        <Characteristics>
+          <CharCharacteristic>
+            <Key>BR</Key>
+            <Name>Brawn</Name>
+            <Rank>
+              <StartingRanks>1</StartingRanks>
+              <PurchasedRanks>1</PurchasedRanks>
+            </Rank>
+          </CharCharacteristic>
+          <CharCharacteristic>
+            <Key>AG</Key>
+            <Name>Agility</Name>
+            <Rank>
+              <StartingRanks>1</StartingRanks>
+              <PurchasedRanks>1</PurchasedRanks>
+            </Rank>
+          </CharCharacteristic>
+          <CharCharacteristic>
+            <Key>INT</Key>
+            <Name>Intellect</Name>
+            <Rank>
+              <StartingRanks>1</StartingRanks>
+              <PurchasedRanks>1</PurchasedRanks>
+            </Rank>
+          </CharCharacteristic>
+          <CharCharacteristic>
+            <Key>CUN</Key>
+            <Name>Cunning</Name>
+            <Rank>
+              <StartingRanks>1</StartingRanks>
+              <PurchasedRanks>1</PurchasedRanks>
+            </Rank>
+          </CharCharacteristic>
+          <CharCharacteristic>
+            <Key>WIL</Key>
+            <Name>Willpower</Name>
+            <Rank>
+              <StartingRanks>1</StartingRanks>
+              <PurchasedRanks>1</PurchasedRanks>
+            </Rank>
+          </CharCharacteristic>
+          <CharCharacteristic>
+            <Key>PR</Key>
+            <Name>Presence</Name>
+            <Rank>
+              <StartingRanks>1</StartingRanks>
+              <PurchasedRanks>1</PurchasedRanks>
+            </Rank>
+          </CharCharacteristic>
+        </Characteristics>
+        <Talents />
+        <ForceAbilities />
+        <Skills>
+          <CharSkill>
+            <Key>EDU</Key>
+          </CharSkill>
+          <CharSkill>
+            <Key>MECH</Key>
+          </CharSkill>
+          <CharSkill>
+            <Key>VIGIL</Key>
+          </CharSkill>
+        </Skills>
+        <Experience>
+          <UsedExperience>60</UsedExperience>
+        </Experience>
+        <Attributes />
+        <Weapons />
+        <Armor />
+        <Gear>
+          <CharGear>
+            <ItemKey>DATAPAD</ItemKey>
+            <Key>1cdff020-c839-461c-b769-f8cc20ac9dad</Key>
+            <Equipped>true</Equipped>
+            <Count>1</Count>
+          </CharGear>
+        </Gear>
+        <Abilities />
+        <Items>
+          <AdvItem>
+            <Key>0</Key>
+            <Name>Work clothes</Name>
+          </AdvItem>
+          <AdvItem>
+            <Key>1</Key>
+            <Name>Maintainance supplies</Name>
+          </AdvItem>
+        </Items>
+        <SpecialWeapons />
+        <SpecialArmor />
+        <Type>Minion</Type>
+      </Adversary>
+    </NPCs>
+  </BaseOfOperation>
+  <BaseOfOperation>
+    <Key>WORKSHOP</Key>
+    <Name>Workshop</Name>
+    <Description>
+      [H4]Workshop[h4]
+      Please see page 94 of the Special Modifications Sourcebook for details.
+    </Description>
+    <Source Page="94">Special Modifications</Source>
+    <Cost>
+      <Credits>0</Credits>
+      <Obligation>0</Obligation>
+    </Cost>
+    <NPCPerMember>false</NPCPerMember>
+    <MaxUpgrades>3</MaxUpgrades>
+    <Foci>
+      <Key>WORKCOMP</Key>
+      <Key>WORKMECH</Key>
+      <Key>WORKMED</Key>
+    </Foci>
+    <AvailableUpgrades>
+      <Key>WORKSPACE</Key>
+      <Key>WORKHOME</Key>
+      <Key>WORKCONT</Key>
+      <Key>WORKRECLAM</Key>
+      <Key>WORKRES</Key>
+      <Key>WORKSPARE</Key>
+    </AvailableUpgrades>
+  </BaseOfOperation>
+  <BaseOfOperation>
+    <Key>WORKSHOPSHIP</Key>
+    <Name>Shipboard Workshop</Name>
+    <Description>
+      [H4]Shipboard Workshop[h4]
+      Please see page 95 of the Special Modifications Sourcebook for details.
+    </Description>
+    <Source Page="95">Special Modifications</Source>
+    <Cost>
+      <Credits>0</Credits>
+      <Obligation>0</Obligation>
+    </Cost>
+    <NPCPerMember>false</NPCPerMember>
+    <MaxUpgrades>3</MaxUpgrades>
+    <Foci>
+      <Key>WORKCOMP</Key>
+      <Key>WORKMECH</Key>
+      <Key>WORKMED</Key>
+    </Foci>
+    <AvailableUpgrades>
+      <Key>WORKSPACE</Key>
+      <Key>WORKHOME</Key>
+      <Key>WORKCONT</Key>
+      <Key>WORKRECLAM</Key>
+      <Key>WORKRES</Key>
+      <Key>WORKSPARE</Key>
+      <Key>WORKLOWGRAV</Key>
+    </AvailableUpgrades>
+  </BaseOfOperation>
+  <BaseOfOperation>
+    <Key>WORKSHOPHOME</Key>
+    <Name>Homestead Workshop</Name>
+    <Description>
+      [H4]Homestead Workshop[h4]
+      Please see page 95 of the Special Modifications Sourcebook for details.
+    </Description>
+    <Source Page="95">Special Modifications</Source>
+    <Cost>
+      <Credits>0</Credits>
+      <Obligation>0</Obligation>
+    </Cost>
+    <NPCPerMember>false</NPCPerMember>
+    <MaxUpgrades>3</MaxUpgrades>
+    <Foci>
+      <Key>WORKCOMP</Key>
+      <Key>WORKMECH</Key>
+      <Key>WORKMED</Key>
+    </Foci>
+    <AvailableUpgrades>
+      <Key>WORKSPACE</Key>
+      <Key>WORKHOME</Key>
+      <Key>WORKCONT</Key>
+      <Key>WORKRECLAM</Key>
+      <Key>WORKRES</Key>
+      <Key>WORKSPARE</Key>
+    </AvailableUpgrades>
+    <BuiltInUpgrades>
+      <Key>WORKHOME</Key>
+    </BuiltInUpgrades>
+  </BaseOfOperation>
+  <BaseOfOperation>
+    <Key>WORKSHOPIND</Key>
+    <Name>Industrial Workshop</Name>
+    <Description>
+      [H4]Industrial Workshop[h4]
+      Please see page 96 of the Special Modifications Sourcebook for details.
+    </Description>
+    <Source Page="96">Special Modifications</Source>
+    <Cost>
+      <Credits>0</Credits>
+      <Obligation>0</Obligation>
+    </Cost>
+    <NPCPerMember>false</NPCPerMember>
+    <Foci>
+      <Key>WORKCOMP</Key>
+      <Key>WORKMECH</Key>
+      <Key>WORKMED</Key>
+    </Foci>
+    <AvailableUpgrades>
+      <Key>WORKSPACE</Key>
+      <Key>WORKHOME</Key>
+      <Key>WORKCONT</Key>
+      <Key>WORKRECLAM</Key>
+      <Key>WORKRES</Key>
+      <Key>WORKSPARE</Key>
+    </AvailableUpgrades>
+    <BuiltInUpgrades>
+      <Key>WORKSPACE</Key>
+      <Key>WORKRES</Key>
+      <Key>WORKSPARE</Key>
+    </BuiltInUpgrades>
+  </BaseOfOperation>
+</BaseOfOperations>

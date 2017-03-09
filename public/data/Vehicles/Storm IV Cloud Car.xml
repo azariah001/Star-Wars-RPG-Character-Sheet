@@ -1,0 +1,55 @@
+<Vehicle>
+  <Key>STORMIVCLOUDCAR</Key>
+  <Name>Storm IV Cloud Car</Name>
+  <Description>
+      [H3]Storm IV Cloud Car[h3]
+      Please see page 248 of the Edge of the Empire Core Rulebook, or page 262 of the Age of Rebellion Core Rulebook, for details.
+    </Description>
+  <Sources>
+    <Source Page="248">Edge of the Empire Core Rulebook</Source>
+    <Source Page="262">Age of Rebellion Core Rulebook</Source>
+  </Sources>
+  <MaxAltitude>100 kilometers</MaxAltitude>
+  <SensorRangeValue>srShort</SensorRangeValue>
+  <Crew>One Pilot, One Gunner</Crew>
+  <EncumbranceCapacity>8</EncumbranceCapacity>
+  <Passengers>0</Passengers>
+  <Silhouette>2</Silhouette>
+  <Speed>4</Speed>
+  <Handling>1</Handling>
+  <DefFore>0</DefFore>
+  <DefAft>0</DefAft>
+  <DefPort>0</DefPort>
+  <DefStarboard>0</DefStarboard>
+  <Armor>1</Armor>
+  <HullTrauma>5</HullTrauma>
+  <SystemStrain>7</SystemStrain>
+  <HP>2</HP>
+  <Price>30000</Price>
+  <Rarity>5</Rarity>
+  <Categories>
+    <Category>Air Vehicle</Category>
+  </Categories>
+  <Type>Cloud Car</Type>
+  <SinglePilot>true</SinglePilot>
+  <VehicleWeapons>
+    <VehicleWeapon>
+      <Key>BLASTCANLT</Key>
+      <Location>Forward</Location>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Aft>false</Aft>
+        <Port>false</Port>
+        <Starboard>false</Starboard>
+        <Dorsal>false</Dorsal>
+        <Ventral>false</Ventral>
+      </FiringArcs>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>1</Count>
+        </Quality>
+      </Qualities>
+    </VehicleWeapon>
+  </VehicleWeapons>
+</Vehicle>

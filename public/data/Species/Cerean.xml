@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Species>
+  <Key>CEREAN</Key>
+  <Name>Cerean</Name>
+  <Description>
+    [H4]Cerean[h4]
+    Cereans are a sophisticated and cultured humanoid mammalian species hailing from
+    the planet Cerea in the Mid Rim. They have tall tapering heads, which house large
+    binary brains, enabling them to focus on many things at the same time. Aside from
+    this unique feature, Cereans are physically similar to Humans, although they each
+    possesse two hearts, which supply extra blood circulation to support their brains.
+    [P]Cerean males age more quickly than the females, who have similar lifespans to
+    Humans. Thus, there are fewer males than females. Polygamous marriage are a
+    necessity in order for the species to survive. Each male usually has one primary
+    "bond-wife", and between four and ten "honor-wives".
+    [P][B]Physiology:[b]
+    The Cereans' enlarged skulls, extending up to twenty centimeters above their
+    foreheads, house complex binary brains, provided with sufficient blood by an
+    extra heart in their heads. The binary structure of Cerean thinking helps
+    them to ponder two sides of an issue at once. It also enables them to process
+    information and solve problems rapidly and provides a highly advanced capacity
+    for concentration and meditation. Because of their thoughtful nature, they tend
+    to be calm, rational and analytical, preferring peaceful philosophies and a
+    lifestyle which works in harmony with nature. Though the quick-thinking Cereans
+    have equally quick reflexes, they are commonly not as well coordinated as Humans.
+    [P][B]Society:[b]
+    Cereans developed a low–tech society on their homeworld and prefer to live
+    in isolation from the wider galaxy. During the years leading up to the Invasion
+    of Naboo, a generational dispute erupted on Cerea when the younger generation
+    took up a rebellious stance against their low–tech society. Many Cerean youths
+    wished to own such technology as was commonplace in the Galactic Republic, like
+    starships and speeder bikes.
+    [P]Many Cereans use specially-forged Kasha crystals as a meditational tool. By
+    focusing one's thoughts while in contact with such crystals, distractions are
+    eliminated, creating an exceptional meditation environment.
+    [P][B]Homeworld:[b]
+    Cerea is a planet located in the Mid Rim region of the galaxy. The homeworld
+    of the Cerean species, Cerea is notable for its inhabitants' harmonious relationship
+    with nature. Technology and pollution are frowned upon by the conservative
+    government, a major point in the planet's decision not to join the Galactic Republic.
+    The Cerean population mainly live in giant buildings that take up a minimum of
+    space, allowing the remainder of the planet's area to be employed as farmland.
+    Foreign immigrants and visitors are, with a few exceptions, only allowed in Cerea's
+    Outsider Citadels, enormous buildings erected to let non-Cereans practice their
+    technological ways. This ensures that the foreigners' technology does not contaminate
+    Cerea's nature, but also leads to a concentration of criminal elements within the Citadels.
+    [P]Cerea is ruled by the Council of Elders, which in turn is led by a president.
+    The planet was for the most part ignored by the Republic until a few years prior to
+    the Clone Wars. Cerea's seclusion caused a unique culture to develop, one that focused
+    on other values than the mainstream galactic civilization. In 21 BBY, Cerea was the
+    site of a battle between the Republic and Confederacy of Independent Systems, which
+    had an adverse effect on the planet's relatively untouched nature.
+    [P][B]Language:[b]
+    Cerean is the official language of the planet Cerea.
+    It is mainly spoken by native Cereans. Despite their isolationist stance, 
+    the Cereans also learn to speak Basic as children.
+    [P]"Chu'unthor" is the Cerean word for "academy," and the word "Barsen'thor" translates 
+    to "Warden of the Order."
+  </Description>
+  <Source Page="54">Force and Destiny Core Rulebook</Source>
+  <StartingChars>
+    <Brawn>2</Brawn>
+    <Agility>1</Agility>
+    <Intellect>3</Intellect>
+    <Cunning>2</Cunning>
+    <Willpower>2</Willpower>
+    <Presence>2</Presence>
+  </StartingChars>
+  <StartingAttrs>
+    <WoundThreshold>10</WoundThreshold>
+    <StrainThreshold>13</StrainThreshold>
+    <Experience>90</Experience>
+  </StartingAttrs>
+  <SkillModifiers>
+    <SkillModifier>
+      <Key>VIGIL</Key>
+      <RankStart>1</RankStart>
+      <RankLimit>2</RankLimit>
+    </SkillModifier>
+    <SkillModifier>
+      <Key></Key>
+      <RankStart>0</RankStart>
+      <RankAdd>0</RankAdd>
+      <RankLimit>0</RankLimit>
+      <isCareer>true</isCareer>
+      <SkillType>Knowledge</SkillType>
+    </SkillModifier>
+  </SkillModifiers>
+  <TalentModifiers>
+  </TalentModifiers>
+  <OptionChoices>
+  </OptionChoices>
+</Species>

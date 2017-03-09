@@ -1,0 +1,79 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>EXSUBM</Key>
+  <Name>Explorer Submersible</Name>
+  <Description>[H3]Hydrospeare Corp Explorer Submersible[h3]
+Please see page 116 of the Strongholds of Resistance Sourcebook for details.</Description>
+  <Source Page="116">Strongholds of Resistance</Source>
+  <Sources />
+  <Type>Submersible</Type>
+  <Categories>
+    <Category>Walker</Category>
+  </Categories>
+  <Encumbrance>0</Encumbrance>
+  <HP>2</HP>
+  <Price>55000</Price>
+  <Rarity>5</Rarity>
+  <Restricted>true</Restricted>
+  <BaseMods />
+  <WeaponModifiers />
+  <MaxAltitude />
+  <HyperdrivePrimary>0</HyperdrivePrimary>
+  <HyperdriveBackup>0</HyperdriveBackup>
+  <StarFighters />
+  <NaviComputer>false</NaviComputer>
+  <SensorRangeValue>srShort</SensorRangeValue>
+  <Crew>One pilot, one co-pilot, two gunners</Crew>
+  <EncumbranceCapacity>10</EncumbranceCapacity>
+  <Passengers>2</Passengers>
+  <Consumables>1 week</Consumables>
+  <Silhouette>3</Silhouette>
+  <Speed>2</Speed>
+  <Handling>0</Handling>
+  <DefFore>0</DefFore>
+  <DefAft>0</DefAft>
+  <DefPort>0</DefPort>
+  <DefStarboard>0</DefStarboard>
+  <Armor>3</Armor>
+  <HullTrauma>8</HullTrauma>
+  <SystemStrain>6</SystemStrain>
+  <Starship>false</Starship>
+  <Massive>0</Massive>
+  <SinglePilot>false</SinglePilot>
+  <VehicleWeapons>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Aft>false</Aft>
+        <Port>false</Port>
+        <Starboard>false</Starboard>
+        <Dorsal>false</Dorsal>
+        <Ventral>false</Ventral>
+      </FiringArcs>
+      <Turret>false</Turret>
+      <Location>Forward</Location>
+      <Retractable>false</Retractable>
+      <Qualities />
+      <Key>BLASTCANHVY</Key>
+      <Count>1</Count>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Aft>true</Aft>
+        <Port>true</Port>
+        <Starboard>true</Starboard>
+        <Dorsal>true</Dorsal>
+        <Ventral>false</Ventral>
+      </FiringArcs>
+      <Turret>true</Turret>
+      <Location>Dorsal</Location>
+      <Retractable>false</Retractable>
+      <Qualities />
+      <Key>BLASTCANLT</Key>
+      <Count>1</Count>
+    </VehicleWeapon>
+  </VehicleWeapons>
+  <BuiltInAttachments />
+  <SensorRange>Short</SensorRange>
+</Vehicle>

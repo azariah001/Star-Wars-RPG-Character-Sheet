@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Species>
+  <Key>MIRIALAN</Key>
+  <Name>Mirialan</Name>
+  <Description>
+    [H4]Mirialan[h4]
+    Please see page 58 of the Force and Destiny Core Rulebook for details.
+  </Description>
+  <Source Page="58">Force and Destiny Core Rulebook</Source>
+  <StartingChars>
+    <Brawn>2</Brawn>
+    <Agility>3</Agility>
+    <Intellect>2</Intellect>
+    <Cunning>1</Cunning>
+    <Willpower>2</Willpower>
+    <Presence>2</Presence>
+  </StartingChars>
+  <StartingAttrs>
+    <WoundThreshold>11</WoundThreshold>
+    <StrainThreshold>10</StrainThreshold>
+    <Experience>100</Experience>
+  </StartingAttrs>
+  <SkillModifiers>
+    <SkillModifier>
+      <Key>DISC</Key>
+      <RankStart>1</RankStart>
+      <RankLimit>2</RankLimit>
+    </SkillModifier>
+    <SkillModifier>
+      <Key>COOL</Key>
+      <RankStart>1</RankStart>
+      <RankLimit>2</RankLimit>
+    </SkillModifier>
+  </SkillModifiers>
+  <TalentModifiers>
+  </TalentModifiers>
+  <OptionChoices>
+  </OptionChoices>
+</Species>

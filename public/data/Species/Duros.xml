@@ -1,0 +1,84 @@
+<?xml version="1.0"?>
+<Species xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>DUROS</Key>
+  <Name>Duros</Name>
+  <Description>
+    [H4]Duros[h4]
+    The Duros are a humanoid species native to the planet Duro who were among
+    the galaxy's first space faring civilizations.
+    [P]Their homeworld is located on both the Corellian Trade Spine and at the end of the Duros Space Run,
+    two major hyperspace routes that link Duro with other important commercial centers.
+    [P][B]Physiology:[b]
+    Duros are a humanoid race characterized by their blue skin, red eyes and long, thin faces. There is no
+    nose on their face. They have lipless mouths and green blood. Olfactory glands beneath their eyes
+    are responsible for their sense of smell. Both females and males are bald, though both genders are
+    easily distinguished. Their large red goggle-like eyes also have slit pupils. Duros females give birth
+    to live young, and like the Neimoidians they are born in a larval grub stage, but unlike their cousins
+    who left the raising of their young mainly to the state, the Duros take care of their offspring from
+    birth.
+    [P][B]Society:[b]
+    While usually taciturn, Duros enjoy telling stories about their travels. It is said Duros have a
+    photographic memory when it came to the telling of tales and stories. Many Duros are pilots and
+    explorers, and are adventurous, though sometimes rash. As one of the first cultures to develop
+    a hyperdrive spacecraft (some even believe the first), Duros-charted trade routes are among the
+    oldest hyperspace routes still in use during the Imperial era. Duros are  known for their superior
+    astro-navigational skills. Their affinity for
+    traveling leads many Duros to prefer the honorific title of "Traveler" despite their occupation or
+    craft of choice, and addressing them as such is considered good etiquette.
+    [P][B]Homeworld:[b]
+    [P]Their home planet Duro is primarily uninhabited due to massive pollution on the world over time.
+    Instead, it is covered with automated farms for food production. The Duros live in twenty orbital
+    space cities above the planet.
+    [P][B]Language:[b]
+    The Duros language is Durese, which is a [I]lingua franca[i] of sorts amongst spacers.
+  </Description>
+  <Sources>
+    <Source Page="55">Age of Rebellion Core Rulebook</Source>
+    <Source Page="21">Enter the Unknown</Source>
+  </Sources>
+  <StartingChars>
+    <Brawn>1</Brawn>
+    <Agility>2</Agility>
+    <Intellect>3</Intellect>
+    <Cunning>2</Cunning>
+    <Willpower>2</Willpower>
+    <Presence>2</Presence>
+  </StartingChars>
+  <StartingAttrs>
+    <WoundThreshold>11</WoundThreshold>
+    <StrainThreshold>10</StrainThreshold>
+    <Experience>100</Experience>
+  </StartingAttrs>
+  <SkillModifiers>
+    <SkillModifier>
+      <Key>PILOTSP</Key>
+      <RankStart>1</RankStart>
+      <RankAdd>0</RankAdd>
+      <RankLimit>0</RankLimit>
+      <isCareer>false</isCareer>
+    </SkillModifier>
+  </SkillModifiers>
+  <TalentModifiers />
+  <OptionChoices>
+    <OptionChoice>
+      <Key>DUROSCH1</Key>
+      <Name>Navigator</Name>
+      <Description />
+      <Options>
+        <Option>
+          <Key>DUROSCH1OP1</Key>
+          <Name>Intuitive Navigation</Name>
+          <Description>Add [ADVANTAGE] to all Astrogation checks.</Description>
+          <DieModifiers>
+            <DieModifier>
+              <SkillKey>ASTRO</SkillKey>
+              <AdvantageCount>1</AdvantageCount>
+            </DieModifier>
+          </DieModifiers>
+        </Option>
+      </Options>
+    </OptionChoice>
+  </OptionChoices>
+  <WeaponModifiers />
+  <NoForceAbilities>false</NoForceAbilities>
+</Species>

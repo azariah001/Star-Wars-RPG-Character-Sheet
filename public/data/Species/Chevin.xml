@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<Species xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>CHEVIN</Key>
+  <Name>Chevin</Name>
+  <Description>[H4]Chevin[h4]
+The Chevin have thick, wrinkeled gray skin that provides a thick hide of protection, and the ability to regulate their body temperature. The Chevin stand around 2.5 meters on two thick legs that support their bulky frames. They have large heads, which support a trunk that stretches down to the ground. This trunk allows the Chevin to forage for food while watching for predators.
+[P][B]Physiology:[b]
+The Chevin evolved from smaller relatives of the giant mammals who were wiped out when an asteroid collided with Vinsoth millions of years before the time of the Galactic Republic. Chevin have long snouts which hang down nearly to their ankles. Combined with their intellect, this makes them skilled hunters of animals such as backshin, because they can smell out their prey or feed while keeping their eyes on the horizon. It was also their hunting prowess which allowed them to dominate their homeworld and conquer the Chevs. Chevin have thick legs, massive wide bodies, thin rope-like tails, and arms so long their three-fingered hands often brushed the ground. 
+[P]Despite their ungainly appearance, they can walk or run almost as fast as more nimble-looking humanoids. Chevin boast a double set of eyelids, one of which is transparent to prevent dust and wind from interfering with their vision. Their thick gray skin and efficient circulatory system keep them cool in warm climates and warm in cold climates, though they prefer semi-tropical conditions. The traditional Chevin costume consists of long, elaborately patterned robes (though they did not wear clothing until they were contacted by other species) and jewelry.
+[P][B]Society:[b]
+Despite their appearance, the Chevin are a technologically advanced, carnivorous species belonging to the pachydermal family. The species originated on Vinsoth, a world of rolling plains, with arctic polar regions, and few deserts. Their culture has forged the species into a greedy one. Chevins are infamous for their lust for money, power, and status. They will accomplish their goals by any means necessary. The Galaxy has come to see Chevin as gamblers, smugglers, blackmailers, and gun runners. They are also notorious as slavers for manipulating the humanoid race of Vinsoth, the Chevin. Although the Chevin are capable of using weapons of destruction, they tend to let others do their dirty work, or just force their slaves to do it for them. Though technologically advanced, the Chevin did not research their technology. They acquired it from an unknown offworld source, and adapted it to their lifestyle and needs. As a migratory species, the Chevin once walked the plains of Vinsoth. Now with technology, most travel the world on large community platforms, similar to the Ithorians and their herdships. The destitute Chevin tend to employ ground vehicles with wheels, rather than the repulsorlifts that wealthier Chevin put to use. While the Chevin travel on the platforms, the slaves walk and are expected to keep up.
+[P][B]Homeworld:[b]
+The planet Vinsoth is the capital of the Vinsoth system, Quelii sector. The large grassy continent and its small archipelago accounts for the majority of the planets population, containing vast business and bureaucratic districts, and has been likened by many to Coruscant in its sheer scale. The arctic regions on the South Pole are largely unexplored; though contain research facilities, whilst those on the north are mapped in great detail.
+[P][B]Language:[b]
+Chevin language is the native tongue of the Chevin species and the official language of planet Vinsoth.
+
+There was another native species to Vinsoth besides of the Chevins: The Chevs, who had their own language. However, the Chevs were slaves to the Chevins, and the Chevins forced their Chev slaves to learn Chevin language (usually they also made them learn Basic). Thus, the Chevin language was spoken by both Chevs and Chevins, while Chev language was spoken only by the Chevs.
+
+[P]As all the Chev speakers are familiar with the Chevin language, the Chevin language has had a great influence on the Chev language. Of course, Chevins traveling through the galaxy also learn to speak Basic.</Description>
+  <Source Page="21">Far Horizons</Source>
+  <StartingChars>
+    <Brawn>3</Brawn>
+    <Agility>1</Agility>
+    <Intellect>2</Intellect>
+    <Cunning>3</Cunning>
+    <Willpower>2</Willpower>
+    <Presence>1</Presence>
+  </StartingChars>
+  <StartingAttrs>
+    <WoundThreshold>11</WoundThreshold>
+    <StrainThreshold>11</StrainThreshold>
+    <DefenseRanged>0</DefenseRanged>
+    <DefenseMelee>0</DefenseMelee>
+    <SoakValue>0</SoakValue>
+    <Experience>80</Experience>
+    <ForceRating>0</ForceRating>
+  </StartingAttrs>
+  <SkillModifiers>
+    <SkillModifier>
+      <Key>NEG</Key>
+      <RankStart>1</RankStart>
+    </SkillModifier>
+  </SkillModifiers>
+  <TalentModifiers>
+    <TalentModifier>
+      <Key>DURA</Key>
+      <RankAdd>1</RankAdd>
+    </TalentModifier>
+  </TalentModifiers>
+  <OptionChoices>
+    <OptionChoice>
+      <Key>CHEVINOC1</Key>
+      <Name>Smell</Name>
+      <Options>
+        <Option>
+          <Key>CHEVINOC1OP1</Key>
+          <Name>Advanced Olfaction</Name>
+          <Description>
+            Chevin add [BOOST] to Perception checks involving the sense of smell.
+          </Description>
+          <DieModifiers>
+          </DieModifiers>
+        </Option>
+      </Options>
+    </OptionChoice>
+  </OptionChoices>
+  <WeaponModifiers />
+  <NoForceAbilities>false</NoForceAbilities>
+</Species>

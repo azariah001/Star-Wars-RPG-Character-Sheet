@@ -1,0 +1,219 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Species>
+  <Key>AQUA</Key>
+  <Name>Aqualish</Name>
+  <Description>
+    [H4]Aqualish[h4]
+    The Aqualish are tusked bipeds from the planet Ando
+    whose appearance combined aspects of arachnids and
+    pinniped aquatic mammals. Aqualish had a reputation
+    for being nasty, crude and aggressive, and generally
+    pursued off-world careers as mercenaries, bounty
+    hunters, and pirates. One of the most infamous such
+    Aqualish was the smuggler Ponda Baba.
+    [P][B]Physiology:[b]
+    An amphibious species native to the planet Ando, the
+    Aqualish people are made up of three distinct races
+    which included the Aquala, the Ualaq and the Quara.
+    Although they all had their differences, their
+    baseline genetic structure was the same and their
+    appearances did not vary so drastically as to
+    characterize them as different species. All Aqualish
+    have two facial tusks which curved down over their
+    mouths; a trait which adds to their appearance as
+    arachnids. Indeed, the Aqualish have some arachnid
+    genetic material in their distant past, as
+    demonstrative in their relationship with the Harch
+    species. These facial tusks are highly sensitive
+    to heat and cold, and were used for cracking open
+    the hard shells of shellfish or burrowing through
+    the swampy loam of their homeworld.
+    [P][B]Society:[b]
+    The Aquala hate their Quara relatives, as they
+    blame them for the image the Aqualish had on the
+    galaxy as thugs. Because of this the latter
+    subspecies are considered pariahs on Ando, which
+    has a lower population of Aqualish than the galaxy
+    itself. All three Aqualish subspecies speak
+    mutually intelligible dialects of the same language.
+    Quarrelsome and thug-like, the Aqualish culture
+    revolves around aggression and toughness, with
+    diplomacy being one of their weakest attributes.
+    [P][B]Homeworld:[b]
+    Ando, the homeworld of the Aqualish, is an oceanic
+    planet located in the Ando system of the Mid Rim.  The
+    sea covers 95% of the world.  The majority of the
+    world's islands are sustained by a decaying swamp
+    ecosystem and covered in steamy mist.
+    [P][B]Language:[b]
+    Aqualish is the official language of the planet 
+    Ando, spoken by the Aqualish species. The three 
+    subspecies of Aqualish—Aquala, Quara and Ualaq—each 
+    have a different dialect. However, these regionalisms 
+    are so similar that they are easily understood by 
+    speakers of the separate dialects.
+    [P]Aqualish vocal cords cause harsh guttural 
+    sounds, which are common in the Aqualish language, 
+    but uncommon in Basic. If an Aqualish speaks Galactic 
+    Basic Standard, it sounds coarse and brutish. Most 
+    Aqualish do not learn Basic unless they needed to, 
+    which usually means they have been forced to leave 
+    their homeworld.
+  </Description>
+  <Source Page="19">Dangerous Covenants</Source>
+  <StartingChars>
+    <Brawn>3</Brawn>
+    <Agility>2</Agility>
+    <Intellect>1</Intellect>
+    <Cunning>2</Cunning>
+    <Willpower>2</Willpower>
+    <Presence>2</Presence>
+  </StartingChars>
+  <StartingAttrs>
+    <WoundThreshold>11</WoundThreshold>
+    <StrainThreshold>8</StrainThreshold>
+    <Experience>90</Experience>
+  </StartingAttrs>
+  <SkillModifiers>
+    <SkillModifier>
+      <Key>BRAWL</Key>
+      <RankStart>1</RankStart>
+      <RankLimit>2</RankLimit>
+    </SkillModifier>
+  </SkillModifiers>
+  <SubSpeciesList>
+    <SubSpecies>
+      <Key>AQUASUB1</Key>
+      <Name>Aquala</Name>
+      <Description>Please see page 20 of the Dangerous Covenants Sourcebook for details.</Description>
+      <SkillModifiers>
+        <SkillModifier>
+          <Key>RESIL</Key>
+          <RankStart>1</RankStart>
+          <RankLimit>2</RankLimit>
+        </SkillModifier>
+      </SkillModifiers>
+      <OptionChoices>
+        <OptionChoice>
+          <Key>AQUAOC2</Key>
+          <Name>Conditions</Name>
+          <Options>
+            <Option>
+              <Key>AQUAOC2OP1</Key>
+              <Name>Environmental Conditions</Name>
+              <Description>Aquala may remove [SETBACK] imposed due to any cold or wet conditions.</Description>
+            </Option>
+          </Options>
+        </OptionChoice>
+      </OptionChoices>
+    </SubSpecies>
+    <SubSpecies>
+      <Key>AQUASUB2</Key>
+      <Name>Ualaq</Name>
+      <Description>Please see page 20 of the Dangerous Covenants Sourcebook for details.</Description>
+      <OptionChoices>
+        <OptionChoice>
+          <Key>AQUASUB1OC1</Key>
+          <Name>Skills</Name>
+          <Options>
+            <Option>
+              <Key>AQUASUB1OC1OP1</Key>
+              <Name>Survival</Name>
+              <Description>Ualaq may begin the game with one rank in Survival.</Description>
+              <SkillModifiers>
+                <SkillModifier>
+                  <Key>SURV</Key>
+                  <RankStart>1</RankStart>
+                </SkillModifier>
+              </SkillModifiers>
+            </Option>
+            <Option>
+              <Key>AQUASUB1OC1OP2</Key>
+              <Name>Perception</Name>
+              <Description>Ualaq may begin the game with one rank in Perception.</Description>
+              <SkillModifiers>
+                <SkillModifier>
+                  <Key>PERC</Key>
+                  <RankStart>1</RankStart>
+                </SkillModifier>
+              </SkillModifiers>
+            </Option>
+          </Options>
+        </OptionChoice>
+        <OptionChoice>
+          <Key>AQUASUB1OC2</Key>
+          <Name>Conditions</Name>
+          <Options>
+            <Option>
+              <Key>AQUASUB1OC2OP1</Key>
+              <Name>Environmental Conditions</Name>
+              <Description>Ualaq may remove [SETBACK] imposed due to dark conditions, but suffer [SETBACK] to 
+              Perception checks in brightly lit environments</Description>
+            </Option>
+          </Options>
+        </OptionChoice>
+      </OptionChoices>
+    </SubSpecies>
+    <SubSpecies>
+      <Key>AQUASUB3</Key>
+      <Name>Quara</Name>
+      <Description>Please see page 20 of the Dangerous Covenants Sourcebook for details.</Description>
+      <OptionChoices>
+        <OptionChoice>
+          <Key>AQUASUB3OC1</Key>
+          <Name>Skills</Name>
+          <Options>
+            <Option>
+              <Key>AQUASUB3OC1OP1</Key>
+              <Name>Athletics</Name>
+              <Description>Quara may begin the game with one rank in Athletics.</Description>
+              <SkillModifiers>
+                <SkillModifier>
+                  <Key>ATHL</Key>
+                  <RankStart>1</RankStart>
+                </SkillModifier>
+              </SkillModifiers>
+            </Option>
+            <Option>
+              <Key>AQUASUB3OC1OP2</Key>
+              <Name>Coercion</Name>
+              <Description>Quara may begin the game with one rank in Coercion.</Description>
+              <SkillModifiers>
+                <SkillModifier>
+                  <Key>COERC</Key>
+                  <RankStart>1</RankStart>
+                </SkillModifier>
+              </SkillModifiers>
+            </Option>
+          </Options>
+        </OptionChoice>
+        <OptionChoice>
+          <Key>AQUASUB3OC2</Key>
+          <Name>Conditions</Name>
+          <Options>
+            <Option>
+              <Key>AQUASUB3OC2OP1</Key>
+              <Name>Environmental Conditions</Name>
+              <Description>
+                Quara may remove [SETBACK] when attempting to track anything through a natural environment.
+              </Description>
+            </Option>
+          </Options>
+        </OptionChoice>
+      </OptionChoices>
+    </SubSpecies>
+  </SubSpeciesList>
+  <OptionChoices>
+    <OptionChoice>
+      <Key>AQUASWIM</Key>
+      <Name>Aquatic</Name>
+      <Options>
+        <Option>
+          <Key>AQUASWIMOP</Key>
+          <Name>Underwater Breathing</Name>
+          <Description>All Aqualish are capable of breathing underwater.</Description>
+        </Option>
+      </Options>
+    </OptionChoice>
+  </OptionChoices>
+</Species>

@@ -1,0 +1,65 @@
+<?xml version="1.0"?>
+<Species>
+  <Key>TOYDARIAN</Key>
+  <Name>Toydarians</Name>
+  <Description>[H4]Toydarians[h4]
+Toydarians are a race of winged mammalian beings from the planet Toydaria. Strong-willed, and resistant to manipulation of the mind through the Force, this species produces a body odor similar to sweetspice. With a reputation for being stingy and bad-tempered, many Toydarians are possessed of a strong sense of pride in their work.
+[P][B]Physiology:[b]
+A mammalian race of winged, stout bodied humanoids, the Toydarians have stubby facial tusks which protrude from their lower jaw and frame a short pudgy trunk. Typically a Toydarian has blue-green skin, except over their stomachs which are cream-colored, and each hand and their webbed feet have three digits each. While their stubby legs can support their body weight, Toydarians' primary mode of locomotion is their use of the wings on their upper back. Despite the frailty of their wings and the apparent heaviness of their large gut, Toydarians are remarkably buoyant. Indeed, Toydarian bodily tissue is extremely absorbent of natural gases in the air, which make them incredibly light weight. Though their wings can beat as fast as ten times a second, the effort burns up large amounts of energy, causing the species to need to replenish itself often through regularly eating mass quantities of food. [P]In order to fuel this hyperactive metabolism, Toydarians will eat concentrated foods and egg-seeds. Most of the bloodiest wars in their history were fought over food supplies.
+Similar to the Hutts, Toydarian brains have an unusual composition which make them immune to influence from the Force. The males of the species usually show sparse whiskers, though their craniums remain bare of any hair. Toydarian newborns emerge from their mothers' wombs fully developed, and are able to fly from birth. This characteristic is a vital survival adaption; land-bound creatures fall prey to the dangerous grabworms that roamed the planet's marshes.
+[P][B]Society:[b]
+Despite being ruled by the Hutts, the Toydarian people are able to govern themselves free of major outside intervention through the establishment of a feudal monarchy. A ruling king sits on the planet's throne, allowing vassals to form allegiances and have minor disputes to solve their own problems. The king makes sure to keep his vassals happy and to have their allegiance, but will occasionally encourage infighting to reveal the true character of the vassals and weed out treachery.
+[P]A common trait of all Toydarians is their shrewd business sense and their ability to haggle any deal. A loyal and proud people, these traits can be off-putting to outsiders, as many Toydarians in the galaxy are seen as crooks or slimy businessmen, but this is not always the case.
+[P][B]Homeworld:[b]
+Toydaria is a large, muddy planet located in the Toydaria system of Hutt Space, and home to the mind trick-resistant Toydarians.
+[P][B]Language:[b]
+Toydarian language is the native language of the Toydarian species from Toydaria.
+[P]Most Toydarians are fluent in both Toydarian language and Basic, although they are only literate in their own language. However, they would rather converse in Toydarian. Many Toydarians are fluent in Huttese instead of Basic, as the species has a long commercial history with the Hutts.
+</Description>
+  <Source Page="22">Enter the Unknown</Source>
+  <StartingChars>
+    <Brawn>1</Brawn>
+    <Agility>1</Agility>
+    <Intellect>2</Intellect>
+    <Cunning>2</Cunning>
+    <Willpower>3</Willpower>
+    <Presence>3</Presence>
+  </StartingChars>
+  <StartingAttrs>
+    <WoundThreshold>9</WoundThreshold>
+    <StrainThreshold>12</StrainThreshold>
+    <Experience>90</Experience>
+  </StartingAttrs>
+  <SkillModifiers />
+  <TalentModifiers>
+  </TalentModifiers>
+  <OptionChoices>
+    <OptionChoice>
+      <Key>TOYDARIANCH1</Key>
+      <Name>Size</Name>
+      <Description />
+      <Options>
+        <Option>
+          <Key>TOYDARIANCH1OP1</Key>
+          <Name>Silhouette</Name>
+          <Description>Toydarians are smaller than average and count as silhouette 0.</Description>
+        </Option>
+      </Options>
+    </OptionChoice>
+    <OptionChoice>
+      <Key>TOYDARIANCH2</Key>
+      <Name>Wings</Name>
+      <Description />
+      <Options>
+        <Option>
+          <Key>TOYDARIANCH2OP1</Key>
+          <Name>Hoverer</Name>
+          <Description>Toydarians have wings that allow them to hover slightly off the ground.  When hovering, Toydarians do not have
+          to spend additional maneuvers when navigating difficult terrain.  Otherwise, their wings allow them no extra capabilities
+        beyond those of a normal, walking character.</Description>
+        </Option>
+      </Options>
+    </OptionChoice>
+  </OptionChoices>
+  <WeaponModifiers />
+</Species>

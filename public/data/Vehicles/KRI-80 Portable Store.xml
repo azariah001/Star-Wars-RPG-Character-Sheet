@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>KRI80</Key>
+  <Name>KRI-80 Portable Store</Name>
+  <Description>[H3]SoroSuub KRI-80 Portable Store[h3]
+Please see page 60 of the Special Modifications Sourcebook for details.
+  </Description>
+  <Source Page="60">Special Modifications</Source>
+  <Type>Landspeeder</Type>
+  <Categories>
+    <Category>Land Vehicle</Category>
+  </Categories>
+  <HP>5</HP>
+  <Price>60000</Price>
+  <Rarity>6</Rarity>
+  <MaxAltitude>10 meters</MaxAltitude>
+  <SensorRangeValue>srShort</SensorRangeValue>
+  <Crew>One pilot</Crew>
+  <EncumbranceCapacity>400</EncumbranceCapacity>
+  <Passengers>24</Passengers>
+  <Silhouette>4</Silhouette>
+  <Speed>1</Speed>
+  <Handling>-4</Handling>
+  <Armor>1</Armor>
+  <HullTrauma>20</HullTrauma>
+  <SystemStrain>8</SystemStrain>
+  <SinglePilot>true</SinglePilot>
+  <SensorRange>Short</SensorRange>
+</Vehicle>

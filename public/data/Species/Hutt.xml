@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Species>
+  <Key>HUTT</Key>
+  <Name>Hutt</Name>
+  <Description>
+    [H4]Hutt[h4]
+    Please see page 94 of the Lords of Nal Hutta Sourcebook for details.
+  </Description>
+  <Source Page="94">Lords of Nal Hutta</Source>
+  <StartingChars>
+    <Brawn>3</Brawn>
+    <Agility>1</Agility>
+    <Intellect>2</Intellect>
+    <Cunning>2</Cunning>
+    <Willpower>3</Willpower>
+    <Presence>2</Presence>
+  </StartingChars>
+  <StartingAttrs>
+    <WoundThreshold>13</WoundThreshold>
+    <StrainThreshold>11</StrainThreshold>
+    <Experience>70</Experience>
+  </StartingAttrs>
+  <SkillModifiers>
+  </SkillModifiers>
+  <TalentModifiers>
+    <TalentModifier>
+      <Key>ENDUR</Key>
+      <RankAdd>1</RankAdd>
+    </TalentModifier>
+    <TalentModifier>
+      <Key>NOBFOOL</Key>
+      <RankAdd>1</RankAdd>
+    </TalentModifier>
+  </TalentModifiers>
+  <OptionChoices>
+    <OptionChoice>
+      <Key>HUTTOC1</Key>
+      <Name>Skills</Name>
+      <Options>
+        <Option>
+          <Key>HUTTOC1OP1</Key>
+          <Name>Coercion</Name>
+          <Description>Hutts may begin the game with one rank in Coercion.</Description>
+          <SkillModifiers>
+            <SkillModifier>
+              <Key>COERC</Key>
+              <RankStart>1</RankStart>
+            </SkillModifier>
+          </SkillModifiers>
+        </Option>
+        <Option>
+          <Key>HUTTOC1OP2</Key>
+          <Name>Discipline</Name>
+          <Description>Hutts may begin the game with one rank in Discipline.</Description>
+          <SkillModifiers>
+            <SkillModifier>
+              <Key>DISC</Key>
+              <RankStart>1</RankStart>
+            </SkillModifier>
+          </SkillModifiers>
+        </Option>
+      </Options>
+    </OptionChoice>
+    <OptionChoice>
+      <Key>HUTTOC2</Key>
+      <Name>Movement</Name>
+      <Options>
+        <Option>
+          <Key>HUTTOC2OP1</Key>
+          <Name>Ponderous</Name>
+          <Description>A Hutt can never spend more than one maneuver moving per turn.</Description>
+        </Option>
+      </Options>
+    </OptionChoice>
+  </OptionChoices>
+</Species>

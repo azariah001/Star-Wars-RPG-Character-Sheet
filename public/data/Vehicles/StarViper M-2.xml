@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>STARVIPERM2</Key>
+  <Name>StarViper M-2</Name>
+  <Description>[H3]StarViper M-2[h3]
+Please see page 81 of the Mask of the Pirate Queen adventure module for details.</Description>
+  <Source Page="81">Mask of the Pirate Queen</Source>
+  <Type>Starfighter</Type>
+  <Categories>
+    <Category>Starship</Category>
+  </Categories>
+  <Encumbrance>0</Encumbrance>
+  <HP>0</HP>
+  <Price>160000</Price>
+  <Rarity>7</Rarity>
+  <HyperdrivePrimary>2</HyperdrivePrimary>
+  <HyperdriveBackup>0</HyperdriveBackup>
+  <NaviComputer>true</NaviComputer>
+  <SensorRangeValue>srNone</SensorRangeValue>
+  <Crew>One pilot</Crew>
+  <EncumbranceCapacity>12</EncumbranceCapacity>
+  <Passengers>0</Passengers>
+  <Consumables>One week</Consumables>
+  <Silhouette>3</Silhouette>
+  <Speed>4</Speed>
+  <Handling>1</Handling>
+  <DefFore>2</DefFore>
+  <DefAft>2</DefAft>
+  <DefPort>0</DefPort>
+  <DefStarboard>0</DefStarboard>
+  <Armor>2</Armor>
+  <HullTrauma>14</HullTrauma>
+  <SystemStrain>7</SystemStrain>
+  <Starship>true</Starship>
+  <Massive>0</Massive>
+  <SinglePilot>true</SinglePilot>
+  <VehicleWeapons>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Aft>true</Aft>
+        <Port>true</Port>
+        <Starboard>true</Starboard>
+      </FiringArcs>
+      <Location>Arm</Location>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>3</Count>
+        </Quality>
+      </Qualities>
+      <Key>LASERLT</Key>
+      <Count>1</Count>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+      </FiringArcs>
+      <Location>Forward</Location>
+      <Key>IONLT</Key>
+      <Count>1</Count>
+    </VehicleWeapon>
+  </VehicleWeapons>
+  <BuiltInAttachments />
+  <SensorRange>No Sensors</SensorRange>
+</Vehicle>

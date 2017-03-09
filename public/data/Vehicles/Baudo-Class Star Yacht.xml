@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>BAUDOYACHT</Key>
+  <Name>Baudo-Class Star Yacht</Name>
+  <Description>[H3]Baudo-Class Star Yacht[h3]
+      Please see page 57 of the Fly Casual Sourcebook and page 60 of the Desperate Allies Sourcebook for details.</Description>
+  <Sources>
+    <Source Page="57">Fly Casual Sourcebook and page 60 of the Desperate Allies Sourcebook</Source>
+  </Sources>
+  <Type>Yacht</Type>
+  <Categories>
+    <Category>Starship</Category>
+    <Category>Non-Fighter Starship</Category>
+  </Categories>
+  <Encumbrance>0</Encumbrance>
+  <HP>6</HP>
+  <Price>250000</Price>
+  <Rarity>9</Rarity>
+  <Restricted>false</Restricted>
+  <BaseMods />
+  <MaxAltitude />
+  <HyperdrivePrimary>2</HyperdrivePrimary>
+  <HyperdriveBackup>12</HyperdriveBackup>
+  <StarFighters />
+  <NaviComputer>true</NaviComputer>
+  <SensorRangeValue>srShort</SensorRangeValue>
+  <Crew>One pilot, one co-pilot/engineer</Crew>
+  <EncumbranceCapacity>60</EncumbranceCapacity>
+  <Passengers>8</Passengers>
+  <Consumables>One month</Consumables>
+  <Silhouette>4</Silhouette>
+  <Speed>4</Speed>
+  <Handling>1</Handling>
+  <DefFore>1</DefFore>
+  <DefAft>1</DefAft>
+  <DefPort>0</DefPort>
+  <DefStarboard>0</DefStarboard>
+  <Armor>1</Armor>
+  <HullTrauma>26</HullTrauma>
+  <SystemStrain>10</SystemStrain>
+  <Starship>true</Starship>
+  <Massive>0</Massive>
+  <SinglePilot>false</SinglePilot>
+  <VehicleWeapons>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Aft>true</Aft>
+        <Port>true</Port>
+        <Starboard>true</Starboard>
+        <Dorsal>false</Dorsal>
+        <Ventral>false</Ventral>
+      </FiringArcs>
+      <Turret>true</Turret>
+      <Location>Unspecified</Location>
+      <Retractable>false</Retractable>
+      <Qualities />
+      <Key>LASERMED</Key>
+      <Count>1</Count>
+    </VehicleWeapon>
+  </VehicleWeapons>
+</Vehicle>

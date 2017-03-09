@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Species>
+  <Key>KELDOR</Key>
+  <Name>Kel Dor</Name>
+  <Description>
+    [H4]Kel Dor[h4]
+    Please see page 57 of the Force and Destiny Core Rulebook for details.
+  </Description>
+  <Source Page="57">Force and Destiny Core Rulebook</Source>
+  <StartingChars>
+    <Brawn>1</Brawn>
+    <Agility>2</Agility>
+    <Intellect>2</Intellect>
+    <Cunning>2</Cunning>
+    <Willpower>3</Willpower>
+    <Presence>2</Presence>
+  </StartingChars>
+  <StartingAttrs>
+    <WoundThreshold>10</WoundThreshold>
+    <StrainThreshold>10</StrainThreshold>
+    <Experience>100</Experience>
+  </StartingAttrs>
+  <SkillModifiers>
+    <SkillModifier>
+      <Key>EDU</Key>
+      <RankStart>1</RankStart>
+      <RankLimit>2</RankLimit>
+    </SkillModifier>
+  </SkillModifiers>
+  <TalentModifiers>
+  </TalentModifiers>
+  <OptionChoices>
+    <OptionChoice>
+      <Key>KELDOROC1</Key>
+      <Name>Sight</Name>
+      <Options>
+        <Option>
+          <Key>KELDOROC1OP1</Key>
+          <Name>Dark Vision</Name>
+          <Description>
+            Kel Dors remove up to [SETBACK][SETBACK] imposed due to darkness from any skill checks.
+          </Description>
+        </Option>
+      </Options>
+    </OptionChoice>
+    <OptionChoice>
+      <Key>KELDOROC2</Key>
+      <Name>Mask</Name>
+      <Options>
+        <Option>
+          <Key>KELDOROC2OP1</Key>
+          <Name>Atmospheric Requirement</Name>
+          <Description>
+            Kel Dors must wear a specialized mask to breath and see outside of their native atmosphere.  However, Kel Dor may survive in vacuum for up to five minues before suffering its effects.
+          </Description>
+        </Option>
+      </Options>
+    </OptionChoice>
+  </OptionChoices>
+</Species>

@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<Species xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>ISHITIB</Key>
+  <Name>Ishi Tib</Name>
+  <Description>[H4]Ishi Tib[h4]
+See page 21 of the Lead by Example Sourcebook for details.</Description>
+  <Source Page="21">Lead by Example</Source>
+  <StartingChars>
+    <Brawn>2</Brawn>
+    <Agility>2</Agility>
+    <Intellect>3</Intellect>
+    <Cunning>2</Cunning>
+    <Willpower>1</Willpower>
+    <Presence>2</Presence>
+  </StartingChars>
+  <StartingAttrs>
+    <WoundThreshold>12</WoundThreshold>
+    <StrainThreshold>10</StrainThreshold>
+    <Experience>100</Experience>
+  </StartingAttrs>
+  <SkillModifiers>
+    <SkillModifier>
+      <Key>DISC</Key>
+      <RankStart>1</RankStart>
+      <RankLimit>2</RankLimit>
+    </SkillModifier>
+  </SkillModifiers>
+  <TalentModifiers />
+  <OptionChoices>
+    <OptionChoice>
+      <Key>ISHITIBCH1</Key>
+      <Name>Environment</Name>
+      <Options>
+        <Option>
+          <Key>ISHITIBCH1OP1</Key>
+          <Name>Amphibious</Name>
+          <Description>Ishi Tib can breathe underwater without penalty and never suffer movement penalties for traveling through water.</Description>
+        </Option>
+      </Options>
+    </OptionChoice>
+    <OptionChoice>
+      <Key>ISHITIBCH2</Key>
+      <Name>Requirement</Name>
+      <Options>
+        <Option>
+          <Key>ISHITIBCH2OP1</Key>
+          <Name>Water Dependence</Name>
+          <Description>If an Ishi Tib has not been doused in salt water in the last twenty-four hours, the character's wound threshold is reduced by 2.  This condition remains in effect until the ishi Tib is doused in salt water.</Description>
+        </Option>
+      </Options>
+    </OptionChoice>
+  </OptionChoices>
+</Species>

@@ -1,0 +1,98 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>INDULGENT</Key>
+  <Name>Indulgent-class Luxury Starliner</Name>
+  <Description>[H3]Indulgent-class Luxury Starliner[h3]
+Please see page 59 of the Far Horizons Sourcebook for details.</Description>
+  <Source Page="59">Far Horizons</Source>
+  <Type>Yacht</Type>
+  <Categories>
+    <Category>Non-Fighter Starship</Category>
+    <Category>Starship</Category>
+  </Categories>
+  <Encumbrance>0</Encumbrance>
+  <HP>1</HP>
+  <Price>25500000</Price>
+  <Rarity>7</Rarity>
+  <Restricted>false</Restricted>
+  <BaseMods />
+  <MaxAltitude />
+  <HyperdrivePrimary>3</HyperdrivePrimary>
+  <HyperdriveBackup>12</HyperdriveBackup>
+  <StarFighters />
+  <NaviComputer>true</NaviComputer>
+  <SensorRangeValue>srLong</SensorRangeValue>
+  <Crew>850 officers and crew</Crew>
+  <EncumbranceCapacity>3200</EncumbranceCapacity>
+  <Passengers>1500</Passengers>
+  <Consumables>Six months</Consumables>
+  <Silhouette>7</Silhouette>
+  <Speed>1</Speed>
+  <Handling>-1</Handling>
+  <DefFore>2</DefFore>
+  <DefAft>2</DefAft>
+  <DefPort>1</DefPort>
+  <DefStarboard>1</DefStarboard>
+  <Armor>2</Armor>
+  <HullTrauma>85</HullTrauma>
+  <SystemStrain>40</SystemStrain>
+  <Starship>true</Starship>
+  <Massive>0</Massive>
+  <SinglePilot>false</SinglePilot>
+  <VehicleWeapons>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Aft>true</Aft>
+        <Port>true</Port>
+        <Starboard>true</Starboard>
+        <Dorsal>true</Dorsal>
+        <Ventral>false</Ventral>
+      </FiringArcs>
+      <Turret>true</Turret>
+      <Location>Dorsal</Location>
+      <Retractable>false</Retractable>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>1</Count>
+          <Index>0</Index>
+          <MiscDesc />
+          <DefZone />
+          <VehicleWeaponUpgrades />
+          <SelectedVehicleWeaponIndex>-1</SelectedVehicleWeaponIndex>
+          <DieModifiers />
+        </Quality>
+      </Qualities>
+      <Key>IONHVY</Key>
+      <Count>2</Count>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Aft>true</Aft>
+        <Port>true</Port>
+        <Starboard>true</Starboard>
+        <Dorsal>false</Dorsal>
+        <Ventral>true</Ventral>
+      </FiringArcs>
+      <Turret>true</Turret>
+      <Location>Ventral</Location>
+      <Retractable>false</Retractable>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>1</Count>
+          <Index>0</Index>
+          <MiscDesc />
+          <DefZone />
+          <VehicleWeaponUpgrades />
+          <SelectedVehicleWeaponIndex>-1</SelectedVehicleWeaponIndex>
+          <DieModifiers />
+        </Quality>
+      </Qualities>
+      <Key>IONHVY</Key>
+      <Count>2</Count>
+    </VehicleWeapon>
+  </VehicleWeapons>
+</Vehicle>

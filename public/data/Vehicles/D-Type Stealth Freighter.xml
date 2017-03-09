@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>DTYPEFREIGHTER</Key>
+  <Name>D-Type Stealth Freighter</Name>
+  <Description>
+    [H3]D-Type Stealth Freighter[h3]
+    Please see page 110 of the Suns of Fortune Sourcebook for details.
+  </Description>
+  <Source Page="110">Suns of Fortune</Source>
+  <Type>Freighter</Type>
+  <Categories>
+    <Category>Starship</Category>
+    <Category>Non-Fighter Starship</Category>
+  </Categories>
+  <Encumbrance>0</Encumbrance>
+  <HP>0</HP>
+  <Price>200000</Price>
+  <Rarity>7</Rarity>
+  <MaxAltitude />
+  <HyperdrivePrimary>3</HyperdrivePrimary>
+  <HyperdriveBackup>25</HyperdriveBackup>
+  <StarFighters />
+  <NaviComputer>true</NaviComputer>
+  <SensorRangeValue>srShort</SensorRangeValue>
+  <Crew>One pilot, one engineer</Crew>
+  <EncumbranceCapacity>125</EncumbranceCapacity>
+  <Passengers>3</Passengers>
+  <Consumables>Two months</Consumables>
+  <Silhouette>4</Silhouette>
+  <Speed>2</Speed>
+  <Handling>-3</Handling>
+  <DefFore>2</DefFore>
+  <DefAft>2</DefAft>
+  <DefPort>0</DefPort>
+  <DefStarboard>0</DefStarboard>
+  <Armor>3</Armor>
+  <HullTrauma>22</HullTrauma>
+  <SystemStrain>24</SystemStrain>
+  <Starship>true</Starship>
+  <Massive>0</Massive>
+  <VehicleWeapons />
+</Vehicle>

@@ -1,0 +1,205 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>VINDCRUISER</Key>
+  <Name>Vindicator-Class Heavy Cruiser</Name>
+  <Description>
+    [H3]Vindicator-Class Heavy Cruiser[h3]
+    Please see page 280 of the Age of Rebellion Core Rulebook for details.
+  </Description>
+  <Source Page="280">Age of Rebellion Core Rulebook</Source>
+  <Type>Heavy Cruiser</Type>
+  <Categories>
+    <Category>Non-Fighter Starship</Category>
+    <Category>Starship</Category>
+    <Category>Capital Ship</Category>
+  </Categories>
+  <Encumbrance>0</Encumbrance>
+  <HP>0</HP>
+  <Price>10400000</Price>
+  <Rarity>8</Rarity>
+  <Restricted>true</Restricted>
+  <MaxAltitude />
+  <HyperdrivePrimary>2</HyperdrivePrimary>
+  <HyperdriveBackup>12</HyperdriveBackup>
+  <StarFighters>24 starfighters</StarFighters>
+  <NaviComputer>true</NaviComputer>
+  <SensorRangeValue>srLong</SensorRangeValue>
+  <Crew>2551 officers, pilots, and enlisted</Crew>
+  <EncumbranceCapacity>7500</EncumbranceCapacity>
+  <Passengers>400</Passengers>
+  <Consumables>Sixteen months</Consumables>
+  <Silhouette>7</Silhouette>
+  <Speed>3</Speed>
+  <Handling>-1</Handling>
+  <DefFore>3</DefFore>
+  <DefAft>2</DefAft>
+  <DefPort>2</DefPort>
+  <DefStarboard>2</DefStarboard>
+  <Armor>6</Armor>
+  <HullTrauma>85</HullTrauma>
+  <SystemStrain>55</SystemStrain>
+  <Starship>true</Starship>
+  <Massive>1</Massive>
+  <VehicleWeapons>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Aft>false</Aft>
+        <Port>true</Port>
+        <Starboard>true</Starboard>
+        <Dorsal>false</Dorsal>
+        <Ventral>false</Ventral>
+      </FiringArcs>
+      <Turret>false</Turret>
+      <Location>Dorsal</Location>
+      <Retractable>false</Retractable>
+      <Qualities />
+      <Key>TURBOMED</Key>
+      <Count>5</Count>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Aft>false</Aft>
+        <Port>true</Port>
+        <Starboard>false</Starboard>
+        <Dorsal>false</Dorsal>
+        <Ventral>false</Ventral>
+      </FiringArcs>
+      <Turret>false</Turret>
+      <Location>Port</Location>
+      <Retractable>false</Retractable>
+      <Qualities />
+      <Key>TURBOMED</Key>
+      <Count>5</Count>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Aft>false</Aft>
+        <Port>false</Port>
+        <Starboard>true</Starboard>
+        <Dorsal>false</Dorsal>
+        <Ventral>false</Ventral>
+      </FiringArcs>
+      <Turret>false</Turret>
+      <Location>Starboard</Location>
+      <Retractable>false</Retractable>
+      <Qualities />
+      <Key>TURBOMED</Key>
+      <Count>5</Count>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Aft>false</Aft>
+        <Port>true</Port>
+        <Starboard>false</Starboard>
+        <Dorsal>false</Dorsal>
+        <Ventral>false</Ventral>
+      </FiringArcs>
+      <Turret>false</Turret>
+      <Location>Port</Location>
+      <Retractable>false</Retractable>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>3</Count>
+          <Index>0</Index>
+          <MiscDesc />
+          <DefZone />
+        </Quality>
+      </Qualities>
+      <Key>TURBOLT</Key>
+      <Count>5</Count>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Aft>false</Aft>
+        <Port>false</Port>
+        <Starboard>true</Starboard>
+        <Dorsal>false</Dorsal>
+        <Ventral>false</Ventral>
+      </FiringArcs>
+      <Turret>false</Turret>
+      <Location>Starboard</Location>
+      <Retractable>false</Retractable>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>3</Count>
+          <Index>0</Index>
+          <MiscDesc />
+          <DefZone />
+        </Quality>
+      </Qualities>
+      <Key>TURBOLT</Key>
+      <Count>5</Count>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Aft>false</Aft>
+        <Port>false</Port>
+        <Starboard>false</Starboard>
+        <Dorsal>false</Dorsal>
+        <Ventral>false</Ventral>
+      </FiringArcs>
+      <Turret>false</Turret>
+      <Location>Forward</Location>
+      <Retractable>false</Retractable>
+      <Qualities />
+      <Key>LASERPTDEF</Key>
+      <Count>6</Count>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>false</Fore>
+        <Aft>false</Aft>
+        <Port>true</Port>
+        <Starboard>false</Starboard>
+        <Dorsal>false</Dorsal>
+        <Ventral>false</Ventral>
+      </FiringArcs>
+      <Turret>false</Turret>
+      <Location>Port</Location>
+      <Retractable>false</Retractable>
+      <Qualities />
+      <Key>LASERPTDEF</Key>
+      <Count>8</Count>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>false</Fore>
+        <Aft>false</Aft>
+        <Port>false</Port>
+        <Starboard>true</Starboard>
+        <Dorsal>false</Dorsal>
+        <Ventral>false</Ventral>
+      </FiringArcs>
+      <Turret>false</Turret>
+      <Location>Starboard</Location>
+      <Retractable>false</Retractable>
+      <Qualities />
+      <Key>LASERPTDEF</Key>
+      <Count>8</Count>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>false</Fore>
+        <Aft>true</Aft>
+        <Port>false</Port>
+        <Starboard>false</Starboard>
+        <Dorsal>false</Dorsal>
+        <Ventral>false</Ventral>
+      </FiringArcs>
+      <Turret>false</Turret>
+      <Location>Aft</Location>
+      <Retractable>false</Retractable>
+      <Qualities />
+      <Key>LASERPTDEF</Key>
+      <Count>8</Count>
+    </VehicleWeapon>
+  </VehicleWeapons>
+</Vehicle>
