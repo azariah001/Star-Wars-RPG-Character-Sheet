@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Career>
+  <Key>SPY</Key>
+  <Name>Spy</Name>
+  <Description>
+    [H4]Spy[h4]
+    Please see page 94 of the Age of Rebellion Core Rulebook for details.
+  </Description>
+  <Source Page="94">Age of Rebellion Core Rulebook</Source>
+  <CareerSkills>
+    <Key>COMP</Key>
+    <Key>COOL</Key>
+    <Key>COORD</Key>
+    <Key>DECEP</Key>
+    <Key>WARF</Key>
+    <Key>PERC</Key>
+    <Key>SKUL</Key>
+    <Key>STEAL</Key>
+  </CareerSkills>
+  <Specializations>
+    <Key>SCOUT</Key>
+    <Key>INFILTRATOR</Key>
+    <Key>SLICER</Key>
+  </Specializations>
+</Career>

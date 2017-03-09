@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<Species>
+  <Key>NAUTOLAN</Key>
+  <Name>Nautolan</Name>
+  <Description>[H4]Nautolan[h4]
+
+The Nautolans, sometimes referred to as the Nautiloids, are an amphibious humanoid species from the planet Glee Anselm. Although they established settlements across their aquatic homeworld, most Nautolan civilization is found in the Sabilon region.
+    [P][B]Physiology:[b]
+Nautolans possess a physiology common to amphibious species, including low light vision and excellent swimming skills. They stand an average of 1.8 meters, have smooth green, blue, or brown skin, and large black or dark maroon eyes with lids that are seldom used. They are capable of breathing underwater; however, unlike other water-based species, Nautolans do not experience difficulties out of water.
+[P]Nautolans possess exceptional olfactory and pheromone-sensing skills, enhanced by head-tresses. These tendrils are used to detect the emotional state of another being, but are most effective underwater. Within Nautolan culture, the ability to sense pheromone changes is an essential part of the communication process. All Nautolans have fourteen sensory tentacles and multiple hearts, which are capable of beating separately.
+    [P][B]Society:[b]
+Little is known about Nautolan culture, as few Nautolans leave Glee Anselm, but their music is occasionally found amongst savvy music collectors. Nautolan music is composed of sustained notes held in irregular patterns with occasional pauses. These pauses are considered the most important part of the music to the Nautolans, causing non-Nautolan listeners to misunderstand their artistic intent.
+    [P][B]Homeworld:[b]
+Glee Anselm is a peaceful water planet in the Mid Rim. The planet's surface is largely covered in water or swamps, with only a few clear landmasses spotting the surface. The planet has very frequent seasonal changes, causing it to be ravaged by intense storms and hurricanes. The climate is moderate most of the standard year round.
+    [P][B]Language:[b]
+Like their sense of smell, Nautolan language is also maximized for use underwater and not fully pronounceable in a gaseous atmosphere. Because of the loss in linguistic detail, most Nautolans choose to speak Anselmian or Galactic Basic when traveling off-world. In addition, Nautolans use other communicative cues when submerged, such as reading the swirls in other Nautolans' large eyes.</Description>
+  <Source Page="59">Force and Destiny Core Rulebook</Source>
+  <StartingChars>
+    <Brawn>3</Brawn>
+    <Agility>2</Agility>
+    <Intellect>2</Intellect>
+    <Cunning>2</Cunning>
+    <Willpower>1</Willpower>
+    <Presence>2</Presence>
+  </StartingChars>
+  <StartingAttrs>
+    <WoundThreshold>11</WoundThreshold>
+    <StrainThreshold>9</StrainThreshold>
+    <Experience>100</Experience>
+  </StartingAttrs>
+  <SkillModifiers>
+    <SkillModifier>
+      <Key>ATHL</Key>
+      <RankStart>1</RankStart>
+    </SkillModifier>
+  </SkillModifiers>
+  <TalentModifiers />
+  <OptionChoices>
+    <OptionChoice>
+      <Key>NAUTOLANCH1</Key>
+      <Name>Breathe</Name>
+      <Description />
+      <Options>
+        <Option>
+          <Key>NAUTOLANCH1OP1</Key>
+          <Name>Amphibious</Name>
+          <Description>Nautolans may breathe
+underwater without penalty and never suffer
+movement penalties for traveling through
+water.</Description>
+        </Option>
+      </Options>
+    </OptionChoice>
+  </OptionChoices>
+</Species>

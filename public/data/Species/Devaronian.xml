@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Species>
+  <Key>DEVAR</Key>
+  <Name>Devaronian</Name>
+  <Description>
+    [H4]Devaronian[h4]
+    Devaronians are a horned humanoid species from the world of Devaron in the Colonies,
+    a planet of low mountains and deep valleys linked by thousands of rivers. It is
+    believed that they are descended from a race of primates that lived in the mountains
+    of Devaron, and that their horns were a genetic mutation that proved useful in fending
+    off predatory birds.
+    [P][B]Physiology:[b]
+    The Devaronians are one of the more unusual races in the galaxy, with a dramatic gender
+    dimorphism in appearance and temperament. The males are aggressive by nature, many being
+    described as brash or bull-headed, with typically red-tinted skin and a pair of large
+    horns growing from their heads. They take great pride in their horns, and groom them
+    quite regularly.  Many species feel uncomfortable in their presence, for they resembled the devils of
+    a thousand different myths.
+
+    [P]Female Devaronians are covered in thick fur that range in color from brown to white,
+    hornless and have prominent canine teeth. They are docile, non-aggressive creatures.
+    They tend to be dominant in their culture, being the only ones allowed to participate
+    in government and politics. Several female Devaronians not covered with thick fur reveal
+    two dark circles above the forehead, where the horns usually are in males.
+
+    [P]In addition, the teeth of the males are all sharp incisors, but the females also have molars
+    and prominent canines. One in fifty Devaronian males have two sets of teeth, however, having an
+    inner set of sharp "male" teeth and an outer, retractable set of "female" teeth. In primitive times,
+    such males were used as solitary scouts by Devaronian tribes, since they could survive on either
+    meat or plants. Males also have an extremely long tongue, though whether females shared this trait
+    is unknown. The teeth are useful for some languages. A Devaronian has to continually and repeatedly
+    retract and extend both sets of teeth to speak Huttese, causing aches over time.
+
+    [P]Their bodies are denser than most humanoids' and as a result they are heavier than their
+    appearance would tend to indicate. Perhaps as a result, they have multiple livers. Their blood is
+    silver based.
+    [P][B]Society:[b]
+    Devaronians have a strong matriarchal culture. The female plays the dominant part in the upbringing
+    of the young and even the only part in local, planetary and inter-planetary politics. Males are considered
+    to be too disruptive to homelife because of their whimsical nature, so the fact that they leave to wander
+    the stars is generaly welcomed by their wives. It does not mean males do not care for their offspring
+    though; they do all they can to support their families back home by sending them as much credits as
+    they can earn. On the rare occasions they re-visit their homeworld it's a time for all-out celebration
+    and much 'disruption' for the family as the males will do their best to have fun times with their
+    relatives. Eating, drinking, giving presents and playing games are some of the key events during those
+    times. Anthropologists have found habits like these to exist within many more cultures galaxy-wide,
+    often on an annual basis.
+    [P]There is also a darker side to Devaronian society: Crime is punished hard and the worst capital offenses
+    are sentenced with the death penalty. Many other species have laws that condemn someone to death but the
+    way one is executed on Devaron is galaxy-wide considered to be the most cruel of all. The accused and
+    convicted criminal will be led into a small ceremonial arena. Then a pack of Quarra, a savage predatory
+    species native to Devaron, is set loose to rip him or her apart. The expression Look to the skies is the
+    last thing the criminal will hear before this gruesome death. By doing so the victim exposes the throat
+    and other soft tissue inviting the Quarra to make the kill fast and, hopefully, less painful. These words
+    also found their way into everyday Devaronian language. 'Looking to the skies' has become synonymous for
+    resigning oneself to a certain fate or decission that can't be influenced anymore.
+    [P][B]Homeworld:[b]
+    Devaron is the home world of the Devaronians. It is located in the Colonies, near the Corellian Trade
+    Spine. It is a planet of low mountains and deep valleys linked by thousands of rivers. The planet has
+    strict capital punishment and a matriarchal government.
+    [P][B]Language:[b]
+    Devaronese is the native language of Devaronians, and the official language of their planet, Devaron.
+    It is a guttural language using many consonants similar to grunts and grumbles.
+
+    [P]Most of its native speakers are bilingual in Devaronese and Basic; however, they usually spoke 
+    Basic with a remarkable accent due to the influence of Devaronese. Strangely, male Devaronians 
+    usually do not read Basic, while female Devaronians can read and write Basic.
+  </Description>
+  <Source Page="100">Nexus of Power</Source>
+  <StartingChars>
+    <Brawn>2</Brawn>
+    <Agility>2</Agility>
+    <Intellect>2</Intellect>
+    <Cunning>3</Cunning>
+    <Willpower>2</Willpower>
+    <Presence>1</Presence>
+  </StartingChars>
+  <StartingAttrs>
+    <WoundThreshold>11</WoundThreshold>
+    <StrainThreshold>10</StrainThreshold>
+    <Experience>95</Experience>
+  </StartingAttrs>
+  <SkillModifiers>
+  </SkillModifiers>
+  <TalentModifiers>
+  </TalentModifiers>
+  <OptionChoices>
+    <OptionChoice>
+      <Key>DEVABSK</Key>
+      <Name>Skills</Name>
+      <Options>
+        <Option>
+          <Key>DEVSKDEC</Key>
+          <Name>One Rank in Deception</Name>
+          <Description>Devaronian may begin the game with one rank in Deception.</Description>
+          <SkillModifiers>
+            <SkillModifier>
+              <Key>DECEP</Key>
+              <RankStart>1</RankStart>
+            </SkillModifier>
+          </SkillModifiers>
+        </Option>
+        <Option>
+          <Key>DEVSKSW</Key>
+          <Name>One Rank in Survival</Name>
+          <Description>Devaronian may begin the game with one rank in Survival.</Description>
+          <SkillModifiers>
+            <SkillModifier>
+              <Key>SURV</Key>
+              <RankStart>1</RankStart>
+            </SkillModifier>
+          </SkillModifiers>
+        </Option>
+      </Options>
+    </OptionChoice>
+    <OptionChoice>
+      <Key>DEVAB2</Key>
+      <Name>Physiology</Name>
+      <Options>
+        <Option>
+          <Key>DEFAB2OP1</Key>
+          <Name>Resillient Metabolism</Name>
+          <Description>
+            Devaronians add automatic [SU] to all Resillience checks.
+          </Description>
+          <DieModifiers>
+            <DieModifier>
+              <SkillKey>RESIL</SkillKey>
+              <SuccessCount>1</SuccessCount>
+            </DieModifier>
+          </DieModifiers>
+        </Option>
+      </Options>
+    </OptionChoice>
+  </OptionChoices>
+</Species>

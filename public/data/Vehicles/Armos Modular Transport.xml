@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>ARMOSMODULAR</Key>
+  <Name>Armos Modular Transport</Name>
+  <Description>[H3]Armos Modular Transport[h3]
+Please see page 59 of the Far Horizons Sourcebook for details.</Description>
+  <Source Page="59">Far Horizons</Source>
+  <Type>Transport</Type>
+  <Categories>
+    <Category>Non-Fighter Starship</Category>
+    <Category>Starship</Category>
+  </Categories>
+  <Encumbrance>0</Encumbrance>
+  <HP>4</HP>
+  <Price>780000</Price>
+  <Rarity>8</Rarity>
+  <Restricted>false</Restricted>
+  <BaseMods />
+  <MaxAltitude />
+  <HyperdrivePrimary>2</HyperdrivePrimary>
+  <HyperdriveBackup>15</HyperdriveBackup>
+  <StarFighters />
+  <NaviComputer>true</NaviComputer>
+  <SensorRangeValue>srExtreme</SensorRangeValue>
+  <Crew>150 officers and crew</Crew>
+  <EncumbranceCapacity>10000</EncumbranceCapacity>
+  <Passengers>1000</Passengers>
+  <Consumables>Four months</Consumables>
+  <Silhouette>6</Silhouette>
+  <Speed>2</Speed>
+  <Handling>-2</Handling>
+  <DefFore>2</DefFore>
+  <DefAft>1</DefAft>
+  <DefPort>1</DefPort>
+  <DefStarboard>1</DefStarboard>
+  <Armor>4</Armor>
+  <HullTrauma>65</HullTrauma>
+  <SystemStrain>45</SystemStrain>
+  <Starship>true</Starship>
+  <Massive>0</Massive>
+  <SinglePilot>false</SinglePilot>
+  <VehicleWeapons />
+</Vehicle>

@@ -1,0 +1,34 @@
+<Vehicle>
+  <Key>CMCDIGGER</Key>
+  <Name>CMC Digger Crawler</Name>
+  <Description>
+      [H3]CMC Digger Crawler[h3]
+      Please see page 251 of the Edge of the Empire Core Rulebook for details.
+    </Description>
+  <Source Page="251">Edge of the Empire Core Rulebook</Source>
+  <MaxAltitude>
+  </MaxAltitude>
+  <SensorRangeValue>srMedium</SensorRangeValue>
+  <Crew>50 Miners and Engineers (or 100 Jawas)</Crew>
+  <EncumbranceCapacity>400</EncumbranceCapacity>
+  <Passengers>30</Passengers>
+  <Silhouette>4</Silhouette>
+  <Speed>1</Speed>
+  <Handling>-3</Handling>
+  <DefFore>0</DefFore>
+  <DefAft>0</DefAft>
+  <DefPort>0</DefPort>
+  <DefStarboard>0</DefStarboard>
+  <Armor>4</Armor>
+  <HullTrauma>40</HullTrauma>
+  <SystemStrain>30</SystemStrain>
+  <HP>5</HP>
+  <Price>50000</Price>
+  <Rarity>7</Rarity>
+  <Categories>
+    <Category>Tracked Vehicle</Category>
+  </Categories>
+  <Type>Mobile Refinery</Type>
+  <VehicleWeapons>
+  </VehicleWeapons>
+</Vehicle>

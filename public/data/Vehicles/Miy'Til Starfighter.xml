@@ -1,0 +1,96 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>MIYTIL</Key>
+  <Name>Miy'Til Starfighter</Name>
+  <Description>[H3]Miy'Til Starfighter[h3]
+Please see page 61 of the Keeping the Peace sourcebook for details.</Description>
+  <Source Page="61">Keeping the Peace</Source>
+  <Type>Starfighter</Type>
+  <Categories>
+    <Category>Starship</Category>
+  </Categories>
+  <Encumbrance>0</Encumbrance>
+  <HP>1</HP>
+  <Price>210000</Price>
+  <Rarity>8</Rarity>
+  <Restricted>false</Restricted>
+  <BaseMods />
+  <WeaponModifiers />
+  <MaxAltitude />
+  <HyperdrivePrimary>2</HyperdrivePrimary>
+  <HyperdriveBackup>12</HyperdriveBackup>
+  <StarFighters />
+  <NaviComputer>false</NaviComputer>
+  <SensorRangeValue>srClose</SensorRangeValue>
+  <Crew>One pilot</Crew>
+  <EncumbranceCapacity>5</EncumbranceCapacity>
+  <Passengers>0</Passengers>
+  <Consumables>One day</Consumables>
+  <Silhouette>2</Silhouette>
+  <Speed>4</Speed>
+  <Handling>1</Handling>
+  <DefFore>1</DefFore>
+  <DefAft>1</DefAft>
+  <DefPort>0</DefPort>
+  <DefStarboard>0</DefStarboard>
+  <Armor>2</Armor>
+  <HullTrauma>7</HullTrauma>
+  <SystemStrain>7</SystemStrain>
+  <Starship>true</Starship>
+  <Massive>0</Massive>
+  <SinglePilot>true</SinglePilot>
+  <VehicleWeapons>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Aft>false</Aft>
+        <Port>false</Port>
+        <Starboard>false</Starboard>
+        <Dorsal>false</Dorsal>
+        <Ventral>false</Ventral>
+      </FiringArcs>
+      <Turret>false</Turret>
+      <Location>Forward</Location>
+      <Retractable>false</Retractable>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>1</Count>
+          <Index>0</Index>
+          <MiscDesc />
+          <DefZoneValue>None</DefZoneValue>
+          <QualReplace>false</QualReplace>
+          <SkillIsCareer>false</SkillIsCareer>
+          <SkillIsRanked>false</SkillIsRanked>
+          <VehicleWeaponUpgrades />
+          <SelectedVehicleWeaponIndex>-1</SelectedVehicleWeaponIndex>
+          <DieModifiers />
+          <InnateSkills />
+          <ActiveQualityKey />
+          <Failed>false</Failed>
+          <DefZone />
+        </Quality>
+      </Qualities>
+      <Key>LASERMED</Key>
+      <Count>1</Count>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Aft>false</Aft>
+        <Port>false</Port>
+        <Starboard>false</Starboard>
+        <Dorsal>false</Dorsal>
+        <Ventral>false</Ventral>
+      </FiringArcs>
+      <Turret>false</Turret>
+      <Location>Forward</Location>
+      <Retractable>false</Retractable>
+      <Qualities />
+      <Key>CML</Key>
+      <Count>1</Count>
+    </VehicleWeapon>
+  </VehicleWeapons>
+  <BuiltInAttachments />
+  <SensorRange>Close</SensorRange>
+</Vehicle>

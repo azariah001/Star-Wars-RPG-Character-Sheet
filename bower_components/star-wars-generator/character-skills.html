@@ -1,0 +1,296 @@
+<link rel="import" href="../polymer/polymer.html">
+<link rel='import' href='../iron-ajax/iron-ajax.html'>
+
+
+<dom-module id="character-skills">
+
+  <template>
+
+    <style>
+      /* local styles go here */
+      :host {
+        display: flex;
+        /*height   : 120px;*/
+        width    : 100%;
+        position : relative;
+
+      }
+      :host p {
+        margin: 0;
+      }
+      :host > * {
+        padding: 5px;
+      }
+      :host > .skill {
+        text-align: left;
+        width: 40%;
+      }
+      :host > .career {
+        text-align: center;
+        width: 15%;
+        color: forestgreen;
+
+        visibility: hidden;
+      }
+      :host > .career#_true_ {
+        visibility: visible;
+      }
+      :host > .career#_false_ {
+        visibility: hidden;
+      }
+      :host > .careerRank {
+        text-align: center;
+        width: 15%;
+      }
+      :host > .dicePool {
+        text-align: center;
+        width: 30%;
+      }
+      :host > .dicePool > p#dicePool {
+        height: 16px;
+      }
+      :host > .dicePool > p#dicePool > img {
+        height: 16px;
+      }
+    </style>
+
+    <iron-ajax id="Skills" url="http://localhost:3000/data/Skills.json" last-response="{{Skills}}" auto></iron-ajax>
+    <iron-ajax id="Characteristics" url="http://localhost:3000/data/Characteristics.json" last-response="{{Characteristics}}" auto></iron-ajax>
+
+    <!-- local DOM goes here -->
+    <div class="skill">
+      <p>[[skillName]]</p>
+    </div>
+    <div class="career" id="_[[careerSkill]]_">
+      <p>&#x2714;</p>
+    </div>
+    <div class="careerRank">
+      <p id="rankID">[[printRank]]</p>
+    </div>
+    <div class="dicePool">
+      <p id="dicePool">[[dicePool]]</p>
+    </div>
+
+  </template>
+
+  <script>
+    Polymer({
+      /* this is the element's prototype */
+      is: 'character-skills',
+
+      properties: {
+
+        /**
+         *
+         * @attribute skillRank
+         * @type number
+         * @default 0
+         */
+        skillRank: {
+          type: Number,
+          reflectToAttribute: true,
+          value: 0,
+          notify: true,
+          //computed: 'getSkillRank(Skills, Characteristics,skillKey)'
+        },
+
+        /**
+         *
+         * @attribute careerRank
+         * @type number
+         * @default 0
+         */
+        careerRank: {
+          type: Number,
+          reflectToAttribute: true,
+          computed: '_careerRank(skillData, skillKey)'
+        },
+
+        /**
+         *
+         * @attribute speciesRank
+         * @type number
+         * @default 0
+         */
+        speciesRank: {
+          type: Number,
+          reflectToAttribute: true,
+          computed: '_speciesRank(skillData, skillKey)'
+        },
+
+        /**
+         *
+         * @attribute removeSetback
+         * @type number
+         * @default 0
+         */
+        removeSetback: {
+          type: Number,
+          reflectToAttribute: true,
+          value: 0
+        },
+
+        /**
+         *
+         * @attribute careerSkill
+         * @type string
+         * @default false
+         */
+        careerSkill: {
+          type: String,
+          reflectToAttribute: true,
+          computed: '_careerSkill(skillData, skillKey)'
+        },
+
+        /**
+         *
+         * @attribute skillKey
+         * @type string
+         * @default "N/A"
+         */
+        skillKey: {
+          type: String,
+          reflectToAttribute: true,
+          value: "N/A"
+        },
+
+        /**
+         *
+         * @attribute skillData
+         * @type array
+         * @default []
+         */
+        skillData: {
+          type: Array,
+          reflectToAttribute: false,
+          value: []
+        },
+
+        /**
+         *
+         * @attribute Skills
+         * @type number
+         * @default 0
+         */
+        Skills: {
+          type: Object,
+          //reflectToAttribute: true,
+          value: {}
+        },
+
+        /**
+         *
+         * @attribute skillName
+         * @default "Skill Name"
+         */
+        skillName: {
+          reflectToAttribute: true,
+          value: "Skill Name",
+          computed: 'getSkillName(Skills,skillKey)'
+        },
+
+        /**
+         *
+         * @attribute displayRank
+         * @default 0
+         */
+        printRank: {
+          //reflectToAttribute: true,
+          //value: 5
+          computed: 'displayRank(careerRank, speciesRank)'
+        },
+
+        /**
+         *
+         * @attribute dicePool
+         * @default 0
+         */
+        dicePool: {
+          //reflectToAttribute: true,
+          //value: 5
+          computed: 'createPool(careerRank, speciesRank, skillRank, removeSetback)'
+        }
+
+      },
+
+      _careerSkill: function (data, key) {
+        return getIndex(data, key).isCareer;
+      },
+
+      _careerRank: function (data, key) {
+        let Rank = getIndex(data, key).Rank;
+        if (Rank) {
+          return Rank.CareerRanks | 0;
+        } else {
+          return 0;
+        }
+      },
+
+      _speciesRank: function (data, key) {
+        let Rank = getIndex(data, key).Rank;
+        if (Rank) {
+          return Rank.SpeciesRanks | 0;
+        } else {
+          return 0;
+        }
+      },
+
+      getSkillName: function(array, skillKey) {
+        if (array.Skill) {
+          return getIndex(array.Skill, skillKey).Name;
+        }
+        //return getIndex(array.Skill, skillKey).Name;
+      },
+
+      getSkillRank: function(skills, characteristics, key) {
+        if (skills.Skill && characteristics.Characteristic) {
+          getIndex(characteristics.Characteristic, getIndex(skills.Skill, key)).Name
+        }
+      },
+
+      displayRank: function(rank1, rank2) {
+        let rank = (parseInt(rank1) | 0) + (parseInt(rank2) | 0);
+
+        if (rank <= 0) {
+
+          this.$.rankID.innerHTML = "-";
+        } else if ( rank > 0 ) {
+
+          this.$.rankID.innerHTML = rank.toString();
+        }
+      },
+
+      createPool: function(upgrade1, upgrade2, base, deduct) {
+        let output = '';
+        let upgrade = (parseInt(upgrade1) | 0) + (parseInt(upgrade2) | 0);
+
+        for (let i = 0; i < upgrade; i++) {
+          output = output + '<img class="die character-skills" src="/images/dice-yellow.svg" alt="yellow proficiency die">'
+        }
+        for (let i = 0; i < (base-upgrade); i++) {
+          output = output + '<img class="die character-skills" src="/images/dice-green.svg" alt="green ability die">'
+        }
+        if (deduct) {
+          output = output + '<img class="die character-skills" src="/images/dice-minus-black.svg" alt="black reduce setback die">'
+        }
+
+        this.$.dicePool.innerHTML = output;
+      }
+
+
+    });
+
+    function getIndex(array, key) {
+      if (array) {
+
+        for (let i = 0; i<array.length; i++) {
+          if (!array[i].Key.localeCompare(key)) {
+            return array[i];
+          }
+        }
+
+      }
+      return false;
+    }
+  </script>
+</dom-module>

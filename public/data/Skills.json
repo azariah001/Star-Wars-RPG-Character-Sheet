@@ -1,0 +1,785 @@
+{
+  "Skill": [
+    {
+      "Key": "ASTRO",
+      "Name": "Astrogation",
+      "Description": "[H4]Astrogation (Intellect)[h4]<br>Please see page 104 of the Edge of the Empire Core Rulebook, page 116 of the Age of Rebellion Core Rulebook, or page 114 of the Force and Destiny Core Rulebook, for details.",
+      "Sources": {
+        "Source": [
+          {
+            "-Page": "104",
+            "#text": "Edge of the Empire Core Rulebook"
+          },
+          {
+            "-Page": "116",
+            "#text": "Age of Rebellion Core Rulebook"
+          },
+          {
+            "-Page": "114",
+            "#text": "Force and Destiny Core Rulebook"
+          }
+        ]
+      },
+      "CharKey": "INT",
+      "TypeValue": "stGeneral"
+    },
+    {
+      "Key": "ATHL",
+      "Name": "Athletics",
+      "Description": "[H4]Athletics (Brawn)[h4]<br>Please see page 105 of the Edge of the Empire Core Rulebook, page 117 of the Age of Rebellion Core Rulebook, or page 115 of the Force and Destiny Core Rulebook, for details.",
+      "Sources": {
+        "Source": [
+          {
+            "-Page": "105",
+            "#text": "Edge of the Empire Core Rulebook"
+          },
+          {
+            "-Page": "117",
+            "#text": "Age of Rebellion Core Rulebook"
+          },
+          {
+            "-Page": "115",
+            "#text": "Force and Destiny Core Rulebook"
+          }
+        ]
+      },
+      "CharKey": "BR",
+      "TypeValue": "stGeneral"
+    },
+    {
+      "Key": "BRAWL",
+      "Name": "Brawl",
+      "Description": "[H4]Brawl (Brawn)[h4]<br>Please see page 120 of the Edge of the Empire Core Rulebook, page 131 of the Age of Rebellion Core Rulebook, or page 129 of the Force and Destiny Core Rulebook, for details.",
+      "Sources": {
+        "Source": [
+          {
+            "-Page": "120",
+            "#text": "Edge of the Empire Core Rulebook"
+          },
+          {
+            "-Page": "131",
+            "#text": "Age of Rebellion Core Rulebook"
+          },
+          {
+            "-Page": "129",
+            "#text": "Force and Destiny Core Rulebook"
+          }
+        ]
+      },
+      "CharKey": "BR",
+      "TypeValue": "stCombat"
+    },
+    {
+      "Key": "CHARM",
+      "Name": "Charm",
+      "Description": "[H4]Charm (Presence)[h4]<br>Please see page 105 of the Edge of the Empire Core Rulebook, page 117 of the Age of Rebellion Core Rulebook, or page 116 of the Force and Destiny Core Rulebook, for details.",
+      "Sources": {
+        "Source": [
+          {
+            "-Page": "105",
+            "#text": "Edge of the Empire Core Rulebook"
+          },
+          {
+            "-Page": "117",
+            "#text": "Age of Rebellion Core Rulebook"
+          },
+          {
+            "-Page": "116",
+            "#text": "Force and Destiny Core Rulebook"
+          }
+        ]
+      },
+      "CharKey": "PR",
+      "TypeValue": "stGeneral"
+    },
+    {
+      "Key": "COERC",
+      "Name": "Coercion",
+      "Description": "[H4]Coercion (Willpower)[h4]<br>Please see page 106 of the Edge of the Empire Core Rulebook, page 118 of the Age of Rebellion Core Rulebook, or page 116 of the Force and Destiny Core Rulebook, for details.",
+      "Sources": {
+        "Source": [
+          {
+            "-Page": "106",
+            "#text": "Edge of the Empire Core Rulebook"
+          },
+          {
+            "-Page": "118",
+            "#text": "Age of Rebellion Core Rulebook"
+          },
+          {
+            "-Page": "116",
+            "#text": "Force and Destiny Core Rulebook"
+          }
+        ]
+      },
+      "CharKey": "WIL",
+      "TypeValue": "stGeneral"
+    },
+    {
+      "Key": "COMP",
+      "Name": "Computers",
+      "Description": "[H4]Computers (Intellect)[h4]<br>Please see page 107 of the Edge of the Empire Core Rulebook, page 119 of the Age of Rebellion Core Rulebook, or page 118 of the Force and Destiny Core Rulebook, for details.",
+      "Sources": {
+        "Source": [
+          {
+            "-Page": "107",
+            "#text": "Edge of the Empire Core Rulebook"
+          },
+          {
+            "-Page": "119",
+            "#text": "Age of Rebellion Core Rulebook"
+          },
+          {
+            "-Page": "118",
+            "#text": "Force and Destiny Core Rulebook"
+          }
+        ]
+      },
+      "CharKey": "INT",
+      "TypeValue": "stGeneral"
+    },
+    {
+      "Key": "COOL",
+      "Name": "Cool",
+      "Description": "[H4]Cool (Presence)[h4]<br>Please see page 108 of the Edge of the Empire Core Rulebook, page 120 of the Age of Rebellion Core Rulebook, or page 118 of the Force and Destiny Core Rulebook, for details.",
+      "Sources": {
+        "Source": [
+          {
+            "-Page": "108",
+            "#text": "Edge of the Empire Core Rulebook"
+          },
+          {
+            "-Page": "120",
+            "#text": "Age of Rebellion Core Rulebook"
+          },
+          {
+            "-Page": "118",
+            "#text": "Force and Destiny Core Rulebook"
+          }
+        ]
+      },
+      "CharKey": "PR",
+      "TypeValue": "stGeneral"
+    },
+    {
+      "Key": "COORD",
+      "Name": "Coordination",
+      "Description": "[H4]Coordination (Agility)[h4]<br>Please see page 109 of the Edge of the Empire Core Rulebook, page 121 of the Age of Rebellion Core Rulebook, or page 119 of the Force and Destiny Core Rulebook, for details.",
+      "Sources": {
+        "Source": [
+          {
+            "-Page": "109",
+            "#text": "Edge of the Empire Core Rulebook"
+          },
+          {
+            "-Page": "121",
+            "#text": "Age of Rebellion Core Rulebook"
+          },
+          {
+            "-Page": "119",
+            "#text": "Force and Destiny Core Rulebook"
+          }
+        ]
+      },
+      "CharKey": "AG",
+      "TypeValue": "stGeneral"
+    },
+    {
+      "Key": "CORE",
+      "Name": "Core Worlds",
+      "Description": "[H4]Core Worlds (Intellect)[h4]<br>Please see page 123 of the Edge of the Empire Core Rulebook, page 134 of the Age of Rebellion Core Rulebook, or page 132 of the Force and Destiny Core Rulebook, for details.",
+      "Sources": {
+        "Source": [
+          {
+            "-Page": "123",
+            "#text": "Edge of the Empire Core Rulebook"
+          },
+          {
+            "-Page": "134",
+            "#text": "Age of Rebellion Core Rulebook"
+          },
+          {
+            "-Page": "132",
+            "#text": "Force and Destiny Core Rulebook"
+          }
+        ]
+      },
+      "CharKey": "INT",
+      "TypeValue": "stKnowledge"
+    },
+    {
+      "Key": "DECEP",
+      "Name": "Deception",
+      "Description": "[H4]Deception (Cunning)[h4]<br>Please see page 109 of the Edge of the Empire Core Rulebook, page 121 of the Age of Rebellion Core Rulebook, or page 120 of the Force and Destiny Core Rulebook, for details.",
+      "Sources": {
+        "Source": [
+          {
+            "-Page": "109",
+            "#text": "Edge of the Empire Core Rulebook"
+          },
+          {
+            "-Page": "121",
+            "#text": "Age of Rebellion Core Rulebook"
+          },
+          {
+            "-Page": "120",
+            "#text": "Force and Destiny Core Rulebook"
+          }
+        ]
+      },
+      "CharKey": "CUN",
+      "TypeValue": "stGeneral"
+    },
+    {
+      "Key": "DISC",
+      "Name": "Discipline",
+      "Description": "[H4]Discipline (Willpower)[h4]<br>Please see page 110 of the Edge of the Empire Core Rulebook, page 122 of the Age of Rebellion Core Rulebook, or page 120 of the Force and Destiny Core Rulebook, for details.",
+      "Sources": {
+        "Source": [
+          {
+            "-Page": "110",
+            "#text": "Edge of the Empire Core Rulebook"
+          },
+          {
+            "-Page": "122",
+            "#text": "Age of Rebellion Core Rulebook"
+          },
+          {
+            "-Page": "120",
+            "#text": "Force and Destiny Core Rulebook"
+          }
+        ]
+      },
+      "CharKey": "WIL",
+      "TypeValue": "stGeneral"
+    },
+    {
+      "Key": "EDU",
+      "Name": "Education",
+      "Description": "[H4]Education (Intellect)[h4]<br>Please see page 123 of the Edge of the Empire Core Rulebook, page 135 of the Age of Rebellion Core Rulebook, or page 132 of the Force and Destiny Core Rulebook, for details.",
+      "Sources": {
+        "Source": [
+          {
+            "-Page": "123",
+            "#text": "Edge of the Empire Core Rulebook"
+          },
+          {
+            "-Page": "135",
+            "#text": "Age of Rebellion Core Rulebook"
+          },
+          {
+            "-Page": "132",
+            "#text": "Force and Destiny Core Rulebook"
+          }
+        ]
+      },
+      "CharKey": "INT",
+      "TypeValue": "stKnowledge"
+    },
+    {
+      "Key": "GUNN",
+      "Name": "Gunnery",
+      "Description": "[H4]Gunnery (Agility)[h4]<br>Please see page 120 of the Edge of the Empire Core Rulebook, page 131 of the Age of Rebellion Core Rulebook, or page 130 of the Force and Destiny Core Rulebook, for details.",
+      "Sources": {
+        "Source": [
+          {
+            "-Page": "120",
+            "#text": "Edge of the Empire Core Rulebook"
+          },
+          {
+            "-Page": "131",
+            "#text": "Age of Rebellion Core Rulebook"
+          },
+          {
+            "-Page": "130",
+            "#text": "Force and Destiny Core Rulebook"
+          }
+        ]
+      },
+      "CharKey": "AG",
+      "TypeValue": "stCombat"
+    },
+    {
+      "Key": "LEAD",
+      "Name": "Leadership",
+      "Description": "[H4]Leadership (Presence)[h4]<br>Please see page 111 of the Edge of the Empire Core Rulebook, page 123 of the Age of Rebellion Core Rulebook, or page 121 of the Force and Destiny Core Rulebook, for details.",
+      "Sources": {
+        "Source": [
+          {
+            "-Page": "111",
+            "#text": "Edge of the Empire Core Rulebook"
+          },
+          {
+            "-Page": "123",
+            "#text": "Age of Rebellion Core Rulebook"
+          },
+          {
+            "-Page": "121",
+            "#text": "Force and Destiny Core Rulebook"
+          }
+        ]
+      },
+      "CharKey": "PR",
+      "TypeValue": "stGeneral"
+    },
+    {
+      "Key": "LTSABER",
+      "Name": "Lightsaber",
+      "Description": "[H4]Lightsaber (Brawn*)[h4]<br>Please see page 130 of the Force and Destiny Core Rulebook for details.[BR]<br>[I]* Indicates that talents may change the base characteristic.[i]",
+      "Source": {
+        "-Page": "130",
+        "#text": "Force and Destiny Core Rulebook"
+      },
+      "CharKey": "BR",
+      "TypeValue": "stCombat"
+    },
+    {
+      "Key": "LORE",
+      "Name": "Lore",
+      "Description": "[H4]Lore (Intellect)[h4]<br>Please see page 123 of the Edge of the Empire Core Rulebook, page 135 of the Age of Rebellion Core Rulebook, or page 132 of the Force and Destiny Core Rulebook, for details.",
+      "Sources": {
+        "Source": [
+          {
+            "-Page": "123",
+            "#text": "Edge of the Empire Core Rulebook"
+          },
+          {
+            "-Page": "135",
+            "#text": "Age of Rebellion Core Rulebook"
+          },
+          {
+            "-Page": "132",
+            "#text": "Force and Destiny Core Rulebook"
+          }
+        ]
+      },
+      "CharKey": "INT",
+      "TypeValue": "stKnowledge"
+    },
+    {
+      "Key": "MECH",
+      "Name": "Mechanics",
+      "Description": "[H4]Mechanics (Intellect)[h4]<br>Please see page 111 of the Edge of the Empire Core Rulebook, page 124 of the Age of Rebellion Core Rulebook, or page 122 of the Force and Destiny Core Rulebook, for details.",
+      "Sources": {
+        "Source": [
+          {
+            "-Page": "111",
+            "#text": "Edge of the Empire Core Rulebook"
+          },
+          {
+            "-Page": "124",
+            "#text": "Age of Rebellion Core Rulebook"
+          },
+          {
+            "-Page": "122",
+            "#text": "Force and Destiny Core Rulebook"
+          }
+        ]
+      },
+      "CharKey": "INT",
+      "TypeValue": "stGeneral"
+    },
+    {
+      "Key": "MED",
+      "Name": "Medicine",
+      "Description": "[H4]Medicine (Intellect)[h4]<br>Please see page 112 of the Edge of the Empire Core Rulebook, page 125 of the Age of Rebellion Core Rulebook, or page 122 of the Force and Destiny Core Rulebook, for details.",
+      "Sources": {
+        "Source": [
+          {
+            "-Page": "112",
+            "#text": "Edge of the Empire Core Rulebook"
+          },
+          {
+            "-Page": "125",
+            "#text": "Age of Rebellion Core Rulebook"
+          },
+          {
+            "-Page": "122",
+            "#text": "Force and Destiny Core Rulebook"
+          }
+        ]
+      },
+      "CharKey": "INT",
+      "TypeValue": "stGeneral"
+    },
+    {
+      "Key": "MELEE",
+      "Name": "Melee",
+      "Description": "[H4]Melee (Brawn)[h4]<br>Please see page 121 of the Edge of the Empire Core Rulebook, page 133 of the Age of Rebellion Core Rulebook, or page 131 of the Force and Destiny Core Rulebook, for details.",
+      "Sources": {
+        "Source": [
+          {
+            "-Page": "121",
+            "#text": "Edge of the Empire Core Rulebook"
+          },
+          {
+            "-Page": "133",
+            "#text": "Age of Rebellion Core Rulebook"
+          },
+          {
+            "-Page": "131",
+            "#text": "Force and Destiny Core Rulebook"
+          }
+        ]
+      },
+      "CharKey": "BR",
+      "TypeValue": "stCombat"
+    },
+    {
+      "Key": "NEG",
+      "Name": "Negotiation",
+      "Description": "[H4]Negotiation (Presence)[h4]<br>Please see page 113 of the Edge of the Empire Core Rulebook, page 125 of the Age of Rebellion Core Rulebook, or page 123 of the Force and Destiny Core Rulebook, for details.",
+      "Sources": {
+        "Source": [
+          {
+            "-Page": "113",
+            "#text": "Edge of the Empire Core Rulebook"
+          },
+          {
+            "-Page": "125",
+            "#text": "Age of Rebellion Core Rulebook"
+          },
+          {
+            "-Page": "123",
+            "#text": "Force and Destiny Core Rulebook"
+          }
+        ]
+      },
+      "CharKey": "PR",
+      "TypeValue": "stGeneral"
+    },
+    {
+      "Key": "OUT",
+      "Name": "Outer Rim",
+      "Description": "[H4]Outer Rim (Intellect)[h4]<br>Please see page 124 of the Edge of the Empire Core Rulebook, page 135 of the Age of Rebellion Core Rulebook, or page 133 of the Force and Destiny Core Rulebook, for details.",
+      "Sources": {
+        "Source": [
+          {
+            "-Page": "124",
+            "#text": "Edge of the Empire Core Rulebook"
+          },
+          {
+            "-Page": "135",
+            "#text": "Age of Rebellion Core Rulebook"
+          },
+          {
+            "-Page": "133",
+            "#text": "Force and Destiny Core Rulebook"
+          }
+        ]
+      },
+      "CharKey": "INT",
+      "TypeValue": "stKnowledge"
+    },
+    {
+      "Key": "PERC",
+      "Name": "Perception",
+      "Description": "[H4]Perception (Cunning)[h4]<br>Please see page 114 of the Edge of the Empire Core Rulebook, page 126 of the Age of Rebellion Core Rulebook, or page 124 of the Force and Destiny Core Rulebook, for details.",
+      "Sources": {
+        "Source": [
+          {
+            "-Page": "114",
+            "#text": "Edge of the Empire Core Rulebook"
+          },
+          {
+            "-Page": "126",
+            "#text": "Age of Rebellion Core Rulebook"
+          },
+          {
+            "-Page": "124",
+            "#text": "Force and Destiny Core Rulebook"
+          }
+        ]
+      },
+      "CharKey": "CUN",
+      "TypeValue": "stGeneral"
+    },
+    {
+      "Key": "PILOTPL",
+      "Name": "Piloting - Planetary",
+      "Description": "[H4]Piloting - Planetary (Agility)[h4]<br>Please see page 115 of the Edge of the Empire Core Rulebook, page 126 of the Age of Rebellion Core Rulebook, or page 124 of the Force and Destiny Core Rulebook, for details.",
+      "Sources": {
+        "Source": [
+          {
+            "-Page": "115",
+            "#text": "Edge of the Empire Core Rulebook"
+          },
+          {
+            "-Page": "126",
+            "#text": "Age of Rebellion Core Rulebook"
+          },
+          {
+            "-Page": "124",
+            "#text": "Force and Destiny Core Rulebook"
+          }
+        ]
+      },
+      "CharKey": "AG",
+      "TypeValue": "stGeneral"
+    },
+    {
+      "Key": "PILOTSP",
+      "Name": "Piloting - Space",
+      "Description": "[H4]Piloting - Space (Agility)[h4]<br>Please see page 116 of the Edge of the Empire Core Rulebook, page 127 of the Age of Rebellion Core Rulebook, or page 125 of the Force and Destiny Core Rulebook, for details.",
+      "Sources": {
+        "Source": [
+          {
+            "-Page": "116",
+            "#text": "Edge of the Empire Core Rulebook"
+          },
+          {
+            "-Page": "127",
+            "#text": "Age of Rebellion Core Rulebook"
+          },
+          {
+            "-Page": "125",
+            "#text": "Force and Destiny Core Rulebook"
+          }
+        ]
+      },
+      "CharKey": "AG",
+      "TypeValue": "stGeneral"
+    },
+    {
+      "Key": "RANGHVY",
+      "Name": "Ranged - Heavy",
+      "Description": "[H4]Ranged - Heavy (Agility)[h4]<br>Please see page 121 of the Edge of the Empire Core Rulebook, page 133 of the Age of Rebellion Core Rulebook, or page 131 of the Force and Destiny Core Rulebook, for details.",
+      "Sources": {
+        "Source": [
+          {
+            "-Page": "121",
+            "#text": "Edge of the Empire Core Rulebook"
+          },
+          {
+            "-Page": "133",
+            "#text": "Age of Rebellion Core Rulebook"
+          },
+          {
+            "-Page": "131",
+            "#text": "Force and Destiny Core Rulebook"
+          }
+        ]
+      },
+      "CharKey": "AG",
+      "TypeValue": "stCombat"
+    },
+    {
+      "Key": "RANGLT",
+      "Name": "Ranged - Light",
+      "Description": "[H4]Ranged - Light (Agility)[h4]<br>Please see page 122 of the Edge of the Empire Core Rulebook, page 133 of the Age of Rebellion Core Rulebook, or page 131 of the Force and Destiny Core Rulebook, for details.",
+      "Sources": {
+        "Source": [
+          {
+            "-Page": "122",
+            "#text": "Edge of the Empire Core Rulebook"
+          },
+          {
+            "-Page": "133",
+            "#text": "Age of Rebellion Core Rulebook"
+          },
+          {
+            "-Page": "131",
+            "#text": "Force and Destiny Core Rulebook"
+          }
+        ]
+      },
+      "CharKey": "AG",
+      "TypeValue": "stCombat"
+    },
+    {
+      "Key": "RESIL",
+      "Name": "Resilience",
+      "Description": "[H4]Resilience (Brawn)[h4]<br>Please see page 116 of the Edge of the Empire Core Rulebook, page 127 of the Age of Rebellion Core Rulebook, or page 125 of the Force and Destiny Core Rulebook, for details.",
+      "Sources": {
+        "Source": [
+          {
+            "-Page": "116",
+            "#text": "Edge of the Empire Core Rulebook"
+          },
+          {
+            "-Page": "127",
+            "#text": "Age of Rebellion Core Rulebook"
+          },
+          {
+            "-Page": "125",
+            "#text": "Force and Destiny Core Rulebook"
+          }
+        ]
+      },
+      "CharKey": "BR",
+      "TypeValue": "stGeneral"
+    },
+    {
+      "Key": "SKUL",
+      "Name": "Skulduggery",
+      "Description": "[H4]Skulduggery (Cunning)[h4]<br>Please see page 116 of the Edge of the Empire Core Rulebook, page 128 of the Age of Rebellion Core Rulebook, or page 126 of the Force and Destiny Core Rulebook, for details.",
+      "Sources": {
+        "Source": [
+          {
+            "-Page": "116",
+            "#text": "Edge of the Empire Core Rulebook"
+          },
+          {
+            "-Page": "128",
+            "#text": "Age of Rebellion Core Rulebook"
+          },
+          {
+            "-Page": "126",
+            "#text": "Force and Destiny Core Rulebook"
+          }
+        ]
+      },
+      "CharKey": "CUN",
+      "TypeValue": "stGeneral"
+    },
+    {
+      "Key": "STEAL",
+      "Name": "Stealth",
+      "Description": "[H4]Stealth (Agility)[h4]<br>Please see page 117 of the Edge of the Empire Core Rulebook, page 128 of the Age of Rebellion Core Rulebook, or page 126 of the Force and Destiny Core Rulebook, for details.",
+      "Sources": {
+        "Source": [
+          {
+            "-Page": "117",
+            "#text": "Edge of the Empire Core Rulebook"
+          },
+          {
+            "-Page": "128",
+            "#text": "Age of Rebellion Core Rulebook"
+          },
+          {
+            "-Page": "126",
+            "#text": "Force and Destiny Core Rulebook"
+          }
+        ]
+      },
+      "CharKey": "AG",
+      "TypeValue": "stGeneral"
+    },
+    {
+      "Key": "SW",
+      "Name": "Streetwise",
+      "Description": "[H4]Streetwise (Cunning)[h4]<br>Please see page 118 of the Edge of the Empire Core Rulebook, page 130 of the Age of Rebellion Core Rulebook, or page 127 of the Force and Destiny Core Rulebook, for details.",
+      "Sources": {
+        "Source": [
+          {
+            "-Page": "118",
+            "#text": "Edge of the Empire Core Rulebook"
+          },
+          {
+            "-Page": "130",
+            "#text": "Age of Rebellion Core Rulebook"
+          },
+          {
+            "-Page": "127",
+            "#text": "Force and Destiny Core Rulebook"
+          }
+        ]
+      },
+      "CharKey": "CUN",
+      "TypeValue": "stGeneral"
+    },
+    {
+      "Key": "SURV",
+      "Name": "Survival",
+      "Description": "[H4]Survival (Cunning)[h4]<br>Please see page 119 of the Edge of the Empire Core Rulebook, page 130 of the Age of Rebellion Core Rulebook, or page 128 of the Force and Destiny Core Rulebook, for details.",
+      "Sources": {
+        "Source": [
+          {
+            "-Page": "119",
+            "#text": "Edge of the Empire Core Rulebook"
+          },
+          {
+            "-Page": "130",
+            "#text": "Age of Rebellion Core Rulebook"
+          },
+          {
+            "-Page": "128",
+            "#text": "Force and Destiny Core Rulebook"
+          }
+        ]
+      },
+      "CharKey": "CUN",
+      "TypeValue": "stGeneral"
+    },
+    {
+      "Key": "UND",
+      "Name": "Underworld",
+      "Description": "[H4]Underworld (Intellect)[h4]<br>Please see page 124 of the Edge of the Empire Core Rulebook, page 136 of the Age of Rebellion Core Rulebook, or page 133 of the Force and Destiny Core Rulebook, for details.",
+      "Sources": {
+        "Source": [
+          {
+            "-Page": "124",
+            "#text": "Edge of the Empire Core Rulebook"
+          },
+          {
+            "-Page": "136",
+            "#text": "Age of Rebellion Core Rulebook"
+          },
+          {
+            "-Page": "133",
+            "#text": "Force and Destiny Core Rulebook"
+          }
+        ]
+      },
+      "CharKey": "INT",
+      "TypeValue": "stKnowledge"
+    },
+    {
+      "Key": "VIGIL",
+      "Name": "Vigilance",
+      "Description": "[H4]Vigilance (Willpower)[h4]<br>Please see page 119 of the Edge of the Empire Core Rulebook, page 130 of the Age of Rebellion Core Rulebook, or page 129 of the Force and Destiny Core Rulebook, for details.",
+      "Sources": {
+        "Source": [
+          {
+            "-Page": "119",
+            "#text": "Edge of the Empire Core Rulebook"
+          },
+          {
+            "-Page": "130",
+            "#text": "Age of Rebellion Core Rulebook"
+          },
+          {
+            "-Page": "129",
+            "#text": "Force and Destiny Core Rulebook"
+          }
+        ]
+      },
+      "CharKey": "WIL",
+      "TypeValue": "stGeneral"
+    },
+    {
+      "Key": "XEN",
+      "Name": "Xenology",
+      "Description": "[H4]Xenology (Intellect)[h4]<br>Please see page 125 of the Edge of the Empire Core Rulebook, page 137 of the Age of Rebellion Core Rulebook, or page 133 of the Force and Destiny Core Rulebook, for details.",
+      "Sources": {
+        "Source": [
+          {
+            "-Page": "125",
+            "#text": "Edge of the Empire Core Rulebook"
+          },
+          {
+            "-Page": "137",
+            "#text": "Age of Rebellion Core Rulebook"
+          },
+          {
+            "-Page": "133",
+            "#text": "Force and Destiny Core Rulebook"
+          }
+        ]
+      },
+      "CharKey": "INT",
+      "TypeValue": "stKnowledge"
+    },
+    {
+      "Key": "WARF",
+      "Name": "Warfare",
+      "Description": "[H4]Warfare (Intellect)[h4]<br>Please see page 136 of the Age of Rebellion Core Rulebook for details.",
+      "Source": {
+        "-Page": "136",
+        "#text": "Age of Rebellion Core Rulebook"
+      },
+      "CharKey": "INT",
+      "TypeValue": "stKnowledge"
+    }
+  ]
+}

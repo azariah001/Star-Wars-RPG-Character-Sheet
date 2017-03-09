@@ -1,0 +1,38 @@
+<Vehicle>
+  <Key>LUXURY3000</Key>
+  <Name>SoroSuub Luxury 3000 Space Yacht</Name>
+  <Description>
+      [H3]SoroSuub Luxury 3000 Space Yacht[h3]
+      Please see page 262 of the Edge of the Empire Core Rulebook for details.
+    </Description>
+  <Source Page="262">Edge of the Empire Core Rulebook</Source>
+  <HyperdrivePrimary>2</HyperdrivePrimary>
+  <HyperdriveBackup>14</HyperdriveBackup>
+  <NaviComputer>true</NaviComputer>
+  <SensorRangeValue>srShort</SensorRangeValue>
+  <Crew>One Pilot, One Co-Pilot/Engineer</Crew>
+  <EncumbranceCapacity>100</EncumbranceCapacity>
+  <Passengers>10</Passengers>
+  <Consumables>One Months</Consumables>
+  <Silhouette>4</Silhouette>
+  <Speed>3</Speed>
+  <Handling>0</Handling>
+  <DefFore>1</DefFore>
+  <DefAft>1</DefAft>
+  <DefPort>0</DefPort>
+  <DefStarboard>0</DefStarboard>
+  <Armor>1</Armor>
+  <HullTrauma>30</HullTrauma>
+  <SystemStrain>12</SystemStrain>
+  <HP>4</HP>
+  <Price>120000</Price>
+  <Rarity>6</Rarity>
+  <Categories>
+    <Category>Starship</Category>
+    <Category>Non-Fighter Starship</Category>
+  </Categories>
+  <Type>Yacht</Type>
+  <Starship>true</Starship>
+  <VehicleWeapons>
+  </VehicleWeapons>
+</Vehicle>

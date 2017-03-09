@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>UHXH</Key>
+  <Name>UH-XH Heavy Work Platform</Name>
+  <Description>[H3]Baktoid UH-XH Heavy Work Platform[h3]
+Please see page 59 of the Special Modifications Sourcebook for details.
+  </Description>
+  <Source Page="59">Special Modifications</Source>
+  <Type>Landspeeder</Type>
+  <Categories>
+    <Category>Land Vehicle</Category>
+  </Categories>
+  <HP>3</HP>
+  <Price>30000</Price>
+  <Rarity>5</Rarity>
+  <MaxAltitude>500 meters</MaxAltitude>
+  <SensorRangeValue>srShort</SensorRangeValue>
+  <Crew>One pilot, one crane operator</Crew>
+  <EncumbranceCapacity>350</EncumbranceCapacity>
+  <Passengers>24</Passengers>
+  <Silhouette>4</Silhouette>
+  <Speed>1</Speed>
+  <Handling>-3</Handling>
+  <Armor>2</Armor>
+  <HullTrauma>25</HullTrauma>
+  <SystemStrain>10</SystemStrain>
+  <SinglePilot>true</SinglePilot>
+  <SensorRange>Short</SensorRange>
+</Vehicle>

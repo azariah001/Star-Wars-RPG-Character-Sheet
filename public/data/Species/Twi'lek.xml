@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Species>
+  <Key>TWI</Key>
+  <Name>Twi'lek</Name>
+  <Description>
+    [H4]Twi'leks[h4]
+    Please see page 51 of the Edge of the Empire Core Rulebook, or page 61 of the Force and Destiny Core Rulebook, for details.
+
+  </Description>
+  <Sources>
+    <Source Page="51">Edge of the Empire Core Rulebook</Source>
+    <Source Page="61">Force and Destiny Core Rulebook</Source>
+  </Sources>
+  <StartingChars>
+    <Brawn>1</Brawn>
+    <Agility>2</Agility>
+    <Intellect>2</Intellect>
+    <Cunning>2</Cunning>
+    <Willpower>2</Willpower>
+    <Presence>3</Presence>
+  </StartingChars>
+  <StartingAttrs>
+    <WoundThreshold>10</WoundThreshold>
+    <StrainThreshold>11</StrainThreshold>
+    <Experience>100</Experience>
+  </StartingAttrs>
+  <OptionChoices>
+    <OptionChoice>
+      <Key>TWIABSK</Key>
+      <Name>Skills</Name>
+      <Options>
+        <Option>
+          <Key>TWISKCH</Key>
+          <Name>Charm</Name>
+          <Description>Twi'leks may begin the game with one rank in Charm.</Description>
+          <SkillModifiers>
+            <SkillModifier>
+              <Key>CHARM</Key>
+              <RankStart>1</RankStart>
+            </SkillModifier>
+          </SkillModifiers>
+        </Option>
+        <Option>
+          <Key>TWISKDEC</Key>
+          <Name>Deception</Name>
+          <Description>Twi'leks may begin the game with one rank in Deception.</Description>
+          <SkillModifiers>
+            <SkillModifier>
+              <Key>DECEP</Key>
+              <RankStart>1</RankStart>
+            </SkillModifier>
+          </SkillModifiers>
+        </Option>
+      </Options>
+    </OptionChoice>
+    <OptionChoice>
+      <Key>TWIENV</Key>
+      <Name>Environmental</Name>
+      <Options>
+        <Option>
+          <Key>TWIENVHOT</Key>
+          <Name>Arid/Hot Environments</Name>
+          <Description>
+            When making skill checks, Twi'leks may remove [SETBACK] imposed due to arid or hot environmental conditions.
+          </Description>
+        </Option>
+      </Options>
+    </OptionChoice>
+  </OptionChoices>
+</Species>

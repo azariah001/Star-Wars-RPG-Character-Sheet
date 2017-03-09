@@ -1,0 +1,89 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>HSP10PURSUIT</Key>
+  <Name>HSP-10 Pursuit Airspeeder</Name>
+  <Description>[H3]HSP-10 Pursuit Airspeeder[h3]
+      Please see page 52 of the Fly Casual Sourcebook for details.</Description>
+  <Source Page="52">Fly Casual</Source>
+  <Type>Airspeeder</Type>
+  <Categories>
+    <Category>Air Vehicle</Category>
+  </Categories>
+  <Encumbrance>0</Encumbrance>
+  <HP>1</HP>
+  <Price>40000</Price>
+  <Rarity>6</Rarity>
+  <Restricted>false</Restricted>
+  <BaseMods />
+  <MaxAltitude>100 kilometers</MaxAltitude>
+  <HyperdrivePrimary>0</HyperdrivePrimary>
+  <HyperdriveBackup>0</HyperdriveBackup>
+  <StarFighters />
+  <NaviComputer>false</NaviComputer>
+  <SensorRangeValue>srShort</SensorRangeValue>
+  <Crew>One pilot</Crew>
+  <EncumbranceCapacity>12</EncumbranceCapacity>
+  <Passengers>2</Passengers>
+  <Consumables />
+  <Silhouette>2</Silhouette>
+  <Speed>4</Speed>
+  <Handling>-1</Handling>
+  <DefFore>0</DefFore>
+  <DefAft>0</DefAft>
+  <DefPort>0</DefPort>
+  <DefStarboard>0</DefStarboard>
+  <Armor>2</Armor>
+  <HullTrauma>5</HullTrauma>
+  <SystemStrain>6</SystemStrain>
+  <Starship>false</Starship>
+  <Massive>0</Massive>
+  <SinglePilot>true</SinglePilot>
+  <VehicleWeapons>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Aft>false</Aft>
+        <Port>false</Port>
+        <Starboard>false</Starboard>
+        <Dorsal>false</Dorsal>
+        <Ventral>false</Ventral>
+      </FiringArcs>
+      <Turret>false</Turret>
+      <Location>Forward</Location>
+      <Retractable>false</Retractable>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>1</Count>
+          <Index>0</Index>
+          <MiscDesc />
+          <DefZone />
+          <QualReplace>false</QualReplace>
+          <SkillIsCareer>false</SkillIsCareer>
+          <SkillIsRanked>false</SkillIsRanked>
+          <VehicleWeaponUpgrades />
+          <SelectedVehicleWeaponIndex>-1</SelectedVehicleWeaponIndex>
+          <DieModifiers />
+        </Quality>
+      </Qualities>
+      <Key>BLASTCANLT</Key>
+      <Count>1</Count>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Aft>false</Aft>
+        <Port>false</Port>
+        <Starboard>false</Starboard>
+        <Dorsal>false</Dorsal>
+        <Ventral>false</Ventral>
+      </FiringArcs>
+      <Turret>false</Turret>
+      <Location>Forward</Location>
+      <Retractable>false</Retractable>
+      <Qualities />
+      <Key>IONLT</Key>
+      <Count>1</Count>
+    </VehicleWeapon>
+  </VehicleWeapons>
+</Vehicle>

@@ -1,0 +1,134 @@
+<?xml version="1.0"?>
+<Species xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>SATHARI</Key>
+  <Name>Sathari</Name>
+  <Description>[H4]Sathari[h4]
+Please see page 15 of the Chronicles of the Gatekeeper adventure module for details.
+</Description>
+  <Source Page="15">Chronicles of the Gatekeeper</Source>
+  <Sources />
+  <StartingChars>
+    <Brawn>1</Brawn>
+    <Agility>3</Agility>
+    <Intellect>2</Intellect>
+    <Cunning>2</Cunning>
+    <Willpower>2</Willpower>
+    <Presence>2</Presence>
+    <Requirement>
+      <WearingArmor>false</WearingArmor>
+      <Career>false</Career>
+      <Specialization>false</Specialization>
+      <NonCareer>false</NonCareer>
+      <SoakAtLeast>0</SoakAtLeast>
+      <WieldingMelee>false</WieldingMelee>
+      <WieldingBrawl>false</WieldingBrawl>
+      <WieldingLightsaber>false</WieldingLightsaber>
+    </Requirement>
+  </StartingChars>
+  <StartingAttrs>
+    <WoundThreshold>8</WoundThreshold>
+    <StrainThreshold>10</StrainThreshold>
+    <DefenseRanged>0</DefenseRanged>
+    <DefenseMelee>0</DefenseMelee>
+    <SoakValue>0</SoakValue>
+    <Experience>100</Experience>
+    <ForceRating>0</ForceRating>
+    <Requirement>
+      <WearingArmor>false</WearingArmor>
+      <Career>false</Career>
+      <Specialization>false</Specialization>
+      <NonCareer>false</NonCareer>
+      <SoakAtLeast>0</SoakAtLeast>
+      <WieldingMelee>false</WieldingMelee>
+      <WieldingBrawl>false</WieldingBrawl>
+      <WieldingLightsaber>false</WieldingLightsaber>
+    </Requirement>
+  </StartingAttrs>
+  <SkillModifiers>
+    <SkillModifier>
+      <Key>COORD</Key>
+      <SubSpeciesKey />
+      <RankStart>1</RankStart>
+      <RankAdd>0</RankAdd>
+      <RankLimit>0</RankLimit>
+      <isCareer>false</isCareer>
+      <SkillType />
+      <Requirement>
+        <WearingArmor>false</WearingArmor>
+        <Career>false</Career>
+        <Specialization>false</Specialization>
+        <NonCareer>false</NonCareer>
+        <SoakAtLeast>0</SoakAtLeast>
+        <WieldingMelee>false</WieldingMelee>
+        <WieldingBrawl>false</WieldingBrawl>
+        <WieldingLightsaber>false</WieldingLightsaber>
+      </Requirement>
+    </SkillModifier>
+  </SkillModifiers>
+  <TalentModifiers />
+  <OptionChoices>
+    <OptionChoice>
+      <Key>SATHARICH1</Key>
+      <Name>Avian</Name>
+      <Description />
+      <Source />
+      <Sources />
+      <Custom>Base</Custom>
+      <Options>
+        <Option>
+          <Key>SATHARICH1OP1</Key>
+          <Name>Glider</Name>
+          <Description>A Sathari can fall safely from any height and can glide over small gaps or distances while falling.  While conscious, a Sathari character does not suffer damage from falling (see page 221 of the [B]Force and Destiny[b] Core Rulebook).</Description>
+          <Source />
+          <Sources />
+          <Custom>Base</Custom>
+          <StartingChars>
+            <Brawn>1</Brawn>
+            <Agility>1</Agility>
+            <Intellect>1</Intellect>
+            <Cunning>1</Cunning>
+            <Willpower>1</Willpower>
+            <Presence>1</Presence>
+            <Requirement>
+              <WearingArmor>false</WearingArmor>
+              <Career>false</Career>
+              <Specialization>false</Specialization>
+              <NonCareer>false</NonCareer>
+              <SoakAtLeast>0</SoakAtLeast>
+              <WieldingMelee>false</WieldingMelee>
+              <WieldingBrawl>false</WieldingBrawl>
+              <WieldingLightsaber>false</WieldingLightsaber>
+            </Requirement>
+          </StartingChars>
+          <StartingAttributes>
+            <WoundThreshold>0</WoundThreshold>
+            <StrainThreshold>0</StrainThreshold>
+            <DefenseRanged>0</DefenseRanged>
+            <DefenseMelee>0</DefenseMelee>
+            <SoakValue>0</SoakValue>
+            <Experience>0</Experience>
+            <ForceRating>0</ForceRating>
+            <Requirement>
+              <WearingArmor>false</WearingArmor>
+              <Career>false</Career>
+              <Specialization>false</Specialization>
+              <NonCareer>false</NonCareer>
+              <SoakAtLeast>0</SoakAtLeast>
+              <WieldingMelee>false</WieldingMelee>
+              <WieldingBrawl>false</WieldingBrawl>
+              <WieldingLightsaber>false</WieldingLightsaber>
+            </Requirement>
+          </StartingAttributes>
+          <StartingSkillTraining />
+          <SkillModifiers />
+          <TalentModifiers />
+          <DieModifiers />
+        </Option>
+      </Options>
+    </OptionChoice>
+  </OptionChoices>
+  <WeaponModifiers />
+  <SubSpeciesList />
+  <CyberneticsAdjust>0</CyberneticsAdjust>
+  <NoForceAbilities>false</NoForceAbilities>
+</Species>

@@ -1,0 +1,87 @@
+<?xml version="1.0"?>
+<Species xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>ARCONA</Key>
+  <Name>Arcona</Name>
+  <Description>[H4]Arcona[h4]
+The Arcona are an alien race native to the planet Cona. Other important colonies of Arcona are Celenuir and Teke Ro - two planets located in the Mayagil sector.
+[P][B]Physiology:[b]
+The Arcona are scaleless reptiles, ranging between 1.7 to 2 meters tall. They are bipedal and humanoid in nature, with three toes on each foot and two fingers and one thumb on each hand, all with talons approximately 3 to 4 inches in length. They have triangular heads, large glittering eyes, and the nose and mouth are merely three barely visible slits in the face. The planet Cona, their homeworld, is a hot, ammonia-filled, dense world orbiting the blue giant Teke Ro.
+[P]Because everything they eat contains ammonia, the Arcona have developed a tolerance for it, and also require ammonia to create enzymes necessary for their very survival. The Arcona use ammonia particularly to supplement their circulatory systems and eliminate waste, disperse body heat and carry nutrients to their thick hides. In spite of this, the Arcona still have a dependency on water. They use their clawed hands and feet to dig up the plants and harvest water.
+[P]Another interesting feature about the Arcona is the bulbous growth between their eyes, which looks similar to a nose. In fact, this is not an olfactory organ at all, but an acutely accurate heat sensing organ, useful in sensing and locating another creature, and as such, an excellent supplement to their weak eyes. The eyes of the Arcona are multi-faceted, much like an insect or spider. Each facet is designed to perceive a different colour or shade, and will alert the Arcona to slightest of movements. But, they have no ability to see three dimensions. Because of this weakness, the Arcona only see the world around them as an imperceptible blur of motion and colour.
+[P]An Arcona's lifespan is roughly the same as a Human's. The Arcona live in a family based community, where the males take care of the young, as the females are generally reckless and thrill-seeking. Despite not being a particularly technological species, by the time the Galactic Empire rose to power, Arcona could be seen in every corner of the galaxy. They are also notorious for their easy addiction to common salt.
+[P]The Arcona adapted to the harmful environment of their homeplanet by eating the ammonia-converting roots of the complex flora of Cona as a source of water (the only water planet-wide). The Arcona depend on the ammonia to live and, as a result, Arcona living offworld have to take ammonia supplements or they will risk death.
+[P][B]Society:[b]
+The Arcona place greater emphasis on the rights of the group than the rights of the individual. However, there are a few acceptable variations. The best example of this is an Arconan's devotion to its offspring, placing far greater importance in it's own than the offspring of others in its own clan. The Arcona reside in loose communities composed of several family nests.
+[P]Arcona normally think of themselves as a whole. Virtually, they have no individuality. They often refer to themselves as "we" even when only one is present. Because Arcona are born in nests underground they obtain a close sense of family living in close quarters with brothers and sisters.
+[P]This society arose because of the need to protect the young from danger, for Cona is a dangerous place for the immature or uninitiated. Arcona parents must spend much of their time protecting their young from the jungles of Cona, or the hatchlings can trigger a spine trap, drink poison, or be eaten by carnivorous plants. Because of the long-term commitment involved in raising a nest of hatchlings, Arcona do not enter into the bond lightly. Males are generally the more finicky of the two genders, and when bonded, Arcona will bond for life.
+[P]The hierarchy of the group is such - A community is usually built within 20 kilometers from a clearing. Every 20 days, all adult Arcona meet there and discuss community business. These meetings are led by the Nest Leader, a male who is chosen by popular vote and can be replaced at any time. Although they possessed a pre-industrial technology level before their world was discovered, the Arcona have since been completely acclimated into the general galactic populace successfully.
+[P][B]Homeworld:[b]
+Cona is the largest planet within the Teke Ro system. Its relatively hot temperatures and somewhat odd atmosphere make it an uncomfortable place for any except for the indigenous species. Cona`s atmosphere is composed mostly of a mixture of nitrogen and hydrogen. Ammonia vapour results from the high concentration of the two elements, a usually deadly characteristic for non-Arcona. The lack of oxygen in the air is supplemented by an extraordinary amount of it within the ground.
+[P][B]Language:[b]
+Arconese is the official language of Cona and the native language of the local species, the Arcona. However, those Arcona born and raised in colonies outside of Cona do not usually learn Arconese, but the local language instead.</Description>
+  <Source Page="19">Far Horizons</Source>
+  <StartingChars>
+    <Brawn>1</Brawn>
+    <Agility>2</Agility>
+    <Intellect>2</Intellect>
+    <Cunning>2</Cunning>
+    <Willpower>3</Willpower>
+    <Presence>2</Presence>
+  </StartingChars>
+  <StartingAttrs>
+    <WoundThreshold>10</WoundThreshold>
+    <StrainThreshold>10</StrainThreshold>
+    <DefenseRanged>0</DefenseRanged>
+    <DefenseMelee>0</DefenseMelee>
+    <SoakValue>0</SoakValue>
+    <Experience>100</Experience>
+    <ForceRating>0</ForceRating>
+  </StartingAttrs>
+  <SkillModifiers>
+    <SkillModifier>
+      <Key>VIGIL</Key>
+      <RankStart>1</RankStart>
+      <RankLimit>2</RankLimit>
+    </SkillModifier>
+  </SkillModifiers>
+  <TalentModifiers />
+  <OptionChoices>
+    <OptionChoice>
+      <Key>ARCONAOC1</Key>
+      <Name>Environment</Name>
+      <Options>
+        <Option>
+          <Key>ARCONAOC1OP1</Key>
+          <Name>Environment</Name>
+          <Description>Arcona may remove [SETBACK] imposed due to arid or hot environmental conditions.</Description>
+        </Option>
+      </Options>
+    </OptionChoice>
+    <OptionChoice>
+      <Key>ARCONAOC2</Key>
+      <Name>Mood</Name>
+      <Options>
+        <Option>
+          <Key>ARCONAOC2OP1</Key>
+          <Name>Mood Readers</Name>
+          <Description>
+            Arcona add [ADVANTAGE] to any Charm or Negotiation checks they make.
+          </Description>
+          <DieModifiers>
+            <DieModifier>
+              <SkillKey>CHARM</SkillKey>
+              <AdvantageCount>1</AdvantageCount>
+            </DieModifier>
+            <DieModifier>
+              <SkillKey>NEG</SkillKey>
+              <AdvantageCount>1</AdvantageCount>
+            </DieModifier>
+          </DieModifiers>
+        </Option>
+      </Options>
+    </OptionChoice>
+  </OptionChoices>
+  <WeaponModifiers>
+  </WeaponModifiers>
+  <NoForceAbilities>false</NoForceAbilities>
+</Species>

@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Career>
+  <Key>COMMANDER</Key>
+  <Name>Commander</Name>
+  <Description>
+    [H4]Commander [h4]
+    Please see page 70 of the Age of Rebellion Core Rulebook for details.
+  </Description>
+  <Source Page="70">Age of Rebellion Core Rulebook</Source>
+  <CareerSkills>
+    <Key>COERC</Key>
+    <Key>COOL</Key>
+    <Key>DISC</Key>
+    <Key>WARF</Key>
+    <Key>LEAD</Key>
+    <Key>PERC</Key>
+    <Key>RANGLT</Key>
+    <Key>VIGIL</Key>
+  </CareerSkills>
+  <Specializations>
+    <Key>COMMODORE</Key>
+    <Key>SQUADLEADER</Key>
+    <Key>TACTICIAN</Key>
+    <Key>FIGUREHEAD</Key>
+    <Key>INSTRUCTOR</Key>
+    <Key>STRATEGIST</Key>
+  </Specializations>
+</Career>

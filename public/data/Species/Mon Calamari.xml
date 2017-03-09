@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<Species xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>MONCAL</Key>
+  <Name>Mon Calamari</Name>
+  <Description>[H4]Mon Calamari[h4]
+
+The Mon Calamari (also known as Calamari, Calamarians, Mon Cal, Mon Calamarians, or rarely Mon Cala) are one of the sentient species indigenous to the world of Dac.
+    [P][B]Physiology:[b]
+On average, a member of the species stands between 1.3 to 1.8 meters tall and also smells of salt and the sea. They are a fish-like amphibious humanoid species with salmon-colored skin, webbed hands, high-domed heads and huge, fish-like eyes. They are equally capable of breathing both on land and in water with them being at home in either environment. Male Mon Calamari have protrusions on their chin called "barbels" which grow more numerous with age. Most Mon Calamari have salmon-colored skin, often mottled with light and dark patterns, though examples of other skin colors are known. The Mon Calamari are able to descend to depths of up to 30 meters below sea level without requiring breathing or pressure apparatus. Though they can breathe water, they find it somewhat uncomfortable, and use organic gills whenever possible. Mon Calamari can stay underwater for an indefinite period of time, although a frightened Mon Calamari, particularly a juvenile, can drown underwater. They also do not need to decompress when resurfacing.
+[P]Their hands, apart from being webbed, also feature five claw-tipped fingers; one opposable thumb with two more shorter claw-like protrusions, two long middle fingers, and two extremely short outer fingers. As an additional feature, Mon Calamari hands also present three suction-cup like holes on their palms.
+
+[P]Mon Calamari can swivel their eyes independently from one another, focusing on two areas at once. Mon Calamari see in different wavelengths than Humans, making it difficult for one species to view visuals designed for the other and vice versa. Their eyes are often used to express emotion; staring with the left eye is a way of showing surprise, while staring with the right eye is either a challenge to fight or an expression of love, depending on the circumstances.
+
+[P]Their children range from the age of 1-11 with them being considered young adults by 12-16 and full adults between 17-40. A Mon Calamari between the age of 41-57 is considered middle aged and old by 58-79 whilst those above the age of 80 are held to be venerable.
+[P]Due to their fish-like appearance, the Mon Calamari are referred to by the somewhat derogatory Deal-slang expression "Mon Cals in a fishbowl", which refer to the act of making several big and easy deals from naïve or less-than-intelligent clients.
+    [P][B]Society:[b]
+The Mon Calamari have developed a very advanced and civilized culture. Art, music, literature, and science show a creativity surpassed by few in the galaxy. Mon Calamari literature depicts stars as islands in a galactic sea. This shows a passionate longing to explore space and discover other civilizations. In terms of temperament, they are both soft spoken and gentle. They are extremely tempered to the point that they are slow to anger and have the remarkable ability to maintain their concentration without being distracted by emotional responses. Other notable personality traits included being inquisitive and creative as well as being quiet. In addition, they are known for a near-legendary quality of being both determined and dedicated. This means that once a Mon Calamari decides on a course of action, they are not easily swayed from that decision. As they are idealistic and daring, they often fixate themselves on causes that seem hopeless or lost from the start. As such, they have a great deal of enthusiasm and spirit which is often masked by their quiet, orderly exterior. Ultimately, a Mon Calamari often attempts to demonstrate that even dreamers and thinkers are capable of daring and bravery when the need arises. This means that they often think of the needs of the society and believe in performing the greater good to the point that they placed it above the good of the individual.
+[P]They have developed a reputation for being one of the most skilled starship designers in the galaxy. This partly stems from the fact that they see everything as a work of art rather than being a simple tool or weapon. Their technology is notable for being unique, yet comparable to that of the other inhabitants of the galaxy. While their starships are significantly different from those of other races, they are in fact more efficient in design. However, such vessels tend to be extremely difficult to construct. The mathematically-minded Givin cannot stand the Mon Calamari spaceships, as they are too organic and not geometric enough.
+    [P][B]Homeworld:[b]
+Dac, as it is called in Mon Calamarian, Quarrenese, and Basic, also known as Mon Calamari and sometimes simply called Calamari or Mon Cala, is a planet in the Calamari system of the Calamari sector, located in the Outer Rim. It is home to a wealth of sentient species: the Mon Calamari, the Quarren, the Moappa, the Amphi-Hydrus, and the Whaladons. Mon Calamari is the name given to the planet by Human explorers from the Galactic Republic who first discovered and revealed the world to the rest of the galaxy. The native species refer to the planet as Dac. The planet is a shining bluish-white orb from space, due to its ocean-covered surface. It is home to 27.5 billion Mon Calamarians and Quarren, as well as surrounded by the impressive Mon Calamari Shipyards.
+    [P][B]Language:[b]
+The Mon Calamari language is shared with the Quarren though many members of the species adopted Basic as their common tongue. In fact, they are able to speak both of these languages with ease though in the case of Basic, their vocal cords often produce a gurgling sound when they speak in that tongue.</Description>
+  <Source Page="59">Age of Rebellion Core Rulebook</Source>
+  <StartingChars>
+    <Brawn>2</Brawn>
+    <Agility>2</Agility>
+    <Intellect>3</Intellect>
+    <Cunning>1</Cunning>
+    <Willpower>2</Willpower>
+    <Presence>2</Presence>
+  </StartingChars>
+  <StartingAttrs>
+    <WoundThreshold>10</WoundThreshold>
+    <StrainThreshold>10</StrainThreshold>
+    <Experience>100</Experience>
+  </StartingAttrs>
+  <SkillModifiers>
+    <SkillModifier>
+      <Key>EDU</Key>
+      <RankStart>1</RankStart>
+      <RankAdd>0</RankAdd>
+      <RankLimit>0</RankLimit>
+      <isCareer>false</isCareer>
+    </SkillModifier>
+  </SkillModifiers>
+  <OptionChoices>
+    <OptionChoice>
+      <Key>MONCALCH1</Key>
+      <Name>Water</Name>
+      <Description />
+      <Options>
+        <Option>
+          <Key>MONCALCH1OP1</Key>
+          <Name>Amphibious</Name>
+          <Description>Mon Calamari can breathe
+underwater without penalty and never suffer
+movement penalties for traveling through
+water.</Description>
+        </Option>
+      </Options>
+    </OptionChoice>
+  </OptionChoices>
+  <NoForceAbilities>false</NoForceAbilities>
+</Species>

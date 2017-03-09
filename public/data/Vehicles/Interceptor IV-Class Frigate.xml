@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>INTERCEPIV</Key>
+  <Name>Interceptor IV-Class Frigate</Name>
+  <Description>[H3][I]Interceptor IV[i]-Class Frigate[h3]
+Please see page 81 of the Mask of the Pirate Queen adventure module for details.</Description>
+  <Source Page="81">Mask of the Pirate Queen</Source>
+  <Type>Frigate</Type>
+  <Categories>
+    <Category>Capital Ship</Category>
+    <Category>Starship</Category>
+    <Category>Non-Fighter Starship</Category>
+  </Categories>
+  <Encumbrance>0</Encumbrance>
+  <HP>4</HP>
+  <Price>300000</Price>
+  <Rarity>7</Rarity>
+  <HyperdrivePrimary>3</HyperdrivePrimary>
+  <HyperdriveBackup>20</HyperdriveBackup>
+  <StarFighters />
+  <NaviComputer>true</NaviComputer>
+  <SensorRangeValue>srMedium</SensorRangeValue>
+  <Crew>Twenty crew</Crew>
+  <EncumbranceCapacity>10000</EncumbranceCapacity>
+  <Passengers>5</Passengers>
+  <Consumables>Three months</Consumables>
+  <Silhouette>5</Silhouette>
+  <Speed>3</Speed>
+  <Handling>-1</Handling>
+  <DefFore>3</DefFore>
+  <DefAft>2</DefAft>
+  <DefPort>2</DefPort>
+  <DefStarboard>2</DefStarboard>
+  <Armor>2</Armor>
+  <HullTrauma>40</HullTrauma>
+  <SystemStrain>20</SystemStrain>
+  <Starship>true</Starship>
+  <Massive>0</Massive>
+  <SinglePilot>false</SinglePilot>
+  <VehicleWeapons>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Port>true</Port>
+      </FiringArcs>
+      <Location>Port</Location>
+      <Key>TURBOHVY</Key>
+      <Count>1</Count>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Starboard>true</Starboard>
+      </FiringArcs>
+      <Location>Starboard</Location>
+      <Key>TURBOHVY</Key>
+      <Count>1</Count>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+      </FiringArcs>
+      <Location>Forward</Location>
+      <Key>CML</Key>
+      <Count>1</Count>
+    </VehicleWeapon>
+  </VehicleWeapons>
+  <BuiltInAttachments />
+  <SensorRange>Medium</SensorRange>
+</Vehicle>

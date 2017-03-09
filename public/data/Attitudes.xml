@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Attitudes>
+  <Attitude>
+    <Key>ANCIENTRELIGION</Key>
+    <Name>An Ancient Religion</Name>
+    <Description>
+      [H4]An Ancient Religion[h4]
+      Please see page 46 of the Force and Destiny Core Rulebook for details.
+    </Description>
+    <Source Page="46">Force and Destiny Core Rulebook</Source>
+  </Attitude>
+  <Attitude>
+    <Key>ANCIENTRELIGION</Key>
+    <Name>An Ancient Religion</Name>
+    <Description>
+      [H4]An Ancient Religion[h4]
+      Please see page 46 of the Force and Destiny Core Rulebook for details.
+    </Description>
+    <Source Page="46">Force and Destiny Core Rulebook</Source>
+  </Attitude>
+  <Attitude>
+    <Key>DUTYTRAD</Key>
+    <Name>Duty to Tradition</Name>
+    <Description>
+      [H4]Duty to Tradition[h4]
+      Please see page 46 of the Force and Destiny Core Rulebook for details.
+    </Description>
+    <Source Page="46">Force and Destiny Core Rulebook</Source>
+  </Attitude>
+  <Attitude>
+    <Key>PRAGPOWER</Key>
+    <Name>Pragmatic Power</Name>
+    <Description>
+      [H4]Pragmatic Power[h4]
+      Please see page 47 of the Force and Destiny Core Rulebook for details.
+    </Description>
+    <Source Page="47">Force and Destiny Core Rulebook</Source>
+  </Attitude>
+  <Attitude>
+    <Key>ONEFORCE</Key>
+    <Name>One with the Force</Name>
+    <Description>
+      [H4]One with the Force[h4]
+      Please see page 47 of the Force and Destiny Core Rulebook for details.
+    </Description>
+    <Source Page="47">Force and Destiny Core Rulebook</Source>
+  </Attitude>
+</Attitudes>

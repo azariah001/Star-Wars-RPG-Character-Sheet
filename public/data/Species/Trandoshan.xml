@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Species>
+  <Key>TRAND</Key>
+  <Name>Trandoshan</Name>
+  <Description>
+    [H4]Trandoshans[h4]
+    Please see page 50 of the Edge of the Empire Core Rulebook for details.
+
+  </Description>
+  <Source Page="50">Edge of the Empire Core Rulebook</Source>
+  <StartingChars>
+    <Brawn>3</Brawn>
+    <Agility>1</Agility>
+    <Intellect>2</Intellect>
+    <Cunning>2</Cunning>
+    <Willpower>2</Willpower>
+    <Presence>2</Presence>
+  </StartingChars>
+  <StartingAttrs>
+    <WoundThreshold>12</WoundThreshold>
+    <StrainThreshold>9</StrainThreshold>
+    <Experience>90</Experience>
+  </StartingAttrs>
+  <SkillModifiers>
+    <SkillModifier>
+      <Key>PERC</Key>
+      <RankStart>1</RankStart>
+      <RankLimit>2</RankLimit>
+    </SkillModifier>
+  </SkillModifiers>
+  <TalentModifiers>
+  </TalentModifiers>
+  <WeaponModifiers>
+    <WeaponModifier>
+      <AllSkillKey>BRAWL</AllSkillKey>
+      <DamageAdd>1</DamageAdd>
+      <Crit>3</Crit>
+    </WeaponModifier>
+  </WeaponModifiers>
+  <OptionChoices>
+    <OptionChoice>
+      <Key>TRANDABREGEN</Key>
+      <Name>Regeneration</Name>
+      <Options>
+        <Option>
+          <Key>TRANDREGEN</Key>
+          <Name>Wound Regeneration</Name>
+          <Description>Whenever a trandoshan would recover one or more wounds from natural rest or recuperation in a Bacta tank, he recovers one additional wound.  Trandoshans can regrow lost limbs as well, though it usully takes at least a month before the limb is usable.</Description>
+        </Option>
+      </Options>
+    </OptionChoice>
+    <OptionChoice>
+      <Key>TRANDABCL</Key>
+      <Name>Claws</Name>
+      <Options>
+        <Option>
+          <Key>TRANDCL</Key>
+          <Name>May use claws when brawling</Name>
+          <Description>When a Trandoshan makes Brawl checks to deal damage to an opponent, he deals +1 damage and has a Critical Rating of 3.</Description>
+        </Option>
+      </Options>
+    </OptionChoice>
+  </OptionChoices>
+</Species>

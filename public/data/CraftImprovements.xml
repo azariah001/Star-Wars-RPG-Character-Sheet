@@ -1,0 +1,262 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CraftImprovements>
+  
+  <!-- Armor - Positive -->
+  <CraftImprovement>
+    <TempType>ctArmor</TempType>
+    <Name>Practice Makes Perfect</Name>
+    <Description>Character learns something valuable and gains [BO] on next check with same skill.</Description>
+    <CostAdvThr>1</CostAdvThr>
+    <CostTriDes>1</CostTriDes>
+  </CraftImprovement>
+  <CraftImprovement>
+    <TempType>ctArmor</TempType>
+    <Name>Lightweight</Name>
+    <Description>Reduce encumbrance by 1.</Description>
+    <CostAdvThr>1</CostAdvThr>
+    <CostTriDes>1</CostTriDes>
+    <EncumbranceChange>-1</EncumbranceChange>
+  </CraftImprovement>
+  <CraftImprovement>
+    <TempType>ctArmor</TempType>
+    <Name>Sealable</Name>
+    <Description>Armor can take the Vacuum Sealed attachment.</Description>
+    <CostAdvThr>1</CostAdvThr>
+    <CostTriDes>1</CostTriDes>
+    <AddedCategories>
+      <Category>Sealable</Category>
+      <Category>Full Body</Category>
+    </AddedCategories>
+    <RemovedCategories>
+      <Category>Half Body</Category>
+    </RemovedCategories>
+  </CraftImprovement>
+  <CraftImprovement>
+    <TempType>ctArmor</TempType>
+    <Name>Lessons Learned</Name>
+    <Description>Reduce difficulty of next crafting check by 1.</Description>
+    <CostAdvThr>2</CostAdvThr>
+    <CostTriDes>1</CostTriDes>
+  </CraftImprovement>
+  <CraftImprovement>
+    <TempType>ctArmor</TempType>
+    <Name>Extra Melee Defense</Name>
+    <Description>Add +1 melee defense to armor.</Description>
+    <CostAdvThr>2</CostAdvThr>
+    <CostTriDes>1</CostTriDes>
+    <SelectCount>1</SelectCount>
+    <Mods>
+      <Mod>
+        <Key>MELEEDEFADD</Key>
+        <Count>1</Count>
+      </Mod>
+    </Mods>
+  </CraftImprovement>
+  <CraftImprovement>
+    <TempType>ctArmor</TempType>
+    <Name>Special Embellishment</Name>
+    <Description>Add automatic [AD] to a chosen skill.</Description>
+    <CostAdvThr>2</CostAdvThr>
+    <CostTriDes>1</CostTriDes>
+    <SelectCount>1</SelectCount>
+    <SpecialEmb>
+      <TypeValue>stNone</TypeValue>
+      <SkillList>
+        <Key>CHARM</Key>
+        <Key>COERC</Key>
+        <Key>NEG</Key>
+        <Key>LEAD</Key>
+        <Key>RESIL</Key>
+        <Key>STEAL</Key>
+      </SkillList>
+      <SkillCount>1</SkillCount>
+    </SpecialEmb>
+  </CraftImprovement>
+  <CraftImprovement>
+    <TempType>ctArmor</TempType>
+    <Name>Efficient Construction</Name>
+    <Description>Retain supplies worth 50% of teh Material Price.</Description>
+    <CostAdvThr>3</CostAdvThr>
+    <CostTriDes>1</CostTriDes>
+    <SelectCount>1</SelectCount>
+  </CraftImprovement>
+  <CraftImprovement>
+    <TempType>ctArmor</TempType>
+    <Name>Extra Ranged Defense</Name>
+    <Description>Add +1 ranged defense to armor.</Description>
+    <CostAdvThr>3</CostAdvThr>
+    <CostTriDes>1</CostTriDes>
+    <SelectCount>1</SelectCount>
+    <Mods>
+      <Mod>
+        <Key>RANGEDEFADD</Key>
+        <Count>1</Count>
+      </Mod>
+    </Mods>
+  </CraftImprovement>
+  <CraftImprovement>
+    <TempType>ctArmor</TempType>
+    <Name>Extra Hard Point</Name>
+    <Description>Add 1 hard point to armor.</Description>
+    <CostAdvThr>3</CostAdvThr>
+    <CostTriDes>1</CostTriDes>
+    <SelectCount>2</SelectCount>
+    <HPChange>1</HPChange>
+  </CraftImprovement>
+  <CraftImprovement>
+    <TempType>ctArmor</TempType>
+    <Name>Extra Soak</Name>
+    <Description>Add +11 soak to armor.</Description>
+    <CostAdvThr>4</CostAdvThr>
+    <CostTriDes>1</CostTriDes>
+    <SelectCount>1</SelectCount>
+    <SoakChange>1</SoakChange>
+  </CraftImprovement>
+  <CraftImprovement>
+    <TempType>ctArmor</TempType>
+    <Name>Duplicate</Name>
+    <Description>Create one additional, identical set of armor at no cost.</Description>
+    <CostAdvThr>4</CostAdvThr>
+    <CostTriDes>1</CostTriDes>
+    <DuplicateItem>1</DuplicateItem>
+  </CraftImprovement>
+  <CraftImprovement>
+    <TempType>ctArmor</TempType>
+    <Name>Armor Schematic</Name>
+    <Description>Permanently reduce difficulty of checks to create armor using this template by 1.</Description>
+    <CostAdvThr>4</CostAdvThr>
+    <CostTriDes>1</CostTriDes>
+  </CraftImprovement>
+  <CraftImprovement>
+    <TempType>ctArmor</TempType>
+    <Name>Integral Attachment</Name>
+    <Description>Add +1 hard point to armor, then install one applicable armor attachment that requires 1 hard point.</Description>
+    <CostAdvThr>0</CostAdvThr>
+    <CostTriDes>2</CostTriDes>
+    <IntegralAttachment>true</IntegralAttachment>
+  </CraftImprovement>
+  
+  <!-- Armor - Negative -->
+
+  <CraftImprovement>
+    <TempType>ctArmor</TempType>
+    <Name>Exhausting Effort</Name>
+    <Description>Suffer 3 strain when finished with construction.</Description>
+    <CostAdvThr>-1</CostAdvThr>
+    <CostTriDes>-1</CostTriDes>
+  </CraftImprovement>
+  <CraftImprovement>
+    <TempType>ctArmor</TempType>
+    <Name>Heavy</Name>
+    <Description>Increase encumbrance by 1.</Description>
+    <CostAdvThr>-1</CostAdvThr>
+    <CostTriDes>-1</CostTriDes>
+    <EncumbranceChange>1</EncumbranceChange>
+  </CraftImprovement>
+  <CraftImprovement>
+    <TempType>ctArmor</TempType>
+    <Name>Poor Fit</Name>
+    <Description>Donning and doffing this armor requires one additional action</Description>
+    <CostAdvThr>-1</CostAdvThr>
+    <CostTriDes>-1</CostTriDes>
+    <SelectCount>1</SelectCount>
+    <Mods>
+      <Mod>
+        <MiscDesc>[B]Poor Fit[b]: Donning and doffing this armor requires one additional action.</MiscDesc>
+      </Mod>
+    </Mods>
+  </CraftImprovement>
+  <CraftImprovement>
+    <TempType>ctArmor</TempType>
+    <Name>Complex</Name>
+    <Description>The armor is difficult to repair.  Increase difficulty of checks to repair armor by {0}.</Description>
+    <CostAdvThr>-2</CostAdvThr>
+    <CostTriDes>-1</CostTriDes>
+    <Mods>
+      <Mod>
+        <MiscDesc>[B]Complex[b]: Increase difficulty of checks to repair this armor by 1.</MiscDesc>
+      </Mod>
+    </Mods>
+  </CraftImprovement>
+  <CraftImprovement>
+    <TempType>ctArmor</TempType>
+    <Name>Difficult to Customize</Name>
+    <Description>Increase the difficulty of checks to modify attachments on this armor by 1.</Description>
+    <CostAdvThr>-2</CostAdvThr>
+    <CostTriDes>-1</CostTriDes>
+    <Mods>
+      <Mod>
+        <MiscDesc>[B]Difficult to Customize[b]: Increase the difficulty of checks to modify attachments on this armor by {0}.</MiscDesc>
+      </Mod>
+    </Mods>
+  </CraftImprovement>
+  <CraftImprovement>
+    <TempType>ctArmor</TempType>
+    <Name>Restrictive</Name>
+    <Description>Wearer adds automatic [TH] to {1} checks.</Description>
+    <CostAdvThr>-2</CostAdvThr>
+    <CostTriDes>-1</CostTriDes>
+    <SelectCount>1</SelectCount>
+    <Restrictive>
+      <TypeValue>stNone</TypeValue>
+      <SkillList>
+        <Key>ATHL</Key>
+        <Key>PERC</Key>
+        <Key>SKUL</Key>
+        <Key>VIGIL</Key>
+      </SkillList>
+      <SkillCount>1</SkillCount>
+    </Restrictive>
+  </CraftImprovement>
+  <CraftImprovement>
+    <TempType>ctArmor</TempType>
+    <Name>Wear and Tear</Name>
+    <Description>The tools used to make this armor are damaged 1 step.</Description>
+    <CostAdvThr>-3</CostAdvThr>
+    <CostTriDes>-1</CostTriDes>
+  </CraftImprovement>
+  <CraftImprovement>
+    <TempType>ctArmor</TempType>
+    <Name>Fragile</Name>
+    <Description>Whenever armor becomes damaged, the damage always counts as moderate unless it would be worse.</Description>
+    <CostAdvThr>-3</CostAdvThr>
+    <CostTriDes>-1</CostTriDes>
+    <SelectCount>1</SelectCount>
+    <Mods>
+      <Mod>
+        <MiscDesc>[B]Fragile[b]: Whenever armor becomes damaged, the damage always counts as moderate unless it would be worse.</MiscDesc>
+      </Mod>
+    </Mods>
+  </CraftImprovement>
+  <CraftImprovement>
+    <TempType>ctArmor</TempType>
+    <Name>Expensive</Name>
+    <Description>Whenever armor becomes damaged, the cost to repair is doubled.</Description>
+    <CostAdvThr>-4</CostAdvThr>
+    <CostTriDes>-1</CostTriDes>
+    <SelectCount>1</SelectCount>
+    <Mods>
+      <Mod>
+        <MiscDesc>[B]Expensive[b]: Whenever armor becomes damaged, the cost to repair is doubled.</MiscDesc>
+      </Mod>
+    </Mods>
+  </CraftImprovement>
+  <CraftImprovement>
+    <TempType>ctArmor</TempType>
+    <Name>Supply Shortage</Name>
+    <Description>Cannot finish until more supplies are acquired costing 25% of Material Price.</Description>
+    <CostAdvThr>-4</CostAdvThr>
+    <CostTriDes>-1</CostTriDes>
+    <SelectCount>1</SelectCount>
+  </CraftImprovement>
+  <CraftImprovement>
+    <TempType>ctArmor</TempType>
+    <Name>Unexpected Flaw</Name>
+    <Description>GM may spend 1 Destiny point to cause armor to fail and suffer major damage.  This can be exploited only once.</Description>
+    <CostAdvThr>0</CostAdvThr>
+    <CostTriDes>-2</CostTriDes>
+    <SelectCount>1</SelectCount>
+  </CraftImprovement>
+</CraftImprovements>
+
+

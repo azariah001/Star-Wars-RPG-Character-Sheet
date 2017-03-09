@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>R82JUMPBOOTS</Key>
+  <Name>Aratech R82 Jump Boots</Name>
+  <Description>[H3]Aratech R82 Jump Boots[h3]
+Please see page 115 of the Strongholds of Resistance Sourcebook for details.</Description>
+  <Source Page="115">Strongholds of Resistance</Source>
+  <Sources />
+  <Type>Jump Boots</Type>
+  <Categories>
+    <Category>Air Vehicle</Category>
+  </Categories>
+  <Encumbrance>0</Encumbrance>
+  <HP>0</HP>
+  <Price>2000</Price>
+  <Rarity>6</Rarity>
+  <Restricted>false</Restricted>
+  <BaseMods />
+  <WeaponModifiers />
+  <MaxAltitude>35 meters</MaxAltitude>
+  <HyperdrivePrimary>0</HyperdrivePrimary>
+  <HyperdriveBackup>0</HyperdriveBackup>
+  <StarFighters />
+  <NaviComputer>false</NaviComputer>
+  <SensorRangeValue>srNone</SensorRangeValue>
+  <Crew>One pilot</Crew>
+  <EncumbranceCapacity>0</EncumbranceCapacity>
+  <Passengers>0</Passengers>
+  <Consumables />
+  <Silhouette>1</Silhouette>
+  <Speed>2</Speed>
+  <Handling>-1</Handling>
+  <DefFore>0</DefFore>
+  <DefAft>0</DefAft>
+  <DefPort>0</DefPort>
+  <DefStarboard>0</DefStarboard>
+  <Armor>0</Armor>
+  <HullTrauma>0</HullTrauma>
+  <SystemStrain>3</SystemStrain>
+  <Starship>false</Starship>
+  <Massive>0</Massive>
+  <SinglePilot>true</SinglePilot>
+  <VehicleWeapons />
+  <BuiltInAttachments />
+  <SensorRange>No Sensors</SensorRange>
+</Vehicle>

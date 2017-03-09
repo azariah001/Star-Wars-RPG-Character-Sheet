@@ -1,0 +1,1763 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BaseUpgrades>
+  <!-- Homesteads -->
+  <BaseUpgrade>
+    <Key>HOMECORE</Key>
+    <Name>Increase Core Focus</Name>
+    <Description>
+      [H4]Increase Core Focus[h4]
+      Please see page 83 of the Far Horizons Sourcebook for details.
+    </Description>
+    <Source Page="83">Far Horizons</Source>
+    <MonthlyProfit>100</MonthlyProfit>
+    <ProfitPerPC>true</ProfitPerPC>
+    <PurchaseCount>5</PurchaseCount>
+    <Cost>
+      <Credits>2500</Credits>
+      <Obligation>2</Obligation>
+    </Cost>
+    <Options>
+    </Options>
+  </BaseUpgrade>
+  <BaseUpgrade>
+    <Key>HOMESEC</Key>
+    <Name>Improve Security</Name>
+    <Description>
+      [H4]Improve Security[h4]
+      Please see page 83 of the Far Horizons Sourcebook for details.
+    </Description>
+    <Source Page="83">Far Horizons</Source>
+    <PurchaseCount>3</PurchaseCount>
+    <Cost>
+      <Credits>10000</Credits>
+      <Obligation>2</Obligation>
+    </Cost>
+    <Options>
+      <Option>
+        <Key>HOMESEC1</Key>
+        <Name>Electronic Locks</Name>
+        <Description>
+          All buildings (or doors within the space station) gain electronic locks that can only
+          be broken with a [B]Hard ([DI][DI][DI]) Computers check[b].
+        </Description>
+        <PurchaseCount>1</PurchaseCount>
+      </Option>
+      <Option>
+        <Key>HOMESEC2</Key>
+        <Name>Security Droid</Name>
+        <Description>
+          The homestead gains a security droid.
+        </Description>
+        <PurchaseCount>1</PurchaseCount>
+        <NPCs>
+          <Adversary>
+            <Name>Security Droid</Name>
+            <Key>84a95648-9fb5-4306-b124-d98259709240</Key>
+            <Characteristics>
+              <CharCharacteristic>
+                <Key>BR</Key>
+                <Name>Brawn</Name>
+                <Rank>
+                  <StartingRanks>1</StartingRanks>
+                  <PurchasedRanks>1</PurchasedRanks>
+                </Rank>
+              </CharCharacteristic>
+              <CharCharacteristic>
+                <Key>AG</Key>
+                <Name>Agility</Name>
+                <Rank>
+                  <StartingRanks>1</StartingRanks>
+                  <PurchasedRanks>1</PurchasedRanks>
+                </Rank>
+              </CharCharacteristic>
+              <CharCharacteristic>
+                <Key>INT</Key>
+                <Name>Intellect</Name>
+                <Rank>
+                  <StartingRanks>1</StartingRanks>
+                </Rank>
+              </CharCharacteristic>
+              <CharCharacteristic>
+                <Key>CUN</Key>
+                <Name>Cunning</Name>
+                <Rank>
+                  <StartingRanks>1</StartingRanks>
+                  <PurchasedRanks>1</PurchasedRanks>
+                </Rank>
+              </CharCharacteristic>
+              <CharCharacteristic>
+                <Key>WIL</Key>
+                <Name>Willpower</Name>
+                <Rank>
+                  <StartingRanks>1</StartingRanks>
+                </Rank>
+              </CharCharacteristic>
+              <CharCharacteristic>
+                <Key>PR</Key>
+                <Name>Presence</Name>
+                <Rank>
+                  <StartingRanks>1</StartingRanks>
+                </Rank>
+              </CharCharacteristic>
+            </Characteristics>
+            <Talents />
+            <ForceAbilities />
+            <Skills>
+              <CharSkill>
+                <Key>RANGLT</Key>
+                <Rank>
+                  <PurchasedRanks>3</PurchasedRanks>
+                </Rank>
+              </CharSkill>
+              <CharSkill>
+                <Key>VIGIL</Key>
+                <Rank>
+                  <PurchasedRanks>3</PurchasedRanks>
+                </Rank>
+              </CharSkill>
+            </Skills>
+            <Experience />
+            <Attributes>
+              <SoakValue>
+                <CharRanks>2</CharRanks>
+              </SoakValue>
+              <WoundThreshold>
+                <StartingRanks>10</StartingRanks>
+                <CharRanks>2</CharRanks>
+              </WoundThreshold>
+              <StrainThreshold>
+                <CharRanks>1</CharRanks>
+              </StrainThreshold>
+              <DefenseRanged>
+              </DefenseRanged>
+              <DefenseMelee>
+              </DefenseMelee>
+              <ForceRating>
+              </ForceRating>
+            </Attributes>
+            <Weapons>
+              <CharWeapon>
+                <ItemKey>BLASTPIS</ItemKey>
+                <Key>0</Key>
+                <Equipped>true</Equipped>
+                <Held>true</Held>
+                <Count>1</Count>
+                <PurchasedAttachments />
+                <AddlHP>0</AddlHP>
+                <Notes />
+                <Shown>false</Shown>
+                <Innate>false</Innate>
+              </CharWeapon>
+            </Weapons>
+            <Armor />
+            <Gear />
+            <Abilities>
+              <AdvAbility>
+                <Key>0</Key>
+                <Name>Droid</Name>
+                <Description>Does not need to breathe, eat, or drink and can survive in vacuum or underwater.  Immune to poisons or toxins.</Description>
+              </AdvAbility>
+            </Abilities>
+            <Items />
+            <SpecialWeapons>
+              <AdvWeapon>
+                <Key>0</Key>
+                <Name>Snare Launcher</Name>
+                <SkillKey>RANGLT</SkillKey>
+                <Damage>0</Damage>
+                <DamageAdd>0</DamageAdd>
+                <Crit>0</Crit>
+                <RangeValue>wrShort</RangeValue>
+                <Descriptors>
+                  <Descriptor>
+                    <Key>ENSNARE</Key>
+                    <Count>5</Count>
+                  </Descriptor>
+                  <Descriptor>
+                    <Key>LIMITEDAMMO</Key>
+                    <Count>1</Count>
+                  </Descriptor>
+                </Descriptors>
+              </AdvWeapon>
+            </SpecialWeapons>
+            <AutoRecalc>true</AutoRecalc>
+            <Type>Rival</Type>
+          </Adversary>
+        </NPCs>
+      </Option>
+      <Option>
+        <Key>HOMESEC3</Key>
+        <Name>Reinforced Fence/Shields</Name>
+        <Description>
+          The homestead gains reinforced fences around the main buildings, or if it is a space
+          station, it gains shields granting it defense 1.
+        </Description>
+        <PurchaseCount>1</PurchaseCount>
+      </Option>
+      <Option>
+        <Key>HOMESEC4</Key>
+        <Name>Security Cameras</Name>
+        <Description>
+          The homestead gains security cameras that can be accessed from a central control room.
+        </Description>
+        <PurchaseCount>1</PurchaseCount>
+      </Option>
+    </Options>
+  </BaseUpgrade>
+  <BaseUpgrade>
+    <Key>HOMENPC</Key>
+    <Name>NPC Ally</Name>
+    <Description>
+      [H4]NPC Ally[h4]
+      Please see page 83 of the Far Horizons Sourcebook for details.
+    </Description>
+    <Source Page="83">Far Horizons</Source>
+    <PurchaseCount>4</PurchaseCount>
+    <Cost>
+      <Credits>2000</Credits>
+      <Obligation>1</Obligation>
+    </Cost>
+    <Options>
+      <Option>
+        <Key>HOMENPC1</Key>
+        <Name>Merchant NPC</Name>
+        <Description>
+          The homestead gains an NPC merchant.  He can obtain and sell any legal or Restricted item with a modified
+          rarity of 5 or lower to the party.
+        </Description>
+        <PurchaseCount>1</PurchaseCount>
+        <NPCs>
+          <Adversary>
+            <Name>NPC Merchant</Name>
+            <Key>b0e83b0d-fa09-4ad8-8847-3ff204f74df0</Key>
+            <Characteristics>
+              <CharCharacteristic>
+                <Key>BR</Key>
+                <Name>Brawn</Name>
+                <Rank>
+                  <StartingRanks>1</StartingRanks>
+                  <PurchasedRanks>1</PurchasedRanks>
+                </Rank>
+              </CharCharacteristic>
+              <CharCharacteristic>
+                <Key>AG</Key>
+                <Name>Agility</Name>
+                <Rank>
+                  <StartingRanks>1</StartingRanks>
+                  <PurchasedRanks>1</PurchasedRanks>
+                </Rank>
+              </CharCharacteristic>
+              <CharCharacteristic>
+                <Key>INT</Key>
+                <Name>Intellect</Name>
+                <Rank>
+                  <StartingRanks>1</StartingRanks>
+                  <PurchasedRanks>1</PurchasedRanks>
+                </Rank>
+              </CharCharacteristic>
+              <CharCharacteristic>
+                <Key>CUN</Key>
+                <Name>Cunning</Name>
+                <Rank>
+                  <StartingRanks>1</StartingRanks>
+                  <PurchasedRanks>2</PurchasedRanks>
+                </Rank>
+              </CharCharacteristic>
+              <CharCharacteristic>
+                <Key>WIL</Key>
+                <Name>Willpower</Name>
+                <Rank>
+                  <StartingRanks>1</StartingRanks>
+                  <PurchasedRanks>1</PurchasedRanks>
+                </Rank>
+              </CharCharacteristic>
+              <CharCharacteristic>
+                <Key>PR</Key>
+                <Name>Presence</Name>
+                <Rank>
+                  <StartingRanks>1</StartingRanks>
+                  <PurchasedRanks>2</PurchasedRanks>
+                </Rank>
+              </CharCharacteristic>
+            </Characteristics>
+            <Talents />
+            <ForceAbilities />
+            <Skills>
+              <CharSkill>
+                <Key>NEG</Key>
+                <Rank>
+                  <PurchasedRanks>2</PurchasedRanks>
+                </Rank>
+              </CharSkill>
+              <CharSkill>
+                <Key>SW</Key>
+                <Rank>
+                  <PurchasedRanks>2</PurchasedRanks>
+                </Rank>
+              </CharSkill>
+            </Skills>
+            <Experience />
+            <Attributes>
+              <SoakValue>
+              </SoakValue>
+              <WoundThreshold>
+                <StartingRanks>10</StartingRanks>
+              </WoundThreshold>
+              <StrainThreshold>
+              </StrainThreshold>
+              <DefenseRanged>
+              </DefenseRanged>
+              <DefenseMelee>
+              </DefenseMelee>
+              <ForceRating>
+              </ForceRating>
+            </Attributes>
+            <Weapons>
+            </Weapons>
+            <Armor />
+            <Gear />
+            <Abilities>
+            </Abilities>
+            <Items />
+            <SpecialWeapons>
+            </SpecialWeapons>
+            <AutoRecalc>true</AutoRecalc>
+            <Type>Rival</Type>
+          </Adversary>
+        </NPCs>
+      </Option>
+      <Option>
+        <Key>HOMENPC2</Key>
+        <Name>Doctor NPC</Name>
+        <Description>
+          The homestead gains an NPC doctor.  He has medical supplies allowing
+          him to perform Medicine checks without penalty.
+        </Description>
+        <PurchaseCount>1</PurchaseCount>
+        <NPCs>
+          <Adversary>
+            <Name>NPC Doctor</Name>
+            <Key>7f627ac2-b808-4c5b-beb2-423f6c3bbc2d</Key>
+            <Characteristics>
+              <CharCharacteristic>
+                <Key>BR</Key>
+                <Name>Brawn</Name>
+                <Rank>
+                  <StartingRanks>1</StartingRanks>
+                  <PurchasedRanks>1</PurchasedRanks>
+                </Rank>
+              </CharCharacteristic>
+              <CharCharacteristic>
+                <Key>AG</Key>
+                <Name>Agility</Name>
+                <Rank>
+                  <StartingRanks>1</StartingRanks>
+                  <PurchasedRanks>1</PurchasedRanks>
+                </Rank>
+              </CharCharacteristic>
+              <CharCharacteristic>
+                <Key>INT</Key>
+                <Name>Intellect</Name>
+                <Rank>
+                  <StartingRanks>1</StartingRanks>
+                  <PurchasedRanks>2</PurchasedRanks>
+                </Rank>
+              </CharCharacteristic>
+              <CharCharacteristic>
+                <Key>CUN</Key>
+                <Name>Cunning</Name>
+                <Rank>
+                  <StartingRanks>1</StartingRanks>
+                  <PurchasedRanks>1</PurchasedRanks>
+                </Rank>
+              </CharCharacteristic>
+              <CharCharacteristic>
+                <Key>WIL</Key>
+                <Name>Willpower</Name>
+                <Rank>
+                  <StartingRanks>1</StartingRanks>
+                  <PurchasedRanks>1</PurchasedRanks>
+                </Rank>
+              </CharCharacteristic>
+              <CharCharacteristic>
+                <Key>PR</Key>
+                <Name>Presence</Name>
+                <Rank>
+                  <StartingRanks>1</StartingRanks>
+                  <PurchasedRanks>1</PurchasedRanks>
+                </Rank>
+              </CharCharacteristic>
+            </Characteristics>
+            <Talents />
+            <ForceAbilities />
+            <Skills>
+              <CharSkill>
+                <Key>MED</Key>
+                <Rank>
+                  <PurchasedRanks>2</PurchasedRanks>
+                </Rank>
+              </CharSkill>
+            </Skills>
+            <Experience />
+            <Attributes>
+              <SoakValue>
+              </SoakValue>
+              <WoundThreshold>
+                <StartingRanks>10</StartingRanks>
+              </WoundThreshold>
+              <StrainThreshold>
+              </StrainThreshold>
+              <DefenseRanged>
+              </DefenseRanged>
+              <DefenseMelee>
+              </DefenseMelee>
+              <ForceRating>
+              </ForceRating>
+            </Attributes>
+            <Weapons>
+            </Weapons>
+            <Armor />
+            <Gear>
+              <CharGear>
+                <ItemKey>MEDPAC</ItemKey>
+                <Key>0</Key>
+                <Equipped>true</Equipped>
+                <Held>true</Held>
+                <Count>1</Count>
+                <PurchasedAttachments />
+                <AddlHP>0</AddlHP>
+                <Notes />
+              </CharGear>
+            </Gear>
+            <Abilities>
+            </Abilities>
+            <Items />
+            <SpecialWeapons>
+            </SpecialWeapons>
+            <AutoRecalc>true</AutoRecalc>
+            <Type>Rival</Type>
+          </Adversary>
+        </NPCs>
+      </Option>
+      <Option>
+        <Key>HOMENPC3</Key>
+        <Name>Mechanic NPC</Name>
+        <Description>
+          The homestead gains an NPC mechanic who can repair items, droids, and starships and vehicles.  He has a tool kit allowing
+          him to perform Mechanics checks without penalty.
+        </Description>
+        <PurchaseCount>1</PurchaseCount>
+        <NPCs>
+          <Adversary>
+            <Name>NPC Mechanic</Name>
+            <Key>894dc101-2e47-437e-b207-851ebca31d8a</Key>
+            <Characteristics>
+              <CharCharacteristic>
+                <Key>BR</Key>
+                <Name>Brawn</Name>
+                <Rank>
+                  <StartingRanks>1</StartingRanks>
+                  <PurchasedRanks>1</PurchasedRanks>
+                </Rank>
+              </CharCharacteristic>
+              <CharCharacteristic>
+                <Key>AG</Key>
+                <Name>Agility</Name>
+                <Rank>
+                  <StartingRanks>1</StartingRanks>
+                  <PurchasedRanks>1</PurchasedRanks>
+                </Rank>
+              </CharCharacteristic>
+              <CharCharacteristic>
+                <Key>INT</Key>
+                <Name>Intellect</Name>
+                <Rank>
+                  <StartingRanks>1</StartingRanks>
+                  <PurchasedRanks>2</PurchasedRanks>
+                </Rank>
+              </CharCharacteristic>
+              <CharCharacteristic>
+                <Key>CUN</Key>
+                <Name>Cunning</Name>
+                <Rank>
+                  <StartingRanks>1</StartingRanks>
+                  <PurchasedRanks>1</PurchasedRanks>
+                </Rank>
+              </CharCharacteristic>
+              <CharCharacteristic>
+                <Key>WIL</Key>
+                <Name>Willpower</Name>
+                <Rank>
+                  <StartingRanks>1</StartingRanks>
+                  <PurchasedRanks>1</PurchasedRanks>
+                </Rank>
+              </CharCharacteristic>
+              <CharCharacteristic>
+                <Key>PR</Key>
+                <Name>Presence</Name>
+                <Rank>
+                  <StartingRanks>1</StartingRanks>
+                  <PurchasedRanks>1</PurchasedRanks>
+                </Rank>
+              </CharCharacteristic>
+            </Characteristics>
+            <Talents />
+            <ForceAbilities />
+            <Skills>
+              <CharSkill>
+                <Key>MECH</Key>
+                <Rank>
+                  <PurchasedRanks>2</PurchasedRanks>
+                </Rank>
+              </CharSkill>
+              <CharSkill>
+                <Key>COMP</Key>
+                <Rank>
+                  <PurchasedRanks>2</PurchasedRanks>
+                </Rank>
+              </CharSkill>
+            </Skills>
+            <Experience />
+            <Attributes>
+              <SoakValue>
+              </SoakValue>
+              <WoundThreshold>
+                <StartingRanks>10</StartingRanks>
+              </WoundThreshold>
+              <StrainThreshold>
+              </StrainThreshold>
+              <DefenseRanged>
+              </DefenseRanged>
+              <DefenseMelee>
+              </DefenseMelee>
+              <ForceRating>
+              </ForceRating>
+            </Attributes>
+            <Weapons>
+            </Weapons>
+            <Armor />
+            <Gear>
+              <CharGear>
+                <ItemKey>TOOLKIT</ItemKey>
+                <Key>0</Key>
+                <Equipped>true</Equipped>
+                <Held>true</Held>
+                <Count>1</Count>
+                <PurchasedAttachments />
+                <AddlHP>0</AddlHP>
+                <Notes />
+              </CharGear>
+            </Gear>
+            <Abilities>
+            </Abilities>
+            <Items />
+            <SpecialWeapons>
+            </SpecialWeapons>
+            <AutoRecalc>true</AutoRecalc>
+            <Type>Rival</Type>
+          </Adversary>
+        </NPCs>
+      </Option>
+      <Option>
+        <Key>HOMENPC4</Key>
+        <Name>Pilot NPC</Name>
+        <Description>
+          The homestead gains an NPC pilot who can pilot ground or space vehicles for the party.
+        </Description>
+        <PurchaseCount>1</PurchaseCount>
+        <NPCs>
+          <Adversary>
+            <Name>NPC Pilot</Name>
+            <Key>c68faede-d0e1-452f-a288-b756e34b0a8c</Key>
+            <Characteristics>
+              <CharCharacteristic>
+                <Key>BR</Key>
+                <Name>Brawn</Name>
+                <Rank>
+                  <StartingRanks>1</StartingRanks>
+                  <PurchasedRanks>1</PurchasedRanks>
+                </Rank>
+              </CharCharacteristic>
+              <CharCharacteristic>
+                <Key>AG</Key>
+                <Name>Agility</Name>
+                <Rank>
+                  <StartingRanks>1</StartingRanks>
+                  <PurchasedRanks>2</PurchasedRanks>
+                </Rank>
+              </CharCharacteristic>
+              <CharCharacteristic>
+                <Key>INT</Key>
+                <Name>Intellect</Name>
+                <Rank>
+                  <StartingRanks>1</StartingRanks>
+                  <PurchasedRanks>1</PurchasedRanks>
+                </Rank>
+              </CharCharacteristic>
+              <CharCharacteristic>
+                <Key>CUN</Key>
+                <Name>Cunning</Name>
+                <Rank>
+                  <StartingRanks>1</StartingRanks>
+                  <PurchasedRanks>1</PurchasedRanks>
+                </Rank>
+              </CharCharacteristic>
+              <CharCharacteristic>
+                <Key>WIL</Key>
+                <Name>Willpower</Name>
+                <Rank>
+                  <StartingRanks>1</StartingRanks>
+                  <PurchasedRanks>1</PurchasedRanks>
+                </Rank>
+              </CharCharacteristic>
+              <CharCharacteristic>
+                <Key>PR</Key>
+                <Name>Presence</Name>
+                <Rank>
+                  <StartingRanks>1</StartingRanks>
+                  <PurchasedRanks>1</PurchasedRanks>
+                </Rank>
+              </CharCharacteristic>
+            </Characteristics>
+            <Talents />
+            <ForceAbilities />
+            <Skills>
+              <CharSkill>
+                <Key>ASTRO</Key>
+                <Rank>
+                  <PurchasedRanks>2</PurchasedRanks>
+                </Rank>
+              </CharSkill>
+              <CharSkill>
+                <Key>PILOTPL</Key>
+                <Rank>
+                  <PurchasedRanks>2</PurchasedRanks>
+                </Rank>
+              </CharSkill>
+              <CharSkill>
+                <Key>PILOTSP</Key>
+                <Rank>
+                  <PurchasedRanks>2</PurchasedRanks>
+                </Rank>
+              </CharSkill>
+            </Skills>
+            <Experience />
+            <Attributes>
+              <SoakValue>
+              </SoakValue>
+              <WoundThreshold>
+                <StartingRanks>10</StartingRanks>
+              </WoundThreshold>
+              <StrainThreshold>
+              </StrainThreshold>
+              <DefenseRanged>
+              </DefenseRanged>
+              <DefenseMelee>
+              </DefenseMelee>
+              <ForceRating>
+              </ForceRating>
+            </Attributes>
+            <Weapons>
+            </Weapons>
+            <Armor />
+            <Gear>
+            </Gear>
+            <Abilities>
+            </Abilities>
+            <Items />
+            <SpecialWeapons>
+            </SpecialWeapons>
+            <AutoRecalc>true</AutoRecalc>
+            <Type>Rival</Type>
+          </Adversary>
+        </NPCs>
+      </Option>
+    </Options>
+  </BaseUpgrade>
+  <BaseUpgrade>
+    <Key>HOMEINF</Key>
+    <Name>Infirmary</Name>
+    <Description>
+      [H4]Infirmary[h4]
+      Please see page 83 of the Far Horizons Sourcebook for details.
+    </Description>
+    <Source Page="83">Far Horizons</Source>
+    <PurchaseCount>1</PurchaseCount>
+    <Cost>
+      <Credits>5000</Credits>
+      <Obligation>3</Obligation>
+    </Cost>
+    <Options>
+    </Options>
+  </BaseUpgrade>
+  <BaseUpgrade>
+    <Key>HOMEMECHGAR</Key>
+    <Name>Mechanic's Garage</Name>
+    <Description>
+      [H4]Mechanic's Garage[h4]
+      Please see page 83 of the Far Horizons Sourcebook for details.
+    </Description>
+    <Source Page="83">Far Horizons</Source>
+    <PurchaseCount>1</PurchaseCount>
+    <Cost>
+      <Credits>5000</Credits>
+      <Obligation>3</Obligation>
+    </Cost>
+    <Options>
+    </Options>
+  </BaseUpgrade>
+  <BaseUpgrade>
+    <Key>HOMELANDBAY</Key>
+    <Name>Landing Bay</Name>
+    <Description>
+      [H4]Landing Bay[h4]
+      Please see page 83 of the Far Horizons Sourcebook for details.
+    </Description>
+    <Source Page="83">Far Horizons</Source>
+    <PurchaseCount>3</PurchaseCount>
+    <Cost>
+      <Credits>3000</Credits>
+      <Obligation>1</Obligation>
+    </Cost>
+    <Options>
+    </Options>
+  </BaseUpgrade>
+  <!-- Businesses -->
+  <BaseUpgrade>
+    <Key>BUSCORE</Key>
+    <Name>Increase Core Focus</Name>
+    <Description>
+      [H4]Increase Core Focus[h4]
+      Please see page 85 of the Far Horizons Sourcebook for details.
+    </Description>
+    <Source Page="85">Far Horizons</Source>
+    <MonthlyProfit>200</MonthlyProfit>
+    <PurchaseCount>5</PurchaseCount>
+    <PerPC>true</PerPC>
+    <Cost>
+      <Credits>2500</Credits>
+      <Obligation>2</Obligation>
+    </Cost>
+    <Options>
+    </Options>
+  </BaseUpgrade>
+  <BaseUpgrade>
+    <Key>BUSSEC</Key>
+    <Name>Improve Security</Name>
+    <Description>
+      [H4]Improve Security[h4]
+      Please see page 85 of the Far Horizons Sourcebook for details.
+    </Description>
+    <Source Page="85">Far Horizons</Source>
+    <PurchaseCount>4</PurchaseCount>
+    <Cost>
+      <Credits>10000</Credits>
+      <Obligation>2</Obligation>
+    </Cost>
+    <Options>
+      <Option>
+        <Key>BUSSEC1</Key>
+        <Name>Electronic Locks</Name>
+        <Description>
+          All buildings gain electronic locks that can only
+          be broken with a [B]Hard ([DI][DI][DI]) Computers check[b].
+        </Description>
+        <PurchaseCount>1</PurchaseCount>
+      </Option>
+      <Option>
+        <Key>BUSSEC2</Key>
+        <Name>Security Droid</Name>
+        <Description>
+          The business gains a security droid.
+        </Description>
+        <PurchaseCount>1</PurchaseCount>
+        <NPCs>
+          <Adversary>
+            <Name>Security Droid</Name>
+            <Key>db56adaf-9a4f-4ac2-8d90-31a99a007dcc</Key>
+            <Characteristics>
+              <CharCharacteristic>
+                <Key>BR</Key>
+                <Name>Brawn</Name>
+                <Rank>
+                  <StartingRanks>1</StartingRanks>
+                  <PurchasedRanks>1</PurchasedRanks>
+                </Rank>
+              </CharCharacteristic>
+              <CharCharacteristic>
+                <Key>AG</Key>
+                <Name>Agility</Name>
+                <Rank>
+                  <StartingRanks>1</StartingRanks>
+                  <PurchasedRanks>1</PurchasedRanks>
+                </Rank>
+              </CharCharacteristic>
+              <CharCharacteristic>
+                <Key>INT</Key>
+                <Name>Intellect</Name>
+                <Rank>
+                  <StartingRanks>1</StartingRanks>
+                </Rank>
+              </CharCharacteristic>
+              <CharCharacteristic>
+                <Key>CUN</Key>
+                <Name>Cunning</Name>
+                <Rank>
+                  <StartingRanks>1</StartingRanks>
+                  <PurchasedRanks>1</PurchasedRanks>
+                </Rank>
+              </CharCharacteristic>
+              <CharCharacteristic>
+                <Key>WIL</Key>
+                <Name>Willpower</Name>
+                <Rank>
+                  <StartingRanks>1</StartingRanks>
+                </Rank>
+              </CharCharacteristic>
+              <CharCharacteristic>
+                <Key>PR</Key>
+                <Name>Presence</Name>
+                <Rank>
+                  <StartingRanks>1</StartingRanks>
+                </Rank>
+              </CharCharacteristic>
+            </Characteristics>
+            <Talents />
+            <ForceAbilities />
+            <Skills>
+              <CharSkill>
+                <Key>RANGLT</Key>
+                <Rank>
+                  <PurchasedRanks>3</PurchasedRanks>
+                </Rank>
+              </CharSkill>
+              <CharSkill>
+                <Key>VIGIL</Key>
+                <Rank>
+                  <PurchasedRanks>3</PurchasedRanks>
+                </Rank>
+              </CharSkill>
+            </Skills>
+            <Experience />
+            <Attributes>
+              <SoakValue>
+                <CharRanks>2</CharRanks>
+              </SoakValue>
+              <WoundThreshold>
+                <StartingRanks>10</StartingRanks>
+                <CharRanks>2</CharRanks>
+              </WoundThreshold>
+              <StrainThreshold>
+                <CharRanks>1</CharRanks>
+              </StrainThreshold>
+              <DefenseRanged>
+              </DefenseRanged>
+              <DefenseMelee>
+              </DefenseMelee>
+              <ForceRating>
+              </ForceRating>
+            </Attributes>
+            <Weapons>
+              <CharWeapon>
+                <ItemKey>BLASTPIS</ItemKey>
+                <Key>0</Key>
+                <Equipped>true</Equipped>
+                <Held>true</Held>
+                <Count>1</Count>
+                <PurchasedAttachments />
+                <AddlHP>0</AddlHP>
+                <Notes />
+                <Shown>false</Shown>
+                <Innate>false</Innate>
+              </CharWeapon>
+            </Weapons>
+            <Armor />
+            <Gear />
+            <Abilities>
+              <AdvAbility>
+                <Key>0</Key>
+                <Name>Droid</Name>
+                <Description>Does not need to breathe, eat, or drink and can survive in vacuum or underwater.  Immune to poisons or toxins.</Description>
+              </AdvAbility>
+            </Abilities>
+            <Items />
+            <SpecialWeapons>
+              <AdvWeapon>
+                <Key>0</Key>
+                <Name>Snare Launcher</Name>
+                <SkillKey>RANGLT</SkillKey>
+                <Damage>0</Damage>
+                <DamageAdd>0</DamageAdd>
+                <Crit>0</Crit>
+                <RangeValue>wrShort</RangeValue>
+                <Descriptors>
+                  <Descriptor>
+                    <Key>ENSNARE</Key>
+                    <Count>5</Count>
+                  </Descriptor>
+                  <Descriptor>
+                    <Key>LIMITEDAMMO</Key>
+                    <Count>1</Count>
+                  </Descriptor>
+                </Descriptors>
+              </AdvWeapon>
+            </SpecialWeapons>
+            <AutoRecalc>true</AutoRecalc>
+            <Type>Rival</Type>
+          </Adversary>
+        </NPCs>
+      </Option>
+      <Option>
+        <Key>BUSSEC3</Key>
+        <Name>Reinforced Material</Name>
+        <Description>
+          The business's main buildings are constructed of heavily reinforced material, giving it an armor value of 2.
+        </Description>
+        <Source>Far Horizons</Source>
+        <PurchaseCount>1</PurchaseCount>
+      </Option>
+      <Option>
+        <Key>BUSSEC4</Key>
+        <Name>Security Cameras</Name>
+        <Description>
+          The business gains security cameras that can be accessed from a central control room.
+        </Description>
+        <Source>Far Horizons</Source>
+        <PurchaseCount>1</PurchaseCount>
+      </Option>
+    </Options>
+  </BaseUpgrade>
+  <BaseUpgrade>
+    <Key>BUSORDERS</Key>
+    <Name>Special Orders</Name>
+    <Description>
+      [H4]Special Orders[h4]
+      Please see page 85 of the Far Horizons Sourcebook for details.
+    </Description>
+    <Source Page="85">Far Horizons</Source>
+    <PurchaseCount>1</PurchaseCount>
+    <Cost>
+      <Credits>2000</Credits>
+      <Obligation>1</Obligation>
+    </Cost>
+    <Options>
+    </Options>
+  </BaseUpgrade>
+  <BaseUpgrade>
+    <Key>BUSWHOLE</Key>
+    <Name>Wholesale Prices</Name>
+    <Description>
+      [H4]Wholesale Prices[h4]
+      Please see page 85 of the Far Horizons Sourcebook for details.
+    </Description>
+    <Source Page="85">Far Horizons</Source>
+    <PurchaseCount>1</PurchaseCount>
+    <Cost>
+      <Credits>1000</Credits>
+      <Obligation>1</Obligation>
+    </Cost>
+    <Options>
+    </Options>
+  </BaseUpgrade>
+  <BaseUpgrade>
+    <Key>BUSLIC</Key>
+    <Name>Specialized License</Name>
+    <Description>
+      [H4]Specialized License[h4]
+      Please see page 85 of the Far Horizons Sourcebook for details.
+    </Description>
+    <Source Page="85">Far Horizons</Source>
+    <PurchaseCount>0</PurchaseCount>
+    <Cost>
+      <Credits>2500</Credits>
+      <Obligation>2</Obligation>
+    </Cost>
+    <Options>
+    </Options>
+  </BaseUpgrade>
+  <!-- Rebel Base -->
+  <BaseUpgrade>
+    <Key>REBELCORE</Key>
+    <Name>Increase Core Focus</Name>
+    <Description>
+      [H4]Increase Core Focus[h4]
+      Please see page 88 of the Desperate Allies Sourcebook for details.
+    </Description>
+    <Source Page="88">Desperate Allies</Source>
+    <MonthlyProfit>0</MonthlyProfit>
+    <ProfitPerPC>false</ProfitPerPC>
+    <PurchaseCount>5</PurchaseCount>
+    <RarityDecrease>1</RarityDecrease>
+    <Cost>
+      <Credits>2500</Credits>
+      <Obligation>0</Obligation>
+    </Cost>
+    <Options>
+    </Options>
+  </BaseUpgrade>
+  <BaseUpgrade>
+    <Key>REBELSEC</Key>
+    <Name>Enhanced Security</Name>
+    <Description>
+      [H4]Enhanced Security[h4]
+      Please see page 88 of the Desperate Allies Sourcebook for details.
+    </Description>
+    <Source Page="88">Desperate Allies</Source>
+    <PurchaseCount>3</PurchaseCount>
+    <Cost>
+      <Credits>10000</Credits>
+      <Obligation>2</Obligation>
+    </Cost>
+    <Options>
+      <Option>
+        <Key>REBELSEC1</Key>
+        <Name>Electronic Locks</Name>
+        <Description>
+          All buildings (or doors within the space station) gain electronic locks that can only
+          be broken with a [B]Hard ([DI][DI][DI]) Computers check[b].
+        </Description>
+        <PurchaseCount>1</PurchaseCount>
+      </Option>
+      <Option>
+        <Key>REBELSEC2</Key>
+        <Name>Reinforced Armor</Name>
+        <Description>
+          The base gains an armor value of 2.
+        </Description>
+        <PurchaseCount>1</PurchaseCount>
+        <NPCs>
+        </NPCs>
+      </Option>
+      <Option>
+        <Key>REBELSEC3</Key>
+        <Name>Reinforced Shields</Name>
+        <Description>
+          The base gains reinforced fences, granting it defense 2 against weapon attacks from outside.
+        </Description>
+        <PurchaseCount>1</PurchaseCount>
+      </Option>
+      <Option>
+        <Key>REBELSEC4</Key>
+        <Name>Security Cameras</Name>
+        <Description>
+          The base gains security cameras that can be accessed from a central control room.
+        </Description>
+        <PurchaseCount>1</PurchaseCount>
+      </Option>
+      <Option>
+        <Key>REBELSEC5</Key>
+        <Name>Main Entrance Turret</Name>
+        <Description>
+          The base gains a heavy repeating blaster turret that covers the main entrance.
+        </Description>
+        <PurchaseCount>1</PurchaseCount>
+        <NPCs>
+          <Adversary>
+            <LastChanged>0001-01-01T00:00:00</LastChanged>
+            <NotPersisted>false</NotPersisted>
+            <FileName>Adver603.xml</FileName>
+            <Name>Heavy Repeating Blaster Turret</Name>
+            <Key>CA69E28D-7177-4974-AB62-ADC9285C75E1</Key>
+            <Description />
+            <Category>Turret</Category>
+            <Characteristics>
+              <CharCharacteristic>
+                <Key>BR</Key>
+                <Name>Brawn</Name>
+                <Rank>
+                  <StartingRanks>1</StartingRanks>
+                  <PurchasedRanks>-1</PurchasedRanks>
+                </Rank>
+              </CharCharacteristic>
+              <CharCharacteristic>
+                <Key>AG</Key>
+                <Name>Agility</Name>
+                <Rank>
+                  <StartingRanks>1</StartingRanks>
+                  <PurchasedRanks>-1</PurchasedRanks>
+                </Rank>
+              </CharCharacteristic>
+              <CharCharacteristic>
+                <Key>INT</Key>
+                <Name>Intellect</Name>
+                <Rank>
+                  <StartingRanks>1</StartingRanks>
+                  <PurchasedRanks>-1</PurchasedRanks>
+                </Rank>
+              </CharCharacteristic>
+              <CharCharacteristic>
+                <Key>CUN</Key>
+                <Name>Cunning</Name>
+                <Rank>
+                  <StartingRanks>1</StartingRanks>
+                  <PurchasedRanks>-1</PurchasedRanks>
+                </Rank>
+              </CharCharacteristic>
+              <CharCharacteristic>
+                <Key>WIL</Key>
+                <Name>Willpower</Name>
+                <Rank>
+                  <StartingRanks>1</StartingRanks>
+                  <PurchasedRanks>-1</PurchasedRanks>
+                </Rank>
+              </CharCharacteristic>
+              <CharCharacteristic>
+                <Key>PR</Key>
+                <Name>Presence</Name>
+                <Rank>
+                  <StartingRanks>1</StartingRanks>
+                  <PurchasedRanks>-1</PurchasedRanks>
+                </Rank>
+              </CharCharacteristic>
+            </Characteristics>
+            <Talents />
+            <ForceAbilities />
+            <Skills>
+              <CharSkill>
+                <Key>GUNN</Key>
+                <Rank>
+                  <PurchasedRanks>2</PurchasedRanks>
+                </Rank>
+                <isCareer>false</isCareer>
+                <CharKeyOverride />
+              </CharSkill>
+            </Skills>
+            <Experience>
+              <ExperienceRanks>
+              </ExperienceRanks>
+              <UsedExperience>15</UsedExperience>
+            </Experience>
+            <Attributes />
+            <Weapons>
+              <CharWeapon>
+                <ItemKey>BLASTHVYREP</ItemKey>
+                <Key>0</Key>
+                <Equipped>true</Equipped>
+                <Held>true</Held>
+                <Count>1</Count>
+                <PurchasedAttachments />
+                <AddlHP>0</AddlHP>
+                <Notes />
+                <Shown>false</Shown>
+                <Innate>false</Innate>
+              </CharWeapon>
+            </Weapons>
+            <Armor />
+            <Gear />
+            <Abilities />
+            <Items />
+            <SpecialWeapons />
+            <SpecialArmor />
+            <AutoRecalc>true</AutoRecalc>
+            <Type>Rival</Type>
+          </Adversary>
+        </NPCs>
+      </Option>
+    </Options>
+  </BaseUpgrade>
+  <BaseUpgrade>
+    <Key>REBELNPC</Key>
+    <Name>NPC Ally</Name>
+    <Description>
+      [H4]NPC Ally[h4]
+      Please see page 89 of the Desperate Allies Sourcebook for details.
+    </Description>
+    <Source Page="89">Desperate Allies</Source>
+    <PurchaseCount>3</PurchaseCount>
+    <Cost>
+      <Credits>2000</Credits>
+      <Obligation>0</Obligation>
+    </Cost>
+    <Options>
+      <Option>
+        <Key>HOMENPC1</Key>
+        <Name>Doctor NPC</Name>
+        <Description>
+          An NPC doctor can heal characters at the base and treat ailments.  He has medical supplies allowing him to perform Medicine checks without penalty.
+        </Description>
+        <PurchaseCount>1</PurchaseCount>
+        <NPCs>
+          <Adversary>
+            <Name>NPC Doctor</Name>
+            <Key>7f627ac2-b808-4c5b-beb2-423f6c3bbc2d</Key>
+            <Characteristics>
+              <CharCharacteristic>
+                <Key>BR</Key>
+                <Name>Brawn</Name>
+                <Rank>
+                  <StartingRanks>1</StartingRanks>
+                  <PurchasedRanks>1</PurchasedRanks>
+                </Rank>
+              </CharCharacteristic>
+              <CharCharacteristic>
+                <Key>AG</Key>
+                <Name>Agility</Name>
+                <Rank>
+                  <StartingRanks>1</StartingRanks>
+                  <PurchasedRanks>1</PurchasedRanks>
+                </Rank>
+              </CharCharacteristic>
+              <CharCharacteristic>
+                <Key>INT</Key>
+                <Name>Intellect</Name>
+                <Rank>
+                  <StartingRanks>1</StartingRanks>
+                  <PurchasedRanks>2</PurchasedRanks>
+                </Rank>
+              </CharCharacteristic>
+              <CharCharacteristic>
+                <Key>CUN</Key>
+                <Name>Cunning</Name>
+                <Rank>
+                  <StartingRanks>1</StartingRanks>
+                  <PurchasedRanks>1</PurchasedRanks>
+                </Rank>
+              </CharCharacteristic>
+              <CharCharacteristic>
+                <Key>WIL</Key>
+                <Name>Willpower</Name>
+                <Rank>
+                  <StartingRanks>1</StartingRanks>
+                  <PurchasedRanks>1</PurchasedRanks>
+                </Rank>
+              </CharCharacteristic>
+              <CharCharacteristic>
+                <Key>PR</Key>
+                <Name>Presence</Name>
+                <Rank>
+                  <StartingRanks>1</StartingRanks>
+                  <PurchasedRanks>1</PurchasedRanks>
+                </Rank>
+              </CharCharacteristic>
+            </Characteristics>
+            <Talents />
+            <ForceAbilities />
+            <Skills>
+              <CharSkill>
+                <Key>MED</Key>
+                <Rank>
+                  <PurchasedRanks>2</PurchasedRanks>
+                </Rank>
+              </CharSkill>
+            </Skills>
+            <Experience />
+            <Attributes>
+              <SoakValue>
+              </SoakValue>
+              <WoundThreshold>
+                <StartingRanks>10</StartingRanks>
+              </WoundThreshold>
+              <StrainThreshold>
+              </StrainThreshold>
+              <DefenseRanged>
+              </DefenseRanged>
+              <DefenseMelee>
+              </DefenseMelee>
+              <ForceRating>
+              </ForceRating>
+            </Attributes>
+            <Weapons>
+            </Weapons>
+            <Armor />
+            <Gear>
+              <CharGear>
+                <ItemKey>MEDPAC</ItemKey>
+                <Key>0</Key>
+                <Equipped>true</Equipped>
+                <Held>true</Held>
+                <Count>1</Count>
+                <PurchasedAttachments />
+                <AddlHP>0</AddlHP>
+                <Notes />
+              </CharGear>
+            </Gear>
+            <Abilities>
+            </Abilities>
+            <Items />
+            <SpecialWeapons>
+            </SpecialWeapons>
+            <AutoRecalc>true</AutoRecalc>
+            <Type>Rival</Type>
+          </Adversary>
+        </NPCs>
+      </Option>
+      <Option>
+        <Key>HOMENPC2</Key>
+        <Name>Mechanic NPC</Name>
+        <Description>
+          An NPC mechanic can repair items, droids, starships, and vehicles.  He has a tool kit allowing him to perform Mechanics checks without penalty.
+        </Description>
+        <PurchaseCount>1</PurchaseCount>
+        <NPCs>
+          <Adversary>
+            <Name>NPC Mechanic</Name>
+            <Key>894dc101-2e47-437e-b207-851ebca31d8a</Key>
+            <Characteristics>
+              <CharCharacteristic>
+                <Key>BR</Key>
+                <Name>Brawn</Name>
+                <Rank>
+                  <StartingRanks>1</StartingRanks>
+                  <PurchasedRanks>1</PurchasedRanks>
+                </Rank>
+              </CharCharacteristic>
+              <CharCharacteristic>
+                <Key>AG</Key>
+                <Name>Agility</Name>
+                <Rank>
+                  <StartingRanks>1</StartingRanks>
+                  <PurchasedRanks>1</PurchasedRanks>
+                </Rank>
+              </CharCharacteristic>
+              <CharCharacteristic>
+                <Key>INT</Key>
+                <Name>Intellect</Name>
+                <Rank>
+                  <StartingRanks>1</StartingRanks>
+                  <PurchasedRanks>2</PurchasedRanks>
+                </Rank>
+              </CharCharacteristic>
+              <CharCharacteristic>
+                <Key>CUN</Key>
+                <Name>Cunning</Name>
+                <Rank>
+                  <StartingRanks>1</StartingRanks>
+                  <PurchasedRanks>1</PurchasedRanks>
+                </Rank>
+              </CharCharacteristic>
+              <CharCharacteristic>
+                <Key>WIL</Key>
+                <Name>Willpower</Name>
+                <Rank>
+                  <StartingRanks>1</StartingRanks>
+                  <PurchasedRanks>1</PurchasedRanks>
+                </Rank>
+              </CharCharacteristic>
+              <CharCharacteristic>
+                <Key>PR</Key>
+                <Name>Presence</Name>
+                <Rank>
+                  <StartingRanks>1</StartingRanks>
+                  <PurchasedRanks>1</PurchasedRanks>
+                </Rank>
+              </CharCharacteristic>
+            </Characteristics>
+            <Talents />
+            <ForceAbilities />
+            <Skills>
+              <CharSkill>
+                <Key>MECH</Key>
+                <Rank>
+                  <PurchasedRanks>2</PurchasedRanks>
+                </Rank>
+              </CharSkill>
+              <CharSkill>
+                <Key>COMP</Key>
+                <Rank>
+                  <PurchasedRanks>2</PurchasedRanks>
+                </Rank>
+              </CharSkill>
+            </Skills>
+            <Experience />
+            <Attributes>
+              <SoakValue>
+              </SoakValue>
+              <WoundThreshold>
+                <StartingRanks>10</StartingRanks>
+              </WoundThreshold>
+              <StrainThreshold>
+              </StrainThreshold>
+              <DefenseRanged>
+              </DefenseRanged>
+              <DefenseMelee>
+              </DefenseMelee>
+              <ForceRating>
+              </ForceRating>
+            </Attributes>
+            <Weapons>
+            </Weapons>
+            <Armor />
+            <Gear>
+              <CharGear>
+                <ItemKey>TOOLKIT</ItemKey>
+                <Key>0</Key>
+                <Equipped>true</Equipped>
+                <Held>true</Held>
+                <Count>1</Count>
+                <PurchasedAttachments />
+                <AddlHP>0</AddlHP>
+                <Notes />
+              </CharGear>
+            </Gear>
+            <Abilities>
+            </Abilities>
+            <Items />
+            <SpecialWeapons>
+            </SpecialWeapons>
+            <AutoRecalc>true</AutoRecalc>
+            <Type>Rival</Type>
+          </Adversary>
+        </NPCs>
+      </Option>
+      <Option>
+        <Key>HOMENPC3</Key>
+        <Name>Pilot NPC</Name>
+        <Description>
+          An NPC pilot can operate ground or space vehicles.
+        </Description>
+        <PurchaseCount>1</PurchaseCount>
+        <NPCs>
+          <Adversary>
+            <Name>NPC Pilot</Name>
+            <Key>c68faede-d0e1-452f-a288-b756e34b0a8c</Key>
+            <Characteristics>
+              <CharCharacteristic>
+                <Key>BR</Key>
+                <Name>Brawn</Name>
+                <Rank>
+                  <StartingRanks>1</StartingRanks>
+                  <PurchasedRanks>1</PurchasedRanks>
+                </Rank>
+              </CharCharacteristic>
+              <CharCharacteristic>
+                <Key>AG</Key>
+                <Name>Agility</Name>
+                <Rank>
+                  <StartingRanks>1</StartingRanks>
+                  <PurchasedRanks>2</PurchasedRanks>
+                </Rank>
+              </CharCharacteristic>
+              <CharCharacteristic>
+                <Key>INT</Key>
+                <Name>Intellect</Name>
+                <Rank>
+                  <StartingRanks>1</StartingRanks>
+                  <PurchasedRanks>1</PurchasedRanks>
+                </Rank>
+              </CharCharacteristic>
+              <CharCharacteristic>
+                <Key>CUN</Key>
+                <Name>Cunning</Name>
+                <Rank>
+                  <StartingRanks>1</StartingRanks>
+                  <PurchasedRanks>1</PurchasedRanks>
+                </Rank>
+              </CharCharacteristic>
+              <CharCharacteristic>
+                <Key>WIL</Key>
+                <Name>Willpower</Name>
+                <Rank>
+                  <StartingRanks>1</StartingRanks>
+                  <PurchasedRanks>1</PurchasedRanks>
+                </Rank>
+              </CharCharacteristic>
+              <CharCharacteristic>
+                <Key>PR</Key>
+                <Name>Presence</Name>
+                <Rank>
+                  <StartingRanks>1</StartingRanks>
+                  <PurchasedRanks>1</PurchasedRanks>
+                </Rank>
+              </CharCharacteristic>
+            </Characteristics>
+            <Talents />
+            <ForceAbilities />
+            <Skills>
+              <CharSkill>
+                <Key>ASTRO</Key>
+                <Rank>
+                  <PurchasedRanks>2</PurchasedRanks>
+                </Rank>
+              </CharSkill>
+              <CharSkill>
+                <Key>PILOTPL</Key>
+                <Rank>
+                  <PurchasedRanks>2</PurchasedRanks>
+                </Rank>
+              </CharSkill>
+              <CharSkill>
+                <Key>PILOTSP</Key>
+                <Rank>
+                  <PurchasedRanks>2</PurchasedRanks>
+                </Rank>
+              </CharSkill>
+            </Skills>
+            <Experience />
+            <Attributes>
+              <SoakValue>
+              </SoakValue>
+              <WoundThreshold>
+                <StartingRanks>10</StartingRanks>
+              </WoundThreshold>
+              <StrainThreshold>
+              </StrainThreshold>
+              <DefenseRanged>
+              </DefenseRanged>
+              <DefenseMelee>
+              </DefenseMelee>
+              <ForceRating>
+              </ForceRating>
+            </Attributes>
+            <Weapons>
+            </Weapons>
+            <Armor />
+            <Gear>
+            </Gear>
+            <Abilities>
+            </Abilities>
+            <Items />
+            <SpecialWeapons>
+            </SpecialWeapons>
+            <AutoRecalc>true</AutoRecalc>
+            <Type>Rival</Type>
+          </Adversary>
+        </NPCs>
+      </Option>
+    </Options>
+  </BaseUpgrade>
+  <BaseUpgrade>
+    <Key>REBELMED</Key>
+    <Name>Medical Facility</Name>
+    <Description>
+      [H4]Medical Facility[h4]
+      Please see page 89 of the Desperate Allies Sourcebook for details.
+    </Description>
+    <Source Page="89">Desperate Allies</Source>
+    <PurchaseCount>3</PurchaseCount>
+    <Cost>
+      <Credits>6000</Credits>
+      <Obligation>0</Obligation>
+    </Cost>
+    <Options>
+    </Options>
+  </BaseUpgrade>
+  <BaseUpgrade>
+    <Key>REBELHANG</Key>
+    <Name>Hangar and Repair Bay</Name>
+    <Description>
+      [H4]Hangar and Repair Bay[h4]
+      Please see page 89 of the Desperate Allies Sourcebook for details.
+    </Description>
+    <Source Page="89">Desperate Allies</Source>
+    <PurchaseCount>3</PurchaseCount>
+    <Cost>
+      <Credits>8500</Credits>
+      <Obligation>0</Obligation>
+    </Cost>
+    <Options>
+    </Options>
+  </BaseUpgrade>
+  <BaseUpgrade>
+    <Key>REBELARM</Key>
+    <Name>Armory</Name>
+    <Description>
+      [H4]Armory[h4]
+      Please see page 89 of the Desperate Allies Sourcebook for details.
+    </Description>
+    <Source Page="89">Desperate Allies</Source>
+    <PurchaseCount>1</PurchaseCount>
+    <MonthlyProfit>0</MonthlyProfit>
+    <ProfitPerPC>false</ProfitPerPC>
+    <Cost>
+      <Credits>9500</Credits>
+      <Obligation>0</Obligation>
+    </Cost>
+    <Options />
+  </BaseUpgrade>
+  <BaseUpgrade>
+    <Key>REBELTRAIN</Key>
+    <Name>Training Facility</Name>
+    <Description>
+      [H4]Training Facility[h4]
+      Please see page 89 of the Desperate Allies Sourcebook for details.
+    </Description>
+    <Source Page="89">Desperate Allies</Source>
+    <PurchaseCount>1</PurchaseCount>
+    <MonthlyProfit>0</MonthlyProfit>
+    <ProfitPerPC>false</ProfitPerPC>
+    <Cost>
+      <Credits>15000</Credits>
+      <Obligation>0</Obligation>
+    </Cost>
+    <Options />
+    <CareerSkillKeys>
+      <Key>BRAWL</Key>
+      <Key>GUNN</Key>
+      <Key>WARF</Key>
+      <Key>MELEE</Key>
+      <Key>RANGLT</Key>
+      <Key>RANGHVY</Key>
+    </CareerSkillKeys>
+  </BaseUpgrade>
+  <BaseUpgrade>
+    <Key>REBELLAB</Key>
+    <Name>Laboratory</Name>
+    <Description>
+      [H4]Laboratory[h4]
+      Please see page 89 of the Desperate Allies Sourcebook for details.
+    </Description>
+    <Source Page="89">Desperate Allies</Source>
+    <PurchaseCount>1</PurchaseCount>
+    <MonthlyProfit>0</MonthlyProfit>
+    <ProfitPerPC>false</ProfitPerPC>
+    <Cost>
+      <Credits>5000</Credits>
+      <Obligation>0</Obligation>
+    </Cost>
+    <Options />
+  </BaseUpgrade>
+  <BaseUpgrade>
+    <Key>REBELCOMMAND</Key>
+    <Name>Command and Control</Name>
+    <Description>
+      [H4]Command and Control[h4]
+      Please see page 89 of the Desperate Allies Sourcebook for details.
+    </Description>
+    <Source Page="89">Desperate Allies</Source>
+    <PurchaseCount>1</PurchaseCount>
+    <MonthlyProfit>0</MonthlyProfit>
+    <ProfitPerPC>false</ProfitPerPC>
+    <Cost>
+      <Credits>4000</Credits>
+      <Obligation>0</Obligation>
+    </Cost>
+    <Options />
+  </BaseUpgrade>
+  <BaseUpgrade>
+    <Key>REBELRES</Key>
+    <Name>Research Library</Name>
+    <Description>
+      [H4]Research Library[h4]
+      Please see page 89 of the Desperate Allies Sourcebook for details.
+    </Description>
+    <Source Page="89">Desperate Allies</Source>
+    <PurchaseCount>1</PurchaseCount>
+    <MonthlyProfit>0</MonthlyProfit>
+    <ProfitPerPC>false</ProfitPerPC>
+    <Cost>
+      <Credits>3000</Credits>
+      <Obligation>0</Obligation>
+    </Cost>
+    <Options />
+  </BaseUpgrade>
+  <BaseUpgrade>
+    <Key>WORKSPACE</Key>
+    <Name>Additional Workspace</Name>
+    <Description>
+      [H4]Additional Workspace[h4]
+      Please see page 95 of the Special Modifications Sourcebook for details.
+    </Description>
+    <Source Page="95">Special Modifications</Source>
+    <PurchaseCount>0</PurchaseCount>
+    <MonthlyProfit>0</MonthlyProfit>
+    <ProfitPerPC>false</ProfitPerPC>
+    <Cost>
+      <Credits>0</Credits>
+      <Obligation>0</Obligation>
+    </Cost>
+    <Options />
+  </BaseUpgrade>
+  <BaseUpgrade>
+    <Key>WORKHOME</Key>
+    <Name>Comforts of Home</Name>
+    <Description>
+      [H4]Comforts of Home[h4]
+      Please see page 95 of the Special Modifications Sourcebook for details.
+    </Description>
+    <Source Page="95">Special Modifications</Source>
+    <PurchaseCount>0</PurchaseCount>
+    <MonthlyProfit>0</MonthlyProfit>
+    <ProfitPerPC>false</ProfitPerPC>
+    <Cost>
+      <Credits>0</Credits>
+      <Obligation>0</Obligation>
+    </Cost>
+    <Options />
+  </BaseUpgrade>
+  <BaseUpgrade>
+    <Key>WORKCONT</Key>
+    <Name>Emergency Containment Measures</Name>
+    <Description>
+      [H4]Emergency Containment Measures[h4]
+      Please see page 95 of the Special Modifications Sourcebook for details.
+    </Description>
+    <Source Page="95">Special Modifications</Source>
+    <PurchaseCount>1</PurchaseCount>
+    <MonthlyProfit>0</MonthlyProfit>
+    <ProfitPerPC>false</ProfitPerPC>
+    <Cost>
+      <Credits>0</Credits>
+      <Obligation>0</Obligation>
+    </Cost>
+    <Options />
+  </BaseUpgrade>
+  <BaseUpgrade>
+    <Key>WORKRECLAM</Key>
+    <Name>Reclamation Equipment</Name>
+    <Description>
+      [H4]Reclamation Equipment[h4]
+      Please see page 95 of the Special Modifications Sourcebook for details.
+    </Description>
+    <Source Page="95">Special Modifications</Source>
+    <PurchaseCount>1</PurchaseCount>
+    <MonthlyProfit>0</MonthlyProfit>
+    <ProfitPerPC>false</ProfitPerPC>
+    <Cost>
+      <Credits>0</Credits>
+      <Obligation>0</Obligation>
+    </Cost>
+    <Options />
+  </BaseUpgrade>
+  <BaseUpgrade>
+    <Key>WORKRES</Key>
+    <Name>Research Records</Name>
+    <Description>
+      [H4]Reclamation Equipment[h4]
+      Please see page 95 of the Special Modifications Sourcebook for details.
+    </Description>
+    <Source Page="95">Special Modifications</Source>
+    <PurchaseCount>1</PurchaseCount>
+    <MonthlyProfit>0</MonthlyProfit>
+    <ProfitPerPC>false</ProfitPerPC>
+    <Cost>
+      <Credits>0</Credits>
+      <Obligation>0</Obligation>
+    </Cost>
+    <Options />
+  </BaseUpgrade>
+  <BaseUpgrade>
+    <Key>WORKSPARE</Key>
+    <Name>Spare Parts Bin</Name>
+    <Description>
+      [H4]Spare Parts Bin[h4]
+      Please see page 95 of the Special Modifications Sourcebook for details.
+    </Description>
+    <Source Page="95">Special Modifications</Source>
+    <PurchaseCount>0</PurchaseCount>
+    <MonthlyProfit>0</MonthlyProfit>
+    <ProfitPerPC>false</ProfitPerPC>
+    <RarityDecrease>1</RarityDecrease>
+    <Cost>
+      <Credits>0</Credits>
+      <Obligation>0</Obligation>
+    </Cost>
+    <Options />
+  </BaseUpgrade>
+  <BaseUpgrade>
+    <Key>WORKLOWGRAV</Key>
+    <Name>Low-Grav Workspace</Name>
+    <Description>
+      [H4]Low-Grav Workspace[h4]
+      Please see page 95 of the Special Modifications Sourcebook for details.
+    </Description>
+    <Source Page="95">Special Modifications</Source>
+    <PurchaseCount>1</PurchaseCount>
+    <MonthlyProfit>0</MonthlyProfit>
+    <ProfitPerPC>false</ProfitPerPC>
+    <Cost>
+      <Credits>0</Credits>
+      <Obligation>0</Obligation>
+    </Cost>
+    <Options />
+  </BaseUpgrade>
+</BaseUpgrades>

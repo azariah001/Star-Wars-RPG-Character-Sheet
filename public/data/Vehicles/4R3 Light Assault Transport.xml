@@ -1,0 +1,126 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>4R3LIGHTASSAULT</Key>
+  <Name>4R3 Light Assault Transport</Name>
+  <Description>
+    [H3]4R3 Light Assault Transport[h3]
+    Please see page 67 of the Dangerous Covenants Sourcebook for details.</Description>
+  <Source Page="67">Dangerous Covenants</Source>
+  <Type>Light Assault Transport</Type>
+  <Categories>
+    <Category>Starship</Category>
+    <Category>Non-Fighter Starship</Category>
+  </Categories>
+  <Encumbrance>0</Encumbrance>
+  <HP>4</HP>
+  <Price>300000</Price>
+  <Rarity>7</Rarity>
+  <Restricted>false</Restricted>
+  <MaxAltitude />
+  <HyperdrivePrimary>2</HyperdrivePrimary>
+  <HyperdriveBackup>15</HyperdriveBackup>
+  <StarFighters />
+  <NaviComputer>true</NaviComputer>
+  <SensorRangeValue>srMedium</SensorRangeValue>
+  <Crew>One pilot, one co-pilot, two gunners, one engineer</Crew>
+  <EncumbranceCapacity>80</EncumbranceCapacity>
+  <Passengers>16</Passengers>
+  <Consumables>One month</Consumables>
+  <Silhouette>4</Silhouette>
+  <Speed>3</Speed>
+  <Handling>-1</Handling>
+  <DefFore>2</DefFore>
+  <DefAft>1</DefAft>
+  <DefPort>0</DefPort>
+  <DefStarboard>0</DefStarboard>
+  <Armor>3</Armor>
+  <HullTrauma>32</HullTrauma>
+  <SystemStrain>19</SystemStrain>
+  <Starship>true</Starship>
+  <Massive>0</Massive>
+  <SinglePilot>false</SinglePilot>
+  <BaseMods>
+    <Mod>
+      <Count>1</Count>
+      <MiscDesc>
+        [B]Stinger Assault Boarding Tube[b]: If the 4R3 manages
+        to dock with a target, it can cut through the hull of the
+        ship in three rounds.
+      </MiscDesc>
+    </Mod>
+  </BaseMods>
+  <VehicleWeapons>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Aft>false</Aft>
+        <Port>false</Port>
+        <Starboard>false</Starboard>
+        <Dorsal>false</Dorsal>
+        <Ventral>false</Ventral>
+      </FiringArcs>
+      <Turret>false</Turret>
+      <Location>Forward</Location>
+      <Retractable>true</Retractable>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>1</Count>
+          <Index>0</Index>
+          <MiscDesc />
+          <DefZone />
+        </Quality>
+      </Qualities>
+      <Key>LASERMED</Key>
+      <Count>1</Count>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Aft>false</Aft>
+        <Port>false</Port>
+        <Starboard>false</Starboard>
+        <Dorsal>false</Dorsal>
+        <Ventral>false</Ventral>
+      </FiringArcs>
+      <Turret>false</Turret>
+      <Location>Forward</Location>
+      <Retractable>true</Retractable>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>1</Count>
+          <Index>0</Index>
+          <MiscDesc />
+          <DefZone />
+        </Quality>
+      </Qualities>
+      <Key>IONLT</Key>
+      <Count>2</Count>
+    </VehicleWeapon>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Aft>false</Aft>
+        <Port>false</Port>
+        <Starboard>false</Starboard>
+        <Dorsal>false</Dorsal>
+        <Ventral>false</Ventral>
+      </FiringArcs>
+      <Turret>false</Turret>
+      <Location>Forward</Location>
+      <Retractable>true</Retractable>
+      <Qualities>
+        <Quality>
+          <Key>LIMITEDAMMO</Key>
+          <Count>7</Count>
+          <Index>0</Index>
+          <MiscDesc />
+          <DefZone />
+        </Quality>
+      </Qualities>
+      <Key>PTL</Key>
+      <Count>2</Count>
+    </VehicleWeapon>
+  </VehicleWeapons>
+</Vehicle>

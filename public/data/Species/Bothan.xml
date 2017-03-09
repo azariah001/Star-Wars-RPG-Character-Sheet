@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Species>
+  <Key>BOTH</Key>
+  <Name>Bothan</Name>
+  <Description>
+    [H4]Bothans[h4]
+    Please see page 43 of the Edge of the Empire Core Rulebook, or page 51 of the Age of Rebellion Core Rulebook, for details.
+  </Description>
+  <Sources>
+    <Source Page="43">Edge of the Empire Core Rulebook</Source>
+    <Source Page="51">Age of Rebellion Core Rulebook</Source>
+  </Sources>
+  <StartingChars>
+    <Brawn>1</Brawn>
+    <Agility>2</Agility>
+    <Intellect>2</Intellect>
+    <Cunning>3</Cunning>
+    <Willpower>2</Willpower>
+    <Presence>2</Presence>
+  </StartingChars>
+  <StartingAttrs>
+    <WoundThreshold>10</WoundThreshold>
+    <StrainThreshold>11</StrainThreshold>
+    <Experience>100</Experience>
+  </StartingAttrs>
+  <SkillModifiers>
+    <SkillModifier>
+      <Key>SW</Key>
+      <RankStart>1</RankStart>
+      <RankLimit>2</RankLimit>
+    </SkillModifier>
+  </SkillModifiers>
+  <TalentModifiers>
+    <TalentModifier>
+      <Key>CONV</Key>
+      <RankAdd>1</RankAdd>
+    </TalentModifier>
+  </TalentModifiers>
+</Species>

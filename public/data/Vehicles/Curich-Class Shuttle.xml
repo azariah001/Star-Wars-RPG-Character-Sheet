@@ -1,0 +1,79 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>CURICHSHUTTLE</Key>
+  <Name>Curich-Class Shuttle</Name>
+  <Description>[H3][I]Curich[i]-Class Shuttle[h3]
+Please see page 61 of the Desperate Allies Sourcebook for details.-</Description>
+  <Source Page="61">Desperate Allies</Source>
+  <Sources />
+  <Type>Shuttle</Type>
+  <Categories>
+    <Category>Starship</Category>
+    <Category>Non-Fighter Starship</Category>
+  </Categories>
+  <Encumbrance>0</Encumbrance>
+  <HP>2</HP>
+  <Price>130000</Price>
+  <Rarity>5</Rarity>
+  <Restricted>true</Restricted>
+  <BaseMods />
+  <WeaponModifiers />
+  <MaxAltitude />
+  <HyperdrivePrimary>2</HyperdrivePrimary>
+  <HyperdriveBackup>12</HyperdriveBackup>
+  <StarFighters />
+  <NaviComputer>true</NaviComputer>
+  <SensorRangeValue>srShort</SensorRangeValue>
+  <Crew>One pilot, one co-pilot/engineer, one gunner</Crew>
+  <EncumbranceCapacity>300</EncumbranceCapacity>
+  <Passengers>50</Passengers>
+  <Consumables>Two months</Consumables>
+  <Silhouette>5</Silhouette>
+  <Speed>3</Speed>
+  <Handling>0</Handling>
+  <DefFore>1</DefFore>
+  <DefAft>1</DefAft>
+  <DefPort>1</DefPort>
+  <DefStarboard>1</DefStarboard>
+  <Armor>3</Armor>
+  <HullTrauma>38</HullTrauma>
+  <SystemStrain>18</SystemStrain>
+  <Starship>true</Starship>
+  <Massive>0</Massive>
+  <SinglePilot>false</SinglePilot>
+  <VehicleWeapons>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Aft>true</Aft>
+        <Port>true</Port>
+        <Starboard>true</Starboard>
+        <Dorsal>false</Dorsal>
+        <Ventral>false</Ventral>
+      </FiringArcs>
+      <Turret>true</Turret>
+      <Location>Dorsal</Location>
+      <Retractable>false</Retractable>
+      <Qualities>
+        <Quality>
+          <Key>LINKED</Key>
+          <Count>1</Count>
+          <Index>0</Index>
+          <MiscDesc />
+          <DefZone />
+          <QualReplace>false</QualReplace>
+          <SkillIsCareer>false</SkillIsCareer>
+          <SkillIsRanked>false</SkillIsRanked>
+          <VehicleWeaponUpgrades />
+          <SelectedVehicleWeaponIndex>-1</SelectedVehicleWeaponIndex>
+          <DieModifiers />
+          <InnateSkills />
+          <ActiveQualityKey />
+        </Quality>
+      </Qualities>
+      <Key>BLASTCANHVY</Key>
+      <Count>1</Count>
+    </VehicleWeapon>
+  </VehicleWeapons>
+  <BuiltInAttachments />
+</Vehicle>

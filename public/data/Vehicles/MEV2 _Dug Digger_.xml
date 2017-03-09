@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>MEV2</Key>
+  <Name>MEV2 "Dug Digger"</Name>
+  <Description>
+    [H3]MEV2 "Dug Digger"[h3]
+    Please see page 107 of the Suns of Fortune Sourcebook for details.
+  </Description>
+  <Source Page="107">Suns of Fortune</Source>
+  <Type>Walker</Type>
+  <Categories>
+    <Category>Land Vehicle</Category>
+    <Category>Walker</Category>
+  </Categories>
+  <Encumbrance>0</Encumbrance>
+  <HP>2</HP>
+  <Price>30000</Price>
+  <Rarity>5</Rarity>
+  <MaxAltitude />
+  <HyperdrivePrimary>0</HyperdrivePrimary>
+  <HyperdriveBackup>0</HyperdriveBackup>
+  <StarFighters />
+  <NaviComputer>false</NaviComputer>
+  <SensorRangeValue>srClose</SensorRangeValue>
+  <Crew>One pilot, one co-pilot/mining operator</Crew>
+  <EncumbranceCapacity>100</EncumbranceCapacity>
+  <Passengers>0</Passengers>
+  <Consumables />
+  <Silhouette>3</Silhouette>
+  <Speed>2</Speed>
+  <Handling>-1</Handling>
+  <DefFore>0</DefFore>
+  <DefAft>0</DefAft>
+  <DefPort>0</DefPort>
+  <DefStarboard>0</DefStarboard>
+  <Armor>2</Armor>
+  <HullTrauma>10</HullTrauma>
+  <SystemStrain>8</SystemStrain>
+  <Starship>false</Starship>
+  <Massive>0</Massive>
+  <VehicleWeapons>
+    <VehicleWeapon>
+      <FiringArcs>
+        <Fore>true</Fore>
+        <Aft>false</Aft>
+        <Port>false</Port>
+        <Starboard>false</Starboard>
+        <Dorsal>false</Dorsal>
+        <Ventral>false</Ventral>
+      </FiringArcs>
+      <Turret>false</Turret>
+      <Location>Arm</Location>
+      <Retractable>false</Retractable>
+      <Qualities />
+      <Key>BEAMDRIL</Key>
+      <Count>1</Count>
+    </VehicleWeapon>
+  </VehicleWeapons>
+</Vehicle>

@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Species>
+  <Key>CLAWDITE</Key>
+  <Name>Clawdite</Name>
+  <Description>
+    [H4]Clawdite[h4]
+    Clawdites are a humanoid sentient species native to the planet of Zolan.
+    They are one of the few shape-shifting species in the galaxy, and are sometimes
+    referred to as Changelings.
+    [P][B]Physiology:[b]
+    In their natural form, Clawdites have the appearance of reptilian humanoids, and in fact have
+    evolved from reptomammals. They have sunken cheeks with a narrow nose and a small mouth.
+    A thin line runs down their foreheads and creases the center of their noses. They possess
+    large eyes with slit-like pupils, and their irises can be yellow, gold, or blue.
+    Their skin is considered to be rough, and ranges in color from green to yellow. Overall,
+    their appearance is identical to that of their genetic forebears, the Zolanders.
+    [P]Due to genetic manipulation, Clawdites possess the extremely rare ability to change
+    their appearance. When using this ability, they can change the color and texture of their
+    skin and eyes, mimicking the appearance of other similarly-shaped beings, such as Humans.
+    Shifting into a Weequay, a species with similar facial features, is considered to be an
+    easy task. Though they can not add physical mass to their bodies, they are able to
+    form hair, and can actually make it quite long. Clawdites are also able to mimic the
+    appearance of clothing or jewelry, provided that the item lays directly on their skin, as
+    it is merely a manipulation of their skin's texture. They can not change the appearance
+    of their actual clothing, and have to rely on holographic technology in order to change such items.
+    [P]The growth of their abilities mainly relies upon a Clawdite's age. Younglings are only
+    able to change color, a talent that begins at infancy, and baby Clawdites use different hues
+    and colors to indicate their needs to their parents.
+
+    [P]Unlike most shape-changing species, the Clawdite's shifting abilities actually cause them
+    great physical discomfort. While the range of their abilities vary in individuals, with
+    both age and practice, they can work through the pain of changing in order to alter their
+    appearance in more and more extreme ways. Even the most talented Clawdite, however,
+    lacks the fine coordination it would take to mimic a specific individual's appearance precisely.
+    Only a very talented Clawdite is able to sleep and retain their altered form. If a Clawdite
+    is suitably distracted or hurt, and certainly if they are killed, they will revert to their
+    true form.
+
+    [P]It is thought to be impossible for a Clawdite to actually change their body structure or
+    body mass, though it appears that some individual Clawdites managed this feat through unknown
+    means. As most sentient beings' bodies
+    are composed mostly of water, xenobiologists speculated that the Clawdites ability to change
+    may lie in the manipulation of water.
+
+    [P][B]Society:[b]
+    By nature, Clawdites are quiet and solitary beings, often shunning the company of others
+    unless it benefited them. They view the rest of the galaxy pragmatically, and are
+    often harsh realists who are  mistrustful and suspicious of others.
+    [P]Not all Clawdites use their shape-shifting abilities, but those who do are forced to
+    undertake great physical pain and effort in order to do so. They often learn meditation
+    and concentration techniques, over long periods of time, in order to maximize their capabilities.
+    It is also necessary for Clawdites to treat their skin with specialized oils in order to prevent
+    cracking or tearing, due to the difficulty in physically maintaining their disguises.
+    [P]While in their natural form, they are considered to be indistinguishable from their Zolander
+    brethren, but it is possible to distinguish the two via genetic examination.
+
+    [P]On their homeworld of Zolan, Clawdites are feared and shunned by the Zolanders, who are a deeply
+    religious people. Among their many strong convictions, the Zolanders believe the Clawdites to be impure
+    and sinful. Because of their prejudice, the Zolanders forced the Clawdites to live in slums all
+    across the planet. These ghettos are secured, so that the Zolanders could prevent the Clawdites from
+    spreading. This subjugation continued for centuries on end, and it wasn't until after 4 ABY that they
+    were able to change their situation. After the rise of their new government, the Clawdites began
+    to hold classes for schoolchildren, in order to teach them greater control and efficiency with their
+    abilities.
+
+    [P]The few Clawdites who leave their world most often took advantage of their natural abilities to
+    join militaristic professions, such as spying, assassination, and bounty hunting. Joining groups
+    such as these are the rare occasions where Clawdites afford their loyalty to others, and they
+    see it as a positive contribution to the galaxy. They often seek to protect the liberties of
+    other species, sensing in their pain the disparity their own people suffered.
+    [P][B]Homeworld:[b]
+    Zolan was the homeworld of the Zolander species and its Clawdite offshoot. The Zolanders were
+    loyal to the Galactic Republic, but the Clawdites were loyal to the Confederacy of Independent
+    Systems, with the false hope the Confederacy would liberate them from Zolander oppression.
+    [P][B]Language:[b]
+    Clawdite is the language of Clawdites, from planet Zolan. It is a modified version of Zolanese.
+    Spoken Clawdite is basically formed by hissing sibilants. Guttural croaks are used in some 
+    parts of the sentence.
+  </Description>
+  <Source>Unofficial Species Menagerie</Source>
+  <StartingChars>
+    <Brawn>2</Brawn>
+    <Agility>2</Agility>
+    <Intellect>2</Intellect>
+    <Cunning>2</Cunning>
+    <Willpower>2</Willpower>
+    <Presence>2</Presence>
+  </StartingChars>
+  <StartingAttrs>
+    <WoundThreshold>10</WoundThreshold>
+    <StrainThreshold>10</StrainThreshold>
+    <Experience>90</Experience>
+  </StartingAttrs>
+  <SkillModifiers>
+    <SkillModifier>
+      <Key>DECEP</Key>
+      <RankStart>1</RankStart>
+      <RankLimit>2</RankLimit>
+    </SkillModifier>
+  </SkillModifiers>
+  <TalentModifiers>
+    <TalentModifier>
+      <Key>INDIS</Key>
+      <RankAdd>1</RankAdd>
+    </TalentModifier>
+  </TalentModifiers>
+  <OptionChoices>
+    <OptionChoice>
+      <Key>CLAAB1</Key>
+      <Name>Changeling</Name>
+      <Options>
+        <Option>
+          <Key>CLAAB1CON</Key>
+          <Name>Change Form</Name>
+          <Description>
+            At the cost of 2 Strain, a
+            Clawdite can choose to upgrade their Deception
+            check to convey a false appearance which lasts
+            until the Clawdite wills the change to end, or
+            until they are knocked unconscious or killed. The
+            Strain spent is not recovered until the Clawdite
+            reverts back to their normal shape.
+          </Description>
+        </Option>
+      </Options>
+    </OptionChoice>
+  </OptionChoices>
+</Species>

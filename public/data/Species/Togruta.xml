@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<Species>
+  <Key>TOGRUTA</Key>
+  <Name>Togruta</Name>
+  <Description>[H4]Togruta[h4]
+The Togruta are a carnivorous humanoid species from the planet Shili. The species exhibits head-tails which are similar to those of Twi'leks. Togruta are also distinguished by montrals, large hollow horn-like projections from the top of their heads, that give the species a form of passive echolocation. In order to protect themselves from dangerous predators, and to hunt their own prey, Togruta band together in tribes and rely on their natural pigmentation to disrupt and confuse slow-witted beasts. Togruta work well in large groups, and individualism is seen as abnormal within their culture, although it is also a necessary quality in leaders.
+[P][B]Physiology:[b]
+Togruta have rusty skin tones ranging in hue from orange to red, with white pigmentation on their faces, and greyish lips. While not all have this feature, white stripes also adorned various parts of their bodies, including their chests, legs, backs, arms, lekku (head-tails), and montrals. The pattern of stripes vary from individual to individual. This red and white pattern is a phenotype left over from their ancestor's camouflage that helped them to blend in with their natural surroundings, especially the red-and-white turu-grass which dominated Shili's scrublands.
+[P]Their heads bear two montrals, with three, and on rare occasions, four head-tails, whose stripes are darker than those of the montrals. Togruta have the ability to sense the proximity and movement of physical objects around them by means of their hollow montrals, which detect space ultrasonically. Young Togrutas' montrals and posterior head-tail do not fully grow until adolescence, when their montrals become curved and their third head-tail grew to the length of their two main head-tails.
+[P]As predators, Togruta have sharp canine teeth, which they use to painlessly kill thimiars, their primary prey, causing the creatures' post-mortem death spasms. This gives outsiders the false impression that Togruta are venomous. However, Togrutas do nothing to dispel this misconception and even take advantage of the intimidating presence it gives them.
+[P][B]Society:[b]
+Togruta have a strong sense of unity and togetherness. On their native homeworld of Shili, they rely on each other and will band together to take a stand against the massive monsters that hunt them, such as the akul. It is said that the creatures of Shili most often attack in groups, which is even more reason for the native Togruta to work together.
+[P]While most of Shili is covered in the scrublands where the Togruta hunt their herbivorous prey, the Togruta live in small communities in the forest valleys, where the canopies keep them out of sight.
+[P]Togruta are known for their habit of not wearing shoes; they believe that the land is spiritually connected to them, and wearing shoes cut themselves from a bond with the land. In the pack, every able Togruta is expected to contribute his or her own share, as any food attained is distributed equally. Togruta are also known for their belief that those who cannot keep up should be left to fend for themselves, because that is nature's way. Other sentient species find this particular belief quite barbaric. Those within a pack who lead have a difficult time with fulfilling their goals because of the risk of becoming individualistic. As hunters, the Togruta show off the pelts and teeth of their game as a sign of pride and maturation. Special pride is taken in the teeth of akul that a Togruta has taken down as an individual. These teeth often are made into jewelry such as an akul-tooth headdress or a necklace, which also incorporates metals, stones, and pearls found on Shili.
+[P][B]Homeworld:[b]
+Shili was the homeworld of the Togrutas located in the Ehosiq sector.
+[P][B]Language:[b]
+Togruti is the native language of the Togruta from planet Shili. Most Togruta are fluent and literate in both Togruti and Basic.
+[P]Togruti is an ornate language using trills and long vowel sounds, which are modified by subtle tremors in the Togruta's head-tails.
+[P]This language is heavily influenced by Basic, but also incorporates some native idioms, which cause Basic-speaking Togruta to use strange expressions.
+</Description>
+  <Source Page="60">Force and Destiny Core Rulebook</Source>
+  <StartingChars>
+    <Brawn>1</Brawn>
+    <Agility>2</Agility>
+    <Intellect>2</Intellect>
+    <Cunning>3</Cunning>
+    <Willpower>2</Willpower>
+    <Presence>2</Presence>
+  </StartingChars>
+  <StartingAttrs>
+    <WoundThreshold>10</WoundThreshold>
+    <StrainThreshold>10</StrainThreshold>
+    <Experience>100</Experience>
+    <ForceRating>0</ForceRating>
+  </StartingAttrs>
+  <SkillModifiers>
+    <SkillModifier>
+      <Key>PERC</Key>
+      <RankStart>1</RankStart>
+    </SkillModifier>
+  </SkillModifiers>
+  <TalentModifiers />
+  <OptionChoices>
+    <OptionChoice>
+      <Key>TOGRUTAOC1</Key>
+      <Name>Combat</Name>
+      <Description />
+      <Options>
+        <Option>
+          <Key>TOGRUTAOC1OP1</Key>
+          <Name>Pack Instincts</Name>
+          <Description>
+            When performing the assist maneuver, Togrutas grant [BOOST][BOOST] instead of [BOOST].
+          </Description>
+        </Option>
+      </Options>
+    </OptionChoice>
+  </OptionChoices>
+  <WeaponModifiers />
+</Species>

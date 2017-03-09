@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BaseFoci>
+  <BaseFocus>
+    <Key>BASEFARM</Key>
+    <Name>Farm</Name>
+    <Description>
+      [H4]Farm[h4]
+      Please see page 84 of the Far Horizons Sourcebook for details.
+    </Description>
+    <Source Page="84">Far Horizons</Source>
+    <CareerSkillKeys>
+      <Key>RESIL</Key>
+    </CareerSkillKeys>
+  </BaseFocus>
+  <BaseFocus>
+    <Key>BASERANCH</Key>
+    <Name>Ranch</Name>
+    <Description>
+      [H4]Ranch[h4]
+      Please see page 84 of the Far Horizons Sourcebook for details.
+    </Description>
+    <Source Page="84">Far Horizons</Source>
+    <CareerSkillKeys>
+      <Key>SURV</Key>
+    </CareerSkillKeys>
+  </BaseFocus>
+  <BaseFocus>
+    <Key>BASEMINE</Key>
+    <Name>Mine</Name>
+    <Description>
+      [H4]Mine[h4]
+      Please see page 84 of the Far Horizons Sourcebook for details.
+    </Description>
+    <Source Page="84">Far Horizons</Source>
+    <CareerSkillKeys>
+      <Key>ATHL</Key>
+    </CareerSkillKeys>
+  </BaseFocus>
+  <BaseFocus>
+    <Key>BASESTATION</Key>
+    <Name>Space Station</Name>
+    <Description>
+      [H4]Space Station[h4]
+      Please see page 84 of the Far Horizons Sourcebook for details.
+    </Description>
+    <Source Page="84">Far Horizons</Source>
+    <CareerSkillKeys>
+      <Key>PILOTSP</Key>
+    </CareerSkillKeys>
+  </BaseFocus>
+  <BaseFocus>
+    <Key>BASEENT</Key>
+    <Name>Entertainment</Name>
+    <Description>
+      [H4]Entertainment[h4]
+      Please see page 84 of the Far Horizons Sourcebook for details.
+    </Description>
+    <Source Page="84">Far Horizons</Source>
+    <CareerSkillKeys>
+      <Key>CHARM</Key>
+    </CareerSkillKeys>
+  </BaseFocus>
+  <BaseFocus>
+    <Key>BASERETAIL</Key>
+    <Name>Retail</Name>
+    <Description>
+      [H4]Retail[h4]
+      Please see page 84 of the Far Horizons Sourcebook for details.
+    </Description>
+    <Source Page="84">Far Horizons</Source>
+    <CareerSkillKeys>
+      <Key>NEG</Key>
+    </CareerSkillKeys>
+  </BaseFocus>
+  <BaseFocus>
+    <Key>BASESERVICE</Key>
+    <Name>Service</Name>
+    <Description>
+      [H4]Service[h4]
+      Please see page 84 of the Far Horizons Sourcebook for details.
+    </Description>
+    <Source Page="84">Far Horizons</Source>
+    <CareerSkillKeys>
+      <Key>MECH</Key>
+      <Key>COMP</Key>
+      <Key>MECH</Key>
+      <Key>CORE</Key>
+      <Key>EDU</Key>
+      <Key>LORE</Key>
+      <Key>OUT</Key>
+      <Key>UND</Key>
+      <Key>XEN</Key>
+      <Key>WARF</Key>
+    </CareerSkillKeys>
+  </BaseFocus>
+  <BaseFocus>
+    <Key>BASESAFE</Key>
+    <Name>Safe House</Name>
+    <Description>
+      [H4]Safe House[h4]
+      Please see page 88 of the Desperate Allies Sourcebook for details.
+    </Description>
+    <Source Page="88">Desperate Allies</Source>
+    <CareerSkillKeys>
+    </CareerSkillKeys>
+  </BaseFocus>
+  <BaseFocus>
+    <Key>BASETRAIN</Key>
+    <Name>Training Camp</Name>
+    <Description>
+      [H4]Training Camp[h4]
+      Please see page 88 of the Desperate Allies Sourcebook for details.
+    </Description>
+    <Source Page="88">Desperate Allies</Source>
+    <CareerSkillKeys>
+    </CareerSkillKeys>
+  </BaseFocus>
+  <BaseFocus>
+    <Key>BASERESEARCH</Key>
+    <Name>Research Facility</Name>
+    <Description>
+      [H4]Research Facility[h4]
+      Please see page 88 of the Desperate Allies Sourcebook for details.
+    </Description>
+    <Source Page="88">Desperate Allies</Source>
+    <CareerSkillKeys>
+    </CareerSkillKeys>
+  </BaseFocus>
+  <BaseFocus>
+    <Key>BASEMEET</Key>
+    <Name>Meeting Center</Name>
+    <Description>
+      [H4]Meeting Center[h4]
+      Please see page 88 of the Desperate Allies Sourcebook for details.
+    </Description>
+    <Source Page="88">Desperate Allies</Source>
+    <CareerSkillKeys>
+    </CareerSkillKeys>
+  </BaseFocus>
+  <BaseFocus>
+    <Key>BASEWEAP</Key>
+    <Name>Weapon Depot</Name>
+    <Description>
+      [H4]Weapon Depot[h4]
+      Please see page 88 of the Desperate Allies Sourcebook for details.
+    </Description>
+    <Source Page="88">Desperate Allies</Source>
+    <CareerSkillKeys>
+    </CareerSkillKeys>
+  </BaseFocus>
+  
+  <BaseFocus>
+    <Key>WORKCOMP</Key>
+    <Name>Computer Shop</Name>
+    <Description>
+      [H4]Computer Shop[h4]
+      Please see page 94 of the Special Modifications Sourcebook for details.
+    </Description>
+    <Source Page="94">Special Modifications</Source>
+    <CareerSkillKeys>
+      <Key>COMP</Key>
+    </CareerSkillKeys>
+  </BaseFocus>
+  <BaseFocus>
+    <Key>WORKMECH</Key>
+    <Name>Repair Shop</Name>
+    <Description>
+      [H4]Repair Shop[h4]
+      Please see page 94 of the Special Modifications Sourcebook for details.
+    </Description>
+    <Source Page="94">Special Modifications</Source>
+    <CareerSkillKeys>
+      <Key>MECH</Key>
+    </CareerSkillKeys>
+  </BaseFocus>
+  <BaseFocus>
+    <Key>WORKMED</Key>
+    <Name>Cybernetics Shop</Name>
+    <Description>
+      [H4]Cybernetics Shop[h4]
+      Please see page 94 of the Special Modifications Sourcebook for details.
+    </Description>
+    <Source Page="94">Special Modifications</Source>
+    <CareerSkillKeys>
+      <Key>MED</Key>
+    </CareerSkillKeys>
+  </BaseFocus>
+
+</BaseFoci>

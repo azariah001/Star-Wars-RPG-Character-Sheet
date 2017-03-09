@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Species>
+  <Key>FALLEEN</Key>
+  <Name>Falleen</Name>
+  <Description>
+    [H4]Falleen[h4]
+    The Falleen are the indigenous reptilian sentient species of the planet Falleen.
+    [P][B]Physiology:[b]
+    The Falleen are an exotic, cold-blooded reptomammalian species known to be
+    long lived, with life spans averaging 250 years.
+    [P]The sleek symmetry of their features, calculating and cold demeanors, their
+    exotic looks, and their ability to alter their skin pigmentation means that
+    the Falleen are often considered to be among the most aesthetically pleasing
+    beings in the galaxy. In addition to their strikingly beautiful appearance,
+    the Falleen exude pheromones which made them all but irresistible to both
+    sexes. They have small scales all over their bodies, as well
+    as slightly clawed fingers and toes. In addition, the Falleen display
+    prominent facial and spinal ridges, though females tend to have slighter,
+    more subtle growths.
+    [P]The Falleen are semi-aquatic, and are able to hold their breath underwater
+    for a long period of time, leading exobiologists to believe that the Falleen's
+    ancestors were completely aquatic. The appearance of breasts and other mammalian
+    characteristics in Falleen females and males have also led exobiologists to
+    believe that Falleen had a mammal ancestor.
+    [P]They are one of the few species resistant to mind tricks, and had green blood.
+    [P][B]Society:[b]
+    Falleen society is of a feudal nature, with noble houses ruling over the lower
+    classes. The upper echelons of Falleen monarchies are rife with politics and intrigue,
+    but they rarely spill blood over blatant disputes or open warfare. The skin
+    pigmentation of the Falleen change naturally to reflect the mood of the individual;
+    however, the Falleen long ago mastered the ability to change their skin tone at
+    will and use this as something of a covert weapon in their politics, fostering
+    an appearance of calm, for example, when they are really panicking.
+    [P]As a cold-blooded species, the Falleen respect discipline and control,
+    particularly self-control. They tend to shun public displays of emotion, and are
+    very patient. As a result of this attitude, they tend to look down on the more
+    openly passionate, whom they see as lacking self-control. Indeed, the Falleen as a
+    species have a towering sense of superiority which they felt is only right and proper
+    due to their discipline and rigid self-control. They also tend to view Falleen,
+    and not Coruscant, as the civilized and cultural capital of the galaxy. This arrogance
+    make the Falleen something of an isolationist species, and though they are not a rare
+    species, it is rare to find them away from their homeworld.
+    [P]Young Falleen nobles often tour the galaxy for a while to acquire a taste of
+    life away from Falleen. More often than not, though, this merely reinforces the
+    Falleen's biased views and sense of superiority, ensuring that the youth of Falleen
+    never feel the desire to leave home.
+    [P][B]Homeworld:[b]
+    Falleen is a planet in the Mid Rim region and home to the Falleen species. It
+    has jungles, vast plains, and icy mountains.
+    [P][B]Language:[b]
+    Falleen is the native language of the Falleen species from the planet Falleen.
+    [P]Falleens leaving their home planet learn to speak Basic as well.
+  </Description>
+  <Source Page="18">Fly Casual</Source>
+  <StartingChars>
+    <Brawn>1</Brawn>
+    <Agility>2</Agility>
+    <Intellect>2</Intellect>
+    <Cunning>2</Cunning>
+    <Willpower>2</Willpower>
+    <Presence>3</Presence>
+  </StartingChars>
+  <StartingAttrs>
+    <WoundThreshold>10</WoundThreshold>
+    <StrainThreshold>12</StrainThreshold>
+    <Experience>90</Experience>
+  </StartingAttrs>
+  <SkillModifiers>
+    <SkillModifier>
+      <Key>CHARM</Key>
+      <RankStart>1</RankStart>
+      <RankAdd>0</RankAdd>
+      <RankLimit>2</RankLimit>
+      <isCareer>false</isCareer>
+    </SkillModifier>
+  </SkillModifiers>
+  <TalentModifiers>
+  </TalentModifiers>
+  <OptionChoices>
+    <OptionChoice>
+      <Key>FALLEENOC1</Key>
+      <Name>Ability</Name>
+      <Options>
+        <Option>
+          <Key>FALLEENOC1OP1</Key>
+          <Name>Beguiling Pheromones</Name>
+          <Description>Once per check as an incidental, may suffer 2 strain to upgrade ability of Charm, Deception, 
+          or Negotiation check against living, sentient being within short range.  No effect if wearing breath mask 
+          or having no respiratory system.</Description>
+        </Option>
+      </Options>
+    </OptionChoice>
+  </OptionChoices>
+</Species>

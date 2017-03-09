@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Career>
+  <Key>EXPLORER</Key>
+  <Name>Explorer</Name>
+  <Description>
+    [H4]Explorer[h4]
+    Please see page 67 of the Edge of the Empire Core Rulebook for details.
+  </Description>
+  <Source Page="67">Edge of the Empire Core Rulebook</Source>
+  <CareerSkills>
+    <Key>ASTRO</Key>
+    <Key>COOL</Key>
+    <Key>LORE</Key>
+    <Key>OUT</Key>
+    <Key>XEN</Key>
+    <Key>PERC</Key>
+    <Key>PILOTSP</Key>
+    <Key>SURV</Key>
+  </CareerSkills>
+  <Specializations>
+    <Key>FRINGER</Key>
+    <Key>SCOUT</Key>
+    <Key>TRADER</Key>
+    <Key>DRIVER</Key>
+    <Key>ARCHEOLOGIST</Key>
+    <Key>BGMHUNTER</Key>
+  </Specializations>
+</Career>

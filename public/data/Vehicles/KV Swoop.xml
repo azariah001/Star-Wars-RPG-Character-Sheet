@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<Vehicle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>KVSWOOP</Key>
+  <Name>KV Swoop</Name>
+  <Description>
+    [H3]KV Swoop[h3]
+    Please see page 58 of the Enter the Unknown Sourcebook for details.
+  </Description>
+  <Source Page="58">Enter the Unknown</Source>
+  <Type>Swoop</Type>
+  <Categories>
+    <Category>Land Vehicle</Category>
+  </Categories>
+  <Encumbrance>0</Encumbrance>
+  <HP>0</HP>
+  <Price>4800</Price>
+  <Rarity>5</Rarity>
+  <MaxAltitude>50 meters</MaxAltitude>
+  <HyperdrivePrimary>0</HyperdrivePrimary>
+  <HyperdriveBackup>0</HyperdriveBackup>
+  <StarFighters />
+  <NaviComputer>false</NaviComputer>
+  <SensorRangeValue>srShort</SensorRangeValue>
+  <Crew>One pilot</Crew>
+  <EncumbranceCapacity>3</EncumbranceCapacity>
+  <Passengers>0</Passengers>
+  <Consumables />
+  <Silhouette>2</Silhouette>
+  <Speed>3</Speed>
+  <Handling>1</Handling>
+  <DefFore>0</DefFore>
+  <DefAft>0</DefAft>
+  <DefPort>0</DefPort>
+  <DefStarboard>0</DefStarboard>
+  <Armor>0</Armor>
+  <HullTrauma>3</HullTrauma>
+  <SystemStrain>3</SystemStrain>
+  <Starship>false</Starship>
+  <SinglePilot>true</SinglePilot>
+  <VehicleWeapons />
+</Vehicle>

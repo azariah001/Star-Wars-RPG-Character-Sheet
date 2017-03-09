@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Career>
+  <Key>TECHNICIAN</Key>
+  <Name>Technician</Name>
+  <Description>
+    [H4]Technician[h4]
+    Please see page 86 of the Edge of the Empire Core Rulebook for details.
+  </Description>
+  <Source Page="86">Edge of the Empire Core Rulebook</Source>
+  <CareerSkills>
+    <Key>ASTRO</Key>
+    <Key>COMP</Key>
+    <Key>COORD</Key>
+    <Key>DISC</Key>
+    <Key>OUT</Key>
+    <Key>MECH</Key>
+    <Key>PERC</Key>
+    <Key>PILOTPL</Key>
+  </CareerSkills>
+  <Specializations>
+    <Key>MECHANIC</Key>
+    <Key>OUTLAW</Key>
+    <Key>SLICER</Key>
+    <Key>CYBERTECH</Key>
+    <Key>DROIDTECH</Key>
+    <Key>MODDER</Key>
+  </Specializations>
+</Career>

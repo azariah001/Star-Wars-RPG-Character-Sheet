@@ -1,0 +1,35 @@
+<Vehicle>
+  <Key>AIRSPEEDER</Key>
+  <Name>Airspeeder</Name>
+  <Description>
+      [H3]Airspeeder[h3]
+      Please see page 248 of the Edge of the Empire Core Rulebook, or page 254 of the Force and Destiny Core Rulebook, for details.
+    </Description>
+  <Sources>
+    <Source Page="248">Edge of the Empire Core Rulebook</Source>
+    <Source Page="254">Force and Destiny Core Rulebook</Source>
+  </Sources>
+  <MaxAltitude>300 kilometers</MaxAltitude>
+  <SensorRangeValue>srShort</SensorRangeValue>
+  <Crew>One Pilot</Crew>
+  <EncumbranceCapacity>30</EncumbranceCapacity>
+  <Passengers>6</Passengers>
+  <Silhouette>2</Silhouette>
+  <Speed>3</Speed>
+  <Handling>0</Handling>
+  <DefFore>0</DefFore>
+  <DefAft>0</DefAft>
+  <DefPort>0</DefPort>
+  <DefStarboard>0</DefStarboard>
+  <Armor>0</Armor>
+  <HullTrauma>5</HullTrauma>
+  <SystemStrain>5</SystemStrain>
+  <HP>1</HP>
+  <Price>10000</Price>
+  <Rarity>3</Rarity>
+  <SinglePilot>true</SinglePilot>
+  <Categories>
+    <Category>Air Vehicle</Category>
+  </Categories>
+  <Type>Airspeeder</Type>
+</Vehicle>

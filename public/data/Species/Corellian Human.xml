@@ -1,0 +1,167 @@
+<?xml version="1.0"?>
+<Species xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>HUMANCOR</Key>
+  <Name>Corellian Human</Name>
+  <Description>[H4]Corellian Human[h4]
+Please see page 93 of the Suns of Fortune Sourcebook for details.
+</Description>
+  <Source Page="93">Suns of Fortune</Source>
+  <StartingChars>
+    <Brawn>2</Brawn>
+    <Agility>2</Agility>
+    <Intellect>2</Intellect>
+    <Cunning>2</Cunning>
+    <Willpower>2</Willpower>
+    <Presence>2</Presence>
+    <Requirement>
+      <WearingArmor>false</WearingArmor>
+      <Career>false</Career>
+      <Specialization>false</Specialization>
+      <NonCareer>false</NonCareer>
+      <SoakAtLeast>0</SoakAtLeast>
+    </Requirement>
+  </StartingChars>
+  <StartingAttrs>
+    <WoundThreshold>10</WoundThreshold>
+    <StrainThreshold>10</StrainThreshold>
+    <DefenseRanged>0</DefenseRanged>
+    <DefenseMelee>0</DefenseMelee>
+    <SoakValue>0</SoakValue>
+    <Experience>110</Experience>
+    <ForceRating>0</ForceRating>
+    <Requirement>
+      <WearingArmor>false</WearingArmor>
+      <Career>false</Career>
+      <Specialization>false</Specialization>
+      <NonCareer>false</NonCareer>
+      <SoakAtLeast>0</SoakAtLeast>
+    </Requirement>
+  </StartingAttrs>
+  <SkillModifiers />
+  <TalentModifiers />
+  <OptionChoices>
+    <OptionChoice>
+      <Key>HUMANCORCH1</Key>
+      <Name>Skills</Name>
+      <Description />
+      <Source />
+      <Custom>Base</Custom>
+      <Options>
+        <Option>
+          <Key>HUMANCORCH1OP1</Key>
+          <Name>Piloting - Planetary</Name>
+          <Description>May begin game with one rank in Piloting - Planetary.</Description>
+          <Source />
+          <Custom>Base</Custom>
+          <StartingChars>
+            <Brawn>1</Brawn>
+            <Agility>1</Agility>
+            <Intellect>1</Intellect>
+            <Cunning>1</Cunning>
+            <Willpower>1</Willpower>
+            <Presence>1</Presence>
+            <Requirement>
+              <WearingArmor>false</WearingArmor>
+              <Career>false</Career>
+              <Specialization>false</Specialization>
+              <NonCareer>false</NonCareer>
+              <SoakAtLeast>0</SoakAtLeast>
+            </Requirement>
+          </StartingChars>
+          <StartingAttributes>
+            <WoundThreshold>0</WoundThreshold>
+            <StrainThreshold>0</StrainThreshold>
+            <DefenseRanged>0</DefenseRanged>
+            <DefenseMelee>0</DefenseMelee>
+            <SoakValue>0</SoakValue>
+            <Experience>0</Experience>
+            <ForceRating>0</ForceRating>
+            <Requirement>
+              <WearingArmor>false</WearingArmor>
+              <Career>false</Career>
+              <Specialization>false</Specialization>
+              <NonCareer>false</NonCareer>
+              <SoakAtLeast>0</SoakAtLeast>
+            </Requirement>
+          </StartingAttributes>
+          <StartingSkillTraining />
+          <SkillModifiers>
+            <SkillModifier>
+              <Key>PILOTPL</Key>
+              <RankStart>1</RankStart>
+              <RankAdd>0</RankAdd>
+              <RankLimit>0</RankLimit>
+              <isCareer>false</isCareer>
+              <Requirement>
+                <WearingArmor>false</WearingArmor>
+                <Career>false</Career>
+                <Specialization>false</Specialization>
+                <NonCareer>false</NonCareer>
+                <SoakAtLeast>0</SoakAtLeast>
+              </Requirement>
+            </SkillModifier>
+          </SkillModifiers>
+          <TalentModifiers />
+        </Option>
+        <Option>
+          <Key>HUMANCORCH1OP2</Key>
+          <Name>Piloting - Space</Name>
+          <Description>May begin game with one rank in Piloting - Space.</Description>
+          <Source />
+          <Custom>Base</Custom>
+          <StartingChars>
+            <Brawn>1</Brawn>
+            <Agility>1</Agility>
+            <Intellect>1</Intellect>
+            <Cunning>1</Cunning>
+            <Willpower>1</Willpower>
+            <Presence>1</Presence>
+            <Requirement>
+              <WearingArmor>false</WearingArmor>
+              <Career>false</Career>
+              <Specialization>false</Specialization>
+              <NonCareer>false</NonCareer>
+              <SoakAtLeast>0</SoakAtLeast>
+            </Requirement>
+          </StartingChars>
+          <StartingAttributes>
+            <WoundThreshold>0</WoundThreshold>
+            <StrainThreshold>0</StrainThreshold>
+            <DefenseRanged>0</DefenseRanged>
+            <DefenseMelee>0</DefenseMelee>
+            <SoakValue>0</SoakValue>
+            <Experience>0</Experience>
+            <ForceRating>0</ForceRating>
+            <Requirement>
+              <WearingArmor>false</WearingArmor>
+              <Career>false</Career>
+              <Specialization>false</Specialization>
+              <NonCareer>false</NonCareer>
+              <SoakAtLeast>0</SoakAtLeast>
+            </Requirement>
+          </StartingAttributes>
+          <StartingSkillTraining />
+          <SkillModifiers>
+            <SkillModifier>
+              <Key>PILOTSP</Key>
+              <RankStart>1</RankStart>
+              <RankAdd>0</RankAdd>
+              <RankLimit>0</RankLimit>
+              <isCareer>false</isCareer>
+              <Requirement>
+                <WearingArmor>false</WearingArmor>
+                <Career>false</Career>
+                <Specialization>false</Specialization>
+                <NonCareer>false</NonCareer>
+                <SoakAtLeast>0</SoakAtLeast>
+              </Requirement>
+            </SkillModifier>
+          </SkillModifiers>
+          <TalentModifiers />
+        </Option>
+      </Options>
+    </OptionChoice>
+  </OptionChoices>
+  <WeaponModifiers />
+  <NoForceAbilities>false</NoForceAbilities>
+</Species>

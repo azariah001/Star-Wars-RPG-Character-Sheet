@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<Career xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>GUARD</Key>
+  <Name>Guardian</Name>
+  <Description>[H4]Guardian[h4]
+Please see page 72 of the Force and Destiny Core Rulebook for details.</Description>
+  <Source Page="72">Force and Destiny Core Rulebook</Source>
+  <CareerSkills>
+    <Key>BRAWL</Key>
+    <Key>COOL</Key>
+    <Key>DISC</Key>
+    <Key>MELEE</Key>
+    <Key>RESIL</Key>
+    <Key>VIGIL</Key>
+  </CareerSkills>
+  <Specializations>
+    <Key>ARMORER</Key>
+    <Key>PEACE</Key>
+    <Key>PROTECT</Key>
+    <Key>SORESU</Key>
+    <Key>WARDEN</Key>
+    <Key>WARLEADER</Key>
+  </Specializations>
+  <Attributes>
+    <ForceRating>1</ForceRating>
+  </Attributes>
+  <FreeRanks>3</FreeRanks>
+</Career>

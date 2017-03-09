@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Career>
+  <Key>SMUG</Key>
+  <Name>Smuggler</Name>
+  <Description>
+    [H4]Smuggler[h4]
+    Please see page 80 of the Edge of the Empire Core Rulebook for details.
+  </Description>
+  <Source Page="80">Edge of the Empire Core Rulebook</Source>
+  <CareerSkills>
+    <Key>COORD</Key>
+    <Key>DECEP</Key>
+    <Key>UND</Key>
+    <Key>PERC</Key>
+    <Key>PILOTSP</Key>
+    <Key>SKUL</Key>
+    <Key>SW</Key>
+    <Key>VIGIL</Key>
+  </CareerSkills>
+  <Specializations>
+    <Key>PILOT</Key>
+    <Key>SCOUND</Key>
+    <Key>THIEF</Key>
+    <Key>CHARMER</Key>
+    <Key>GAMBLER</Key>
+    <Key>GUNSLINGER</Key>
+  </Specializations>
+</Career>

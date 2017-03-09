@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<Career xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>CONSULAR</Key>
+  <Name>Consular</Name>
+  <Description>[H4]Consular[h4]
+Please see page 66 of the Force and Destiny Core Rulebook for details.</Description>
+  <Source Page="66">Force and Destiny Core Rulebook</Source>
+  <CareerSkills>
+    <Key>COOL</Key>
+    <Key>DISC</Key>
+    <Key>EDU</Key>
+    <Key>LEAD</Key>
+    <Key>LORE</Key>
+    <Key>NEG</Key>
+  </CareerSkills>
+  <Specializations>
+    <Key>HEALER</Key>
+    <Key>NIMAN</Key>
+    <Key>SAGE</Key>
+  </Specializations>
+  <Attributes>
+    <WoundThreshold>0</WoundThreshold>
+    <StrainThreshold>0</StrainThreshold>
+    <DefenseRanged>0</DefenseRanged>
+    <DefenseMelee>0</DefenseMelee>
+    <SoakValue>0</SoakValue>
+    <Experience>0</Experience>
+    <ForceRating>1</ForceRating>
+    <Requirement>
+      <WearingArmor>false</WearingArmor>
+      <Career>false</Career>
+      <Specialization>false</Specialization>
+      <NonCareer>false</NonCareer>
+      <SoakAtLeast>0</SoakAtLeast>
+    </Requirement>
+  </Attributes>
+  <FreeRanks>3</FreeRanks>
+</Career>

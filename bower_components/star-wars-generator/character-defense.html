@@ -1,0 +1,274 @@
+<link rel="import" href="../polymer/polymer.html">
+
+<dom-module id="character-defense">
+
+  <template>
+
+    <style>
+      /* local styles go here */
+      :host {
+        display: block;
+
+        position : relative;
+      }
+
+      :host > .container {
+        position: relative;
+        z-index: 5;
+        border-color : black;
+        border-style : solid;
+        border-width : 29px 29px 29px 29px;
+        border-image : url("/images/border.png") 29 29 29 29 fill repeat stretch;
+      }
+
+      :host > .container > .classification {
+        text-align   : center;
+        font-size    : 14px;
+        line-height  : 16px;
+        height       : 16px;
+        width        : calc(100% + 10px);
+        border-color : black;
+        border-style : solid;
+        border-width : 8px 8px 8px 8px;
+        border-image : url("/images/attribute_headings.png") 13 13 13 13 fill repeat stretch;
+        margin-left  : -5px;
+        margin-right : -5px;
+        color        : #FFFFFF
+      }
+
+      :host > .container > .classification > p {
+        margin     : 0;
+        margin-top : -8px
+      }
+
+      :host > .container > .classification:first-child {
+        margin-top : -15px
+      }
+
+      :host > .container > .rating {
+        width : 100%;
+        text-align  : center;
+        font-size   : 30px;
+        font-weight : bold;
+        margin-bottom : -30px;
+
+        display: flex;
+      }
+
+      :host > .container > .rating > p {
+        width : 49%;
+        padding-bottom: 7px;
+        margin-bottom: 8px;
+        font-size: 30px;
+      }
+      :host > .container > .rating > p:first-child {
+        border-right: 2px solid darkgrey;
+      }
+      :host > .container > .rating > p:last-child {
+        border-left: 2px solid darkgrey;
+      }
+
+      :host > .description {
+        position: relative;
+        width: 100%;
+        margin-top : -40px;
+        display: flex;
+        z-index: 1;
+      }
+
+      :host > .description > div {
+        flex-grow :1;
+        padding-top: 35px;
+        text-align: center;
+        width:50%;
+        font-size: 12px;
+      }
+
+      :host > .description > div.left {
+        margin-left: -5px;
+        color : white;
+
+        border-color : black;
+        border-style : solid;
+        border-width : 8px 4px 8px 8px;
+        border-image : url("/images/red_defense_backing.png") 8 4 8 8 fill repeat stretch;
+
+        margin-right: 2px;
+      }
+      :host > .description > div.right {
+        margin-right : -5px;
+
+        border-color : black;
+        border-style : solid;
+        border-width : 8px 8px 8px 4px;
+        border-image : url("/images/blue_defense_backing.png") 8 8 8 4 fill repeat stretch;
+
+        margin-left : 2px;
+      }
+
+      :host > .description > div > p {
+        margin-bottom : -5px;
+        text-align: center;
+      }
+
+      :host p {
+        margin: 0;
+      }
+    </style>
+
+    <div class="container">
+      <div class="classification">
+        <p>DEFENSE</p>
+      </div>
+      <div class="rating">
+        <p>[[defenseRangedTotalRanks]]</p>
+        <p>[[defenseMeleeTotalRanks]]</p>
+      </div>
+    </div>
+
+    <div class="description">
+      <div class="left">
+        <p>RANGED</p>
+      </div>
+      <div class="right">
+        <p>MELEE</p>
+      </div>
+    </div>
+
+  </template>
+
+  <script>
+    Polymer({
+      /* this is the element's prototype */
+      is: 'character-defense',
+
+      properties: {
+        /**
+         *
+         * @attribute defenseRangedStartingRanks
+         * @type number
+         * @default 0
+         */
+        defenseRangedStartingRanks: {
+          type: Number,
+          reflectToAttribute: true,
+          value: 0
+        },
+
+        /**
+         *
+         * @attribute defenseRangedSpeciesRanks
+         * @type number
+         * @default 0
+         */
+        defenseRangedSpeciesRanks: {
+          type: Number,
+          reflectToAttribute: true,
+          value: 0
+        },
+
+        /**
+         *
+         * @attribute defenseRangedTalentRanks
+         * @type number
+         * @default 0
+         */
+        defenseRangedTalentRanks: {
+          type: Number,
+          reflectToAttribute: true,
+          value: 0
+        },
+
+        /**
+         *
+         * @attribute defenseRangedPurchasedRanks
+         * @type number
+         * @default 0
+         */
+        defenseRangedPurchasedRanks: {
+          type: Number,
+          reflectToAttribute: true,
+          value: 0
+        },
+
+        /**
+         *
+         * @attribute defenseRangedTotalRanks
+         * @type number
+         * @default 0
+         */
+        defenseRangedTotalRanks: {
+          type: Number,
+          reflectToAttribute: true,
+          //value: 5
+          computed: 'totalRanks(defenseRangedStartingRanks, defenseRangedSpeciesRanks, defenseRangedTalentRanks, defenseRangedPurchasedRanks)'
+        },
+
+        /**
+         *
+         * @attribute defenseMeleeStartingRanks
+         * @type number
+         * @default 0
+         */
+        defenseMeleeStartingRanks: {
+          type: Number,
+          reflectToAttribute: true,
+          value: 0
+        },
+
+        /**
+         *
+         * @attribute defenseMeleeSpeciesRanks
+         * @type number
+         * @default 0
+         */
+        defenseMeleeSpeciesRanks: {
+          type: Number,
+          reflectToAttribute: true,
+          value: 0
+        },
+
+        /**
+         *
+         * @attribute defenseMeleeTalentRanks
+         * @type number
+         * @default 0
+         */
+        defenseMeleeTalentRanks: {
+          type: Number,
+          reflectToAttribute: true,
+          value: 0
+        },
+
+        /**
+         *
+         * @attribute defenseMeleePurchasedRanks
+         * @type number
+         * @default 0
+         */
+        defenseMeleePurchasedRanks: {
+          type: Number,
+          reflectToAttribute: true,
+          value: 0
+        },
+
+        /**
+         *
+         * @attribute defenseMeleeTotalRanks
+         * @type number
+         * @default 0
+         */
+        defenseMeleeTotalRanks: {
+          type: Number,
+          reflectToAttribute: true,
+          //value: 5
+          computed: 'totalRanks(defenseMeleeStartingRanks, defenseMeleeSpeciesRanks, defenseMeleeTalentRanks, defenseMeleePurchasedRanks)'
+        }
+
+      },
+
+      totalRanks: function(startingRanks, speciesRanks, talentRanks, purchasedRanks) { return (parseInt(startingRanks) | 0) + (parseInt(speciesRanks) | 0) + (parseInt(talentRanks) | 0) + (parseInt(purchasedRanks) | 0); }
+
+    });
+  </script>
+</dom-module>

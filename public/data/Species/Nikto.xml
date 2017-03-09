@@ -1,0 +1,181 @@
+<?xml version="1.0"?>
+<Species>
+  <Key>NIKTO</Key>
+  <Name>Nikto</Name>
+  <Description>[H4]Nikto[h4]
+
+The Nikto are a reptilian humanoid species from the planet Kintan in the Si'Klaata Cluster with many subspecies.
+    [P][B]Physiology:[b]
+Nikto are reptilian humanoids that are noted for their leathery skin, with an average adult standing 1.8 meters tall. Sometimes they are covered in spikes and horns.
+[P]The species hold a limited range of facial expressions because of a lack of the necessary muscular infrastructure. Most Nikto have coal-black obsidian eyes These are sometimes covered by a protective membrane that takes the form of a thin transparent pellicle that protects their eyes underwater and during windstorms. As a result, they are noted for their "staring" eyes and a seemingly blank expression which leads to many underestimating Nikto intelligence.
+
+[P]The Nikto species features five distinct mutated sub-species due to the massive radiation from the dying nearby star M'dweshuu, which speeds up the rate of mutation so that traits that normally take millions of years to occur instead takes only thousands of years. The five sub-species inhabit different geographic areas of Kintan, developing unique adaptations to suit the different environments on the planet.
+    [P][B]Society:[b]
+Early in their development, tensions between the sub-species erupted into four bloody wars, although as their civilizations advanced, conquering the dangerous mutated flora and fauna of Kintan united them.
+Nikto civilization gradually developed to a pre-star travel level, when they gained an understanding of M'dweshuu's influence on their species and their world. Numerous cults and secret societies developed in praise of M'dweshuu, offering sacrifice through bloodshed. The most prominent of these was the Cult of M'dweshuu, which rose and fell several times through its history. Another secret society was the Morgukai.
+
+[P]A harsh life on Kintan combined with casual Hutt brutality made Nikto cunning combatants. Whilst lacking free will, they made up for this with their single-mindedness and tenacity. They were also able to quickly adapt to their environment.
+
+Most Nikto are content with a life of servitude as in their eyes a life in slavery was preferable to the hardship and toil on their homeworld. Not all Nikto work for the Hutts though most free members of their kind came from an enslaved species. Whilst Nikto are known to escape from their master, most tend to fall into service of another Hutt who "inherit" them according to custom should their previous employer die. However, some escaped Nikto do instead use some opportunities to genuinely become free beings. Any such emancipated Nikto has to be constantly on guard as they risked capture by Hutt-employed slavers who return their prey to their "rightful owners". In addition, they lack charisma and prefer to follow orders instead of giving them.
+
+[P]Far-flung groups of Nikto rarely interbreed and has been the case ever since the species gained hyperdrive technology. Many taboos on racial divides were formed by the Nikto that was further supported by genetic diversity that was forced on them by their Hutt overlords.
+
+[P]As the Hutts do not trust their servants, the Nikto have no real government of their own. Instead, an attache of the Hutt Clans of the Ancients rule them who speak for the Nikto on every political level. No planetary government is allowed on Kintan also due to the lingering presence of the Cult of M'dweeshu. However, individual Nikto are capable of becoming a clan chieftain. Despite this being the case, the Hutts speak for the Nikto in dealings with the rest of the galaxy.
+    [P][B]Homeworld:[b]
+Kintan is the home world of the Nikto. After a supernova explosion near the system, evolution of the Nikto divided into five subspecies. Kintan is located within the Si'Klaata Cluster, on the Ac'fren Spur.
+[P]Kintan striders, also found around the galaxy as pets of Hutts, are originally from Kintan. However, they were driven to extinction on the planet itself.
+    [P][B]Language:[b]
+The Nikto language is the native language of the Nikto species from Kintan.
+[P]Contrarily to Klatooinians, Niktos do not forfeit their own language to replace it with Huttese, although most of them learn Huttese as a second language. Some Hutts learn to speak Nikto to deal with their Nikto servants.
+
+[P]Most Nikto who leave their world are also fluent in Basic, although they are rarely literate in that language.</Description>
+  <Source Page="96">Lords of Nal Hutta</Source>
+  <StartingChars>
+    <Brawn>3</Brawn>
+    <Agility>2</Agility>
+    <Intellect>2</Intellect>
+    <Cunning>2</Cunning>
+    <Willpower>2</Willpower>
+    <Presence>1</Presence>
+  </StartingChars>
+  <StartingAttrs>
+    <WoundThreshold>11</WoundThreshold>
+    <StrainThreshold>10</StrainThreshold>
+    <Experience>100</Experience>
+  </StartingAttrs>
+  <OptionChoices>
+  </OptionChoices>
+  <SubSpeciesList>
+    <SubSpecies>
+      <Key>NIKTOCH1OP1</Key>
+      <Name>Kajain'sa'Nikto (Red Nikto)</Name>
+      <Description>The most common subspecies, the Kajain'sa'Nikto or "Red Nikto", adapted to survive in the Wannschok, or "Endless Wastes", a desert region on Kintan. They have a series of forehead ridges and small facial horns surrounding their eyes and on the chin.</Description>
+      <SkillModifiers>
+        <SkillModifier>
+          <Key>RESIL</Key>
+          <RankStart>1</RankStart>
+        </SkillModifier>
+      </SkillModifiers>
+      <OptionChoices>
+        <OptionChoice>
+          <Key>NIKTOSP1OC1</Key>
+          <Name>Environmental</Name>
+          <Options>
+            <Option>
+              <Key>NIKTOSP1OC1OP1</Key>
+              <Name>Arid/Hot Environments</Name>
+              <Description>Red Niktos may remove [SETBACK] imposed due to arid or hot enviromental conditions.</Description>
+            </Option>
+          </Options>
+        </OptionChoice>
+      </OptionChoices>
+    </SubSpecies>
+    <SubSpecies>
+      <Key>NIKTOCH1OP2</Key>
+      <Name>Kadas'sa'Nikto (Green Nikto)</Name>
+      <Description>Kadas'sa'Nikto, or "Green Nikto," originated in the milder climatic regions of Kintan, such as the forests and the seacoasts. Their scaly faces have small facial horns surrounding the eyes and on the chin. Their main distinguishing features are the long climbing claws on their hands, which can also be used in combat.</Description>
+      <SkillModifiers>
+        <SkillModifier>
+          <Key>COORD</Key>
+          <RankStart>1</RankStart>
+        </SkillModifier>
+      </SkillModifiers>
+      <WeaponModifiers>
+        <WeaponModifier>
+          <AllSkillKey>BRAWL</AllSkillKey>
+          <DamageAdd>1</DamageAdd>
+          <Crit>3</Crit>
+        </WeaponModifier>
+      </WeaponModifiers>
+      <OptionChoices>
+        <OptionChoice>
+          <Key>NIKTOSP2OC1</Key>
+          <Name>Claws</Name>
+          <Options>
+            <Option>
+              <Key>NIKTOSP2OC1OP1</Key>
+              <Name>May use claws when brawling</Name>
+              <Description>When a Green Nikto makes Brawl checks to deal damage to an opponent, he deals +1 damage and has a Critical Rating of 3.</Description>
+            </Option>
+          </Options>
+        </OptionChoice>
+        <OptionChoice>
+          <Key>NIKTOSP2OC2</Key>
+          <Name>Athletics</Name>
+          <Options>
+            <Option>
+              <Key>NIKTOSP2OC2OP1</Key>
+              <Name>Climbing</Name>
+              <Description>Green Nikto gain [BOOST] to Athletics checks made to climb trees and other surfaces their claws can pierce.</Description>
+            </Option>
+          </Options>
+        </OptionChoice>
+      </OptionChoices>
+    </SubSpecies>
+    <SubSpecies>
+      <Key>NIKTOCH1OP3</Key>
+      <Name>Esral'sa'Nikto (Mountain Nikto)</Name>
+      <Description>Esral'sa'Nikto, or "Mountain Nikto", adapted to the variable climate of the mountains of Kintan. They have large facial fins which are used for heat regulation. These fins also improve the Esral'sa'Nikto's hearing. Their skin is blue-gray, and they have neither horns nor breathing tubes.</Description>
+      <SkillModifiers>
+        <SkillModifier>
+          <Key>SURV</Key>
+          <RankStart>1</RankStart>
+        </SkillModifier>
+      </SkillModifiers>
+      <TalentModifiers>
+        <TalentModifier>
+          <Key>NATOUT</Key>
+          <RankAdd>1</RankAdd>
+        </TalentModifier>
+      </TalentModifiers>
+    </SubSpecies>
+    <SubSpecies>
+      <Key>NIKTOCH1OP4</Key>
+      <Name>Gluss'sa'Nikto (Pale Nikto)</Name>
+      <Description>Gluss'sa'Nikto, or "Pale Nikto", came from the Gluss'elta Islands of Kintan, causing them to be natural sailors. They have white-gray skin, eye-horns like the Kadas'sa'Nikto, and fins similar to those of the Esral'sa'Nikto, but smaller.</Description>
+      <SkillModifiers>
+        <SkillModifier>
+          <Key>ATHL</Key>
+          <RankStart>1</RankStart>
+        </SkillModifier>
+      </SkillModifiers>
+      <OptionChoices>
+        <OptionChoice>
+          <Key>NIKTOSP4OC1</Key>
+          <Name>Aquatic</Name>
+          <Options>
+            <Option>
+              <Key>NIKTOSP4OC1OP1</Key>
+              <Name>Swimmer</Name>
+              <Description>A Pale Nikto never suffers movement penalties for traveling through water and can hold his breath for a number of rounds equal to twice his Brawn rating before beginning to drown.</Description>
+            </Option>
+          </Options>
+        </OptionChoice>
+      </OptionChoices>
+    </SubSpecies>
+    <SubSpecies>
+      <Key>NIKTOCH1OP5</Key>
+      <Name>M'shento'su'Nikto (Southern Nikto)</Name>
+      <Description>M'shento'su'Nikto, or "Southern Nikto", have no horns, a covered nose, and several pairs of breathing tubes. These tubes are larger than those of the Kajain'sa'Nikto, and also act as primitive ultrasonic sensory organs. Their skin color varies from white to yellow or orange.</Description>
+      <SkillModifiers>
+        <SkillModifier>
+          <Key>PERC</Key>
+          <RankStart>1</RankStart>
+        </SkillModifier>
+      </SkillModifiers>
+      <OptionChoices>
+        <OptionChoice>
+          <Key>NIKTOSP5OC1</Key>
+          <Name>Detection</Name>
+          <Options>
+            <Option>
+              <Key>NIKTOSP5OC1OP1</Key>
+              <Name>Sounds</Name>
+              <Description>Southern Nikto may add [BOOST] to Perception and Vigilance checks to detect sounds.</Description>
+            </Option>
+          </Options>
+        </OptionChoice>
+      </OptionChoices>
+    </SubSpecies>
+  </SubSpeciesList>
+</Species>

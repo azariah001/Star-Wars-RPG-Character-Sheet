@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Career>
+  <Key>DIPLOMAT</Key>
+  <Name>Diplomat</Name>
+  <Description>
+    [H4]Diplomat[h4]
+    Please see page 76 of the Age of Rebellion Core Rulebook for details.
+  </Description>
+  <Source Page="76">Age of Rebellion Core Rulebook</Source>
+  <CareerSkills>
+    <Key>CHARM</Key>
+    <Key>DECEP</Key>
+    <Key>CORE</Key>
+    <Key>LORE</Key>
+    <Key>LEAD</Key>
+    <Key>NEG</Key>
+    <Key>OUT</Key>
+    <Key>XEN</Key>
+  </CareerSkills>
+  <Specializations>
+    <Key>AMBASSADOR</Key>
+    <Key>AGITATOR</Key>
+    <Key>QUARTERMASTER</Key>
+    <Key>ADVOCATE</Key>
+    <Key>ANALYST</Key>
+    <Key>PROPAGANDIST</Key>
+  </Specializations>
+</Career>

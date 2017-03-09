@@ -1,0 +1,143 @@
+<?xml version="1.0"?>
+<Species xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Key>GRAN</Key>
+  <Name>Gran</Name>
+  <Description>
+    [H4]Gran[h4]
+    The Gran are sentient mammalian humanoids native to the planet Kinyen, though they
+    have colonies across the galaxy, including settlements on the planets Hok and Malastare.
+    [P][B]Physiology:[b]
+    Gran can easily be identified by their three eyes and their goat-like snout.
+    Female Gran also have three breasts. Gran are able to sense one another's
+    emotions and disposition by noting subtle changes in body heat and skin color. The
+    Gran have excellent vision, able to resolve more colors than most species, and even
+    able to see into the infrared. Gran have two stomachs, having evolved from herbivorous
+    grazing animals who lived in herds on the mountains and highlands of Kinyen,
+    surviving on the local Goatgrass, for which Gran kept their taste. Gran chew
+    and digest their food quite slowly, savoring the flavor carefully. A single
+    meal can take almost an entire day to finish, but a Gran will often not need to
+    eat for several days afterwards.
+    [P]A recessive genetic mutation sometimes causes some Gran to suffer from misshapen
+    extremities, with hands and feet swelling to abnormal sizes. While not affecting the
+    individual's ability to do finer work, the handicap nonetheless often results in
+    social isolation. Gran scientists intently study the trait to attempt to find a
+    cure.
+    [P][B]Society:[b]
+    The peaceful nature of Gran society is a reflection of their homeworld, Kinyen.
+    Kinyen boasts large and rolling grasslands and highlands, a dense and beautiful
+    forest, and one of the longest and clearest rivers in the Sumitra sector.
+    The beauty of this planet, and the need for primitive Gran to band together for
+    defense against predatory animals, helped the Gran develop strong bonds of home
+    and family in their society (once they became a civilized species, the Grans set
+    aside fenced nature preserves for the carnivores which once threatened them).
+    Grans also mate for life, forming such strong bonds that they generally die
+    within days of a mate's death. It is rare for any Gran to leave his or her
+    planet of origin once they have taken a mate.
+    [P]The Grans are also very protective of their families, and are some of the most
+    devoted parents in the galaxy. This is because of their very powerful and sensitive
+    sight, which can sense the emotions of their mates and their children. Gran society
+    maintains its balance by setting up strict career quotas, and making sure young Gran
+    are educated for a specific job that best serves his or her talents. While other
+    species who value freedom tend to criticize such a rigid social system, to the Gran
+    it is both logical and essential. Gran religion revolves around the worship of
+    the goddess Doellin.
+    [P]Gran have a strong need for companionship—a Gran left alone for too long will go
+    insane or die of loneliness. Generally, they need other Gran for companionship,
+    but some Gran are able to form sufficiently strong bonds with aliens. The most feared
+    punishment among the Gran is exile. Lone, outcast Gran, often wearing black to avoid
+    painful memories of the colorful cities of their homeworld, are generally given a
+    wide berth by experienced spacers. Grans isolated from Gran society are often
+    unreliable, easily bribed, and easily addicted to drugs and liquors, though they are
+    shrewd and often under-estimated. Conversely, Gran within their society are
+    peaceful and amiable, with a keen sense of their place in society, and unselfish
+    instincts putting the greater good ahead of their individual wants.
+    [P]With such close bonds formed throughout the Gran community, it is unsurprising
+    that they concentrated their cities into very small areas, so they are never out of
+    touch with their many relatives. These cities, while hosting a majority of the
+    population of Kinyen, also host the small government of the Gran. The government is
+    a loose group of delegates from the major Gran families who usually controll different
+    aspects of Gran society. One delegate is selected randomly every three and a half
+    standard years to be the leader of this group. It is only due to the very peaceful
+    sensibilities of the Gran race that this system works at all. Indeed, the
+    only known major conflicts between Gran took place very early in Kinyen's history,
+    before 10,000 BBY. Even these wars resulted from matters of survival, rather than
+    strong emotional conflicts between the Gran or rival nations.
+    [P][B]Homeworld:[b]
+    Kinyen is an agriworld in the Expansion Region, located on the Corellian Trade
+    Spine. It is the Gran home world, with a recorded history dating back to 10,000 BBY.
+    Though it was an outpost of the violent Rakata during the Pre-Republic era, during its
+    recorded history, the planet has had no local wars.
+    [P][B]Language:[b]
+    Gran is the language of the Grans from the planet Kinyen. It has also been exported to
+    Gran colonies such as Malastare or Stend IV.
+    [P]Many Grans learn to speak Basic. However, they also try to make their servants,
+    such as the Dugs, learn Gran language.
+  </Description>
+  <Sources>
+    <Source Page="56">Age of Rebellion Core Rulebook</Source>
+    <Source Page="22">Far Horizons</Source>
+  </Sources>
+  <StartingChars>
+    <Brawn>2</Brawn>
+    <Agility>2</Agility>
+    <Intellect>2</Intellect>
+    <Cunning>1</Cunning>
+    <Willpower>2</Willpower>
+    <Presence>3</Presence>
+  </StartingChars>
+  <StartingAttrs>
+    <WoundThreshold>10</WoundThreshold>
+    <StrainThreshold>9</StrainThreshold>
+    <Experience>100</Experience>
+  </StartingAttrs>
+  <OptionChoices>
+    <OptionChoice>
+      <Key>GRANCH1</Key>
+      <Name>Skills</Name>
+      <Description />
+      <Options>
+        <Option>
+          <Key>GRANCH1OP1</Key>
+          <Name>One rank in Charm</Name>
+          <Description>Gran may take one rank in Charm</Description>
+          <SkillModifiers>
+            <SkillModifier>
+              <Key>CHARM</Key>
+              <RankStart>1</RankStart>
+              <RankAdd>0</RankAdd>
+              <RankLimit>0</RankLimit>
+              <isCareer>false</isCareer>
+            </SkillModifier>
+          </SkillModifiers>
+        </Option>
+        <Option>
+          <Key>GRANCH1OP2</Key>
+          <Name>One rank in Negotiation</Name>
+          <Description>Gran may take one rank in Negotiation</Description>
+          <SkillModifiers>
+            <SkillModifier>
+              <Key>NEG</Key>
+              <RankStart>1</RankStart>
+              <RankAdd>0</RankAdd>
+              <RankLimit>0</RankLimit>
+              <isCareer>false</isCareer>
+            </SkillModifier>
+          </SkillModifiers>
+        </Option>
+      </Options>
+    </OptionChoice>
+    <OptionChoice>
+      <Key>GRANCH2</Key>
+      <Name>Vision</Name>
+      <Description />
+      <Options>
+        <Option>
+          <Key>GRANCH2OP1</Key>
+          <Name>Enhanced Vision</Name>
+          <Description>When making ranged combat or Perception checks, Gran remove up to [SETBACK][SETBACK] imposed due to environmental conditions or concealment (but not defense).</Description>
+        </Option>
+      </Options>
+    </OptionChoice>
+  </OptionChoices>
+  <NoForceAbilities>false</NoForceAbilities>
+</Species>
